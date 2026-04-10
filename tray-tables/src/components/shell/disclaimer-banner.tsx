@@ -11,15 +11,23 @@ export function DisclaimerBanner() {
   useEffect(() => {
     let cancelled = false;
     async function run() {
-      const { data: auth } = await supabase.auth.getUser();
-      if (!auth.user) return;
+      try {
+        const { data: auth } = await supabase.auth.getUser();
+        if (!auth.user) {
+          if (!cancelled) setShow(false);
+          return;
+        }
 
-      const { data: constraints } = await supabase
-        .from("dietary_constraints")
-        .select("id")
-        .limit(1);
+        const { data: constraints } = await supabase
+          .from("dietary_constraints")
+          .select("id")
+          .limit(1);
 
-      if (!cancelled) setShow((constraints?.length ?? 0) > 0);
+        if (!cancelled) setShow((constraints?.length ?? 0) > 0);
+      } catch {
+        // Network/auth hiccups should not throw noisy client errors on page load.
+        if (!cancelled) setShow(false);
+      }
     }
     void run();
 
