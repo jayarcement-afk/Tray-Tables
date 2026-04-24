@@ -1,0 +1,3 @@
+city_slug,dish_name,restaurant_name,restaurant_slug,channel,rank,confidence,address,dish_image_url,website_url,maps_url,notes,neighborhood,price,spice,operating_status
+atlanta,Biscuits and gravy,Home Grown,,csv_import,1,0.95,"968 Memorial Dr SE, Atlanta, GA 30316",https://example.com/images/biscuits-and-gravy-home-grown.jpg,https://example.com/home-grown,https://maps.google.com/?q=home+grown,Manual CSV curation,Reynoldstown,$$,medium,open
+atlanta,Fried chicken,Mary Mac's Tea Room,,csv_import,2,0.9,"224 Ponce De Leon Ave NE, Atlanta, GA 30308",https://example.com/images/fried-chicken-mary-macs.jpg,https://example.com/mary-macs,,Classic Southern pick,Midtown,$$,medium,open
