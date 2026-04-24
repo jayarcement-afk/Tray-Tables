@@ -6,11 +6,16 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "data:canonical-cities": "node scripts/parse-canonical-cities.mjs",
+    "data:canonical-dishes": "node scripts/parse-canonical-dishes.mjs",
+    "data:dish-images": "node scripts/index-dish-images.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.10.2",
     "@supabase/supabase-js": "^2.103.0",
+    "@types/leaflet": "^1.9.21",
+    "leaflet": "^1.9.4",
     "next": "16.2.3",
     "react": "19.2.4",
     "react-dom": "19.2.4"
@@ -23,6 +28,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.2.3",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "xlsx": "^0.18.5"
   }
 }

@@ -7,6 +7,8 @@ type Props = {
   alt: string;
 };
 
+const FALLBACK_SRC = "/dish-fallback.jpeg";
+
 function proxiedUrl(original: string) {
   const trimmed = original.trim();
   if (
@@ -27,19 +29,10 @@ export function DishPhoto({ src, alt }: Props) {
   const cleaned = src.trim();
   const proxy = useMemo(() => proxiedUrl(cleaned), [cleaned]);
 
-  const [stage, setStage] = useState<"direct" | "proxy" | "failed">(() => {
-    if (!cleaned) return "failed";
+  const [stage, setStage] = useState<"direct" | "proxy" | "fallback" | "failed">(() => {
+    if (!cleaned) return "fallback";
     return "direct";
   });
-
-  if (!cleaned) {
-    return (
-      <div className="flex aspect-[4/3] w-full min-h-[12rem] items-center justify-center bg-zinc-200 px-4 text-center text-sm text-zinc-600">
-        No photo for this dish. Run <code className="mx-1 rounded bg-zinc-300 px-1 text-xs">seed.sql</code> in
-        Supabase (SQL Editor) so <code className="rounded bg-zinc-300 px-1 text-xs">photo_url</code> is filled.
-      </div>
-    );
-  }
 
   if (stage === "failed") {
     return (
@@ -52,7 +45,12 @@ export function DishPhoto({ src, alt }: Props) {
     );
   }
 
-  const href = stage === "proxy" && proxy ? proxy : cleaned;
+  const href =
+    stage === "proxy" && proxy
+      ? proxy
+      : stage === "fallback"
+        ? FALLBACK_SRC
+        : cleaned;
 
   return (
     <div className="relative aspect-[4/3] min-h-[12rem] w-full min-w-0 overflow-hidden bg-zinc-100">
@@ -67,6 +65,8 @@ export function DishPhoto({ src, alt }: Props) {
         onError={() => {
           if (stage === "direct" && proxy) {
             setStage("proxy");
+          } else if (stage !== "fallback") {
+            setStage("fallback");
           } else {
             setStage("failed");
           }

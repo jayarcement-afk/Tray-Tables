@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { BottomRightLogo } from "@/components/shell/bottom-right-logo";
 import { DisclaimerBanner } from "@/components/shell/disclaimer-banner";
 
 const geistSans = Geist({
@@ -31,7 +30,6 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col">
         <DisclaimerBanner />
-        <BottomRightLogo />
         {children}
       </body>
     </html>

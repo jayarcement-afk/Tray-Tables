@@ -5,10 +5,15 @@ import { createSupabaseServerClient } from "@/lib/supabase/server";
 type MealType = "breakfast" | "lunch" | "dinner" | "late_night" | "street_food" | "snack";
 
 type CreateTripBody = {
-  cityId: string;
-  startDate: string; // YYYY-MM-DD
-  endDate: string; // YYYY-MM-DD
-  mealTypes: MealType[]; // applied to every day in MVP
+  /** Set when the client has a direct city id (legacy) */
+  cityId?: string;
+  /** City slug (matches public.cities.slug) from Canonical Dishes list / seed */
+  citySlug?: string;
+  /** YYYY-MM-DD */
+  startDate?: string;
+  endDate?: string;
+  /** Applied to each trip day. Defaults to breakfast, lunch, dinner when omitted. */
+  mealTypes?: MealType[];
   neighborhoodsByDate?: Record<string, string[]>; // YYYY-MM-DD -> names
 };
 
@@ -31,24 +36,37 @@ export async function POST(request: Request) {
 
   const body = (await request.json()) as CreateTripBody;
 
-  if (!body.cityId || !body.startDate || !body.endDate) {
-    return NextResponse.json({ error: "Missing fields" }, { status: 400 });
+  if (!body.cityId && !body.citySlug) {
+    return NextResponse.json(
+      { error: "Missing city (id or slug)" },
+      { status: 400 }
+    );
   }
 
-  const start = new Date(body.startDate);
-  const end = new Date(body.endDate);
+  const today = new Date().toISOString().slice(0, 10);
+  const startStr = body.startDate ?? body.endDate ?? today;
+  const endStr = body.endDate ?? body.startDate ?? startStr;
+  const start = new Date(startStr);
+  const end = new Date(endStr);
   if (Number.isNaN(start.getTime()) || Number.isNaN(end.getTime())) {
     return NextResponse.json({ error: "Invalid dates" }, { status: 400 });
   }
   if (end < start) {
-    return NextResponse.json({ error: "End date must be after start date" }, { status: 400 });
+    return NextResponse.json(
+      { error: "End date must be on or after start date" },
+      { status: 400 }
+    );
   }
-  const days = Math.floor((end.getTime() - start.getTime()) / 86_400_000) + 1;
-  if (days < 1 || days > 14) {
-    return NextResponse.json({ error: "Trip must be 1–14 days" }, { status: 400 });
+  const dayCount =
+    Math.floor((end.getTime() - start.getTime()) / 86_400_000) + 1;
+  if (dayCount < 1 || dayCount > 20) {
+    return NextResponse.json({ error: "Trip must be 1-20 days" }, { status: 400 });
   }
 
-  const mealTypes = (body.mealTypes ?? []).length ? body.mealTypes : (["breakfast", "lunch", "dinner"] as MealType[]);
+  const mealTypes: MealType[] =
+    body.mealTypes && body.mealTypes.length > 0
+      ? body.mealTypes
+      : ["breakfast", "lunch", "dinner"];
 
   // trips.user_id references public.profiles — ensure row exists (signup may not have run DB trigger yet).
   const { error: profileError } = await supabase.from("profiles").upsert(
@@ -59,13 +77,43 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: profileError.message }, { status: 500 });
   }
 
+  let resolvedCityId: string | null = null;
+  if (body.cityId) {
+    resolvedCityId = body.cityId;
+  } else if (body.citySlug) {
+    const { data: bySlug, error: cityErr } = await supabase
+      .from("cities")
+      .select("id")
+      .eq("slug", body.citySlug)
+      .maybeSingle();
+    if (cityErr) {
+      return NextResponse.json({ error: cityErr.message }, { status: 500 });
+    }
+    if (!bySlug) {
+      return NextResponse.json(
+        {
+          error:
+            "That city is not in the database yet. Run the SQL in tray-tables/data/sql/seed-canonical-cities.sql in the Supabase SQL editor, or pick a city from an updated database.",
+        },
+        { status: 400 }
+      );
+    }
+    resolvedCityId = bySlug.id;
+  }
+  if (!resolvedCityId) {
+    return NextResponse.json(
+      { error: "Could not resolve city" },
+      { status: 400 }
+    );
+  }
+
   const { data: trip, error: tripError } = await supabase
     .from("trips")
     .insert({
       user_id: userData.user.id,
-      city_id: body.cityId,
-      start_date: body.startDate,
-      end_date: body.endDate,
+      city_id: resolvedCityId,
+      start_date: startStr,
+      end_date: endStr,
     })
     .select("id")
     .single();

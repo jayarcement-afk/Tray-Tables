@@ -3,13 +3,21 @@
 import { useMemo, useState } from "react";
 
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 
 import { createSupabaseBrowserClient } from "@/lib/supabase/browser";
 
 type Mode = "sign_in" | "sign_up";
 
+function postAuthDest(next: string | null): string {
+  if (!next || !next.startsWith("/") || next.startsWith("//")) return "/trips";
+  return next.split("?")[0] || "/trips";
+}
+
 export function AuthView() {
+  const searchParams = useSearchParams();
   const supabase = useMemo(() => createSupabaseBrowserClient(), []);
+  const returnTo = postAuthDest(searchParams.get("next"));
 
   const [mode, setMode] = useState<Mode>("sign_in");
   const [email, setEmail] = useState("");
@@ -39,7 +47,7 @@ export function AuthView() {
         if (signInError) throw signInError;
       }
 
-      window.location.href = "/trips";
+      window.location.href = returnTo;
     } catch (err) {
       setError(err instanceof Error ? err.message : "Something went wrong.");
     } finally {

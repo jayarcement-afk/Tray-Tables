@@ -100,7 +100,7 @@ export function TripWizard({
       const json = (await res.json()) as { tripId?: string; error?: string };
       if (!res.ok) throw new Error(json.error ?? "Failed to create trip");
       if (!json.tripId) throw new Error("Missing trip id");
-      window.location.href = `/trips/${json.tripId}`;
+      window.location.href = `/trips/${json.tripId}/dishes`;
     } catch (e) {
       setError(e instanceof Error ? e.message : "Something went wrong.");
     } finally {
