@@ -42,11 +42,50 @@ export const CITY_BANNERS: Record<
     url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Chicago_River_ferry_b.jpg/1920px-Chicago_River_ferry_b.jpg",
     attribution: "Wikimedia Commons — Chicago River",
   },
+  seattle: {
+    url: "https://upload.wikimedia.org/wikipedia/commons/e/eb/Seattle_skyline_2021.jpg",
+    attribution: "Wikimedia Commons — Seattle skyline",
+  },
+  "seattle-united-states": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/e/eb/Seattle_skyline_2021.jpg",
+    attribution: "Wikimedia Commons — Seattle skyline",
+  },
+  amsterdam: {
+    url: "https://upload.wikimedia.org/wikipedia/commons/2/22/Amsterdam_Skyline_View.jpg",
+    attribution: "Wikimedia Commons — Amsterdam skyline",
+  },
+  "amsterdam-netherlands": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/2/22/Amsterdam_Skyline_View.jpg",
+    attribution: "Wikimedia Commons — Amsterdam skyline",
+  },
+  venice: {
+    url: "https://upload.wikimedia.org/wikipedia/commons/9/9b/SkylineVenice.jpg",
+    attribution: "Wikimedia Commons — Venice skyline",
+  },
+  "venice-italy": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/9/9b/SkylineVenice.jpg",
+    attribution: "Wikimedia Commons — Venice skyline",
+  },
+  lisbon: {
+    url: "https://upload.wikimedia.org/wikipedia/commons/2/28/Lisbon_Skyline_%2845684560521%29.jpg",
+    attribution: "Wikimedia Commons — Lisbon skyline",
+  },
+  "lisbon-portugal": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/2/28/Lisbon_Skyline_%2845684560521%29.jpg",
+    attribution: "Wikimedia Commons — Lisbon skyline",
+  },
 };
 
 export function getCityBanner(slug: string | null | undefined) {
   if (!slug) return null;
-  return CITY_BANNERS[slug] ?? null;
+  const direct = CITY_BANNERS[slug];
+  if (direct) return direct;
+
+  // Some city slugs include country suffixes (e.g. "seattle-united-states")
+  // while banner keys may use the base city slug ("seattle").
+  const base = slug.split("-")[0];
+  if (!base) return null;
+  return CITY_BANNERS[base] ?? null;
 }
 
 /** Same allowlist as `/api/dish-image` — use for server-rendered thumbs and client fallbacks. */
