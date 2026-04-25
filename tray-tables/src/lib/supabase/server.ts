@@ -2,12 +2,18 @@ import { cookies } from "next/headers";
 
 import { createServerClient } from "@supabase/ssr";
 
-import { env } from "@/lib/env";
+import { env, isValidHttpUrl } from "@/lib/env";
 
 export async function createSupabaseServerClient() {
   const cookieStore = await cookies();
+  const url = env.supabaseUrl?.trim();
+  const key = env.supabaseAnonKey?.trim();
 
-  return createServerClient(env.supabaseUrl, env.supabaseAnonKey, {
+  // Keep client construction safe even when deployment env vars are malformed.
+  const safeUrl = isValidHttpUrl(url) ? url : "https://example.invalid";
+  const safeKey = key || "invalid-anon-key";
+
+  return createServerClient(safeUrl, safeKey, {
     cookies: {
       getAll() {
         return cookieStore.getAll();
