@@ -2,19 +2,21 @@ import { type NextRequest, NextResponse } from "next/server";
 
 import { createServerClient } from "@supabase/ssr";
 
-import { env } from "@/lib/env";
+import { env, isValidHttpUrl } from "@/lib/env";
 
 export async function proxy(request: NextRequest) {
   const base = NextResponse.next({ request });
 
-  if (!env.supabaseUrl?.trim() || !env.supabaseAnonKey?.trim()) {
+  const url = env.supabaseUrl?.trim();
+  const key = env.supabaseAnonKey?.trim();
+  if (!url || !key || !isValidHttpUrl(url)) {
     return base;
   }
 
   let response = base;
 
   try {
-    const supabase = createServerClient(env.supabaseUrl, env.supabaseAnonKey, {
+    const supabase = createServerClient(url, key, {
       cookies: {
         getAll() {
           return request.cookies.getAll();
