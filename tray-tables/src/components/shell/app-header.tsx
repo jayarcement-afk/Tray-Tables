@@ -2,14 +2,27 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { SignOutButton } from "@/components/shell/sign-out-button";
+import { env } from "@/lib/env";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
 
 const HEADER_LOGO_SRC = "/keep-this-logo-202604141317.png";
 
 export async function AppHeader() {
-  const supabase = await createSupabaseServerClient();
-  const { data } = await supabase.auth.getUser();
-  const user = data.user;
+  let user: { id: string } | null = null;
+  const hasSupabaseEnv =
+    Boolean(env.supabaseAnonKey?.trim()) && Boolean(env.supabaseUrl?.trim());
+
+  // Guard prerender/build from malformed env (e.g. invalid URL in deployment settings).
+  if (hasSupabaseEnv) {
+    try {
+      new URL(env.supabaseUrl);
+      const supabase = await createSupabaseServerClient();
+      const { data } = await supabase.auth.getUser();
+      user = data.user;
+    } catch {
+      user = null;
+    }
+  }
   const homeHref = "/";
 
   return (
