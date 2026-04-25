@@ -28,6 +28,7 @@ export function AuthView() {
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
+    if (!supabase) return;
     setBusy(true);
     setError(null);
     setSentReset(false);
@@ -56,6 +57,7 @@ export function AuthView() {
   }
 
   async function handleResetPassword() {
+    if (!supabase) return;
     setBusy(true);
     setError(null);
     setSentReset(false);
@@ -73,6 +75,19 @@ export function AuthView() {
     } finally {
       setBusy(false);
     }
+  }
+
+  if (!supabase) {
+    return (
+      <div className="w-full max-w-md rounded-2xl border border-amber-200 bg-amber-50 p-6 text-sm text-amber-900">
+        <p className="font-medium">Sign-in is not configured</p>
+        <p className="mt-2 text-amber-800">
+          Set <code className="rounded bg-amber-100 px-1">NEXT_PUBLIC_SUPABASE_URL</code> and{" "}
+          <code className="rounded bg-amber-100 px-1">NEXT_PUBLIC_SUPABASE_ANON_KEY</code> for this
+          deployment.
+        </p>
+      </div>
+    );
   }
 
   return (

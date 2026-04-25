@@ -9,16 +9,18 @@ export function DisclaimerBanner() {
   const [show, setShow] = useState(false);
 
   useEffect(() => {
+    if (!supabase) return;
+    const client = supabase;
     let cancelled = false;
     async function run() {
       try {
-        const { data: auth } = await supabase.auth.getUser();
+        const { data: auth } = await client.auth.getUser();
         if (!auth.user) {
           if (!cancelled) setShow(false);
           return;
         }
 
-        const { data: constraints } = await supabase
+        const { data: constraints } = await client
           .from("dietary_constraints")
           .select("id")
           .limit(1);
@@ -31,7 +33,7 @@ export function DisclaimerBanner() {
     }
     void run();
 
-    const { data: sub } = supabase.auth.onAuthStateChange(() => {
+    const { data: sub } = client.auth.onAuthStateChange(() => {
       void run();
     });
     return () => {
@@ -40,7 +42,7 @@ export function DisclaimerBanner() {
     };
   }, [supabase]);
 
-  if (!show) return null;
+  if (!supabase || !show) return null;
 
   return (
     <div className="border-b border-amber-200 bg-amber-50">

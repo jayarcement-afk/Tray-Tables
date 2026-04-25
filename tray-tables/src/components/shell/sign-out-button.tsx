@@ -7,8 +7,11 @@ import { createSupabaseBrowserClient } from "@/lib/supabase/browser";
 export function SignOutButton() {
   const supabase = useMemo(() => createSupabaseBrowserClient(), []);
 
+  if (!supabase) return null;
+  const client = supabase;
+
   async function signOut() {
-    await supabase.auth.signOut();
+    await client.auth.signOut();
     window.location.href = "/auth";
   }
 

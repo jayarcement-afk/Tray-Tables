@@ -53,6 +53,13 @@ export function TripWizard({
     let cancelled = false;
     setLoadingCities(true);
     const supabase = createSupabaseBrowserClient();
+    if (!supabase) {
+      if (!cancelled) {
+        setLoadingCities(false);
+        setLoadError("App configuration is incomplete.");
+      }
+      return;
+    }
 
     void supabase
       .from("cities")
