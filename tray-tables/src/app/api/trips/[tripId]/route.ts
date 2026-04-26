@@ -21,15 +21,43 @@ export async function PATCH(
 
   const body = (await request.json()) as PatchTripBody;
   if (body.markComplete) {
+    const { data: currentTrip, error: currentTripError } = await supabase
+      .from("trips")
+      .select("start_date, end_date")
+      .eq("id", tripId)
+      .eq("user_id", userData.user.id)
+      .maybeSingle();
+
+    if (currentTripError) {
+      return NextResponse.json({ error: currentTripError.message }, { status: 500 });
+    }
+    if (!currentTrip) {
+      return NextResponse.json({ error: "Trip not found" }, { status: 404 });
+    }
+
+    const currentStart = new Date(currentTrip.start_date);
+    const currentEnd = new Date(currentTrip.end_date);
+    const originalDays =
+      Number.isNaN(currentStart.getTime()) || Number.isNaN(currentEnd.getTime())
+        ? 1
+        : Math.max(
+            1,
+            Math.floor((currentEnd.getTime() - currentStart.getTime()) / 86_400_000) + 1
+          );
+
     const yesterday = new Date();
     yesterday.setDate(yesterday.getDate() - 1);
-    const ymd = yesterday.toISOString().slice(0, 10);
+    const completedEnd = yesterday.toISOString().slice(0, 10);
+
+    const completedStartDate = new Date(yesterday);
+    completedStartDate.setDate(completedStartDate.getDate() - (originalDays - 1));
+    const completedStart = completedStartDate.toISOString().slice(0, 10);
 
     const { data: trip, error } = await supabase
       .from("trips")
       .update({
-        start_date: ymd,
-        end_date: ymd,
+        start_date: completedStart,
+        end_date: completedEnd,
       })
       .eq("id", tripId)
       .eq("user_id", userData.user.id)

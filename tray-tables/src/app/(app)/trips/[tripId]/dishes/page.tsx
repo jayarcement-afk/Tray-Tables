@@ -92,13 +92,7 @@ export default async function TripDishesPage({
               where to have them, for {cityName}.
             </p>
             {dishes.length > 0 ? (
-              <p className="mt-2 text-xs text-zinc-500">
-                {dishes.length} in list · add an <code className="rounded bg-zinc-200/80 px-1">Image</code> or{" "}
-                <code className="rounded bg-zinc-200/80 px-1">Image URL</code> column in the
-                sheet and re-run{" "}
-                <code className="rounded bg-zinc-200/80 px-1">npm run data:canonical-dishes</code>{" "}
-                to show photos.
-              </p>
+              <p className="mt-2 text-xs text-zinc-500">{dishes.length} in list</p>
             ) : null}
           </div>
         </div>

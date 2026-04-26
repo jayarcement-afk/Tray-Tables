@@ -20,18 +20,6 @@ export default async function NewTripPage() {
           Pick a city, and we&apos;ll guide you to its iconic dishes—along with
           the best restaurants to experience them.
         </p>
-        <p className="mt-1 text-xs text-zinc-500">
-          First time: run{" "}
-          <code className="rounded bg-zinc-200/80 px-1.5 py-0.5 text-zinc-800">
-            data/sql/seed-canonical-cities.sql
-          </code>{" "}
-          in Supabase so all cities exist. If your DB still has the old 14-day
-          limit, also run{" "}
-          <code className="rounded bg-zinc-200/80 px-1.5 py-0.5 text-zinc-800">
-            data/sql/update-trip-max-20-days.sql
-          </code>
-          .
-        </p>
         <div className="mt-6">
           <NewTripForm />
         </div>
