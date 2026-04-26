@@ -13,6 +13,16 @@ export function isValidHttpUrl(value: string): boolean {
   }
 }
 
+/**
+ * Supabase URL must be the project origin (e.g. https://xyz.supabase.co).
+ * If an env value includes /auth/v1 or /rest/v1, normalize to origin.
+ */
+export function normalizedSupabaseUrl(value: string): string | null {
+  if (!isValidHttpUrl(value)) return null;
+  const url = new URL(value);
+  return `${url.protocol}//${url.host}`;
+}
+
 export function assertEnv() {
   const missing: string[] = [];
   if (!env.supabaseUrl) missing.push("NEXT_PUBLIC_SUPABASE_URL");

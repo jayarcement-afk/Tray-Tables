@@ -1,13 +1,13 @@
 import { createBrowserClient } from "@supabase/ssr";
 import type { SupabaseClient } from "@supabase/supabase-js";
 
-import { env, isValidHttpUrl } from "@/lib/env";
+import { env, normalizedSupabaseUrl } from "@/lib/env";
 
 /** Returns null when public Supabase env is missing (e.g. CI/Vercel misconfiguration) so prerender does not throw. */
 export function createSupabaseBrowserClient(): SupabaseClient | null {
-  const url = env.supabaseUrl?.trim();
+  const url = normalizedSupabaseUrl(env.supabaseUrl?.trim());
   const key = env.supabaseAnonKey?.trim();
-  if (!url || !key || !isValidHttpUrl(url)) return null;
+  if (!url || !key) return null;
   return createBrowserClient(url, key);
 }
 
