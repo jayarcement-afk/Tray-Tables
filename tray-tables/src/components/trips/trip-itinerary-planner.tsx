@@ -47,9 +47,47 @@ type DishReview = {
 };
 
 type ReviewByDishId = Record<string, DishReview>;
+const MAX_PHOTOS_PER_DISH = 8;
+const MAX_UPLOAD_FILES_PER_PICK = 4;
+const MAX_IMAGE_EDGE_PX = 1600;
+const JPEG_QUALITY = 0.78;
 
 function isReviewByDishId(value: unknown): value is ReviewByDishId {
   return Boolean(value && typeof value === "object");
+}
+
+async function fileToOptimizedDataUrl(file: File): Promise<string> {
+  const rawDataUrl = await new Promise<string>((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = () => resolve(String(reader.result ?? ""));
+    reader.onerror = () => reject(new Error("Could not read file"));
+    reader.readAsDataURL(file);
+  });
+
+  if (typeof document === "undefined") return rawDataUrl;
+
+  const image = await new Promise<HTMLImageElement>((resolve, reject) => {
+    const img = new Image();
+    img.onload = () => resolve(img);
+    img.onerror = () => reject(new Error("Could not decode image"));
+    img.src = rawDataUrl;
+  });
+
+  const { naturalWidth, naturalHeight } = image;
+  if (!naturalWidth || !naturalHeight) return rawDataUrl;
+
+  const scale = Math.min(1, MAX_IMAGE_EDGE_PX / Math.max(naturalWidth, naturalHeight));
+  const width = Math.max(1, Math.round(naturalWidth * scale));
+  const height = Math.max(1, Math.round(naturalHeight * scale));
+
+  const canvas = document.createElement("canvas");
+  canvas.width = width;
+  canvas.height = height;
+  const ctx = canvas.getContext("2d");
+  if (!ctx) return rawDataUrl;
+  ctx.drawImage(image, 0, 0, width, height);
+
+  return canvas.toDataURL("image/jpeg", JPEG_QUALITY);
 }
 
 function dateRangeInclusive(start: string, end: string): string[] {
@@ -311,19 +349,21 @@ export function TripItineraryPlanner({
 
   async function addPhotos(dishId: string, files: FileList | null) {
     if (!files || files.length === 0) return;
-    const dataUrls = await Promise.all(
-      Array.from(files).map(
-        (f) =>
-          new Promise<string>((resolve, reject) => {
-            const r = new FileReader();
-            r.onload = () => resolve(String(r.result ?? ""));
-            r.onerror = () => reject(new Error("Could not read file"));
-            r.readAsDataURL(f);
-          })
-      )
-    );
+
+    const picked = Array.from(files).slice(0, MAX_UPLOAD_FILES_PER_PICK);
+    const dataUrls: string[] = [];
+    for (const file of picked) {
+      try {
+        dataUrls.push(await fileToOptimizedDataUrl(file));
+      } catch {
+        // Skip unreadable files; keep the rest.
+      }
+    }
+
     const cur = getReview(dishId);
-    updateReview(dishId, { photos: [...cur.photos, ...dataUrls].slice(0, 8) });
+    updateReview(dishId, {
+      photos: [...cur.photos, ...dataUrls].slice(0, MAX_PHOTOS_PER_DISH),
+    });
   }
 
   function removeDishFromTrip(dishId: string) {
