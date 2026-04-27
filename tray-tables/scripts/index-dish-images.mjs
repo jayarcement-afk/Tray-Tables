@@ -38,6 +38,14 @@ function fileStem(basename) {
   return norm(basename.replace(EXT, ""));
 }
 
+function canonicalMatchKey(s) {
+  return norm(s)
+    .toLowerCase()
+    .replace(/[''ʼ]/g, "")
+    .replace(/_/g, "")
+    .replace(/[^a-z0-9]+/g, "");
+}
+
 function findImageDir() {
   const a = path.join(projectRoot, "public", "Images");
   if (fs.existsSync(a) && fs.statSync(a).isDirectory()) {
@@ -78,6 +86,11 @@ function buildIndex() {
   for (const f of files) {
     stems.set(fileStem(f), f);
   }
+  const stemsByCanonical = new Map();
+  for (const [st, fn] of stems) {
+    const k = canonicalMatchKey(st);
+    if (!stemsByCanonical.has(k)) stemsByCanonical.set(k, fn);
+  }
   if (stems.size === 0) {
     console.warn("No image files in", imageDir, "— byDishId empty.");
   }
@@ -98,6 +111,9 @@ function buildIndex() {
           break;
         }
       }
+    }
+    if (!f) {
+      f = stemsByCanonical.get(canonicalMatchKey(s));
     }
     if (f) {
       byDishId[d.id] = f;
