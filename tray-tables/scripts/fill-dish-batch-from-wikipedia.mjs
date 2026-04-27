@@ -19,6 +19,40 @@ const REQUESTS_PER_SECOND = 1; // strict etiquette mode
 const MIN_REQUEST_INTERVAL_MS = Math.ceil(1000 / REQUESTS_PER_SECOND) + 250;
 const MAX_RETRIES = 5;
 let nextAllowedRequestAt = 0;
+const FOOD_HINTS = [
+  "food",
+  "dish",
+  "cuisine",
+  "recipe",
+  "meal",
+  "salad",
+  "soup",
+  "stew",
+  "bread",
+  "pasta",
+  "rice",
+  "dessert",
+  "drink",
+  "beverage",
+];
+const NON_FOOD_HINTS = [
+  "airport",
+  "station",
+  "bridge",
+  "church",
+  "cathedral",
+  "museum",
+  "monument",
+  "battle",
+  "protest",
+  "election",
+  "district",
+  "province",
+  "map",
+  "flag",
+  "logo",
+  "company",
+];
 
 function parseArgs(argv) {
   const args = { csv: defaultBatchCsv };
@@ -184,6 +218,29 @@ async function searchCandidateTitlesGenerator(query) {
     .filter((t) => typeof t === "string" && t.trim());
 }
 
+function tokenize(text) {
+  return String(text ?? "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+function isFoodRelevantTitle(title, dishName, cityName) {
+  const t = tokenize(title);
+  if (!t) return false;
+  const hasDishWord = tokenize(dishName)
+    .split(" ")
+    .filter(Boolean)
+    .some((w) => w.length > 2 && t.includes(w));
+  const hasFoodHint = FOOD_HINTS.some((w) => t.includes(w));
+  const hasCityWord = tokenize(cityName)
+    .split(" ")
+    .filter(Boolean)
+    .some((w) => w.length > 2 && t.includes(w));
+  const hasNonFoodHint = NON_FOOD_HINTS.some((w) => t.includes(w));
+  return !hasNonFoodHint && (hasDishWord || hasFoodHint || hasCityWord);
+}
+
 async function imageUrlForTitles(titles) {
   if (!titles.length) return null;
   // Batch lookup with pipe-separated titles per Wikipedia API recommendations.
@@ -195,8 +252,20 @@ async function imageUrlForTitles(titles) {
   const json = await fetchJsonWithRetry(url);
   const pages = Object.values(json?.query?.pages ?? {});
   for (const p of pages) {
+    const title = String(p?.title ?? "");
+    if (!(p && p.__dishName && p.__cityName)) continue;
+    if (!isFoodRelevantTitle(title, p.__dishName, p.__cityName)) continue;
     const candidate = p?.original?.source || p?.thumbnail?.source;
     if (typeof candidate === "string" && candidate.includes("upload.wikimedia.org")) {
+      const lowered = candidate.toLowerCase();
+      if (
+        lowered.endsWith(".svg") ||
+        lowered.includes("map") ||
+        lowered.includes("logo") ||
+        lowered.includes("flag")
+      ) {
+        continue;
+      }
       return candidate;
     }
   }
@@ -214,8 +283,46 @@ async function wikipediaImageUrlForRow(row) {
     if (!query) continue;
     const openSearchTitles = await searchCandidateTitles(query);
     const generatorTitles = await searchCandidateTitlesGenerator(query);
-    const titles = Array.from(new Set([...openSearchTitles, ...generatorTitles]));
-    const image = await imageUrlForTitles(titles);
+    const titles = Array.from(new Set([...openSearchTitles, ...generatorTitles])).filter((t) =>
+      isFoodRelevantTitle(t, row.dish_name || "", row.city || "")
+    );
+    if (!titles.length) continue;
+    // Attach row context for filtering chosen page candidates.
+    const titlesWithContext = titles.map((title) => ({
+      title,
+      __dishName: row.dish_name || "",
+      __cityName: row.city || "",
+    }));
+    const titleParam = titlesWithContext.map((x) => x.title).join("|");
+    const url =
+      `${WIKI_API}?action=query&format=json` +
+      `&titles=${encodeURIComponent(titleParam)}` +
+      "&prop=pageimages|info&piprop=original|thumbnail&pithumbsize=1600&inprop=url";
+    const json = await fetchJsonWithRetry(url);
+    const pages = Object.values(json?.query?.pages ?? {}).map((p) => ({
+      ...p,
+      __dishName: row.dish_name || "",
+      __cityName: row.city || "",
+    }));
+    const image = await (async () => {
+      for (const p of pages) {
+        const title = String(p?.title ?? "");
+        if (!isFoodRelevantTitle(title, p.__dishName, p.__cityName)) continue;
+        const candidate = p?.original?.source || p?.thumbnail?.source;
+        if (typeof candidate !== "string" || !candidate.includes("upload.wikimedia.org")) continue;
+        const lowered = candidate.toLowerCase();
+        if (
+          lowered.endsWith(".svg") ||
+          lowered.includes("map") ||
+          lowered.includes("logo") ||
+          lowered.includes("flag")
+        ) {
+          continue;
+        }
+        return candidate;
+      }
+      return null;
+    })();
     if (image) return image;
   }
   return null;

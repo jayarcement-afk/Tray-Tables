@@ -1,13 +1,4 @@
 id,city,country,slug,dish_name,restaurant,expected_filename,search_query,source_url,source_notes
-antigua-guatemala--583--kakik-restaurante-rincon-tipico,Antigua,Guatemala,antigua-guatemala,Kakik,Restaurante Rincon Tipico,Antigua_Guatemala_Kakik_Restaurante Rincon Tipico.jpg,Antigua Kakik Restaurante Rincon Tipico,,
-antigua-guatemala--584--tamales-colorado,Antigua,Guatemala,antigua-guatemala,Tamales,Colorado,Antigua_Guatemala_Tamales_Colorado.jpg,Antigua Tamales Colorado,,
-antigua-guatemala--585--chiles-rellenos-cafe-sky,Antigua,Guatemala,antigua-guatemala,Chiles Rellenos,Cafe Sky,Antigua_Guatemala_Chiles Rellenos_Cafe Sky.jpg,Antigua Chiles Rellenos Cafe Sky,,
-antigua-guatemala--586--street-tacos-por-que-no-tacos,Antigua,Guatemala,antigua-guatemala,Street Tacos,Por Que No Tacos,Antigua_Guatemala_Street Tacos_Por Que No Tacos.jpg,Antigua Street Tacos Por Que No Tacos,,
-antigua-guatemala--587--chocolate-chocomuseo,Antigua,Guatemala,antigua-guatemala,Chocolate,ChocoMuseo,Antigua_Guatemala_Chocolate_ChocoMuseo.jpg,Antigua Chocolate ChocoMuseo,,
-antigua-guatemala--588--coffee-artista-de-cafe,Antigua,Guatemala,antigua-guatemala,Coffee,Artista de Cafe,Antigua_Guatemala_Coffee_Artista de Cafe.jpg,Antigua Coffee Artista de Cafe,,
-antigua-guatemala--589--seafood-stew-casa-santo-domingo,Antigua,Guatemala,antigua-guatemala,Seafood Stew,Casa Santo Domingo,Antigua_Guatemala_Seafood Stew_Casa Santo Domingo.jpg,Antigua Seafood Stew Casa Santo Domingo,,
-antigua-guatemala--590--pastries-fat-cat-coffee-house,Antigua,Guatemala,antigua-guatemala,Pastries,Fat Cat Coffee House,Antigua_Guatemala_Pastries_Fat Cat Coffee House.jpg,Antigua Pastries Fat Cat Coffee House,,
-antigua-guatemala--591--tasting-menu-caoba-farms,Antigua,Guatemala,antigua-guatemala,Tasting Menu,Caoba Farms,Antigua_Guatemala_Tasting Menu_Caoba Farms.jpg,Antigua Tasting Menu Caoba Farms,,
 athens-greece--680--souvlaki-kostas,Athens,Greece,athens-greece,Souvlaki,Kostas,Athens_Greece_Souvlaki_Kostas.jpg,Athens Souvlaki Kostas,,
 athens-greece--681--greek-salad-klimataria,Athens,Greece,athens-greece,Greek Salad,Klimataria,Athens_Greece_Greek Salad_Klimataria.jpg,Athens Greek Salad Klimataria,,
 athens-greece--682--tzatziki-meze-taverna,Athens,Greece,athens-greece,Tzatziki,Meze Taverna,Athens_Greece_Tzatziki_Meze Taverna.jpg,Athens Tzatziki Meze Taverna,,
