@@ -14,6 +14,9 @@ export function StartOptions() {
     setError(null);
     try {
       const supabase = createSupabaseBrowserClient();
+      if (!supabase) {
+        throw new Error("Sign-in is not configured. Missing Supabase public environment variables.");
+      }
       const { error: anonError } = await supabase.auth.signInAnonymously();
       if (anonError) throw anonError;
       window.location.href = "/trips";
