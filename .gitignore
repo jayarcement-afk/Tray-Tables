@@ -15,4 +15,4 @@ tmp/
 npm-debug.log*
 
 # Root-level local image dump is duplicated in tray-tables/public/Images
-Images/
+/Images/
