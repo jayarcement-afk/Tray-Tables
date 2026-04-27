@@ -95,8 +95,8 @@ export const CITY_BANNERS: Record<
     attribution: "Wikimedia Commons — Monastiraki Square and Acropolis, Athens",
   },
   "auckland-new-zealand": {
-    url: "https://upload.wikimedia.org/wikipedia/commons/f/f8/01_Auckland_New_Zealand-1000137.jpg",
-    attribution: "Wikimedia Commons — Auckland city view",
+    url: "https://upload.wikimedia.org/wikipedia/commons/c/c9/Auckland_skyline_-_May_2024_%282%29.jpg",
+    attribution: "Wikimedia Commons — Auckland skyline",
   },
   "barcelona-spain": {
     url: "https://upload.wikimedia.org/wikipedia/commons/5/5d/Aerial_view_of_Barcelona%2C_Spain_%2851227309370%29_edited.jpg",

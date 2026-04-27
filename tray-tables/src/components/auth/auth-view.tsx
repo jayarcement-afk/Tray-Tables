@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
@@ -25,10 +25,28 @@ export function AuthView() {
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [sentReset, setSentReset] = useState(false);
+  const [rateLimitedUntil, setRateLimitedUntil] = useState<number | null>(null);
+  const [useEmailForm, setUseEmailForm] = useState(false);
+  const autoGuestAttempted = useRef(false);
+
+  const isRateLimited = rateLimitedUntil !== null && Date.now() < rateLimitedUntil;
+
+  function handleAuthError(err: unknown) {
+    const message = err instanceof Error ? err.message : "Something went wrong.";
+    const lowered = message.toLowerCase();
+    if (lowered.includes("rate limit")) {
+      // Avoid hammering provider limits with repeated signup/reset attempts.
+      setRateLimitedUntil(Date.now() + 60_000);
+      setError("Too many email attempts. Please wait about 1 minute, then try again.");
+      return;
+    }
+    setError(message);
+  }
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     if (!supabase) return;
+    if (isRateLimited) return;
     setBusy(true);
     setError(null);
     setSentReset(false);
@@ -50,7 +68,7 @@ export function AuthView() {
 
       window.location.href = returnTo;
     } catch (err) {
-      setError(err instanceof Error ? err.message : "Something went wrong.");
+      handleAuthError(err);
     } finally {
       setBusy(false);
     }
@@ -58,6 +76,7 @@ export function AuthView() {
 
   async function handleResetPassword() {
     if (!supabase) return;
+    if (isRateLimited) return;
     setBusy(true);
     setError(null);
     setSentReset(false);
@@ -71,11 +90,39 @@ export function AuthView() {
       if (resetError) throw resetError;
       setSentReset(true);
     } catch (err) {
-      setError(err instanceof Error ? err.message : "Something went wrong.");
+      handleAuthError(err);
     } finally {
       setBusy(false);
     }
   }
+
+  async function handleContinueAsGuest() {
+    if (!supabase || busy || isRateLimited) return;
+    setBusy(true);
+    setError(null);
+    setSentReset(false);
+    try {
+      const { error: anonError } = await supabase.auth.signInAnonymously();
+      if (anonError) throw anonError;
+      window.location.href = returnTo;
+    } catch (err) {
+      const message = err instanceof Error ? err.message : "Could not start guest session.";
+      if (message.toLowerCase().includes("anonymous")) {
+        setError("Guest mode is disabled in Supabase. Enable Anonymous sign-ins in Auth settings.");
+      } else {
+        setError(message);
+      }
+      setUseEmailForm(true);
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  useEffect(() => {
+    if (autoGuestAttempted.current || useEmailForm) return;
+    autoGuestAttempted.current = true;
+    void handleContinueAsGuest();
+  }, [useEmailForm]);
 
   if (!supabase) {
     return (
@@ -107,6 +154,7 @@ export function AuthView() {
           className={`flex-1 rounded-lg px-3 py-2 ${
             mode === "sign_in" ? "bg-white shadow-sm" : "text-zinc-600"
           }`}
+          disabled={!useEmailForm}
           onClick={() => setMode("sign_in")}
         >
           Sign in
@@ -116,12 +164,28 @@ export function AuthView() {
           className={`flex-1 rounded-lg px-3 py-2 ${
             mode === "sign_up" ? "bg-white shadow-sm" : "text-zinc-600"
           }`}
+          disabled={!useEmailForm}
           onClick={() => setMode("sign_up")}
         >
           Create account
         </button>
       </div>
 
+      {!useEmailForm ? (
+        <div className="flex flex-col gap-3">
+          <div className="rounded-xl border border-zinc-200 bg-zinc-50 px-3 py-2 text-sm text-zinc-700">
+            Starting guest mode…
+          </div>
+          <button
+            type="button"
+            className="h-11 rounded-xl border border-zinc-300 px-4 font-medium text-zinc-900 hover:bg-zinc-50 disabled:opacity-60"
+            disabled={busy}
+            onClick={() => setUseEmailForm(true)}
+          >
+            Sign in or Create account instead
+          </button>
+        </div>
+      ) : (
       <form className="flex flex-col gap-3" onSubmit={handleSubmit}>
         <label className="flex flex-col gap-1">
           <span className="text-sm font-medium">Email</span>
@@ -164,10 +228,19 @@ export function AuthView() {
 
         <button
           className="mt-2 h-11 rounded-xl bg-zinc-900 px-4 font-medium text-white hover:bg-zinc-800 disabled:opacity-60"
-          disabled={busy}
+          disabled={busy || isRateLimited}
           type="submit"
         >
           {mode === "sign_in" ? "Sign in" : "Create account"}
+        </button>
+
+        <button
+          type="button"
+          className="h-11 rounded-xl border border-zinc-300 px-4 font-medium text-zinc-900 hover:bg-zinc-50 disabled:opacity-60"
+          disabled={busy || isRateLimited}
+          onClick={handleContinueAsGuest}
+        >
+          Continue as Guest
         </button>
 
         <div className="flex items-center justify-between text-sm text-zinc-600">
@@ -184,6 +257,7 @@ export function AuthView() {
           </Link>
         </div>
       </form>
+      )}
     </div>
   );
 }
