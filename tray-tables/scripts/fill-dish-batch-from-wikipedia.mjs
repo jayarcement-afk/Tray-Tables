@@ -14,9 +14,9 @@ const defaultBatchCsv = path.join(
 const WIKI_API = "https://en.wikipedia.org/w/api.php";
 const USER_AGENT =
   "TrayTablesMediaBot/1.1 (image enrichment; contact: github.com/jayarcement-afk/Tray-Tables)";
-const MAX_CONCURRENCY = 3;
-const REQUESTS_PER_SECOND = 10; // keep comfortably below 20 req/s policy
-const MIN_REQUEST_INTERVAL_MS = Math.ceil(1000 / REQUESTS_PER_SECOND);
+const MAX_CONCURRENCY = 1; // strict etiquette mode
+const REQUESTS_PER_SECOND = 1; // strict etiquette mode
+const MIN_REQUEST_INTERVAL_MS = Math.ceil(1000 / REQUESTS_PER_SECOND) + 250;
 const MAX_RETRIES = 5;
 let nextAllowedRequestAt = 0;
 
