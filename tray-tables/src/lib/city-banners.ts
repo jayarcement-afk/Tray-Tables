@@ -82,6 +82,106 @@ export const CITY_BANNERS: Record<
     url: "https://upload.wikimedia.org/wikipedia/commons/2/28/Lisbon_Skyline_%2845684560521%29.jpg",
     attribution: "Wikimedia Commons — Lisbon skyline",
   },
+  "amalfi-italy": {
+    url: "https://picsum.photos/seed/amalfi-italy/2400/1200.jpg",
+    attribution: "Picsum Photos (seeded)",
+  },
+  "antigua-guatemala": {
+    url: "https://picsum.photos/seed/antigua-guatemala/2400/1200.jpg",
+    attribution: "Picsum Photos (seeded)",
+  },
+  "athens-greece": {
+    url: "https://picsum.photos/seed/athens-greece/2400/1200.jpg",
+    attribution: "Picsum Photos (seeded)",
+  },
+  "auckland-new-zealand": {
+    url: "https://picsum.photos/seed/auckland-new-zealand/2400/1200.jpg",
+    attribution: "Picsum Photos (seeded)",
+  },
+  "barcelona-spain": {
+    url: "https://picsum.photos/seed/barcelona-spain/2400/1200.jpg",
+    attribution: "Picsum Photos (seeded)",
+  },
+  "beijing-china": {
+    url: "https://picsum.photos/seed/beijing-china/2400/1200.jpg",
+    attribution: "Picsum Photos (seeded)",
+  },
+  "belfast-united-kingdom": {
+    url: "https://picsum.photos/seed/belfast-united-kingdom/2400/1200.jpg",
+    attribution: "Picsum Photos (seeded)",
+  },
+  "berlin-germany": {
+    url: "https://picsum.photos/seed/berlin-germany/2400/1200.jpg",
+    attribution: "Picsum Photos (seeded)",
+  },
+  "boracay-philippines": {
+    url: "https://picsum.photos/seed/boracay-philippines/2400/1200.jpg",
+    attribution: "Picsum Photos (seeded)",
+  },
+  "boston-united-states": {
+    url: "https://picsum.photos/seed/boston-united-states/2400/1200.jpg",
+    attribution: "Picsum Photos (seeded)",
+  },
+  "brisbane-australia": {
+    url: "https://picsum.photos/seed/brisbane-australia/2400/1200.jpg",
+    attribution: "Picsum Photos (seeded)",
+  },
+  "brussels-belgium": {
+    url: "https://picsum.photos/seed/brussels-belgium/2400/1200.jpg",
+    attribution: "Picsum Photos (seeded)",
+  },
+  "budapest-hungary": {
+    url: "https://picsum.photos/seed/budapest-hungary/2400/1200.jpg",
+    attribution: "Picsum Photos (seeded)",
+  },
+  "buenos-aires-argentina": {
+    url: "https://picsum.photos/seed/buenos-aires-argentina/2400/1200.jpg",
+    attribution: "Picsum Photos (seeded)",
+  },
+  "cartagena-colombia": {
+    url: "https://picsum.photos/seed/cartagena-colombia/2400/1200.jpg",
+    attribution: "Picsum Photos (seeded)",
+  },
+  "cebu-city-philippines": {
+    url: "https://picsum.photos/seed/cebu-city-philippines/2400/1200.jpg",
+    attribution: "Picsum Photos (seeded)",
+  },
+  "chiang-mai-thailand": {
+    url: "https://picsum.photos/seed/chiang-mai-thailand/2400/1200.jpg",
+    attribution: "Picsum Photos (seeded)",
+  },
+  "copenhagen-denmark": {
+    url: "https://picsum.photos/seed/copenhagen-denmark/2400/1200.jpg",
+    attribution: "Picsum Photos (seeded)",
+  },
+  "da-nang-vietnam": {
+    url: "https://picsum.photos/seed/da-nang-vietnam/2400/1200.jpg",
+    attribution: "Picsum Photos (seeded)",
+  },
+  "delhi-india": {
+    url: "https://picsum.photos/seed/delhi-india/2400/1200.jpg",
+    attribution: "Picsum Photos (seeded)",
+  },
+  "denpasar-bali-indonesia": {
+    url: "https://picsum.photos/seed/denpasar-bali-indonesia/2400/1200.jpg",
+    attribution: "Picsum Photos (seeded)",
+  },
+  "doha-qatar": {
+    url: "https://picsum.photos/seed/doha-qatar/2400/1200.jpg",
+    attribution: "Picsum Photos (seeded)",
+  },
+  "dubai-united-arab-emirates": {
+    url: "https://picsum.photos/seed/dubai-united-arab-emirates/2400/1200.jpg",
+    attribution: "Picsum Photos (seeded)",
+  },
+  "dublin-ireland": {
+    url: "https://picsum.photos/seed/dublin-ireland/2400/1200.jpg",
+    attribution: "Picsum Photos (seeded)",
+  },
+  "dubrovnik-croatia": {
+    url: "https://picsum.photos/seed/dubrovnik-croatia/2400/1200.jpg",
+    attribution: "Picsum Photos (seeded)",
+  },
 };
 
 export function getCityBanner(slug: string | null | undefined) {
