@@ -17,6 +17,11 @@ type CreateTripBody = {
   neighborhoodsByDate?: Record<string, string[]>; // YYYY-MM-DD -> names
 };
 
+const LEGACY_CITY_SLUG_ALIASES: Record<string, string> = {
+  // Older canonical seed used `barcelona-spain`, but dishes/trips are keyed on `barcelona`.
+  "barcelona-spain": "barcelona",
+};
+
 function dateRangeInclusive(start: Date, end: Date) {
   const out: string[] = [];
   const cursor = new Date(start);
@@ -81,10 +86,12 @@ export async function POST(request: Request) {
   if (body.cityId) {
     resolvedCityId = body.cityId;
   } else if (body.citySlug) {
+    const normalizedSlug =
+      LEGACY_CITY_SLUG_ALIASES[body.citySlug] ?? body.citySlug;
     const { data: bySlug, error: cityErr } = await supabase
       .from("cities")
       .select("id")
-      .eq("slug", body.citySlug)
+      .eq("slug", normalizedSlug)
       .maybeSingle();
     if (cityErr) {
       return NextResponse.json({ error: cityErr.message }, { status: 500 });

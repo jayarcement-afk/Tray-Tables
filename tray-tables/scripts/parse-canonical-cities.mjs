@@ -41,6 +41,7 @@ const SEED_SLUG_ALIASES = {
   "mexico city|mexico": "mexico-city",
   "bangkok|thailand": "bangkok",
   "seoul|south korea": "seoul",
+  "barcelona|spain": "barcelona",
 };
 
 function keyOf(name, country) {

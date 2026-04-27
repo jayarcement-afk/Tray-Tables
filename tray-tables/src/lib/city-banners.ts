@@ -58,6 +58,10 @@ export const CITY_BANNERS: Record<
     url: "https://upload.wikimedia.org/wikipedia/commons/e/eb/Seattle_skyline_2021.jpg",
     attribution: "Wikimedia Commons — Seattle skyline",
   },
+  "san-francisco-united-states": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/San_Francisco_from_the_Marin_Headlands_in_March_2019.jpg/1920px-San_Francisco_from_the_Marin_Headlands_in_March_2019.jpg",
+    attribution: "Wikimedia Commons — San Francisco from the Marin Headlands",
+  },
   amsterdam: {
     url: "https://upload.wikimedia.org/wikipedia/commons/2/22/Amsterdam_Skyline_View.jpg",
     attribution: "Wikimedia Commons — Amsterdam skyline",
@@ -97,6 +101,10 @@ export const CITY_BANNERS: Record<
   "auckland-new-zealand": {
     url: "https://upload.wikimedia.org/wikipedia/commons/c/c9/Auckland_skyline_-_May_2024_%282%29.jpg",
     attribution: "Wikimedia Commons — Auckland skyline",
+  },
+  "barcelona": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/5/5d/Aerial_view_of_Barcelona%2C_Spain_%2851227309370%29_edited.jpg",
+    attribution: "Wikimedia Commons — Barcelona city view",
   },
   "barcelona-spain": {
     url: "https://upload.wikimedia.org/wikipedia/commons/5/5d/Aerial_view_of_Barcelona%2C_Spain_%2851227309370%29_edited.jpg",

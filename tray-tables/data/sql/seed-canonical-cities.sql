@@ -12,7 +12,7 @@ values
   (E'Auckland', E'New Zealand', null, E'auckland-new-zealand'::text),
   (E'Austin', E'United States', null, E'austin'::text),
   (E'Bangkok', E'Thailand', null, E'bangkok'::text),
-  (E'Barcelona', E'Spain', null, E'barcelona-spain'::text),
+  (E'Barcelona', E'Spain', null, E'barcelona'::text),
   (E'Beijing', E'China', null, E'beijing-china'::text),
   (E'Belfast', E'United Kingdom', null, E'belfast-united-kingdom'::text),
   (E'Berlin', E'Germany', null, E'berlin-germany'::text),
