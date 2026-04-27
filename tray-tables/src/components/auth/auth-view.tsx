@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useMemo, useState } from "react";
 
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
@@ -27,7 +27,6 @@ export function AuthView() {
   const [sentReset, setSentReset] = useState(false);
   const [rateLimitedUntil, setRateLimitedUntil] = useState<number | null>(null);
   const [useEmailForm, setUseEmailForm] = useState(false);
-  const autoGuestAttempted = useRef(false);
 
   const isRateLimited = rateLimitedUntil !== null && Date.now() < rateLimitedUntil;
 
@@ -118,12 +117,6 @@ export function AuthView() {
     }
   }
 
-  useEffect(() => {
-    if (autoGuestAttempted.current || useEmailForm) return;
-    autoGuestAttempted.current = true;
-    void handleContinueAsGuest();
-  }, [useEmailForm]);
-
   if (!supabase) {
     return (
       <div className="w-full max-w-md rounded-2xl border border-amber-200 bg-amber-50 p-6 text-sm text-amber-900">
@@ -173,16 +166,26 @@ export function AuthView() {
 
       {!useEmailForm ? (
         <div className="flex flex-col gap-3">
-          <div className="rounded-xl border border-zinc-200 bg-zinc-50 px-3 py-2 text-sm text-zinc-700">
-            Starting guest mode…
-          </div>
+          {error ? (
+            <div className="rounded-xl border border-rose-200 bg-rose-50 px-3 py-2 text-sm text-rose-700">
+              {error}
+            </div>
+          ) : null}
+          <button
+            type="button"
+            className="h-11 rounded-xl bg-zinc-900 px-4 font-medium text-white hover:bg-zinc-800 disabled:opacity-60"
+            disabled={busy || isRateLimited}
+            onClick={handleContinueAsGuest}
+          >
+            Continue as Guest
+          </button>
           <button
             type="button"
             className="h-11 rounded-xl border border-zinc-300 px-4 font-medium text-zinc-900 hover:bg-zinc-50 disabled:opacity-60"
-            disabled={busy}
+            disabled={busy || isRateLimited}
             onClick={() => setUseEmailForm(true)}
           >
-            Sign in or Create account instead
+            Sign in or Create account
           </button>
         </div>
       ) : (
