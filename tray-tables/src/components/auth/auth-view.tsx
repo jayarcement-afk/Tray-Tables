@@ -18,6 +18,7 @@ export function AuthView() {
   const searchParams = useSearchParams();
   const supabase = useMemo(() => createSupabaseBrowserClient(), []);
   const returnTo = postAuthDest(searchParams.get("next"));
+  const emailModeRequested = searchParams.get("email") === "1";
 
   const [mode, setMode] = useState<Mode>("sign_in");
   const [email, setEmail] = useState("");
@@ -164,7 +165,7 @@ export function AuthView() {
         </button>
       </div>
 
-      {!useEmailForm ? (
+      {!useEmailForm && !emailModeRequested ? (
         <div className="flex flex-col gap-3">
           {error ? (
             <div className="rounded-xl border border-rose-200 bg-rose-50 px-3 py-2 text-sm text-rose-700">

@@ -23,7 +23,7 @@ export default function Home() {
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center">
             <Link
-              href="/auth"
+              href="/start"
               className="inline-flex h-11 items-center justify-center rounded-xl bg-white px-5 font-medium text-zinc-900 shadow-lg hover:bg-zinc-100"
             >
               Get started
