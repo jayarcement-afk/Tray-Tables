@@ -34,6 +34,14 @@ export const CITY_BANNERS: Record<
     url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/A2ATL20250614-0721_%28cropped%29.jpg/1920px-A2ATL20250614-0721_%28cropped%29.jpg",
     attribution: "Wikimedia Commons — Atlanta",
   },
+  "abu-dhabi": {
+    url: "https://images.unsplash.com/photo-1590140568849-f27028e1f822?auto=format&fit=crop&w=3000&q=60",
+    attribution: "Unsplash — Abu Dhabi skyline by Belinda Fewings",
+  },
+  "abu-dhabi-united-arab-emirates": {
+    url: "https://images.unsplash.com/photo-1590140568849-f27028e1f822?auto=format&fit=crop&w=3000&q=60",
+    attribution: "Unsplash — Abu Dhabi skyline by Belinda Fewings",
+  },
   austin: {
     url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Austin_Downtown_2024.jpg/1920px-Austin_Downtown_2024.jpg",
     attribution: "Wikimedia Commons — Austin downtown",
