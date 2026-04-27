@@ -62,6 +62,10 @@ export const CITY_BANNERS: Record<
     url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/San_Francisco_from_the_Marin_Headlands_in_March_2019.jpg/1920px-San_Francisco_from_the_Marin_Headlands_in_March_2019.jpg",
     attribution: "Wikimedia Commons — San Francisco from the Marin Headlands",
   },
+  "los-angeles-united-states": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Skyline_downtown_Los_Angeles_2019_2.jpg/1920px-Skyline_downtown_Los_Angeles_2019_2.jpg",
+    attribution: "Wikimedia Commons — Downtown Los Angeles skyline (from Hollywood Hills)",
+  },
   amsterdam: {
     url: "https://upload.wikimedia.org/wikipedia/commons/2/22/Amsterdam_Skyline_View.jpg",
     attribution: "Wikimedia Commons — Amsterdam skyline",
@@ -111,8 +115,8 @@ export const CITY_BANNERS: Record<
     attribution: "Wikimedia Commons — Barcelona city view",
   },
   "beijing-china": {
-    url: "https://upload.wikimedia.org/wikipedia/commons/6/6a/%E7%9A%87%E5%9F%8E3.jpg",
-    attribution: "Wikimedia Commons — Beijing city view",
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Skyline_of_Beijing_CBD_from_the_southeast_%2820210907094201%29.jpg/1920px-Skyline_of_Beijing_CBD_from_the_southeast_%2820210907094201%29.jpg",
+    attribution: "Wikimedia Commons — Beijing CBD skyline",
   },
   "belfast-united-kingdom": {
     url: "https://upload.wikimedia.org/wikipedia/commons/9/90/Belfast_City_Hospital.jpg",

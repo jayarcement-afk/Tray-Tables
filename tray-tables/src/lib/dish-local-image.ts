@@ -49,6 +49,60 @@ const IMPORTED_DISH_IMAGES_BY_ID: Record<string, string> = {
     "/imported-dish-images/barcelona-truita-de-patates.png",
   "barcelona-spain--1231--bikini-cafe-zurich":
     "/imported-dish-images/barcelona-bikini.png",
+  "beijing-china--809--peking-duck-quanjude":
+    "/imported-dish-images/beijing-peking-duck-quanjude.png",
+  "beijing-china--810--peking-duck-da-dong":
+    "/imported-dish-images/beijing-peking-duck-da-dong.png",
+  "beijing-china--811--jianbing-jianbing-guozi-stand":
+    "/imported-dish-images/beijing-jianbing-guozi-stand.png",
+  "beijing-china--812--zhajiangmian-haiwanju":
+    "/imported-dish-images/beijing-zhajiangmian-haiwanju.png",
+  "beijing-china--813--mongolian-hot-pot-dong-lai-shun":
+    "/imported-dish-images/beijing-mongolian-hot-pot-dong-lai-shun.png",
+  "beijing-china--814--lamb-skewers-da-shi-kebab":
+    "/imported-dish-images/beijing-lamb-skewers-da-shi-kebab.png",
+  "beijing-china--815--stuffed-pancake-baoyuan-dumpling":
+    "/imported-dish-images/beijing-stuffed-pancake-baoyuan-dumpling.png",
+  "beijing-china--816--fried-liver-yaoji-chaogan":
+    "/imported-dish-images/beijing-fried-liver-yaoji-chaogan.png",
+  "beijing-china--817--dumplings-xiao-guan":
+    "/imported-dish-images/beijing-dumplings-xiao-guan.png",
+  "beijing-china--818--tasting-menu-trb-hutong":
+    "/imported-dish-images/beijing-tasting-menu-trb-hutong.png",
+  "berlin-germany--166--currywurst-konnopke-s-imbiss":
+    "/imported-dish-images/berlin-currywurst-konnopke.png",
+  "berlin-germany--167--d-ner-kebab-mustafa-s-gem-se-kebap":
+    "/imported-dish-images/berlin-doner-mustafa-gemuse-kebap.png",
+  "berlin-germany--168--eisbein-pork-knuckle-max-und-moritz":
+    "/imported-dish-images/berlin-eisbein-max-und-moritz.png",
+  "berlin-germany--169--k-nigsberger-klopse-lutter-and-wegner":
+    "/imported-dish-images/berlin-koenigsberger-klopse-lutter-wegner.png",
+  "berlin-germany--170--schnitzel-jolesch":
+    "/imported-dish-images/berlin-schnitzel-jolesch.png",
+  "berlin-germany--171--berliner-pfannkuchen-caf-kranzler":
+    "/imported-dish-images/berlin-berliner-pfannkuchen-cafe-kranzler.png",
+  "berlin-germany--172--k-sesp-tzle-suppenk-che":
+    "/imported-dish-images/berlin-kaesepatzle-suppenkuche.png",
+  "berlin-germany--173--gulasch-solar-sky-bar":
+    "/imported-dish-images/berlin-gulasch-solar-sky-bar.png",
+  "berlin-germany--174--roast-duck-grill-royal":
+    "/imported-dish-images/berlin-roast-duck-grill-royal.png",
+  "berlin-germany--175--pretzel-b-ckerei-siebert":
+    "/imported-dish-images/berlin-pretzel-baeckerei-siebert.png",
+  "berlin-germany--1237--ketwurst-konnopkes-imbiss":
+    "/imported-dish-images/berlin-ketwurst-konnopkes-imbiss.png",
+  "berlin-germany--1238--bouletten-gaststatte-w-prassnik":
+    "/imported-dish-images/berlin-bouletten-gaststatte-w-prassnik.png",
+  "berlin-germany--1239--hackepeter-zur-letzten-instanz":
+    "/imported-dish-images/berlin-hackepeter-zur-letzten-instanz.png",
+  "berlin-germany--1240--tote-oma-max-und-moritz":
+    "/imported-dish-images/berlin-tote-oma-max-und-moritz.png",
+  "berlin-germany--1242--maultaschen-schwabylon":
+    "/imported-dish-images/berlin-maultaschen-schwabylon.png",
+  "berlin-germany--1243--kartoffelpuffer-volkskammer":
+    "/imported-dish-images/berlin-kartoffelpuffer-volkskammer.png",
+  "los-angeles-united-states--12--tacos-al-pastor-leo-s-taco-truck":
+    "/imported-dish-images/los-angeles-tacos-al-pastor-leos-taco-truck.png",
   "san-francisco-united-states--533--sourdough-bread-boudin-bakery":
     "/imported-dish-images/san-francisco-sourdough-boudin-bakery.png",
   "san-francisco-united-states--534--mission-burrito-la-taqueria":
