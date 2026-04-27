@@ -123,18 +123,18 @@ Seville,Spain,Tortilla de Camarones,Bar Casa Morales,Centro,€,Limited,Yes,No,Y
 Seville,Spain,Rabo de Toro,Restaurante Eslava,San Lorenzo,€€€,Limited,Yes,Yes,No,Dinner,Modern presentation of bull‑tail stew.,Full‑bodied Red,https://guide.michelin.com
 Seville,Spain,Montadito de Pringá,Bodega Dos de Mayo,Centro,€,Limited,Yes,No,Yes,Lunch,Pork‑fat spread sandwich locals crave.,Cruzcampo Beer,https://www.timeout.com/seville
 Seville,Spain,Gazpacho,Casa Robles,Centro,€€,Yes,Yes,No,No,Lunch,Cold soup classic in peak Andalusian form.,Dry White Wine,https://www.eater.com
-Seville,Spain,Croquetas,La Azotea,Citywide,€€,Limited,Yes,Yes,No,Dinner,Creamy croquettes with seasonal fillings.,Spanish Vermouth,https://www.theinfatuation.com/seville
+Seville,Spain,Croquetas,Sensi Tapas,Citywide,€€,Limited,Yes,Yes,No,Dinner,Creamy croquettes with seasonal fillings.,Spanish Vermouth,https://www.theinfatuation.com/seville
 Seville,Spain,Torrijas,Dulcería Manu Jara,Triana,€,Yes,Yes,Yes,Yes,Dessert,Andalusian take on French toast.,Espresso,https://www.timeout.com/seville
 Valencia,Spain,Paella Valenciana,Casa Roberto,Ruzafa,€€€,Limited,Yes,No,No,Lunch,One of the city’s most respected traditional paella kitchens.,Valencian White Wine,https://valenciasecreta.com/en/best-paella-restaurants-valencia/
 Valencia,Spain,Paella de Marisco,La Pepica,Malvarrosa Beach,€€€,Limited,Yes,Yes,No,Lunch,Historic beachfront paella institution since 1898.,Cava,https://visitvalencia.org/
 Valencia,Spain,Arroz del Senyoret,L’Alqueria del Pou,City of Arts Area,€€€,Limited,Yes,No,No,Lunch,Refined rice dishes cooked with Michelin precision.,Dry Albariño,https://www.theinfatuation.com/valencia/guides/best-restaurants-valencia-spain
 Valencia,Spain,Esgarraet,Casa Montaña,El Cabanyal,€€,Yes,Yes,No,No,Lunch,Salted cod and roasted pepper tapa locals swear by.,Dry Sherry,https://www.timeout.com/valencia
 Valencia,Spain,Clóchinas Valencianas,La Pilareta,Centro Histórico,€€,Limited,Yes,No,No,Lunch,Seasonal Valencian mussels served simply.,Crisp White Wine,https://spainist.com/best-restaurants-in-valencia/
-Valencia,Spain,Fideuà,Casa Carmela,Malvarrosa,€€€,Limited,Yes,No,No,Lunch,Noodle‑based paella cooked over wood fire.,White Rioja,https://valenciasecreta.com/en/best-paella-restaurants-valencia/
+Valencia,Spain,Fideuà,Can Majó,Malvarrosa,€€€,Limited,Yes,No,No,Lunch,Noodle‑based paella cooked over wood fire.,White Rioja,https://valenciasecreta.com/en/best-paella-restaurants-valencia/
 Valencia,Spain,All i Pebre,El Palmar Village Taverns,Albufera,€€,Limited,Yes,No,No,Lunch,Traditional eel stew unique to the region.,Dry White Wine,https://www.theinfatuation.com/valencia
 Valencia,Spain,Horchata & Fartons,Horchatería Santa Catalina,Centro,€,Yes,Yes,Yes,Yes,Afternoon,Classic Valencian tiger‑nut drink and pastry.,Horchata,https://www.timeout.com/valencia
 Valencia,Spain,Bunyols,Bunyolerías (Central Market area),Centro,€,Yes,Yes,No,Yes,Morning,Seasonal pumpkin fritters dusted with sugar.,Hot Chocolate,https://www.tripadvisor.com/
-Valencia,Spain,Crema Catalana,Dulce de Leche Boutique,Ruzafa,€€,Yes,Yes,Yes,No,Dessert,Modern pastry shop with classic execution.,Espresso,https://www.google.com/maps
+Valencia,Spain,Crema Catalana,Granja Dulcinea,Ruzafa,€€,Yes,Yes,Yes,No,Dessert,Modern pastry shop with classic execution.,Espresso,https://www.google.com/maps
 Lisbon,Portugal,Pastel de Nata,Pastéis de Belém,Belém,€,Yes,Yes,Yes,Yes,Morning,Original recipe custard tarts since 1837.,Espresso,https://www.timeout.com/lisbon
 Lisbon,Portugal,Bacalhau à Brás,Taberna da Rua das Flores,Chiado,€€,Limited,Yes,Yes,No,Dinner,Creamy shredded cod with eggs and potato.,Dão White Wine,https://www.theinfatuation.com/lisbon
 Lisbon,Portugal,Grilled Prawns,Cervejaria Ramiro,Intendente,€€€,Limited,Yes,Yes,No,Dinner,Seafood temple loved by locals and chefs.,Vinho Verde,https://www.timeout.com/lisbon
@@ -428,7 +428,7 @@ Washington DC,United States,Chili,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
 Miami,United States,Stone Crab Claws,Joes Stone Crab,South Beach,$$$$,No,Yes,Yes,No,Dinner,Defines Miami seafood culture,Dirty Martini,https://guide.michelin.com/us/en
 Miami,United States,Cubano Sandwich,Versailles,Little Havana,$$,No,Yes,No,No,Lunch,Cuban food landmark,Cafecito,https://www.eater.com/miami
 Miami,United States,Key Lime Pie,Joes Stone Crab,South Beach,$$$$,Yes,Yes,Yes,No,Dessert,Famous Miami dessert,Espresso,https://www.timeout.com/miami
-Miami,United States,Croquetas,Tinta y Cafe,Coral Way,$,No,Yes,Yes,No,Breakfast,Cuban comfort food,Cortadito,https://www.eater.com/miami
+Miami,United States,Croquetas,Sensi Tapas,Coral Way,$,No,Yes,Yes,No,Breakfast,Cuban comfort food,Cortadito,https://www.eater.com/miami
 Miami,United States,Ceviche,CVICHE 105,Downtown,$$$,No,Yes,Yes,No,Dinner,Peruvian flagship restaurant,Pisco Sour,https://guide.michelin.com/us/en
 Miami,United States,Tacos,Coyo Taco,Wynwood,$,Yes,Yes,Yes,Yes,Late Night,Popular taco destination,Margarita,https://www.theinfatuation.com/miami
 Miami,United States,Juice Smoothies,El Palacio de los Jugos,Multiple,$,Yes,Yes,No,Yes,Breakfast,Local juice institution,Guava Juice,https://www.eater.com/miami
@@ -1231,7 +1231,7 @@ Barcelona,Spain,Esqueixada,Can Culleretes,Gothic Quarter,€€,Yes,Yes,No,No,Lu
 Barcelona,Spain,Tortilla De Patatas,La Pubilla,Gracia,€€,Yes,Yes,No,No,Lunch,The Spanish tortilla is a national staple and La Pubilla is praised for refined home style cooking,Rioja white wine,https://www.timeout.com/barcelona/restaurants/la-pubilla
 Barcelona,Spain,Truita De Patates,Sagardi,Eixample,€€,Yes,Yes,No,No,Dinner,Catalan style potato omelette reflects regional identity and Sagardi focuses on Iberian tradition,Txakoli wine,https://www.sagardi.com
 Barcelona,Spain,Bikini,Cafe Zurich,Plaça Catalunya,€,Limited,Yes,Yes,No,Breakfast,The bikini sandwich is a Barcelona classic and this cafe popularized it for locals and travelers alike,Cava rosado,https://www.timeout.com/barcelona/restaurants/cafe-zurich
-Madrid,Spain,Tortilla de Patatas,Casa Dani,Barrio de Salamanca,€,Yes,Yes,Yes,No,All Day,Tortilla de patatas is a defining Madrid bar staple. Casa Dani is famous for an award winning version inside Mercado de la Paz,Mahou beer,https://www.timeout.es/madrid/es/bares-y-pubs/casa-dani
+Madrid,Spain,Tortilla de Patatas,La Pubilla,Barrio de Salamanca,€,Yes,Yes,Yes,No,All Day,Tortilla de patatas is a defining Madrid bar staple. Casa Dani is famous for an award winning version inside Mercado de la Paz,Mahou beer,https://www.timeout.es/madrid/es/bares-y-pubs/casa-dani
 Lisbon,Portugal,Bifana,O Trevo,Chiado,€,Limited,Yes,Yes,No,All Day,Bifana is an iconic Portuguese pork sandwich eaten as a quick Lisbon bite. O Trevo is a long running counter praised for its classic bifana,Super Bock beer,https://www.timeout.com/lisbon/restaurants/o-trevo
 Lisbon,Portugal,Bolinhos de Bacalhau,Casa Portuguesa do Pastel de Bacalhau,Chiado,€€,Limited,Yes,Yes,Yes,Lunch,Bolinhos de bacalhau are a beloved Portuguese cod fritter served as a snack or starter. Das Flores is a tiny lunch spot known for excellent cod cakes,Port Wine,https://www.tripadvisor.com.br/Restaurant_Review-g189158-d8097709-Reviews-Casa_Portuguesa_Do_Pastel_De_Bacalhau-Lisbon_Lisbon_District_Central_Portugal.html
 Lisbon,Portugal,Carne de Porco Alentejana,Casa do Alentejo,Restauradores,€€,Limited,Yes,No,No,Dinner,Carne de porco alentejana links pork and clams to Alentejo tradition. Casa do Alentejo showcases regional cooking in a landmark setting,Alentejo red wine,https://casadoalentejo.pt/restaurante/
