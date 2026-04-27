@@ -13,6 +13,7 @@
     "data:missing-media-report": "node scripts/generate-missing-media-reports.mjs",
     "data:prepare-media-batches": "node scripts/prepare-media-batches.mjs",
     "data:fill-media-batch-urls": "node scripts/fill-media-batch-urls.mjs",
+    "data:fill-dish-batch-wikipedia": "node scripts/fill-dish-batch-from-wikipedia.mjs",
     "data:import-dish-images": "node scripts/import-dish-images-from-csv.mjs",
     "data:import-city-banners": "node scripts/import-city-banners-from-csv.mjs"
   },
