@@ -101,6 +101,64 @@ const IMPORTED_DISH_IMAGES_BY_ID: Record<string, string> = {
     "/imported-dish-images/berlin-maultaschen-schwabylon.png",
   "berlin-germany--1243--kartoffelpuffer-volkskammer":
     "/imported-dish-images/berlin-kartoffelpuffer-volkskammer.png",
+  "buenos-aires-argentina--1037--asado-don-julio":
+    "/imported-dish-images/buenos-aires-asado-don-julio.png",
+  "buenos-aires-argentina--1038--empanadas-el-sanjuanino":
+    "/imported-dish-images/buenos-aires-empanadas-el-sanjuanino.png",
+  "buenos-aires-argentina--1039--milanesa-cafe-san-juan":
+    "/imported-dish-images/buenos-aires-milanesa-cafe-san-juan.png",
+  "buenos-aires-argentina--1040--choripan-la-cabrera-grill":
+    "/imported-dish-images/buenos-aires-choripan-la-cabrera-grill.png",
+  "buenos-aires-argentina--1041--pizza-guerin":
+    "/imported-dish-images/buenos-aires-pizza-guerin.png",
+  "buenos-aires-argentina--1042--provoleta-don-julio":
+    "/imported-dish-images/buenos-aires-provoleta-don-julio.png",
+  "buenos-aires-argentina--1043--pasta-sarkis":
+    "/imported-dish-images/buenos-aires-pasta-sarkis.png",
+  "buenos-aires-argentina--1044--ice-cream-cadore":
+    "/imported-dish-images/buenos-aires-ice-cream-cadore.png",
+  "buenos-aires-argentina--1045--seafood-rodrigo-restaurante":
+    "/imported-dish-images/buenos-aires-seafood-rodrigo-restaurante.png",
+  "buenos-aires-argentina--1046--tasting-menu-aramburu":
+    "/imported-dish-images/buenos-aires-tasting-menu-aramburu.png",
+  "cartagena-colombia--592--arepas-de-huevo-arepas-pues":
+    "/imported-dish-images/cartagena-arepas-de-huevo-arepas-pues.png",
+  "cartagena-colombia--593--ceviche-la-cevicheria":
+    "/imported-dish-images/cartagena-ceviche-la-cevicheria.png",
+  "cartagena-colombia--594--coconut-rice-la-cocina-de-pepina":
+    "/imported-dish-images/cartagena-coconut-rice-la-cocina-de-pepina.png",
+  "cartagena-colombia--595--fried-fish-pesca-del-dia":
+    "/imported-dish-images/cartagena-fried-fish-pesca-del-dia.png",
+  "cartagena-colombia--596--empanadas-la-cocina-de-pepina":
+    "/imported-dish-images/cartagena-empanadas-la-cocina-de-pepina.png",
+  "cartagena-colombia--597--patacones-la-mulata":
+    "/imported-dish-images/cartagena-patacones-la-mulata.png",
+  "cartagena-colombia--598--sancocho-cand":
+    "/imported-dish-images/cartagena-sancocho-cande.png",
+  "cartagena-colombia--599--craft-cocktails-alquimico":
+    "/imported-dish-images/cartagena-craft-cocktails-alquimico.png",
+  "cartagena-colombia--600--ice-cream-el-gelato-de-panna":
+    "/imported-dish-images/cartagena-ice-cream-el-gelato-de-panna.png",
+  "cartagena-colombia--601--tasting-menu-carmen":
+    "/imported-dish-images/cartagena-tasting-menu-carmen.png",
+  "cebu-city-philippines--919--lechon-cebu-original-lechon-belly":
+    "/imported-dish-images/cebu-city-lechon-cebu-original-lechon-belly.png",
+  "cebu-city-philippines--920--sinigang-house-of-lechon":
+    "/imported-dish-images/cebu-city-sinigang-house-of-lechon.png",
+  "cebu-city-philippines--921--puso-rice-aa-bbq":
+    "/imported-dish-images/cebu-city-puso-rice-aa-bbq.png",
+  "cebu-city-philippines--922--bbq-skewers-larsian-bbq":
+    "/imported-dish-images/cebu-city-bbq-skewers-larsian-bbq.png",
+  "cebu-city-philippines--923--seafood-sutukil":
+    "/imported-dish-images/cebu-city-seafood-sutukil.png",
+  "cebu-city-philippines--924--noodles-bam-i":
+    "/imported-dish-images/cebu-city-noodles-bam-i.png",
+  "cebu-city-philippines--925--chicken-inasal-jollibee":
+    "/imported-dish-images/cebu-city-chicken-inasal-jollibee.png",
+  "cebu-city-philippines--926--dessert-halo-halo-ding-qua-qua":
+    "/imported-dish-images/cebu-city-dessert-halo-halo-ding-qua-qua.png",
+  "cebu-city-philippines--927--breakfast-plates-abaca-baking-company":
+    "/imported-dish-images/cebu-city-breakfast-plates-abaca-baking-company.png",
   "los-angeles-united-states--12--tacos-al-pastor-leo-s-taco-truck":
     "/imported-dish-images/los-angeles-tacos-al-pastor-leos-taco-truck.png",
   "san-francisco-united-states--533--sourdough-bread-boudin-bakery":
