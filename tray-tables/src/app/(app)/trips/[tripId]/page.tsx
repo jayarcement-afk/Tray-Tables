@@ -71,20 +71,12 @@ export default async function TripPage({
         <TripItineraryPlanner
           tripId={trip.id}
           cityName={city?.name ?? "Trip"}
+          cityCountry={city?.country ?? ""}
           startDate={trip.start_date}
           endDate={trip.end_date}
           isPastTrip={trip.end_date < new Date().toISOString().slice(0, 10)}
           dishes={dishes}
         />
-        {trip.end_date < new Date().toISOString().slice(0, 10) ? (
-          <p className="mt-3 text-xs text-zinc-500">
-            To persist reviews to your account, run{" "}
-            <code className="rounded bg-zinc-200/80 px-1.5 py-0.5 text-zinc-800">
-              data/sql/create-trip-dish-reviews.sql
-            </code>{" "}
-            in Supabase SQL editor once.
-          </p>
-        ) : null}
 
         <div className="grid gap-4 sm:grid-cols-1">
           <Link

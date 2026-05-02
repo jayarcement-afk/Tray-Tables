@@ -1,9 +1,20 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 import type { CsvDish } from "@/lib/canonical-dishes";
+import { fileToOptimizedDataUrl } from "@/lib/client-image-data-url";
+import {
+  coordsFromMapsLinkUrl,
+  dishPrimaryExternalHref,
+  fetchTripCustomDishesWithOptionalMigrate,
+  isUserAddedDishId,
+  mapExtraGeocodeQueriesForDish,
+  mapGeocodeQueryForDish,
+  mapPointKeyForDish,
+} from "@/lib/trip-custom-dishes";
 import { CanonicalDishCard } from "@/components/dishes/canonical-dish-card";
+import { AddTripDishModal } from "@/components/trips/add-trip-dish-modal";
 import { TripRestaurantsMap } from "@/components/trips/trip-restaurants-map";
 
 type MealSlot = "breakfast" | "lunch" | "dinner" | "late_night";
@@ -20,6 +31,7 @@ type Itinerary = Record<string, DayPlan>;
 type Props = {
   tripId: string;
   cityName: string;
+  cityCountry: string;
   startDate: string;
   endDate: string;
   isPastTrip: boolean;
@@ -49,45 +61,9 @@ type DishReview = {
 type ReviewByDishId = Record<string, DishReview>;
 const MAX_PHOTOS_PER_DISH = 8;
 const MAX_UPLOAD_FILES_PER_PICK = 4;
-const MAX_IMAGE_EDGE_PX = 1600;
-const JPEG_QUALITY = 0.78;
 
 function isReviewByDishId(value: unknown): value is ReviewByDishId {
   return Boolean(value && typeof value === "object");
-}
-
-async function fileToOptimizedDataUrl(file: File): Promise<string> {
-  const rawDataUrl = await new Promise<string>((resolve, reject) => {
-    const reader = new FileReader();
-    reader.onload = () => resolve(String(reader.result ?? ""));
-    reader.onerror = () => reject(new Error("Could not read file"));
-    reader.readAsDataURL(file);
-  });
-
-  if (typeof document === "undefined") return rawDataUrl;
-
-  const image = await new Promise<HTMLImageElement>((resolve, reject) => {
-    const img = new Image();
-    img.onload = () => resolve(img);
-    img.onerror = () => reject(new Error("Could not decode image"));
-    img.src = rawDataUrl;
-  });
-
-  const { naturalWidth, naturalHeight } = image;
-  if (!naturalWidth || !naturalHeight) return rawDataUrl;
-
-  const scale = Math.min(1, MAX_IMAGE_EDGE_PX / Math.max(naturalWidth, naturalHeight));
-  const width = Math.max(1, Math.round(naturalWidth * scale));
-  const height = Math.max(1, Math.round(naturalHeight * scale));
-
-  const canvas = document.createElement("canvas");
-  canvas.width = width;
-  canvas.height = height;
-  const ctx = canvas.getContext("2d");
-  if (!ctx) return rawDataUrl;
-  ctx.drawImage(image, 0, 0, width, height);
-
-  return canvas.toDataURL("image/jpeg", JPEG_QUALITY);
 }
 
 function dateRangeInclusive(start: string, end: string): string[] {
@@ -115,11 +91,6 @@ function guessSlotFromDish(d: CsvDish): MealSlot {
   if (t.includes("late night")) return "late_night";
   if (t.includes("all day")) return "lunch";
   return "lunch";
-}
-
-function dishMapUrl(d: CsvDish) {
-  const q = [d.restaurant, d.city, d.country].filter(Boolean).join(", ");
-  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`;
 }
 
 function loadSelectedDishIds(tripId: string): string[] {
@@ -173,28 +144,92 @@ function defaultItinerary(days: string[], selected: CsvDish[]): Itinerary {
 export function TripItineraryPlanner({
   tripId,
   cityName,
+  cityCountry,
   startDate,
   endDate,
   isPastTrip,
   dishes,
 }: Props) {
   const days = useMemo(() => dateRangeInclusive(startDate, endDate), [startDate, endDate]);
-  const byId = useMemo(() => new Map(dishes.map((d) => [d.id, d])), [dishes]);
+  const [customDishes, setCustomDishes] = useState<CsvDish[]>([]);
+  const allDishes = useMemo(() => [...dishes, ...customDishes], [dishes, customDishes]);
+  const byId = useMemo(() => new Map(allDishes.map((d) => [d.id, d])), [allDishes]);
   const [selectedIds, setSelectedIds] = useState<string[]>([]);
   const [itinerary, setItinerary] = useState<Itinerary>({});
   const [reviews, setReviews] = useState<ReviewByDishId>({});
   const [reviewsLoaded, setReviewsLoaded] = useState(false);
   const [previewDishId, setPreviewDishId] = useState<string | null>(null);
+  const [addDishOpen, setAddDishOpen] = useState(false);
+  /** Avoid writing `[]` before selections are reloaded from localStorage (wipes saved dishes). */
+  const skipNextSelectedPersist = useRef(true);
 
   useEffect(() => {
+    let cancelled = false;
+    void (async () => {
+      const customs = await fetchTripCustomDishesWithOptionalMigrate(
+        tripId,
+        cityName,
+        cityCountry
+      );
+      if (!cancelled) setCustomDishes(customs);
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, [tripId, cityName, cityCountry]);
+
+  const orphanUserDishKey = useMemo(
+    () =>
+      selectedIds
+        .filter((id) => isUserAddedDishId(id) && !byId.has(id))
+        .sort()
+        .join("|"),
+    [selectedIds, byId]
+  );
+
+  /** If selections reference custom dishes that are not in memory yet, reload once (auth / first fetch race). */
+  useEffect(() => {
+    if (!orphanUserDishKey) return;
+    let cancelled = false;
+    const timer = window.setTimeout(() => {
+      void (async () => {
+        const customs = await fetchTripCustomDishesWithOptionalMigrate(
+          tripId,
+          cityName,
+          cityCountry
+        );
+        if (!cancelled) setCustomDishes(customs);
+      })();
+    }, 700);
+    return () => {
+      cancelled = true;
+      window.clearTimeout(timer);
+    };
+  }, [orphanUserDishKey, tripId, cityName, cityCountry]);
+
+  useEffect(() => {
+    skipNextSelectedPersist.current = true;
     const ids = loadSelectedDishIds(tripId);
     setSelectedIds(ids);
   }, [tripId]);
 
   useEffect(() => {
-    const selected = selectedIds.map((id) => byId.get(id)).filter((d): d is CsvDish => Boolean(d));
+    if (skipNextSelectedPersist.current) {
+      skipNextSelectedPersist.current = false;
+      return;
+    }
+    try {
+      window.localStorage.setItem(`trip-selected-dishes:${tripId}`, JSON.stringify(selectedIds));
+    } catch {
+      // ignore
+    }
+  }, [tripId, selectedIds]);
+
+  useEffect(() => {
+    const resolved = selectedIds.map((id) => byId.get(id)).filter((d): d is CsvDish => Boolean(d));
+    const selectedIdSet = new Set(selectedIds);
     const key = `trip-itinerary:${tripId}`;
-    let base = defaultItinerary(days, selected);
+    let base = defaultItinerary(days, resolved);
     try {
       const raw = window.localStorage.getItem(key);
       if (raw) {
@@ -206,12 +241,11 @@ export function TripItineraryPlanner({
     } catch {
       // noop
     }
-    // Reconcile saved/base with currently selected dish ids.
-    const selectedSet = new Set(selected.map((d) => d.id));
+    // Reconcile saved/base with selected ids (resolved later when custom dishes hydrate).
     for (const day of days) {
       if (!base[day]) base[day] = makeEmptyDayPlan();
       for (const s of MEAL_SLOTS) {
-        base[day][s.key] = base[day][s.key].filter((id) => selectedSet.has(id));
+        base[day][s.key] = base[day][s.key].filter((id) => selectedIdSet.has(id));
       }
     }
     const placed = new Set<string>();
@@ -220,11 +254,12 @@ export function TripItineraryPlanner({
         for (const id of base[day][s.key]) placed.add(id);
       }
     }
-    const missing = selected.filter((d) => !placed.has(d.id));
-    missing.forEach((dish, i) => {
-      if (days.length === 0) return;
+    const missingIds = selectedIds.filter((id) => !placed.has(id));
+    missingIds.forEach((id, i) => {
+      const dish = byId.get(id);
+      if (!dish || days.length === 0) return;
       const day = days[i % days.length];
-      base[day][guessSlotFromDish(dish)].push(dish.id);
+      base[day][guessSlotFromDish(dish)].push(id);
     });
     setItinerary(base);
   }, [tripId, days, selectedIds, byId, startDate, endDate]);
@@ -366,7 +401,24 @@ export function TripItineraryPlanner({
     });
   }
 
-  function removeDishFromTrip(dishId: string) {
+  async function removeDishFromTrip(dishId: string) {
+    if (isUserAddedDishId(dishId)) {
+      try {
+        const res = await fetch(
+          `/api/trips/${tripId}/custom-dishes/${encodeURIComponent(dishId)}`,
+          { method: "DELETE" }
+        );
+        if (!res.ok) {
+          const json = (await res.json().catch(() => ({}))) as { error?: string };
+          window.alert(json.error ?? "Could not remove this dish from the server.");
+          return;
+        }
+      } catch {
+        window.alert("Could not remove this dish. Check your connection.");
+        return;
+      }
+      setCustomDishes((prev) => prev.filter((d) => d.id !== dishId));
+    }
     setSelectedIds((prev) => prev.filter((id) => id !== dishId));
     setItinerary((prev) => {
       const next: Itinerary = structuredClone(prev);
@@ -379,13 +431,13 @@ export function TripItineraryPlanner({
     });
   }
 
-  function toggleTripSelection(dishId: string) {
+  async function toggleTripSelection(dishId: string) {
     const dish = byId.get(dishId);
     if (!dish) return;
 
     const isSelected = selectedIds.includes(dishId);
     if (isSelected) {
-      removeDishFromTrip(dishId);
+      await removeDishFromTrip(dishId);
       return;
     }
 
@@ -419,13 +471,21 @@ export function TripItineraryPlanner({
 
   const mapPoints = useMemo(
     () =>
-      mappedDishes.map((d) => ({
-        key: `${d.restaurant}|${d.city}|${d.country}`,
-        label: `${d.restaurant} — ${d.name}`,
-        query: [d.restaurant, d.city, d.country].filter(Boolean).join(", "),
-        mapUrl: dishMapUrl(d),
-      })),
-    [mappedDishes]
+      mappedDishes.map((d) => {
+        const fromLink = coordsFromMapsLinkUrl(d.linkUrl);
+        const addr = d.address?.trim() ?? "";
+        const extras = mapExtraGeocodeQueriesForDish(d, cityName, cityCountry);
+        return {
+          key: mapPointKeyForDish(d),
+          label: `${d.restaurant} — ${d.name}`,
+          query: mapGeocodeQueryForDish(d),
+          mapUrl: dishPrimaryExternalHref(d),
+          address: addr.length > 0 ? addr : null,
+          ...(extras.length > 0 ? { extraGeocodeQueries: extras } : {}),
+          ...(fromLink ? { lat: fromLink.lat, lon: fromLink.lon } : {}),
+        };
+      }),
+    [mappedDishes, cityName, cityCountry]
   );
 
   return (
@@ -433,15 +493,32 @@ export function TripItineraryPlanner({
       <div className="rounded-2xl border border-zinc-200 bg-white p-4 shadow-sm">
         <h2 className="text-lg font-semibold text-zinc-900">Map</h2>
         <div className="mt-3 overflow-hidden rounded-xl border border-zinc-200">
-          <TripRestaurantsMap cityName={cityName} points={mapPoints} />
+          <TripRestaurantsMap
+            cityName={cityName}
+            cityCountry={cityCountry}
+            points={mapPoints}
+          />
         </div>
       </div>
 
       <div className="mt-6 rounded-2xl border border-zinc-200 bg-white p-4 shadow-sm">
-        <h2 className="text-lg font-semibold text-zinc-900">Calendar</h2>
-        <p className="mt-1 text-xs text-zinc-500">
-          Drag and drop dishes between meal slots.
-        </p>
+        <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
+          <div>
+            <h2 className="text-lg font-semibold text-zinc-900">Calendar</h2>
+            <p className="mt-1 text-xs text-zinc-500">
+              Drag and drop dishes between meal slots.
+            </p>
+          </div>
+          {!isPastTrip ? (
+            <button
+              type="button"
+              className="h-11 shrink-0 rounded-xl bg-zinc-900 px-4 text-sm font-medium text-white hover:bg-zinc-800"
+              onClick={() => setAddDishOpen(true)}
+            >
+              Add a Dish/Restaurant
+            </button>
+          ) : null}
+        </div>
         {days.length === 0 ? (
           <p className="mt-4 text-sm text-zinc-700">Trip dates are not set yet.</p>
         ) : selectedDishes.length === 0 ? (
@@ -484,10 +561,13 @@ export function TripItineraryPlanner({
                                 {d.name}
                               </button>
                               <div className="text-zinc-600">{d.restaurant}</div>
+                              {d.address?.trim() ? (
+                                <div className="text-zinc-500">{d.address.trim()}</div>
+                              ) : null}
                               <div className="text-zinc-500">Hours: {d.hours || "N/A"}</div>
                               <div className="mt-1 flex items-center justify-between gap-2">
                                 <a
-                                  href={dishMapUrl(d)}
+                                  href={dishPrimaryExternalHref(d)}
                                   target="_blank"
                                   rel="noopener noreferrer"
                                   className="font-medium text-zinc-700 underline underline-offset-2"
@@ -499,7 +579,7 @@ export function TripItineraryPlanner({
                                   className="rounded border border-rose-200 bg-rose-50 px-2 py-0.5 text-[11px] font-medium text-rose-700 hover:bg-rose-100"
                                   onClick={(e) => {
                                     e.stopPropagation();
-                                    removeDishFromTrip(dishId);
+                                    void removeDishFromTrip(dishId);
                                   }}
                                 >
                                   Remove
@@ -608,9 +688,31 @@ export function TripItineraryPlanner({
         )}
       </div>
 
+      <AddTripDishModal
+        tripId={tripId}
+        cityName={cityName}
+        cityCountry={cityCountry}
+        open={addDishOpen}
+        onClose={() => setAddDishOpen(false)}
+        onSaved={(dish, mealSlots) => {
+          setCustomDishes((prev) => [...prev, dish]);
+          setSelectedIds((prev) => (prev.includes(dish.id) ? prev : [...prev, dish.id]));
+          setItinerary((prev) => {
+            if (days.length === 0) return prev;
+            const next: Itinerary = structuredClone(prev);
+            const day = days[0];
+            if (!next[day]) next[day] = makeEmptyDayPlan();
+            for (const slot of mealSlots) {
+              if (!next[day][slot].includes(dish.id)) next[day][slot].push(dish.id);
+            }
+            return next;
+          });
+        }}
+      />
+
       {previewDish ? (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4"
+          className="fixed inset-0 z-[1200] flex items-center justify-center bg-black/50 p-4"
           onClick={() => setPreviewDishId(null)}
         >
           <div
@@ -629,7 +731,7 @@ export function TripItineraryPlanner({
             <CanonicalDishCard
               dish={previewDish}
               isAddedToTrip={selectedIds.includes(previewDish.id)}
-              onToggleAddToTrip={() => toggleTripSelection(previewDish.id)}
+              onToggleAddToTrip={() => void toggleTripSelection(previewDish.id)}
             />
           </div>
         </div>

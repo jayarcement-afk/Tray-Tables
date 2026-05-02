@@ -3,6 +3,7 @@
 import { DishPhoto } from "@/components/dishes/dish-photo";
 import type { CsvDish } from "@/lib/canonical-dishes";
 import { resolveDishImageUrl } from "@/lib/dish-local-image";
+import { dishPrimaryExternalHref } from "@/lib/trip-custom-dishes";
 
 function hasVegetarianOptionsList(v: string): boolean {
   const t = v.trim().toLowerCase();
@@ -11,11 +12,6 @@ function hasVegetarianOptionsList(v: string): boolean {
 
 function isCsvYes(v: string): boolean {
   return v.trim().toLowerCase() === "yes";
-}
-
-function googleMapsUrlForDish(dish: CsvDish): string {
-  const q = [dish.restaurant, dish.city, dish.country].filter(Boolean).join(", ");
-  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`;
 }
 
 export function CanonicalDishCard({
@@ -48,8 +44,11 @@ export function CanonicalDishCard({
             {dish.restaurant ? (
               <p className="mt-0.5 text-sm text-zinc-600">{dish.restaurant}</p>
             ) : null}
+            {dish.address?.trim() ? (
+              <p className="mt-1 text-sm leading-snug text-zinc-500">{dish.address.trim()}</p>
+            ) : null}
             <a
-              href={googleMapsUrlForDish(dish)}
+              href={dishPrimaryExternalHref(dish)}
               target="_blank"
               rel="noopener noreferrer"
               className="mt-1 inline-block text-xs font-medium text-zinc-700 underline underline-offset-2 hover:text-zinc-900"

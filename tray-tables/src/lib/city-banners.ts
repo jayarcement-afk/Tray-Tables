@@ -174,6 +174,18 @@ export const CITY_BANNERS: Record<
     url: "https://upload.wikimedia.org/wikipedia/commons/f/fe/Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg",
     attribution: "Wikimedia Commons — Delhi city view",
   },
+  florence: {
+    url: "https://upload.wikimedia.org/wikipedia/commons/e/ef/Sunset_at_Piazzale_Michelangelo%2C_Florence%2C_Italy_%28wide%29.jpg",
+    attribution: "Wikimedia Commons — Sunset at Piazzale Michelangelo, Florence",
+  },
+  "florence-italy": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/e/ef/Sunset_at_Piazzale_Michelangelo%2C_Florence%2C_Italy_%28wide%29.jpg",
+    attribution: "Wikimedia Commons — Sunset at Piazzale Michelangelo, Florence",
+  },
+  "gold-coast-australia": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Surfers_Paradise_Dec_2013.JPG/1920px-Surfers_Paradise_Dec_2013.JPG",
+    attribution: "Wikimedia Commons — Surfers Paradise skyline (Donaldytong, CC BY-SA 3.0)",
+  },
   "denpasar-bali-indonesia": {
     url: "https://upload.wikimedia.org/wikipedia/commons/f/f8/Aerial_view_of_Bajra_Sandhi_Monument_Denpasar_Bali_Indonesia.jpg",
     attribution: "Wikimedia Commons — Denpasar city view",

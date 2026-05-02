@@ -107,6 +107,8 @@ export default async function TripDishesPage({
           ) : (
             <CanonicalDishesWithFilters
               tripId={tripId}
+              cityName={cityName}
+              cityCountry={city?.country ?? ""}
               initialStartDate={startDate}
               initialEndDate={endDate}
               showTripDates={from !== "trip"}

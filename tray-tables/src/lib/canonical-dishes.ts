@@ -23,6 +23,10 @@ export type CsvDish = {
   trendy: string;
   streetFood: string;
   drinkPairing: string;
+  /** User-entered listing URL; when set, the dish card uses this instead of Google Maps. */
+  linkUrl?: string | null;
+  /** User-entered street address (custom dishes); improves trip map geocoding. */
+  address?: string | null;
 };
 
 export function getCanonicalDishesForSlug(

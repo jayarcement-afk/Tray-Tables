@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 import { CanonicalDishCard } from "@/components/dishes/canonical-dish-card";
 import type { CsvDish } from "@/lib/canonical-dishes";
@@ -8,9 +8,12 @@ import {
   type PriceFilterTier,
   filterCanonicalDishes,
 } from "@/lib/filter-canonical-dishes";
+import { fetchTripCustomDishesWithOptionalMigrate, isUserAddedDishId } from "@/lib/trip-custom-dishes";
 
 type Props = {
   tripId: string;
+  cityName: string;
+  cityCountry: string;
   initialStartDate: string;
   initialEndDate: string;
   showTripDates?: boolean;
@@ -27,6 +30,8 @@ function daysBetweenInclusive(start: string, end: string): number | null {
 
 export function CanonicalDishesWithFilters({
   tripId,
+  cityName,
+  cityCountry,
   initialStartDate,
   initialEndDate,
   showTripDates = true,
@@ -40,8 +45,27 @@ export function CanonicalDishesWithFilters({
   const [endDate, setEndDate] = useState(initialEndDate);
   const [confirmBusy, setConfirmBusy] = useState(false);
   const [confirmError, setConfirmError] = useState<string | null>(null);
+  const [customDishes, setCustomDishes] = useState<CsvDish[]>([]);
+  /** Avoid persisting initial `[]` before reload from storage (same bug as TripItineraryPlanner). */
+  const skipNextSelectedPersist = useRef(true);
 
   useEffect(() => {
+    let cancelled = false;
+    void (async () => {
+      const customs = await fetchTripCustomDishesWithOptionalMigrate(
+        tripId,
+        cityName,
+        cityCountry
+      );
+      if (!cancelled) setCustomDishes(customs);
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, [tripId, cityName, cityCountry]);
+
+  useEffect(() => {
+    skipNextSelectedPersist.current = true;
     const storageKey = `trip-selected-dishes:${tripId}`;
     const itineraryKey = `trip-itinerary:${tripId}`;
     try {
@@ -81,8 +105,16 @@ export function CanonicalDishesWithFilters({
   }, [tripId]);
 
   useEffect(() => {
+    if (skipNextSelectedPersist.current) {
+      skipNextSelectedPersist.current = false;
+      return;
+    }
     const storageKey = `trip-selected-dishes:${tripId}`;
-    window.localStorage.setItem(storageKey, JSON.stringify(selectedDishIds));
+    try {
+      window.localStorage.setItem(storageKey, JSON.stringify(selectedDishIds));
+    } catch {
+      // ignore
+    }
   }, [tripId, selectedDishIds]);
 
   const filtered = useMemo(
@@ -98,12 +130,29 @@ export function CanonicalDishesWithFilters({
   const invalidRange =
     tripLength !== null && (tripLength < 1 || tripLength > 20);
 
-  function toggleTripSelection(dishId: string) {
-    setSelectedDishIds((prev) =>
-      prev.includes(dishId)
-        ? prev.filter((id) => id !== dishId)
-        : [...prev, dishId]
-    );
+  async function toggleTripSelection(dishId: string) {
+    if (selectedDishIds.includes(dishId)) {
+      if (isUserAddedDishId(dishId)) {
+        try {
+          const res = await fetch(
+            `/api/trips/${tripId}/custom-dishes/${encodeURIComponent(dishId)}`,
+            { method: "DELETE" }
+          );
+          if (!res.ok) {
+            const json = (await res.json().catch(() => ({}))) as { error?: string };
+            window.alert(json.error ?? "Could not remove this dish from the server.");
+            return;
+          }
+        } catch {
+          window.alert("Could not remove this dish. Check your connection.");
+          return;
+        }
+        setCustomDishes((cd) => cd.filter((d) => d.id !== dishId));
+      }
+      setSelectedDishIds((prev) => prev.filter((id) => id !== dishId));
+      return;
+    }
+    setSelectedDishIds((prev) => [...prev, dishId]);
   }
 
   async function handleConfirmTrip() {
@@ -195,6 +244,25 @@ export function CanonicalDishesWithFilters({
         </p>
       </div>
 
+      {customDishes.length > 0 ? (
+        <div className="mb-8">
+          <h3 className="text-sm font-semibold text-zinc-900">Your additions</h3>
+          <p className="mt-1 text-xs text-zinc-500">
+            Dishes you added manually for this trip (not from the spreadsheet list).
+          </p>
+          <div className="mt-4 grid gap-4 sm:grid-cols-2">
+            {customDishes.map((d) => (
+              <CanonicalDishCard
+                key={d.id}
+                dish={d}
+                isAddedToTrip={selectedDishIds.includes(d.id)}
+                onToggleAddToTrip={() => void toggleTripSelection(d.id)}
+              />
+            ))}
+          </div>
+        </div>
+      ) : null}
+
       {filtered.length === 0 ? (
         <div className="rounded-2xl border border-dashed border-zinc-300 bg-zinc-50/80 px-5 py-12 text-center">
           <p className="text-sm text-zinc-700">
@@ -209,7 +277,7 @@ export function CanonicalDishesWithFilters({
               key={d.id}
               dish={d}
               isAddedToTrip={selectedDishIds.includes(d.id)}
-              onToggleAddToTrip={() => toggleTripSelection(d.id)}
+              onToggleAddToTrip={() => void toggleTripSelection(d.id)}
             />
           ))}
         </div>

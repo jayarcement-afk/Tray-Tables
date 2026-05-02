@@ -159,6 +159,124 @@ const IMPORTED_DISH_IMAGES_BY_ID: Record<string, string> = {
     "/imported-dish-images/cebu-city-dessert-halo-halo-ding-qua-qua.png",
   "cebu-city-philippines--927--breakfast-plates-abaca-baking-company":
     "/imported-dish-images/cebu-city-breakfast-plates-abaca-baking-company.png",
+  "chiang-mai-thailand--336--khao-soi-khao-soi-khun-yai":
+    "/imported-dish-images/chiang-mai-khao-soi-khun-yai.png",
+  "chiang-mai-thailand--339--khao-krapao-ginger-farm-kitchen":
+    "/imported-dish-images/chiang-mai-khao-krapao-ginger-farm-kitchen.png",
+  "chiang-mai-thailand--340--larb-larb-bunker":
+    "/imported-dish-images/chiang-mai-larb-larb-bunker.png",
+  "chiang-mai-thailand--341--khanom-jeen-northern-curry-shops":
+    "/imported-dish-images/chiang-mai-khanom-jeen-northern-curry-shops.png",
+  "chiang-mai-thailand--342--moo-ping-city-markets":
+    "/imported-dish-images/chiang-mai-moo-ping-city-markets.png",
+  "chiang-mai-thailand--343--khao-niew-sticky-rice-local-markets":
+    "/imported-dish-images/chiang-mai-khao-niew-sticky-rice-local-markets.png",
+  "chiang-mai-thailand--344--fried-banana-rotee-and-snack-carts":
+    "/imported-dish-images/chiang-mai-fried-banana-rotee-and-snack-carts.png",
+  "chiang-mai-thailand--345--coconut-ice-cream-kad-luang-market":
+    "/imported-dish-images/chiang-mai-coconut-ice-cream-kad-luang-market.png",
+  "copenhagen-denmark--246--sm-rrebr-d-restaurant-sch-nnemann":
+    "/imported-dish-images/copenhagen-smorrebrod-restaurant-schonnemann.png",
+  "copenhagen-denmark--247--fl-skesteg-det-lille-apotek":
+    "/imported-dish-images/copenhagen-flaeskesteg-det-lille-apotek.png",
+  "copenhagen-denmark--248--wienerbr-d-danish-pastry-andersen-bakery":
+    "/imported-dish-images/copenhagen-wienerbrod-danish-pastry-andersen-bakery.png",
+  "copenhagen-denmark--249--tarteletter-restaurant-puk":
+    "/imported-dish-images/copenhagen-tarteletter-restaurant-puk.png",
+  "copenhagen-denmark--250--stegt-fl-sk-med-persillesovs-caf-sorgenfri":
+    "/imported-dish-images/copenhagen-stegt-flaesk-med-persillesovs-cafe-sorgenfri.png",
+  "copenhagen-denmark--251--fish-cakes-fiskefrikadeller-aamanns-deli":
+    "/imported-dish-images/copenhagen-fish-cakes-fiskefrikadeller-aamanns-deli.png",
+  "copenhagen-denmark--252--gr-d-porridge-gr-d":
+    "/imported-dish-images/copenhagen-grod-porridge-grod.png",
+  "copenhagen-denmark--253--herring-platter-pal-gade":
+    "/imported-dish-images/copenhagen-herring-platter-palaegade.png",
+  "copenhagen-denmark--254--rye-bread-sandwich-torvehallerne-stalls":
+    "/imported-dish-images/copenhagen-rye-bread-sandwich-torvehallerne-stalls.png",
+  "copenhagen-denmark--255--bleskiver-christmas-markets-caf-s":
+    "/imported-dish-images/copenhagen-aebleskiver-christmas-markets-cafes.png",
+  "da-nang-vietnam--859--mi-quang-mi-quang-ba-mua":
+    "/imported-dish-images/da-nang-mi-quang-mi-quang-ba-mua.png",
+  "da-nang-vietnam--860--banh-xeo-banh-xeo-ba-duong":
+    "/imported-dish-images/da-nang-banh-xeo-banh-xeo-ba-duong.png",
+  "da-nang-vietnam--861--seafood-hotpot-be-man-restaurant":
+    "/imported-dish-images/da-nang-seafood-hotpot-be-man-restaurant.png",
+  "da-nang-vietnam--862--bun-cha-ca-bun-cha-ca-han":
+    "/imported-dish-images/da-nang-bun-cha-ca-bun-cha-ca-han.png",
+  "da-nang-vietnam--863--fried-fish-nam-danh-seafood":
+    "/imported-dish-images/da-nang-fried-fish-nam-danh-seafood.png",
+  "da-nang-vietnam--864--spring-rolls-bep-cuon-da-nang":
+    "/imported-dish-images/da-nang-spring-rolls-bep-cuon-da-nang.png",
+  "da-nang-vietnam--865--banh-mi-banh-mi-ba-lan":
+    "/imported-dish-images/da-nang-banh-mi-banh-mi-ba-lan.png",
+  "da-nang-vietnam--866--rice-plates-quan-com-hue-ngon":
+    "/imported-dish-images/da-nang-rice-plates-quan-com-hue-ngon.png",
+  "da-nang-vietnam--867--dessert-sweet-soup-che-xoa-xoa-hat-luu":
+    "/imported-dish-images/da-nang-dessert-sweet-soup-che-xoa-xoa-hat-luu.png",
+  "delhi-india--929--butter-chicken-moti-mahal":
+    "/imported-dish-images/delhi-butter-chicken-moti-mahal.png",
+  "delhi-india--930--chole-bhature-sita-ram-diwan-chand":
+    "/imported-dish-images/delhi-chole-bhature-sita-ram-diwan-chand.png",
+  "delhi-india--931--paratha-moolchand-paratha":
+    "/imported-dish-images/delhi-paratha-moolchand-paratha.png",
+  "delhi-india--932--dal-makhani-bukhara":
+    "/imported-dish-images/delhi-dal-makhani-bukhara.png",
+  "delhi-india--933--kebabs-karims":
+    "/imported-dish-images/delhi-kebabs-karims.png",
+  "delhi-india--934--biryani-al-jawahar":
+    "/imported-dish-images/delhi-biryani-al-jawahar.png",
+  "delhi-india--935--street-chaat-chaat-corner":
+    "/imported-dish-images/delhi-street-chaat-chaat-corner.png",
+  "delhi-india--936--rajma-chawal-sagar-ratna":
+    "/imported-dish-images/delhi-rajma-chawal-sagar-ratna.png",
+  "delhi-india--937--dessert-jalebi-old-famous-jalebi":
+    "/imported-dish-images/delhi-dessert-jalebi-old-famous-jalebi.png",
+  "delhi-india--938--tasting-menu-indian-accent":
+    "/imported-dish-images/delhi-tasting-menu-indian-accent.png",
+  "florence-italy--66--bistecca-alla-fiorentina-trattoria-cammillo":
+    "/imported-dish-images/florence-bistecca-alla-fiorentina-trattoria-cammillo.png",
+  "florence-italy--67--penne-al-vodka-alla-vecchia-bettola":
+    "/imported-dish-images/florence-penne-al-vodka-alla-vecchia-bettola.png",
+  "florence-italy--68--ribollita-trattoria-da-burde":
+    "/imported-dish-images/florence-ribollita-trattoria-da-burde.png",
+  "florence-italy--69--lampredotto-sandwich-trippaio-del-porcellino":
+    "/imported-dish-images/florence-lampredotto-sandwich-trippaio-del-porcellino.png",
+  "florence-italy--70--pappa-al-pomodoro-vini-e-vecchi-sapori":
+    "/imported-dish-images/florence-pappa-al-pomodoro-vini-e-vecchi-sapori.png",
+  "florence-italy--71--crostini-neri-trattoria-sabatino":
+    "/imported-dish-images/florence-crostini-neri-trattoria-sabatino.png",
+  "florence-italy--72--panino-toscano-retrobottega":
+    "/imported-dish-images/florence-panino-toscano-retrobottega.png",
+  "florence-italy--73--tortelli-mugellani-ristorante-nugolo":
+    "/imported-dish-images/florence-tortelli-mugellani-ristorante-nugolo.png",
+  "florence-italy--74--gelato-hazelnut-la-carraia":
+    "/imported-dish-images/florence-gelato-hazelnut-la-carraia.png",
+  "florence-italy--75--cantucci-e-vin-santo-enoteca-spontanea":
+    "/imported-dish-images/florence-cantucci-e-vin-santo-enoteca-spontanea.png",
+  "florence-italy--1217--pappardelle-al-cinghiale-osteria-del-cinghiale-bianco":
+    "/imported-dish-images/florence-pappardelle-al-cinghiale-osteria-del-cinghiale-bianco.png",
+  "florence-italy--1218--crostini-di-fegato-buca-mario":
+    "/imported-dish-images/florence-crostini-di-fegato-buca-mario.png",
+  "gold-coast-australia--1167--meat-pie-yatala-pies":
+    "/imported-dish-images/gold-coast-meat-pie-yatala-pies.jpg",
+  "gold-coast-australia--1168--fish-and-chips-peters-fish-market":
+    "/imported-dish-images/gold-coast-fish-and-chips-peters-fish-market.jpg",
+  "gold-coast-australia--1169--bug-roll-rick-shores":
+    "/imported-dish-images/gold-coast-bug-roll-rick-shores.jpg",
+  "gold-coast-australia--1170--acai-bowl-cardamom-pod":
+    "/imported-dish-images/gold-coast-acai-bowl-cardamom-pod.jpg",
+  "gold-coast-australia--1171--steak-hurricane-grill":
+    "/imported-dish-images/gold-coast-steak-hurricane-grill.jpg",
+  "gold-coast-australia--1172--prawn-pasta-little-truffle":
+    "/imported-dish-images/gold-coast-prawn-pasta-little-truffle.jpg",
+  "gold-coast-australia--1173--burger-easy-street-diner":
+    "/imported-dish-images/gold-coast-burger-easy-street-diner.jpg",
+  "gold-coast-australia--1174--gelato-messina-broadbeach":
+    "/imported-dish-images/gold-coast-gelato-messina-broadbeach.jpg",
+  "gold-coast-australia--1175--calamari-glenelg-public-house":
+    "/imported-dish-images/gold-coast-calamari-glenelg-public-house.jpg",
+  "gold-coast-australia--1176--poke-bowl-blendlove":
+    "/imported-dish-images/gold-coast-poke-bowl-blendlove.jpg",
   "los-angeles-united-states--12--tacos-al-pastor-leo-s-taco-truck":
     "/imported-dish-images/los-angeles-tacos-al-pastor-leos-taco-truck.png",
   "san-francisco-united-states--533--sourdough-bread-boudin-bakery":
@@ -240,9 +358,11 @@ export function getLocalDishImageUrl(dish: CsvDish): string | null {
  * then spreadsheet URL.
  */
 export function resolveDishImageUrl(dish: CsvDish): string | null {
+  const direct = dish.imageUrl?.trim() ?? "";
+  if (direct.startsWith("data:image/")) return direct;
   return (
     IMPORTED_DISH_IMAGES_BY_ID[dish.id] ??
     getLocalDishImageUrl(dish) ??
-    (dish.imageUrl?.trim() || null)
+    (direct || null)
   );
 }

@@ -26,7 +26,7 @@ export async function AppHeader() {
   const homeHref = "/";
 
   return (
-    <header className="sticky top-0 z-50 border-b border-zinc-200 bg-white/95 backdrop-blur-md">
+    <header className="sticky top-0 z-[1100] border-b border-zinc-200 bg-white/95 backdrop-blur-md">
       <div className="mx-auto flex h-14 max-w-5xl items-center justify-between gap-2 px-4 sm:gap-3 sm:px-6">
         <Link
           href={homeHref}
