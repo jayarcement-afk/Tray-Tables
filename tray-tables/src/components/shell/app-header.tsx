@@ -43,12 +43,6 @@ export async function AppHeader() {
           />
         </Link>
         <nav className="flex min-w-0 flex-1 flex-wrap items-center justify-end gap-x-0.5 gap-y-1 sm:gap-x-1">
-          <Link
-            href="/games"
-            className="shrink-0 rounded-lg px-2 py-2 text-sm font-medium text-zinc-700 hover:bg-zinc-100 sm:px-3"
-          >
-            Games
-          </Link>
           {user ? (
             <>
               <Link
@@ -69,15 +63,29 @@ export async function AppHeader() {
               >
                 Passport
               </Link>
+              <Link
+                href="/games"
+                className="shrink-0 rounded-lg px-2 py-2 text-sm font-medium text-zinc-700 hover:bg-zinc-100 sm:px-3"
+              >
+                Games
+              </Link>
               <SignOutButton />
             </>
           ) : (
-            <Link
-              href="/auth"
-              className="shrink-0 rounded-lg bg-zinc-900 px-3 py-2 text-sm font-medium text-white hover:bg-zinc-800"
-            >
-              Sign in
-            </Link>
+            <>
+              <Link
+                href="/auth"
+                className="shrink-0 rounded-lg bg-zinc-900 px-3 py-2 text-sm font-medium text-white hover:bg-zinc-800"
+              >
+                Sign in
+              </Link>
+              <Link
+                href="/games"
+                className="shrink-0 rounded-lg px-2 py-2 text-sm font-medium text-zinc-700 hover:bg-zinc-100 sm:px-3"
+              >
+                Games
+              </Link>
+            </>
           )}
         </nav>
       </div>

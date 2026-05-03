@@ -1,11 +1,10 @@
 import fs from "node:fs";
 import path from "node:path";
 
-import data from "@/data/canonical-dishes-by-slug.json";
-
 import type { CsvDish } from "@/lib/canonical-dishes";
-import { getCanonicalDishById } from "@/lib/canonical-dishes";
+import { getAllCanonicalDishes } from "@/lib/canonical-dishes";
 import { resolveDishImageUrl } from "@/lib/dish-local-image";
+import { labelForDish, normalizeLocationLabel } from "@/lib/guess-dish-country-check";
 
 /** Typed distractors when the image pool has too few unique locations. */
 const FALLBACK_LOCATIONS = [
@@ -28,14 +27,6 @@ function shuffle<T>(arr: T[]): T[] {
     [a[i], a[j]] = [a[j], a[i]];
   }
   return a;
-}
-
-export function labelForDish(d: CsvDish): string {
-  return `${d.city.trim()}, ${d.country.trim()}`.replace(/\s+/g, " ");
-}
-
-export function normalizeLocationLabel(s: string): string {
-  return s.trim().replace(/\s+/g, " ");
 }
 
 /** Avoid the DishPhoto placeholder graphic (`/dish-fallback.jpeg`) and obvious placeholder URLs. */
@@ -97,8 +88,7 @@ export function resolvedImageUrlOkForQuiz(url: string | null | undefined): boole
 
 /** Dishes whose primary image exists locally when applicable (avoids fallback overlay in the quiz). */
 export function getQuizImagePool(): CsvDish[] {
-  const bySlug = (data as { bySlug: Record<string, CsvDish[]> }).bySlug;
-  const all = Object.values(bySlug).flat();
+  const all = getAllCanonicalDishes();
   return all.filter((d) => {
     const url = resolveDishImageUrl(d);
     return resolvedImageUrlOkForQuiz(url);
@@ -166,15 +156,4 @@ export function buildGuessDishCountryRound(
   };
 }
 
-export function checkGuessDishCountryAnswer(
-  dishId: string,
-  selectedLabel: string
-): { correct: boolean; correctLabel: string; dishName: string } | null {
-  const dish = getCanonicalDishById(dishId);
-  if (!dish) return null;
-  const correctLabel = labelForDish(dish);
-  const correct =
-    normalizeLocationLabel(selectedLabel) === normalizeLocationLabel(correctLabel);
-  const dishName = dish.name.trim() || "Unknown dish";
-  return { correct, correctLabel, dishName };
-}
+export { checkGuessDishCountryAnswer } from "@/lib/guess-dish-country-check";

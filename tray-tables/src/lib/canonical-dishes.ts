@@ -47,6 +47,16 @@ export function getCanonicalDishesForSlug(
 }
 
 let canonicalDishByIdCache: Map<string, CsvDish> | null = null;
+let allCanonicalDishesCache: CsvDish[] | null = null;
+
+/** All canonical dishes (flat); cached. Used by quiz pool without re-importing JSON elsewhere. */
+export function getAllCanonicalDishes(): CsvDish[] {
+  if (!allCanonicalDishesCache) {
+    const bySlug = (data as { bySlug: Record<string, CsvDish[]> }).bySlug;
+    allCanonicalDishesCache = Object.values(bySlug).flat();
+  }
+  return allCanonicalDishesCache;
+}
 
 /** Resolve a canonical dish id across all cities (for stats / pins when trip slug mismatches). */
 export function getCanonicalDishById(dishId: string | null | undefined): CsvDish | null {
