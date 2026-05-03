@@ -206,6 +206,311 @@ export const CITY_BANNERS: Record<
     url: "https://upload.wikimedia.org/wikipedia/commons/6/67/The_walls_of_the_fortress_and_View_of_the_old_city._panorama.jpg",
     attribution: "Wikimedia Commons — Dubrovnik city view",
   },
+  "edinburgh-united-kingdom": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Skyline_of_Edinburgh.jpg/3840px-Skyline_of_Edinburgh.jpg",
+    attribution: "Wikipedia — Edinburgh",
+  },
+  "geneva-switzerland": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/a/ab/Geneve_2005_001_Ork.ch.jpg",
+    attribution: "Wikipedia — Geneva",
+  },
+  "hamburg-germany": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Hamburg%2C_Landungsbr%C3%BCcken_--_2016_--_3131-7.jpg/3840px-Hamburg%2C_Landungsbr%C3%BCcken_--_2016_--_3131-7.jpg",
+    attribution: "Wikipedia — Hamburg",
+  },
+  "hangzhou-china": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Skyscrapers_in_Hangzhou_CBD.jpg/1920px-Skyscrapers_in_Hangzhou_CBD.jpg",
+    attribution:
+      "Wikimedia Commons — Skyscrapers in Hangzhou CBD (Huandy618, CC BY-SA 3.0)",
+  },
+  "hanoi-vietnam": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/8/8e/Hanoi_skyline_with_Ba_Vi_Mountain.jpg",
+    attribution: "Wikipedia — Hanoi",
+  },
+  "havana-cuba": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/1/12/DJI_0197_crp_wiki.jpg",
+    attribution: "Wikipedia — Havana",
+  },
+  "helsinki-finland": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/3/3e/Suomenlinna_%28cropped%29.jpg",
+    attribution: "Wikipedia — Helsinki",
+  },
+  "hiroshima-japan": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Peace_Memorial_Park_and_Cenotaph%2C_Hiroshima%2C_South_view_20190417_1.jpg/3840px-Peace_Memorial_Park_and_Cenotaph%2C_Hiroshima%2C_South_view_20190417_1.jpg",
+    attribution: "Wikipedia — Hiroshima Prefecture",
+  },
+  "ho-chi-minh-city-vietnam": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Ho_Chi_Minh_City_panorama_2019_%28cropped2%29.jpg/3840px-Ho_Chi_Minh_City_panorama_2019_%28cropped2%29.jpg",
+    attribution: "Wikipedia — Ho Chi Minh City",
+  },
+  "hong-kong-china": {
+    url: "/city-banners/hong-kong-china-banner.png",
+    attribution: "Hong Kong skyline at night (Victoria Harbour)",
+  },
+  "istanbul-turkey": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/c/cb/Historical_peninsula_and_modern_skyline_of_Istanbul.jpg",
+    attribution: "Wikipedia — Istanbul",
+  },
+  "jaipur-india": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/e/e7/Jaipur_Hawa_Mahal_Road_banner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    attribution: "Wikimedia Commons — Jaipur Hawa Mahal Road banner.jpg",
+  },
+  "jakarta-indonesia": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Bundaran_Hotel_Indonesia_%282025%29.jpg/3840px-Bundaran_Hotel_Indonesia_%282025%29.jpg",
+    attribution: "Wikipedia — Jakarta",
+  },
+  "jerusalem-israel": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/%D7%94%D7%9E%D7%A6%D7%95%D7%93%D7%94_%D7%91%D7%9C%D7%99%D7%9C%D7%94.jpg/3840px-%D7%94%D7%9E%D7%A6%D7%95%D7%93%D7%94_%D7%91%D7%9C%D7%99%D7%9C%D7%94.jpg",
+    attribution: "Wikipedia — Jerusalem",
+  },
+  "kathmandu-nepal": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/9/93/WV_banner_West_Kathmandu_Merchants_along_Durbar_Square.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    attribution: "Wikimedia Commons — WV banner West Kathmandu Merchants along Durbar Square.jpg",
+  },
+  "krak-w-poland": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/2/21/Krak%C3%B3w_alt_banner_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    attribution: "Wikimedia Commons — Kraków alt banner 1.jpg",
+  },
+  "kuala-lumpur-malaysia": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/7/77/Kuala_Lumpur_banner_Skyline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    attribution: "Wikimedia Commons — Kuala Lumpur banner Skyline.jpg",
+  },
+  "kyoto-japan": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Kyoto_banner_cherry_blossoms_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    attribution: "Wikimedia Commons — Kyoto banner cherry blossoms 3.jpg",
+  },
+  "las-vegas-united-states": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Las_Vegas_from_above_%2840064746644%29.jpg/1920px-Las_Vegas_from_above_%2840064746644%29.jpg",
+    attribution: "Wikipedia — Las Vegas",
+  },
+  "lima-peru": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Lima_City_Hall.jpg/1920px-Lima_City_Hall.jpg",
+    attribution: "Wikipedia — Lima",
+  },
+  "ljubljana-slovenia": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Ljubljana_Old_Town%2C_Slovenia_%28Old_Camera%29_%2833286165680%29.jpg/1920px-Ljubljana_Old_Town%2C_Slovenia_%28Old_Camera%29_%2833286165680%29.jpg",
+    attribution: "Wikipedia — Ljubljana",
+  },
+  "london-united-kingdom": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/6/67/London_Skyline_%28125508655%29.jpeg",
+    attribution: "Wikipedia — London",
+  },
+  "madrid-spain": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Madrid_-_Sky_Bar_360%C2%BA_%28Hotel_Riu_Plaza_Espa%C3%B1a%29%2C_vistas_19.jpg/3840px-Madrid_-_Sky_Bar_360%C2%BA_%28Hotel_Riu_Plaza_Espa%C3%B1a%29%2C_vistas_19.jpg",
+    attribution: "Wikipedia — Madrid",
+  },
+  "manila-philippines": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Cityscape_of_Manila%2C_2025_%2801%29.jpg/3840px-Cityscape_of_Manila%2C_2025_%2801%29.jpg",
+    attribution: "Wikipedia — Manila",
+  },
+  "marseille-france": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Notre-Dame_de_la_Garde_aerial_view_2020.jpeg/1920px-Notre-Dame_de_la_Garde_aerial_view_2020.jpeg",
+    attribution: "Wikipedia — Marseille",
+  },
+  "medellin-colombia": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/e/e4/El_Poblado_Medell%C3%ADn.jpg",
+    attribution: "Wikipedia — Medellín",
+  },
+  "melbourne-australia": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Melbourne_skyline_sor.jpg/1920px-Melbourne_skyline_sor.jpg",
+    attribution: "Wikipedia — Melbourne",
+  },
+  "miami-united-states": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Villa_Vizcaya_20110228.jpg/1920px-Villa_Vizcaya_20110228.jpg",
+    attribution: "Wikipedia — Miami",
+  },
+  "milan-italy": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Milan_-_Scala_-_Facade.jpg/3840px-Milan_-_Scala_-_Facade.jpg",
+    attribution: "Wikipedia — Milan",
+  },
+  "monaco-monaco": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Flag_of_Monaco.svg/1920px-Flag_of_Monaco.svg.png",
+    attribution: "Wikipedia — Monaco",
+  },
+  "montevideo-uruguay": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/5/59/PALACIO_LEGISLATIVO_01.JPG",
+    attribution: "Wikipedia — Montevideo",
+  },
+  "montreal-canada": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/c/c2/Mtl_from_mont_royal_%28cropped%29.jpg",
+    attribution: "Wikipedia — Montreal",
+  },
+  "mumbai-india": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Mumbai_Bandra-Worli_Sea_Link.jpg/1920px-Mumbai_Bandra-Worli_Sea_Link.jpg",
+    attribution: "Wikipedia — Mumbai",
+  },
+  "munich-germany": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Stadtbild_M%C3%BCnchen.jpg/3840px-Stadtbild_M%C3%BCnchen.jpg",
+    attribution: "Wikipedia — Munich",
+  },
+  "naples-italy": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Napoli_-_Maschio_Angioino_-_202209302342_3.jpg/1920px-Napoli_-_Maschio_Angioino_-_202209302342_3.jpg",
+    attribution: "Wikipedia — Naples",
+  },
+  "nara-japan": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/T%C5%8Ddai-ji_Kon-d%C5%8D.jpg/1920px-T%C5%8Ddai-ji_Kon-d%C5%8D.jpg",
+    attribution: "Wikipedia — Nara (city)",
+  },
+  "new-orleans-united-states": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/c/cb/New_Orleans_from_the_Air_September_2019_-_Central_Business_District_Skyline_%28cropped%29.jpg",
+    attribution: "Wikipedia — New Orleans",
+  },
+  "nice-france": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/e/e7/Port_Of_Nice%2C_C%C3%B4te_d%27Azur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    attribution: "Wikimedia Commons — Port Of Nice, Côte d'Azur.jpg (via Wikidata)",
+  },
+  "osaka-japan": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/2/22/Dotonbori_%2853067359216%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    attribution: "Wikimedia Commons — Dotonbori (53067359216).jpg (via Wikidata)",
+  },
+  "oslo-norway": {
+    url: "//upload.wikimedia.org/wikipedia/commons/thumb/2/25/Bj%C3%B8rvika_-_Oslo%2C_Norway_2020-12-23.jpg/500px-Bj%C3%B8rvika_-_Oslo%2C_Norway_2020-12-23.jpg",
+    attribution: "Wikipedia — Oslo",
+  },
+  "panama-city-panama": {
+    url: "//upload.wikimedia.org/wikipedia/commons/thumb/0/02/Panama_Papers_%28148830809%29.jpeg/500px-Panama_Papers_%28148830809%29.jpeg",
+    attribution: "Wikipedia — Panama City",
+  },
+  "penang-malaysia": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Penang_%28Malaysia%29.svg/1280px-Flag_of_Penang_%28Malaysia%29.svg.png",
+    attribution: "Wikipedia — Penang",
+  },
+  "phuket-thailand": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Phuket_Aerial.jpg/3840px-Phuket_Aerial.jpg",
+    attribution: "Wikipedia — Phuket province",
+  },
+  "pokhara-nepal": {
+    url: "//upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Pokhara_Valley.jpg/500px-Pokhara_Valley.jpg",
+    attribution: "Wikipedia — Pokhara",
+  },
+  "portland-united-states": {
+    url: "//upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Portland_Oregon_Aerial%2C_June_2025.jpg/500px-Portland_Oregon_Aerial%2C_June_2025.jpg",
+    attribution: "Wikipedia — Portland, Oregon",
+  },
+  "porto-portugal": {
+    url: "//upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Puente_Don_Luis_I%2C_Oporto%2C_Portugal%2C_2012-05-09%2C_DD_13.JPG/500px-Puente_Don_Luis_I%2C_Oporto%2C_Portugal%2C_2012-05-09%2C_DD_13.JPG",
+    attribution: "Wikipedia — Porto",
+  },
+  "positano-italy": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Positano_Sunset.JPG/1920px-Positano_Sunset.JPG",
+    attribution: "Wikipedia — Positano",
+  },
+  "prague-czech-republic": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Prague_%286365119737%29.jpg/1920px-Prague_%286365119737%29.jpg",
+    attribution: "Wikipedia — Prague",
+  },
+  "puerto-ayora-ecuador": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Main_street%2C_Puerto_Ayora%2C_Santa_Cruz%2C_Galapagos_-_panoramio.jpg/1920px-Main_street%2C_Puerto_Ayora%2C_Santa_Cruz%2C_Galapagos_-_panoramio.jpg",
+    attribution: "Wikipedia — Puerto Ayora",
+  },
+  "quito-ecuador": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/FACHADA_ASAMBLEA_NACIONAL._QUITO%2C_20_DE_FEBRERO_2020._01.jpg/3840px-FACHADA_ASAMBLEA_NACIONAL._QUITO%2C_20_DE_FEBRERO_2020._01.jpg",
+    attribution: "Wikipedia — Quito",
+  },
+  "reykjav-k-iceland": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Reykjav%C3%ADk%2C_view_from_Hallgr%C3%ADmskirkja_%282%29.jpg/1920px-Reykjav%C3%ADk%2C_view_from_Hallgr%C3%ADmskirkja_%282%29.jpg",
+    attribution: "Wikipedia — Reykjavík",
+  },
+  "rio-de-janeiro-brazil": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Cidade_Maravilhosa.jpg/1920px-Cidade_Maravilhosa.jpg",
+    attribution: "Wikipedia — Rio de Janeiro",
+  },
+  "rome-italy": {
+    url: "//upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Rome_skyline_panorama.jpg/500px-Rome_skyline_panorama.jpg",
+    attribution: "Wikipedia — Rome",
+  },
+  "san-jose-costa-rica": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/f/f6/Ciudad_de_San_Jos%C3%A9.png",
+    attribution: "Wikipedia — San José, Costa Rica",
+  },
+  "san-juan-puerto-rico": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/2013_Old_San_Juan_01.JPG/1920px-2013_Old_San_Juan_01.JPG",
+    attribution: "Wikipedia — San Juan, Puerto Rico",
+  },
+  "santiago-chile": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Palacio_de_La_Moneda_-_miguelreflex.jpg/1920px-Palacio_de_La_Moneda_-_miguelreflex.jpg",
+    attribution: "Wikipedia — Santiago",
+  },
+  "santorini-greece": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/b/bf/2011_Dimos_Thiras.png",
+    attribution: "Wikipedia — Santorini",
+  },
+  "sao-paulo-brazil": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/7/73/Marginal_Pinheiros_e_Jockey_Club.jpg",
+    attribution: "Wikipedia — São Paulo",
+  },
+  "seville-spain": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Sevilla_Cathedral_-_Southeast.jpg/1920px-Sevilla_Cathedral_-_Southeast.jpg",
+    attribution: "Wikipedia — Seville",
+  },
+  "shanghai-china": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Huangpu_Park_20124-Shanghai_%2832208802494%29.jpg/1920px-Huangpu_Park_20124-Shanghai_%2832208802494%29.jpg",
+    attribution: "Wikipedia — Shanghai",
+  },
+  "singapore-singapore": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Singapore.svg/960px-Flag_of_Singapore.svg.png",
+    attribution: "Wikipedia — Singapore",
+  },
+  "split-croatia": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Split_080620-133710-IMG_0968x.jpg/1920px-Split_080620-133710-IMG_0968x.jpg",
+    attribution: "Wikipedia — Split, Croatia",
+  },
+  "stockholm-sweden": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Royal_Dramatic_Theatre_Stockholm.jpg/3840px-Royal_Dramatic_Theatre_Stockholm.jpg",
+    attribution: "Wikipedia — Stockholm",
+  },
+  "sydney-australia": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Sydney_Opera_House_and_Harbour_Bridge_Dusk_%282%29_2019-06-21.jpg/3840px-Sydney_Opera_House_and_Harbour_Bridge_Dusk_%282%29_2019-06-21.jpg",
+    attribution: "Wikipedia — Sydney",
+  },
+  "taipei-taiwan": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Taipei_Skyline_2022.06.29.jpg/3840px-Taipei_Skyline_2022.06.29.jpg",
+    attribution: "Wikipedia — Taipei",
+  },
+  "tallinn-estonia": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Raekoja_plats_at_night.jpg/1920px-Raekoja_plats_at_night.jpg",
+    attribution: "Wikipedia — Tallinn",
+  },
+  "tel-aviv-israel": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Sarona_CBD_01_%28cropped%29.jpg/1920px-Sarona_CBD_01_%28cropped%29.jpg",
+    attribution: "Wikipedia — Tel Aviv",
+  },
+  "toronto-canada": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Toronto_Skyline_from_Snake_Island%2C_February_28_2026_%2808%29.jpg/1920px-Toronto_Skyline_from_Snake_Island%2C_February_28_2026_%2808%29.jpg",
+    attribution: "Wikipedia — Toronto",
+  },
+  "ubud-indonesia": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Ubud_%2849818456887%29.jpg/1920px-Ubud_%2849818456887%29.jpg",
+    attribution: "Wikipedia — Ubud",
+  },
+  "valencia-spain": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Malvarrosa_Beach%2C_Valencia%2C_Spain_%2829812271043%29.jpg/1920px-Malvarrosa_Beach%2C_Valencia%2C_Spain_%2829812271043%29.jpg",
+    attribution: "Wikipedia — Valencia",
+  },
+  "valparaiso-chile": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/d/dd/Historic_Quarter_of_the_Seaport_City_of_Valpara%C3%ADso_04.jpg",
+    attribution: "Wikipedia — Valparaíso",
+  },
+  "vancouver-canada": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Concord_Pacific_Master_Plan_Area.jpg/3840px-Concord_Pacific_Master_Plan_Area.jpg",
+    attribution: "Wikipedia — Vancouver",
+  },
+  "vienna-austria": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Schoenbrunn_philharmoniker_2012.jpg/1920px-Schoenbrunn_philharmoniker_2012.jpg",
+    attribution: "Wikipedia — Vienna",
+  },
+  "warsaw-poland": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/3/35/Aleja_Niepdleglosci_Warsaw_2022_aerial_%28cropped%29.jpg",
+    attribution: "Wikipedia — Warsaw",
+  },
+  "washington-dc-united-states": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/12-07-13-washington-by-RalfR-08.jpg/1920px-12-07-13-washington-by-RalfR-08.jpg",
+    attribution: "Wikipedia — Washington, D.C.",
+  },
+  "zurich-switzerland": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Altstadt_Z%C3%BCrich_2015.jpg/1920px-Altstadt_Z%C3%BCrich_2015.jpg",
+    attribution: "Wikipedia — Zurich",
+  },
 };
 
 export function getCityBanner(slug: string | null | undefined) {

@@ -213,6 +213,26 @@ const IMPORTED_DISH_IMAGES_BY_ID: Record<string, string> = {
     "/imported-dish-images/da-nang-rice-plates-quan-com-hue-ngon.png",
   "da-nang-vietnam--867--dessert-sweet-soup-che-xoa-xoa-hat-luu":
     "/imported-dish-images/da-nang-dessert-sweet-soup-che-xoa-xoa-hat-luu.png",
+  "denpasar-bali-indonesia--879--babi-guling-ibu-oka":
+    "/imported-dish-images/denpasar-bali-indonesia-babi-guling-ibu-oka.png",
+  "denpasar-bali-indonesia--880--nasi-campur-warung-wardani":
+    "/imported-dish-images/denpasar-bali-indonesia-nasi-campur-warung-wardani.png",
+  "denpasar-bali-indonesia--881--sate-lilit-warung-mak-beng":
+    "/imported-dish-images/denpasar-bali-indonesia-sate-lilit-warung-mak-beng.png",
+  "denpasar-bali-indonesia--882--fish-soup-warung-mak-beng":
+    "/imported-dish-images/denpasar-bali-indonesia-fish-soup-warung-mak-beng.png",
+  "denpasar-bali-indonesia--883--lawaar-warung-nasi-bali-men-weti":
+    "/imported-dish-images/denpasar-bali-indonesia-lawaar-warung-nasi-bali-men-weti.png",
+  "denpasar-bali-indonesia--884--fried-duck-bebek-bengil":
+    "/imported-dish-images/denpasar-bali-indonesia-fried-duck-bebek-bengil.png",
+  "denpasar-bali-indonesia--885--vegetable-curry-kafe":
+    "/imported-dish-images/denpasar-bali-indonesia-vegetable-curry-kafe.png",
+  "denpasar-bali-indonesia--886--noodles-yellow-flower-cafe":
+    "/imported-dish-images/noodles-yellow-flower-cafe.png",
+  "denpasar-bali-indonesia--887--dessert-pancake-ubud-dessert":
+    "/imported-dish-images/denpasar-bali-indonesia-dessert-pancake-ubud-dessert.png",
+  "denpasar-bali-indonesia--888--tasting-menu-locavore":
+    "/imported-dish-images/tasting-menu-locavore.png",
   "delhi-india--929--butter-chicken-moti-mahal":
     "/imported-dish-images/delhi-butter-chicken-moti-mahal.png",
   "delhi-india--930--chole-bhature-sita-ram-diwan-chand":
@@ -233,6 +253,26 @@ const IMPORTED_DISH_IMAGES_BY_ID: Record<string, string> = {
     "/imported-dish-images/delhi-dessert-jalebi-old-famous-jalebi.png",
   "delhi-india--938--tasting-menu-indian-accent":
     "/imported-dish-images/delhi-tasting-menu-indian-accent.png",
+  "dublin-ireland--649--irish-stew-the-brazen-head":
+    "/imported-dish-images/dublin-ireland-irish-stew-the-brazen-head.png",
+  "dublin-ireland--650--full-irish-breakfast-keogh-cafe":
+    "/imported-dish-images/dublin-ireland-full-irish-breakfast-keogh-cafe.png",
+  "dublin-ireland--651--fish-and-chips-leo-burdock":
+    "/imported-dish-images/dublin-ireland-fish-and-chips-leo-burdock.png",
+  "dublin-ireland--652--boxty-gallaghers-boxty-house":
+    "/imported-dish-images/dublin-ireland-boxty-gallaghers-boxty-house.png",
+  "dublin-ireland--653--oysters-moran-oyster-cottage":
+    "/imported-dish-images/dublin-ireland-oysters-moran-oyster-cottage.png",
+  "dublin-ireland--654--burger-bunsen":
+    "/imported-dish-images/dublin-ireland-burger-bunsen.png",
+  "dublin-ireland--655--seafood-chowder-the-winding-stair":
+    "/imported-dish-images/dublin-ireland-seafood-chowder-the-winding-stair.png",
+  "dublin-ireland--656--soda-bread-queen-of-tarts":
+    "/imported-dish-images/dublin-ireland-soda-bread-queen-of-tarts.png",
+  "dublin-ireland--657--pub-pie-the-pie-maker":
+    "/imported-dish-images/dublin-ireland-pub-pie-the-pie-maker.png",
+  "dublin-ireland--658--tasting-menu-chapter-one":
+    "/imported-dish-images/dublin-ireland-tasting-menu-chapter-one.png",
   "florence-italy--66--bistecca-alla-fiorentina-trattoria-cammillo":
     "/imported-dish-images/florence-bistecca-alla-fiorentina-trattoria-cammillo.png",
   "florence-italy--67--penne-al-vodka-alla-vecchia-bettola":
@@ -277,6 +317,26 @@ const IMPORTED_DISH_IMAGES_BY_ID: Record<string, string> = {
     "/imported-dish-images/gold-coast-calamari-glenelg-public-house.jpg",
   "gold-coast-australia--1176--poke-bowl-blendlove":
     "/imported-dish-images/gold-coast-poke-bowl-blendlove.jpg",
+  "hangzhou-china--819--west-lake-fish-lou-wai-lou":
+    "/imported-dish-images/hangzhou-china-west-lake-fish-lou-wai-lou.png",
+  "hangzhou-china--820--longjing-shrimp-zhi-wei-guan":
+    "/imported-dish-images/hangzhou-china-longjing-shrimp-zhi-wei-guan.png",
+  "hangzhou-china--821--beggar-chicken-zhi-wei-guan":
+    "/imported-dish-images/hangzhou-china-beggar-chicken-zhi-wei-guan.png",
+  "hangzhou-china--822--dongpo-pork-lou-wai-lou":
+    "/imported-dish-images/hangzhou-china-dongpo-pork-lou-wai-lou.png",
+  "hangzhou-china--823--noodles-fang-chun-jian":
+    "/imported-dish-images/hangzhou-china-noodles-fang-chun-jian.png",
+  "hangzhou-china--824--dumplings-zhi-wei-guan":
+    "/imported-dish-images/hangzhou-china-dumplings-zhi-wei-guan.png",
+  "hangzhou-china--825--pancakes-street-vendor-hefang":
+    "/imported-dish-images/hangzhou-china-pancakes-street-vendor-hefang.png",
+  "hangzhou-china--826--sweet-lotus-root-lou-wai-lou":
+    "/imported-dish-images/hangzhou-china-sweet-lotus-root-lou-wai-lou.png",
+  "hangzhou-china--827--fish-soup-xin-bailu":
+    "/imported-dish-images/hangzhou-china-fish-soup-xin-bailu.png",
+  "hangzhou-china--828--tasting-menu-jin-sha":
+    "/imported-dish-images/hangzhou-china-tasting-menu-jin-sha.png",
   "lisbon-portugal--138--grilled-prawns-cervejaria-ramiro":
     "/imported-dish-images/lisbon-grilled-prawns-cervejaria-ramiro.png",
   "los-angeles-united-states--12--tacos-al-pastor-leo-s-taco-truck":
@@ -303,6 +363,10 @@ const IMPORTED_DISH_IMAGES_BY_ID: Record<string, string> = {
     "/imported-dish-images/san-francisco-tasting-menu-quince.png",
   "tokyo--1278--toro-sushi-tsukiji-fish-market":
     "/imported-dish-images/tokyo-toro-sushi-tsukiji-fish-market.png",
+  "ubud-indonesia--893--noodles-yellow-flower-cafe":
+    "/imported-dish-images/noodles-yellow-flower-cafe.png",
+  "ubud-indonesia--898--tasting-menu-locavore":
+    "/imported-dish-images/tasting-menu-locavore.png",
 };
 
 function toSlug(value: string): string {

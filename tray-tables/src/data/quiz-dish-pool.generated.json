@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-03T14:53:00.538Z",
+  "generated": "2026-05-03T16:14:45.968Z",
   "dishes": [
     {
       "id": "abu-dhabi-united-arab-emirates--987--harees-mezlai",
@@ -1536,10 +1536,73 @@
     },
     {
       "id": "denpasar-bali-indonesia--879--babi-guling-ibu-oka",
-      "imageUrl": "/Images/Denpasar%20Bali_Indonesia_Babi%20Guling_Ibu%20Oka.jpg",
+      "imageUrl": "/imported-dish-images/denpasar-bali-indonesia-babi-guling-ibu-oka.png",
       "city": "Denpasar Bali",
       "country": "Indonesia",
       "name": "Babi Guling"
+    },
+    {
+      "id": "denpasar-bali-indonesia--880--nasi-campur-warung-wardani",
+      "imageUrl": "/imported-dish-images/denpasar-bali-indonesia-nasi-campur-warung-wardani.png",
+      "city": "Denpasar Bali",
+      "country": "Indonesia",
+      "name": "Nasi Campur"
+    },
+    {
+      "id": "denpasar-bali-indonesia--881--sate-lilit-warung-mak-beng",
+      "imageUrl": "/imported-dish-images/denpasar-bali-indonesia-sate-lilit-warung-mak-beng.png",
+      "city": "Denpasar Bali",
+      "country": "Indonesia",
+      "name": "Sate Lilit"
+    },
+    {
+      "id": "denpasar-bali-indonesia--882--fish-soup-warung-mak-beng",
+      "imageUrl": "/imported-dish-images/denpasar-bali-indonesia-fish-soup-warung-mak-beng.png",
+      "city": "Denpasar Bali",
+      "country": "Indonesia",
+      "name": "Fish Soup"
+    },
+    {
+      "id": "denpasar-bali-indonesia--883--lawaar-warung-nasi-bali-men-weti",
+      "imageUrl": "/imported-dish-images/denpasar-bali-indonesia-lawaar-warung-nasi-bali-men-weti.png",
+      "city": "Denpasar Bali",
+      "country": "Indonesia",
+      "name": "Lawaar"
+    },
+    {
+      "id": "denpasar-bali-indonesia--884--fried-duck-bebek-bengil",
+      "imageUrl": "/imported-dish-images/denpasar-bali-indonesia-fried-duck-bebek-bengil.png",
+      "city": "Denpasar Bali",
+      "country": "Indonesia",
+      "name": "Fried Duck"
+    },
+    {
+      "id": "denpasar-bali-indonesia--885--vegetable-curry-kafe",
+      "imageUrl": "/imported-dish-images/denpasar-bali-indonesia-vegetable-curry-kafe.png",
+      "city": "Denpasar Bali",
+      "country": "Indonesia",
+      "name": "Vegetable Curry"
+    },
+    {
+      "id": "denpasar-bali-indonesia--886--noodles-yellow-flower-cafe",
+      "imageUrl": "/imported-dish-images/noodles-yellow-flower-cafe.png",
+      "city": "Denpasar Bali",
+      "country": "Indonesia",
+      "name": "Noodles"
+    },
+    {
+      "id": "denpasar-bali-indonesia--887--dessert-pancake-ubud-dessert",
+      "imageUrl": "/imported-dish-images/denpasar-bali-indonesia-dessert-pancake-ubud-dessert.png",
+      "city": "Denpasar Bali",
+      "country": "Indonesia",
+      "name": "Dessert Pancake"
+    },
+    {
+      "id": "denpasar-bali-indonesia--888--tasting-menu-locavore",
+      "imageUrl": "/imported-dish-images/tasting-menu-locavore.png",
+      "city": "Denpasar Bali",
+      "country": "Indonesia",
+      "name": "Tasting Menu"
     },
     {
       "id": "doha-qatar--997--machboos-damasca",
@@ -1557,10 +1620,73 @@
     },
     {
       "id": "dublin-ireland--649--irish-stew-the-brazen-head",
-      "imageUrl": "/Images/Dublin_Ireland_Irish%20Stew_The%20Brazen%20Head.jpg",
+      "imageUrl": "/imported-dish-images/dublin-ireland-irish-stew-the-brazen-head.png",
       "city": "Dublin",
       "country": "Ireland",
       "name": "Irish Stew"
+    },
+    {
+      "id": "dublin-ireland--650--full-irish-breakfast-keogh-cafe",
+      "imageUrl": "/imported-dish-images/dublin-ireland-full-irish-breakfast-keogh-cafe.png",
+      "city": "Dublin",
+      "country": "Ireland",
+      "name": "Full Irish Breakfast"
+    },
+    {
+      "id": "dublin-ireland--651--fish-and-chips-leo-burdock",
+      "imageUrl": "/imported-dish-images/dublin-ireland-fish-and-chips-leo-burdock.png",
+      "city": "Dublin",
+      "country": "Ireland",
+      "name": "Fish and Chips"
+    },
+    {
+      "id": "dublin-ireland--652--boxty-gallaghers-boxty-house",
+      "imageUrl": "/imported-dish-images/dublin-ireland-boxty-gallaghers-boxty-house.png",
+      "city": "Dublin",
+      "country": "Ireland",
+      "name": "Boxty"
+    },
+    {
+      "id": "dublin-ireland--653--oysters-moran-oyster-cottage",
+      "imageUrl": "/imported-dish-images/dublin-ireland-oysters-moran-oyster-cottage.png",
+      "city": "Dublin",
+      "country": "Ireland",
+      "name": "Oysters"
+    },
+    {
+      "id": "dublin-ireland--654--burger-bunsen",
+      "imageUrl": "/imported-dish-images/dublin-ireland-burger-bunsen.png",
+      "city": "Dublin",
+      "country": "Ireland",
+      "name": "Burger"
+    },
+    {
+      "id": "dublin-ireland--655--seafood-chowder-the-winding-stair",
+      "imageUrl": "/imported-dish-images/dublin-ireland-seafood-chowder-the-winding-stair.png",
+      "city": "Dublin",
+      "country": "Ireland",
+      "name": "Seafood Chowder"
+    },
+    {
+      "id": "dublin-ireland--656--soda-bread-queen-of-tarts",
+      "imageUrl": "/imported-dish-images/dublin-ireland-soda-bread-queen-of-tarts.png",
+      "city": "Dublin",
+      "country": "Ireland",
+      "name": "Soda Bread"
+    },
+    {
+      "id": "dublin-ireland--657--pub-pie-the-pie-maker",
+      "imageUrl": "/imported-dish-images/dublin-ireland-pub-pie-the-pie-maker.png",
+      "city": "Dublin",
+      "country": "Ireland",
+      "name": "Pub Pie"
+    },
+    {
+      "id": "dublin-ireland--658--tasting-menu-chapter-one",
+      "imageUrl": "/imported-dish-images/dublin-ireland-tasting-menu-chapter-one.png",
+      "city": "Dublin",
+      "country": "Ireland",
+      "name": "Tasting Menu"
     },
     {
       "id": "dubrovnik-croatia--699--black-risotto-nautika",
@@ -1746,10 +1872,73 @@
     },
     {
       "id": "hangzhou-china--819--west-lake-fish-lou-wai-lou",
-      "imageUrl": "/Images/Hangzhou_China_West%20Lake%20Fish_Lou%20Wai%20Lou.jpg",
+      "imageUrl": "/imported-dish-images/hangzhou-china-west-lake-fish-lou-wai-lou.png",
       "city": "Hangzhou",
       "country": "China",
       "name": "West Lake Fish"
+    },
+    {
+      "id": "hangzhou-china--820--longjing-shrimp-zhi-wei-guan",
+      "imageUrl": "/imported-dish-images/hangzhou-china-longjing-shrimp-zhi-wei-guan.png",
+      "city": "Hangzhou",
+      "country": "China",
+      "name": "Longjing Shrimp"
+    },
+    {
+      "id": "hangzhou-china--821--beggar-chicken-zhi-wei-guan",
+      "imageUrl": "/imported-dish-images/hangzhou-china-beggar-chicken-zhi-wei-guan.png",
+      "city": "Hangzhou",
+      "country": "China",
+      "name": "Beggar Chicken"
+    },
+    {
+      "id": "hangzhou-china--822--dongpo-pork-lou-wai-lou",
+      "imageUrl": "/imported-dish-images/hangzhou-china-dongpo-pork-lou-wai-lou.png",
+      "city": "Hangzhou",
+      "country": "China",
+      "name": "Dongpo Pork"
+    },
+    {
+      "id": "hangzhou-china--823--noodles-fang-chun-jian",
+      "imageUrl": "/imported-dish-images/hangzhou-china-noodles-fang-chun-jian.png",
+      "city": "Hangzhou",
+      "country": "China",
+      "name": "Noodles"
+    },
+    {
+      "id": "hangzhou-china--824--dumplings-zhi-wei-guan",
+      "imageUrl": "/imported-dish-images/hangzhou-china-dumplings-zhi-wei-guan.png",
+      "city": "Hangzhou",
+      "country": "China",
+      "name": "Dumplings"
+    },
+    {
+      "id": "hangzhou-china--825--pancakes-street-vendor-hefang",
+      "imageUrl": "/imported-dish-images/hangzhou-china-pancakes-street-vendor-hefang.png",
+      "city": "Hangzhou",
+      "country": "China",
+      "name": "Pancakes"
+    },
+    {
+      "id": "hangzhou-china--826--sweet-lotus-root-lou-wai-lou",
+      "imageUrl": "/imported-dish-images/hangzhou-china-sweet-lotus-root-lou-wai-lou.png",
+      "city": "Hangzhou",
+      "country": "China",
+      "name": "Sweet Lotus Root"
+    },
+    {
+      "id": "hangzhou-china--827--fish-soup-xin-bailu",
+      "imageUrl": "/imported-dish-images/hangzhou-china-fish-soup-xin-bailu.png",
+      "city": "Hangzhou",
+      "country": "China",
+      "name": "Fish Soup"
+    },
+    {
+      "id": "hangzhou-china--828--tasting-menu-jin-sha",
+      "imageUrl": "/imported-dish-images/hangzhou-china-tasting-menu-jin-sha.png",
+      "city": "Hangzhou",
+      "country": "China",
+      "name": "Tasting Menu"
     },
     {
       "id": "hanoi-vietnam--376--pho-bo-pho-gia-truyen-bat-dan",
@@ -2835,6 +3024,20 @@
       "city": "Ubud",
       "country": "Indonesia",
       "name": "Nasi Campur"
+    },
+    {
+      "id": "ubud-indonesia--893--noodles-yellow-flower-cafe",
+      "imageUrl": "/imported-dish-images/noodles-yellow-flower-cafe.png",
+      "city": "Ubud",
+      "country": "Indonesia",
+      "name": "Noodles"
+    },
+    {
+      "id": "ubud-indonesia--898--tasting-menu-locavore",
+      "imageUrl": "/imported-dish-images/tasting-menu-locavore.png",
+      "city": "Ubud",
+      "country": "Indonesia",
+      "name": "Tasting Menu"
     },
     {
       "id": "valencia-spain--126--paella-valenciana-casa-roberto",
