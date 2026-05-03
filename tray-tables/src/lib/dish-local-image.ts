@@ -337,10 +337,50 @@ const IMPORTED_DISH_IMAGES_BY_ID: Record<string, string> = {
     "/imported-dish-images/hangzhou-china-fish-soup-xin-bailu.png",
   "hangzhou-china--828--tasting-menu-jin-sha":
     "/imported-dish-images/hangzhou-china-tasting-menu-jin-sha.png",
+  "hanoi-vietnam--376--pho-bo-pho-gia-truyen-bat-dan":
+    "/imported-dish-images/hanoi-vietnam-pho-bo-pho-gia-truyen-bat-dan.png",
+  "hanoi-vietnam--377--bun-cha-bun-cha-huong-lien":
+    "/imported-dish-images/hanoi-vietnam-bun-cha-bun-cha-huong-lien.png",
+  "hanoi-vietnam--378--banh-cuon-banh-cuon-gia-truyen-thanh-van":
+    "/imported-dish-images/hanoi-vietnam-banh-cuon-banh-cuon-gia-truyen-thanh-van.png",
+  "hanoi-vietnam--379--cha-ca-cha-ca-la-vong":
+    "/imported-dish-images/hanoi-vietnam-cha-ca-cha-ca-la-vong.png",
+  "hanoi-vietnam--380--bun-thang-cafe-gia-truyen":
+    "/imported-dish-images/hanoi-vietnam-bun-thang-cafe-gia-truyen.png",
+  "hanoi-vietnam--381--xoi-sticky-rice-xoi-yen":
+    "/imported-dish-images/hanoi-vietnam-xoi-sticky-rice-xoi-yen.png",
+  "hanoi-vietnam--382--egg-coffee-cafe-giang":
+    "/imported-dish-images/hanoi-vietnam-egg-coffee-cafe-giang.png",
+  "hanoi-vietnam--383--bun-bo-nam-bo-bun-bo-nam-bo-ba-nam":
+    "/imported-dish-images/hanoi-vietnam-bun-bo-nam-bo-bun-bo-nam-bo-ba-nam.png",
+  "hanoi-vietnam--384--nem-ran-fried-rolls-quan-an-ngon":
+    "/imported-dish-images/hanoi-vietnam-nem-ran-fried-rolls-quan-an-ngon.png",
+  "hanoi-vietnam--385--che-sweet-soup-che-ba-thin":
+    "/imported-dish-images/hanoi-vietnam-che-sweet-soup-che-ba-thin.png",
   "lisbon-portugal--138--grilled-prawns-cervejaria-ramiro":
     "/imported-dish-images/lisbon-grilled-prawns-cervejaria-ramiro.png",
   "los-angeles-united-states--12--tacos-al-pastor-leo-s-taco-truck":
     "/imported-dish-images/los-angeles-tacos-al-pastor-leos-taco-truck.png",
+  "new-orleans-united-states--475--beignets-cafe-beignet":
+    "/imported-dish-images/new-orleans-united-states-beignets-cafe-beignet.png",
+  "new-orleans-united-states--476--gumbo-gumbo-shop":
+    "/imported-dish-images/new-orleans-united-states-gumbo-gumbo-shop.png",
+  "new-orleans-united-states--477--jambalaya-mothers":
+    "/imported-dish-images/new-orleans-united-states-jambalaya-mothers.png",
+  "new-orleans-united-states--478--fried-chicken-willie-maes-scotch-house":
+    "/imported-dish-images/new-orleans-united-states-fried-chicken-willie-maes-scotch-house.png",
+  "new-orleans-united-states--479--muffuletta-central-grocery":
+    "/imported-dish-images/new-orleans-united-states-muffuletta-central-grocery.png",
+  "new-orleans-united-states--480--oysters-rockefeller-antoines":
+    "/imported-dish-images/new-orleans-united-states-oysters-rockefeller-antoines.png",
+  "new-orleans-united-states--481--red-beans-and-rice-lil-dizzys":
+    "/imported-dish-images/new-orleans-united-states-red-beans-and-rice-lil-dizzys.png",
+  "new-orleans-united-states--482--etouffee-mandinas":
+    "/imported-dish-images/new-orleans-united-states-etouffee-mandinas.png",
+  "new-orleans-united-states--483--po-boy-parkway-bakery":
+    "/imported-dish-images/new-orleans-united-states-po-boy-parkway-bakery.png",
+  "new-orleans-united-states--484--bananas-foster-brennans":
+    "/imported-dish-images/new-orleans-united-states-bananas-foster-brennans.png",
   "san-francisco-united-states--533--sourdough-bread-boudin-bakery":
     "/imported-dish-images/san-francisco-sourdough-boudin-bakery.png",
   "san-francisco-united-states--534--mission-burrito-la-taqueria":

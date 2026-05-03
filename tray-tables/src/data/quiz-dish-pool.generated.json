@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-03T16:14:45.968Z",
+  "generated": "2026-05-03T16:44:20.750Z",
   "dishes": [
     {
       "id": "abu-dhabi-united-arab-emirates--987--harees-mezlai",
@@ -1942,10 +1942,73 @@
     },
     {
       "id": "hanoi-vietnam--376--pho-bo-pho-gia-truyen-bat-dan",
-      "imageUrl": "/Images/Hanoi_Vietnam_Pho%20Bo_Pho%20Gia%20Truyen%20Bat%20Dan.jpg",
+      "imageUrl": "/imported-dish-images/hanoi-vietnam-pho-bo-pho-gia-truyen-bat-dan.png",
       "city": "Hanoi",
       "country": "Vietnam",
       "name": "Pho Bo"
+    },
+    {
+      "id": "hanoi-vietnam--377--bun-cha-bun-cha-huong-lien",
+      "imageUrl": "/imported-dish-images/hanoi-vietnam-bun-cha-bun-cha-huong-lien.png",
+      "city": "Hanoi",
+      "country": "Vietnam",
+      "name": "Bun Cha"
+    },
+    {
+      "id": "hanoi-vietnam--378--banh-cuon-banh-cuon-gia-truyen-thanh-van",
+      "imageUrl": "/imported-dish-images/hanoi-vietnam-banh-cuon-banh-cuon-gia-truyen-thanh-van.png",
+      "city": "Hanoi",
+      "country": "Vietnam",
+      "name": "Banh Cuon"
+    },
+    {
+      "id": "hanoi-vietnam--379--cha-ca-cha-ca-la-vong",
+      "imageUrl": "/imported-dish-images/hanoi-vietnam-cha-ca-cha-ca-la-vong.png",
+      "city": "Hanoi",
+      "country": "Vietnam",
+      "name": "Cha Ca"
+    },
+    {
+      "id": "hanoi-vietnam--380--bun-thang-cafe-gia-truyen",
+      "imageUrl": "/imported-dish-images/hanoi-vietnam-bun-thang-cafe-gia-truyen.png",
+      "city": "Hanoi",
+      "country": "Vietnam",
+      "name": "Bun Thang"
+    },
+    {
+      "id": "hanoi-vietnam--381--xoi-sticky-rice-xoi-yen",
+      "imageUrl": "/imported-dish-images/hanoi-vietnam-xoi-sticky-rice-xoi-yen.png",
+      "city": "Hanoi",
+      "country": "Vietnam",
+      "name": "Xoi (Sticky Rice)"
+    },
+    {
+      "id": "hanoi-vietnam--382--egg-coffee-cafe-giang",
+      "imageUrl": "/imported-dish-images/hanoi-vietnam-egg-coffee-cafe-giang.png",
+      "city": "Hanoi",
+      "country": "Vietnam",
+      "name": "Egg Coffee"
+    },
+    {
+      "id": "hanoi-vietnam--383--bun-bo-nam-bo-bun-bo-nam-bo-ba-nam",
+      "imageUrl": "/imported-dish-images/hanoi-vietnam-bun-bo-nam-bo-bun-bo-nam-bo-ba-nam.png",
+      "city": "Hanoi",
+      "country": "Vietnam",
+      "name": "Bun Bo Nam Bo"
+    },
+    {
+      "id": "hanoi-vietnam--384--nem-ran-fried-rolls-quan-an-ngon",
+      "imageUrl": "/imported-dish-images/hanoi-vietnam-nem-ran-fried-rolls-quan-an-ngon.png",
+      "city": "Hanoi",
+      "country": "Vietnam",
+      "name": "Nem Ran (Fried Rolls)"
+    },
+    {
+      "id": "hanoi-vietnam--385--che-sweet-soup-che-ba-thin",
+      "imageUrl": "/imported-dish-images/hanoi-vietnam-che-sweet-soup-che-ba-thin.png",
+      "city": "Hanoi",
+      "country": "Vietnam",
+      "name": "Che (Sweet Soup)"
     },
     {
       "id": "havana-cuba--543--ropa-vieja-la-guarida",
@@ -2334,10 +2397,73 @@
     },
     {
       "id": "new-orleans-united-states--475--beignets-cafe-beignet",
-      "imageUrl": "/Images/New%20Orleans_United%20States_Beignets_Cafe%20Beignet.jpg",
+      "imageUrl": "/imported-dish-images/new-orleans-united-states-beignets-cafe-beignet.png",
       "city": "New Orleans",
       "country": "United States",
       "name": "Beignets"
+    },
+    {
+      "id": "new-orleans-united-states--476--gumbo-gumbo-shop",
+      "imageUrl": "/imported-dish-images/new-orleans-united-states-gumbo-gumbo-shop.png",
+      "city": "New Orleans",
+      "country": "United States",
+      "name": "Gumbo"
+    },
+    {
+      "id": "new-orleans-united-states--477--jambalaya-mothers",
+      "imageUrl": "/imported-dish-images/new-orleans-united-states-jambalaya-mothers.png",
+      "city": "New Orleans",
+      "country": "United States",
+      "name": "Jambalaya"
+    },
+    {
+      "id": "new-orleans-united-states--478--fried-chicken-willie-maes-scotch-house",
+      "imageUrl": "/imported-dish-images/new-orleans-united-states-fried-chicken-willie-maes-scotch-house.png",
+      "city": "New Orleans",
+      "country": "United States",
+      "name": "Fried Chicken"
+    },
+    {
+      "id": "new-orleans-united-states--479--muffuletta-central-grocery",
+      "imageUrl": "/imported-dish-images/new-orleans-united-states-muffuletta-central-grocery.png",
+      "city": "New Orleans",
+      "country": "United States",
+      "name": "Muffuletta"
+    },
+    {
+      "id": "new-orleans-united-states--480--oysters-rockefeller-antoines",
+      "imageUrl": "/imported-dish-images/new-orleans-united-states-oysters-rockefeller-antoines.png",
+      "city": "New Orleans",
+      "country": "United States",
+      "name": "Oysters Rockefeller"
+    },
+    {
+      "id": "new-orleans-united-states--481--red-beans-and-rice-lil-dizzys",
+      "imageUrl": "/imported-dish-images/new-orleans-united-states-red-beans-and-rice-lil-dizzys.png",
+      "city": "New Orleans",
+      "country": "United States",
+      "name": "Red Beans and Rice"
+    },
+    {
+      "id": "new-orleans-united-states--482--etouffee-mandinas",
+      "imageUrl": "/imported-dish-images/new-orleans-united-states-etouffee-mandinas.png",
+      "city": "New Orleans",
+      "country": "United States",
+      "name": "Etouffee"
+    },
+    {
+      "id": "new-orleans-united-states--483--po-boy-parkway-bakery",
+      "imageUrl": "/imported-dish-images/new-orleans-united-states-po-boy-parkway-bakery.png",
+      "city": "New Orleans",
+      "country": "United States",
+      "name": "Po Boy"
+    },
+    {
+      "id": "new-orleans-united-states--484--bananas-foster-brennans",
+      "imageUrl": "/imported-dish-images/new-orleans-united-states-bananas-foster-brennans.png",
+      "city": "New Orleans",
+      "country": "United States",
+      "name": "Bananas Foster"
     },
     {
       "id": "new-york-city--0--pastrami-sandwich-katz-s-deli",
