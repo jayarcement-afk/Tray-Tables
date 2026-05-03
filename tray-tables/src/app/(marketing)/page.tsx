@@ -35,6 +35,14 @@ export default function Home() {
               View trips
             </Link>
           </div>
+          <p className="mt-6 text-center">
+            <Link
+              href="/games"
+              className="text-sm font-medium text-white/90 underline decoration-white/40 underline-offset-4 hover:text-white"
+            >
+              Games
+            </Link>
+          </p>
         </div>
       </main>
     </div>
