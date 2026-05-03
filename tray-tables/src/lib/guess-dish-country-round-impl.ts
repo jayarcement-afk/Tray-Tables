@@ -1,3 +1,8 @@
+/**
+ * Heavy quiz-round logic (canonical JSON iteration + dish-local-image + fs).
+ * Loaded only via dynamic import from guess-dish-country-round-gateway so the
+ * API route’s main bundle stays small on Vercel.
+ */
 import fs from "node:fs";
 import path from "node:path";
 
@@ -6,7 +11,6 @@ import { getAllCanonicalDishes } from "@/lib/canonical-dishes";
 import { resolveDishImageUrl } from "@/lib/dish-local-image";
 import { labelForDish, normalizeLocationLabel } from "@/lib/guess-dish-country-check";
 
-/** Typed distractors when the image pool has too few unique locations. */
 const FALLBACK_LOCATIONS = [
   "Paris, France",
   "Tokyo, Japan",
@@ -29,7 +33,6 @@ function shuffle<T>(arr: T[]): T[] {
   return a;
 }
 
-/** Avoid the DishPhoto placeholder graphic (`/dish-fallback.jpeg`) and obvious placeholder URLs. */
 function isPlaceholderOrFallbackImageUrl(url: string): boolean {
   const u = url.trim().toLowerCase();
   if (!u) return true;
@@ -38,10 +41,6 @@ function isPlaceholderOrFallbackImageUrl(url: string): boolean {
   return false;
 }
 
-/**
- * For `/Images/…` and `/imported-dish-images/…` assets, require the file to exist under `public/`.
- * Missing files 404 in the browser and `DishPhoto` swaps in the “image not available” fallback.
- */
 function localPublicImageFileExists(pathname: string): boolean {
   const p = pathname.trim();
   if (!p.startsWith("/")) return false;
@@ -58,8 +57,7 @@ function localPublicImageFileExists(pathname: string): boolean {
   }
 }
 
-/** True when this resolved URL should actually load (not empty, not placeholder, local file exists if applicable). */
-export function resolvedImageUrlOkForQuiz(url: string | null | undefined): boolean {
+function resolvedImageUrlOkForQuiz(url: string | null | undefined): boolean {
   const u = url?.trim() ?? "";
   if (!u) return false;
   if (isPlaceholderOrFallbackImageUrl(u)) return false;
@@ -76,7 +74,6 @@ export function resolvedImageUrlOkForQuiz(url: string | null | undefined): boole
       if (pn.startsWith("/Images/") || pn.startsWith("/imported-dish-images/")) {
         return localPublicImageFileExists(pn);
       }
-      // Remote spreadsheet URLs — cannot sync-verify; keep in pool (same as dish cards).
       return true;
     } catch {
       return false;
@@ -86,13 +83,31 @@ export function resolvedImageUrlOkForQuiz(url: string | null | undefined): boole
   return false;
 }
 
-/** Dishes whose primary image exists locally when applicable (avoids fallback overlay in the quiz). */
-export function getQuizImagePool(): CsvDish[] {
+function getQuizImagePool(): CsvDish[] {
   const all = getAllCanonicalDishes();
   return all.filter((d) => {
     const url = resolveDishImageUrl(d);
     return resolvedImageUrlOkForQuiz(url);
   });
+}
+
+/** Build-time only: serializes the quiz pool for `quiz-dish-pool.generated.json`. */
+export type QuizPoolSerializedEntry = {
+  id: string;
+  imageUrl: string;
+  city: string;
+  country: string;
+  name: string;
+};
+
+export function serializeQuizPoolForStatic(): QuizPoolSerializedEntry[] {
+  return getQuizImagePool().map((d) => ({
+    id: d.id,
+    imageUrl: resolveDishImageUrl(d)!,
+    city: d.city,
+    country: d.country,
+    name: d.name,
+  }));
 }
 
 export type GuessDishCountryRound = {
@@ -101,10 +116,6 @@ export type GuessDishCountryRound = {
   choices: string[];
 };
 
-/**
- * One quiz round: random dish with an image, four shuffled location labels (city, country).
- * @param excludeDishId — avoid repeating the same dish when possible (e.g. after “Next”).
- */
 export function buildGuessDishCountryRound(
   excludeDishId?: string | null
 ): GuessDishCountryRound | null {
@@ -155,5 +166,3 @@ export function buildGuessDishCountryRound(
     choices,
   };
 }
-
-export { checkGuessDishCountryAnswer } from "@/lib/guess-dish-country-check";

@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 
-import { buildGuessDishCountryRound } from "@/lib/guess-dish-country";
+import { buildGuessDishCountryRound } from "@/lib/guess-dish-country-round-runtime";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
 
 export const dynamic = "force-dynamic";
