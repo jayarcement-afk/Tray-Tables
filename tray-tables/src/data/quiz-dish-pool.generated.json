@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-03T21:55:00.015Z",
+  "generated": "2026-05-03T22:26:19.898Z",
   "dishes": [
     {
       "id": "abu-dhabi-united-arab-emirates--987--harees-mezlai",
@@ -2327,10 +2327,80 @@
     },
     {
       "id": "hong-kong-china--356--egg-tarts-tai-cheong-bakery",
-      "imageUrl": "/Images/Hong%20Kong_China_Egg%20Tarts_Tai%20Cheong%20Bakery.jpg",
+      "imageUrl": "/imported-dish-images/hong-kong-china-egg-tarts-tai-cheong-bakery.png",
       "city": "Hong Kong",
       "country": "China",
       "name": "Egg Tarts"
+    },
+    {
+      "id": "hong-kong-china--357--char-siu-sun-hing-restaurant",
+      "imageUrl": "/imported-dish-images/hong-kong-china-char-siu-sun-hing-restaurant.png",
+      "city": "Hong Kong",
+      "country": "China",
+      "name": "Char Siu"
+    },
+    {
+      "id": "hong-kong-china--358--wonton-noodles-mak-s-noodle",
+      "imageUrl": "/imported-dish-images/hong-kong-china-wonton-noodles-mak-s-noodle.png",
+      "city": "Hong Kong",
+      "country": "China",
+      "name": "Wonton Noodles"
+    },
+    {
+      "id": "hong-kong-china--359--roast-goose-yat-lok",
+      "imageUrl": "/imported-dish-images/hong-kong-china-roast-goose-yat-lok.png",
+      "city": "Hong Kong",
+      "country": "China",
+      "name": "Roast Goose"
+    },
+    {
+      "id": "hong-kong-china--360--dai-pai-dong-stir-fry-sing-heung-yuen",
+      "imageUrl": "/imported-dish-images/hong-kong-china-dai-pai-dong-stir-fry-sing-heung-yuen.png",
+      "city": "Hong Kong",
+      "country": "China",
+      "name": "Dai Pai Dong Stir‑Fry"
+    },
+    {
+      "id": "hong-kong-china--361--dim-sum-lin-heung-tea-house",
+      "imageUrl": "/imported-dish-images/hong-kong-china-dim-sum-lin-heung-tea-house.png",
+      "city": "Hong Kong",
+      "country": "China",
+      "name": "Dim Sum"
+    },
+    {
+      "id": "hong-kong-china--362--pineapple-bun-kam-wah-caf",
+      "imageUrl": "/imported-dish-images/hong-kong-china-pineapple-bun-kam-wah-caf.png",
+      "city": "Hong Kong",
+      "country": "China",
+      "name": "Pineapple Bun"
+    },
+    {
+      "id": "hong-kong-china--363--claypot-rice-four-seasons-claypot-rice",
+      "imageUrl": "/imported-dish-images/hong-kong-china-claypot-rice-four-seasons-claypot-rice.png",
+      "city": "Hong Kong",
+      "country": "China",
+      "name": "Claypot Rice"
+    },
+    {
+      "id": "hong-kong-china--364--beef-brisket-nine-noodles",
+      "imageUrl": "/imported-dish-images/hong-kong-china-beef-brisket-nine-noodles.png",
+      "city": "Hong Kong",
+      "country": "China",
+      "name": "Beef Brisket"
+    },
+    {
+      "id": "hong-kong-china--365--milk-tea-lan-fong-yuen",
+      "imageUrl": "/imported-dish-images/hong-kong-china-milk-tea-lan-fong-yuen.png",
+      "city": "Hong Kong",
+      "country": "China",
+      "name": "Milk Tea"
+    },
+    {
+      "id": "hong-kong-china--1263--fish-congee-luk-yu-tea-house",
+      "imageUrl": "/imported-dish-images/hong-kong-china-fish-congee-luk-yu-tea-house.png",
+      "city": "Hong Kong",
+      "country": "China",
+      "name": "Fish Congee"
     },
     {
       "id": "istanbul-turkey--1027--kebab-zubeyir-ocakbasi",
@@ -2341,10 +2411,73 @@
     },
     {
       "id": "jaipur-india--949--dal-baati-churma-laxmi-misthan-bhandar",
-      "imageUrl": "/Images/Jaipur_India_Dal%20Baati%20Churma_Laxmi%20Misthan%20Bhandar.jpg",
+      "imageUrl": "/imported-dish-images/jaipur-india-dal-baati-churma-laxmi-misthan-bhandar.png",
       "city": "Jaipur",
       "country": "India",
       "name": "Dal Baati Churma"
+    },
+    {
+      "id": "jaipur-india--950--gatte-ki-sabzi-handi-restaurant",
+      "imageUrl": "/imported-dish-images/jaipur-india-gatte-ki-sabzi-handi-restaurant.png",
+      "city": "Jaipur",
+      "country": "India",
+      "name": "Gatte Ki Sabzi"
+    },
+    {
+      "id": "jaipur-india--951--ker-sangri-1135-ad",
+      "imageUrl": "/imported-dish-images/jaipur-india-ker-sangri-1135-ad.png",
+      "city": "Jaipur",
+      "country": "India",
+      "name": "Ker Sangri"
+    },
+    {
+      "id": "jaipur-india--952--laal-maas-suvarna-mahal",
+      "imageUrl": "/imported-dish-images/jaipur-india-laal-maas-suvarna-mahal.png",
+      "city": "Jaipur",
+      "country": "India",
+      "name": "Laal Maas"
+    },
+    {
+      "id": "jaipur-india--953--pyaz-kachori-rawat-misthan-bhandar",
+      "imageUrl": "/imported-dish-images/jaipur-india-pyaz-kachori-rawat-misthan-bhandar.png",
+      "city": "Jaipur",
+      "country": "India",
+      "name": "Pyaz Kachori"
+    },
+    {
+      "id": "jaipur-india--954--street-chaat-chaat-bazaar",
+      "imageUrl": "/imported-dish-images/jaipur-india-street-chaat-chaat-bazaar.png",
+      "city": "Jaipur",
+      "country": "India",
+      "name": "Street Chaat"
+    },
+    {
+      "id": "jaipur-india--955--rajasthani-thali-chokhi-dhani",
+      "imageUrl": "/imported-dish-images/jaipur-india-rajasthani-thali-chokhi-dhani.png",
+      "city": "Jaipur",
+      "country": "India",
+      "name": "Rajasthani Thali"
+    },
+    {
+      "id": "jaipur-india--956--dessert-ghewar-laxmi-misthan-bhandar",
+      "imageUrl": "/imported-dish-images/jaipur-india-dessert-ghewar-laxmi-misthan-bhandar.png",
+      "city": "Jaipur",
+      "country": "India",
+      "name": "Dessert Ghewar"
+    },
+    {
+      "id": "jaipur-india--957--kulfi-pandit-kulfi",
+      "imageUrl": "/imported-dish-images/jaipur-india-kulfi-pandit-kulfi.png",
+      "city": "Jaipur",
+      "country": "India",
+      "name": "Kulfi"
+    },
+    {
+      "id": "jaipur-india--958--tasting-menu-1135-ad",
+      "imageUrl": "/imported-dish-images/jaipur-india-tasting-menu-1135-ad.jpg",
+      "city": "Jaipur",
+      "country": "India",
+      "name": "Tasting Menu"
     },
     {
       "id": "jakarta-indonesia--869--nasi-goreng-cafe-batavia",

@@ -449,6 +449,48 @@ const IMPORTED_DISH_IMAGES_BY_ID: Record<string, string> = {
     "/imported-dish-images/ho-chi-minh-city-vietnam-goi-cuon-fresh-rolls-quan-an-ngon.png",
   "ho-chi-minh-city-vietnam--375--vietnamese-iced-coffee-cheese-coffee":
     "/imported-dish-images/ho-chi-minh-city-vietnam-vietnamese-iced-coffee-cheese-coffee.png",
+  "hong-kong-china--356--egg-tarts-tai-cheong-bakery":
+    "/imported-dish-images/hong-kong-china-egg-tarts-tai-cheong-bakery.png",
+  "hong-kong-china--357--char-siu-sun-hing-restaurant":
+    "/imported-dish-images/hong-kong-china-char-siu-sun-hing-restaurant.png",
+  "hong-kong-china--358--wonton-noodles-mak-s-noodle":
+    "/imported-dish-images/hong-kong-china-wonton-noodles-mak-s-noodle.png",
+  "hong-kong-china--359--roast-goose-yat-lok":
+    "/imported-dish-images/hong-kong-china-roast-goose-yat-lok.png",
+  "hong-kong-china--360--dai-pai-dong-stir-fry-sing-heung-yuen":
+    "/imported-dish-images/hong-kong-china-dai-pai-dong-stir-fry-sing-heung-yuen.png",
+  "hong-kong-china--361--dim-sum-lin-heung-tea-house":
+    "/imported-dish-images/hong-kong-china-dim-sum-lin-heung-tea-house.png",
+  "hong-kong-china--362--pineapple-bun-kam-wah-caf":
+    "/imported-dish-images/hong-kong-china-pineapple-bun-kam-wah-caf.png",
+  "hong-kong-china--363--claypot-rice-four-seasons-claypot-rice":
+    "/imported-dish-images/hong-kong-china-claypot-rice-four-seasons-claypot-rice.png",
+  "hong-kong-china--364--beef-brisket-nine-noodles":
+    "/imported-dish-images/hong-kong-china-beef-brisket-nine-noodles.png",
+  "hong-kong-china--365--milk-tea-lan-fong-yuen":
+    "/imported-dish-images/hong-kong-china-milk-tea-lan-fong-yuen.png",
+  "hong-kong-china--1263--fish-congee-luk-yu-tea-house":
+    "/imported-dish-images/hong-kong-china-fish-congee-luk-yu-tea-house.png",
+  "jaipur-india--949--dal-baati-churma-laxmi-misthan-bhandar":
+    "/imported-dish-images/jaipur-india-dal-baati-churma-laxmi-misthan-bhandar.png",
+  "jaipur-india--950--gatte-ki-sabzi-handi-restaurant":
+    "/imported-dish-images/jaipur-india-gatte-ki-sabzi-handi-restaurant.png",
+  "jaipur-india--951--ker-sangri-1135-ad":
+    "/imported-dish-images/jaipur-india-ker-sangri-1135-ad.png",
+  "jaipur-india--952--laal-maas-suvarna-mahal":
+    "/imported-dish-images/jaipur-india-laal-maas-suvarna-mahal.png",
+  "jaipur-india--953--pyaz-kachori-rawat-misthan-bhandar":
+    "/imported-dish-images/jaipur-india-pyaz-kachori-rawat-misthan-bhandar.png",
+  "jaipur-india--954--street-chaat-chaat-bazaar":
+    "/imported-dish-images/jaipur-india-street-chaat-chaat-bazaar.png",
+  "jaipur-india--955--rajasthani-thali-chokhi-dhani":
+    "/imported-dish-images/jaipur-india-rajasthani-thali-chokhi-dhani.png",
+  "jaipur-india--956--dessert-ghewar-laxmi-misthan-bhandar":
+    "/imported-dish-images/jaipur-india-dessert-ghewar-laxmi-misthan-bhandar.png",
+  "jaipur-india--957--kulfi-pandit-kulfi":
+    "/imported-dish-images/jaipur-india-kulfi-pandit-kulfi.png",
+  "jaipur-india--958--tasting-menu-1135-ad":
+    "/imported-dish-images/jaipur-india-tasting-menu-1135-ad.jpg",
   "lisbon-portugal--138--grilled-prawns-cervejaria-ramiro":
     "/imported-dish-images/lisbon-grilled-prawns-cervejaria-ramiro.png",
   "los-angeles-united-states--12--tacos-al-pastor-leo-s-taco-truck":
