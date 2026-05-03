@@ -38,6 +38,9 @@ function isPlaceholderOrFallbackImageUrl(url: string): boolean {
   if (!u) return true;
   if (u.includes("dish-fallback")) return true;
   if (u.includes("placehold.co")) return true;
+  if (u.includes("via.placeholder")) return true;
+  if (u.includes("dummyimage")) return true;
+  if (u.includes("picsum.photos")) return true;
   return false;
 }
 
@@ -57,27 +60,27 @@ function localPublicImageFileExists(pathname: string): boolean {
   }
 }
 
+/** Quiz only uses real files under `public/Images` or `public/imported-dish-images` (uploaded/indexed assets). */
 function resolvedImageUrlOkForQuiz(url: string | null | undefined): boolean {
   const u = url?.trim() ?? "";
   if (!u) return false;
   if (isPlaceholderOrFallbackImageUrl(u)) return false;
-  if (u.startsWith("data:image/")) return true;
+  // No remote-only spreadsheet URLs or data URLs — they often 404 or hit DishPhoto fallback.
 
-  if (u.startsWith("/")) {
+  if (u.startsWith("/Images/") || u.startsWith("/imported-dish-images/")) {
     return localPublicImageFileExists(u);
   }
 
   if (u.startsWith("http://") || u.startsWith("https://")) {
     try {
-      const parsed = new URL(u);
-      const pn = parsed.pathname;
+      const pn = new URL(u).pathname;
       if (pn.startsWith("/Images/") || pn.startsWith("/imported-dish-images/")) {
         return localPublicImageFileExists(pn);
       }
-      return true;
     } catch {
       return false;
     }
+    return false;
   }
 
   return false;

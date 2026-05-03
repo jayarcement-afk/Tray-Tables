@@ -31,9 +31,17 @@ type PoolEntry = {
   name: string;
 };
 
+function isUploadedStaticImageUrl(url: string): boolean {
+  const u = url.trim().toLowerCase();
+  if (!u || u.includes("dish-fallback") || u.includes("placehold")) return false;
+  return u.startsWith("/images/") || u.startsWith("/imported-dish-images/");
+}
+
 function poolEntries(): PoolEntry[] {
   const raw = quizPoolJson as { dishes?: PoolEntry[] };
-  return Array.isArray(raw.dishes) ? raw.dishes : [];
+  const list = Array.isArray(raw.dishes) ? raw.dishes : [];
+  // Skip stale JSON rows from older generators that allowed remote spreadsheet URLs.
+  return list.filter((e) => isUploadedStaticImageUrl(e.imageUrl ?? ""));
 }
 
 function label(e: PoolEntry): string {
