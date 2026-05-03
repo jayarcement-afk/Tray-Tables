@@ -65,6 +65,7 @@ export function CanonicalDishesWithFilters({
   }, [tripId, cityName, cityCountry]);
 
   useEffect(() => {
+    let cancelled = false;
     skipNextSelectedPersist.current = true;
     const storageKey = `trip-selected-dishes:${tripId}`;
     const itineraryKey = `trip-itinerary:${tripId}`;
@@ -102,6 +103,29 @@ export function CanonicalDishesWithFilters({
     } catch {
       // Ignore invalid localStorage payloads.
     }
+
+    void (async () => {
+      try {
+        const res = await fetch(`/api/trips/${tripId}/reviews`);
+        const json = (await res.json()) as {
+          reviews?: Record<string, { rating?: number; experienceReview?: string; tags?: string[]; photos?: string[] }>;
+        };
+        if (cancelled || !res.ok || !json.reviews || typeof json.reviews !== "object") return;
+        setSelectedDishIds((prev) => {
+          const s = new Set(prev);
+          for (const id of Object.keys(json.reviews)) {
+            if (id) s.add(id);
+          }
+          return [...s];
+        });
+      } catch {
+        // ignore
+      }
+    })();
+
+    return () => {
+      cancelled = true;
+    };
   }, [tripId]);
 
   useEffect(() => {
@@ -115,6 +139,29 @@ export function CanonicalDishesWithFilters({
     } catch {
       // ignore
     }
+  }, [tripId, selectedDishIds]);
+
+  /** After selections load from storage/server, persist pins so passport stats see every “Add to Trip” from this page. */
+  useEffect(() => {
+    const t = window.setTimeout(async () => {
+      try {
+        const resGet = await fetch(`/api/trips/${tripId}/reviews`);
+        const json = (await resGet.json()) as { reviews?: Record<string, unknown>; error?: string };
+        if (!resGet.ok || !json.reviews || typeof json.reviews !== "object") return;
+        const existing = json.reviews as Record<
+          string,
+          { rating: number; experienceReview: string; tags: string[]; photos: string[] }
+        >;
+        await fetch(`/api/trips/${tripId}/reviews`, {
+          method: "PUT",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({ reviews: existing, pinnedDishIds: selectedDishIds }),
+        });
+      } catch {
+        // keep local state; retry on next change
+      }
+    }, 600);
+    return () => window.clearTimeout(t);
   }, [tripId, selectedDishIds]);
 
   const filtered = useMemo(

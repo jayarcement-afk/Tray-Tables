@@ -43,3 +43,21 @@ export function getCanonicalDishesForSlug(
   }
   return [];
 }
+
+let canonicalDishByIdCache: Map<string, CsvDish> | null = null;
+
+/** Resolve a canonical dish id across all cities (for stats / pins when trip slug mismatches). */
+export function getCanonicalDishById(dishId: string | null | undefined): CsvDish | null {
+  if (!dishId) return null;
+  if (!canonicalDishByIdCache) {
+    const bySlug = (data as { bySlug: Record<string, CsvDish[]> }).bySlug;
+    const m = new Map<string, CsvDish>();
+    for (const dishes of Object.values(bySlug)) {
+      for (const d of dishes) {
+        m.set(d.id, d);
+      }
+    }
+    canonicalDishByIdCache = m;
+  }
+  return canonicalDishByIdCache.get(dishId) ?? null;
+}

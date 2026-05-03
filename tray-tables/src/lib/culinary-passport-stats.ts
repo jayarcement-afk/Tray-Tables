@@ -1,5 +1,5 @@
 import type { CsvDish } from "@/lib/canonical-dishes";
-import { getCanonicalDishesForSlug } from "@/lib/canonical-dishes";
+import { getCanonicalDishById, getCanonicalDishesForSlug } from "@/lib/canonical-dishes";
 import { continentForCountry } from "@/lib/culinary-passport-continents";
 import type { SupabaseClient } from "@supabase/supabase-js";
 
@@ -261,9 +261,9 @@ export async function loadPassportStats(
         const country = (tripCity(trip)?.country ?? "").trim() || "unknown";
         restaurantKeys.add(restaurantKey(rname, country));
       }
-    } else if (tripSlug) {
-      const dm = slugDishMaps.get(tripSlug);
-      const dish = dm?.get(dishId);
+    } else {
+      const dm = tripSlug ? slugDishMaps.get(tripSlug) : undefined;
+      const dish = dm?.get(dishId) ?? getCanonicalDishById(dishId);
       if (dish) {
         restaurantKeys.add(restaurantKey(dish.restaurant, dish.country));
         if (isVegetarianCsv(dish)) addKey(vegetarianKeys, trip, dish.restaurant);
