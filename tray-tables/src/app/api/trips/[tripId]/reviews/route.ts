@@ -11,6 +11,8 @@ type DishReview = {
 
 type ReviewPayload = {
   reviews: Record<string, DishReview>;
+  /** Dish IDs on the trip (planner selection); persisted with rating 0 so stats can count restaurants without a written review */
+  pinnedDishIds?: string[];
 };
 
 function sanitizeReview(input: DishReview): DishReview {
@@ -80,20 +82,52 @@ export async function PUT(
 
   const body = (await request.json()) as ReviewPayload;
   const input = body.reviews ?? {};
+  const pinIds = Array.isArray(body.pinnedDishIds)
+    ? body.pinnedDishIds.map((id) => String(id).trim()).filter(Boolean)
+    : [];
 
-  const rows = Object.entries(input)
-    .map(([dishId, r]) => [dishId, sanitizeReview(r)] as const)
-    .filter(([dishId, r]) => dishId.trim().length > 0 && hasReviewContent(r));
+  const emptyRow = (): DishReview => ({
+    rating: 0,
+    experienceReview: "",
+    tags: [],
+    photos: [],
+  });
 
-  const keepIds = rows.map(([dishId]) => dishId);
-  const upsertRows = rows.map(([dishId, r]) => ({
-    trip_id: tripId,
-    dish_id: dishId,
-    rating: r.rating,
-    experience_review: r.experienceReview,
-    tags: r.tags,
-    photos: r.photos,
-  }));
+  const rowMap = new Map<
+    string,
+    { trip_id: string; dish_id: string; rating: number; experience_review: string; tags: string[]; photos: string[] }
+  >();
+
+  for (const [dishId, raw] of Object.entries(input)) {
+    const id = dishId.trim();
+    if (!id) continue;
+    const r = sanitizeReview(raw);
+    if (!hasReviewContent(r)) continue;
+    rowMap.set(id, {
+      trip_id: tripId,
+      dish_id: id,
+      rating: r.rating,
+      experience_review: r.experienceReview,
+      tags: r.tags,
+      photos: r.photos,
+    });
+  }
+
+  for (const id of pinIds) {
+    if (rowMap.has(id)) continue;
+    const r = emptyRow();
+    rowMap.set(id, {
+      trip_id: tripId,
+      dish_id: id,
+      rating: r.rating,
+      experience_review: r.experienceReview,
+      tags: r.tags,
+      photos: r.photos,
+    });
+  }
+
+  const keepIds = [...rowMap.keys()];
+  const upsertRows = [...rowMap.values()];
 
   if (upsertRows.length > 0) {
     const { error: upsertErr } = await supabase

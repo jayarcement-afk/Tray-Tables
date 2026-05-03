@@ -299,6 +299,8 @@ const IMPORTED_DISH_IMAGES_BY_ID: Record<string, string> = {
     "/imported-dish-images/san-francisco-pizza-tony-pizza-napoletana.png",
   "san-francisco-united-states--542--tasting-menu-quince":
     "/imported-dish-images/san-francisco-tasting-menu-quince.png",
+  "tokyo--1278--toro-sushi-tsukiji-fish-market":
+    "/imported-dish-images/tokyo-toro-sushi-tsukiji-fish-market.png",
 };
 
 function toSlug(value: string): string {

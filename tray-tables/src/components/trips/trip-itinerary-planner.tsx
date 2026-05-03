@@ -152,7 +152,14 @@ export function TripItineraryPlanner({
 }: Props) {
   const days = useMemo(() => dateRangeInclusive(startDate, endDate), [startDate, endDate]);
   const [customDishes, setCustomDishes] = useState<CsvDish[]>([]);
-  const allDishes = useMemo(() => [...dishes, ...customDishes], [dishes, customDishes]);
+  /** `dishes` is a new array from the server each render; key by ids so `allDishes` / `byId` stay stable when contents match. */
+  const dishesRef = useRef(dishes);
+  dishesRef.current = dishes;
+  const dishIdsKey = dishes.map((d) => d.id).join("|");
+  const allDishes = useMemo(
+    () => [...dishesRef.current, ...customDishes],
+    [dishIdsKey, customDishes]
+  );
   const byId = useMemo(() => new Map(allDishes.map((d) => [d.id, d])), [allDishes]);
   const [selectedIds, setSelectedIds] = useState<string[]>([]);
   const [itinerary, setItinerary] = useState<Itinerary>({});
@@ -261,7 +268,7 @@ export function TripItineraryPlanner({
       const day = days[i % days.length];
       base[day][guessSlotFromDish(dish)].push(id);
     });
-    setItinerary(base);
+    setItinerary((prev) => (JSON.stringify(prev) === JSON.stringify(base) ? prev : base));
   }, [tripId, days, selectedIds, byId, startDate, endDate]);
 
   useEffect(() => {
@@ -281,6 +288,14 @@ export function TripItineraryPlanner({
         const json = (await res.json()) as { reviews?: ReviewByDishId; error?: string };
         if (!cancelled && res.ok && json.reviews && isReviewByDishId(json.reviews)) {
           setReviews(json.reviews);
+          const fromServer = Object.keys(json.reviews);
+          if (fromServer.length > 0) {
+            setSelectedIds((prev) => {
+              const s = new Set(prev);
+              for (const id of fromServer) s.add(id);
+              return [...s];
+            });
+          }
           setReviewsLoaded(true);
           return;
         }
@@ -300,7 +315,16 @@ export function TripItineraryPlanner({
         }
         const parsed = JSON.parse(raw) as unknown;
         if (!cancelled) {
-          setReviews(isReviewByDishId(parsed) ? parsed : {});
+          const rev = isReviewByDishId(parsed) ? parsed : {};
+          setReviews(rev);
+          const fromLs = Object.keys(rev);
+          if (fromLs.length > 0) {
+            setSelectedIds((prev) => {
+              const s = new Set(prev);
+              for (const id of fromLs) s.add(id);
+              return [...s];
+            });
+          }
           setReviewsLoaded(true);
         }
       } catch {
@@ -321,21 +345,22 @@ export function TripItineraryPlanner({
     window.localStorage.setItem(key, JSON.stringify(reviews));
   }, [tripId, reviews]);
 
+  /** Persist planner pins + reviews whenever they change (not only past trips) so passport stats stay in sync. */
   useEffect(() => {
-    if (!isPastTrip || !reviewsLoaded) return;
+    if (!reviewsLoaded) return;
     const t = setTimeout(async () => {
       try {
         await fetch(`/api/trips/${tripId}/reviews`, {
           method: "PUT",
           headers: { "content-type": "application/json" },
-          body: JSON.stringify({ reviews }),
+          body: JSON.stringify({ reviews, pinnedDishIds: selectedIds }),
         });
       } catch {
         // Keep local backup; retry on next change.
       }
     }, 600);
     return () => clearTimeout(t);
-  }, [tripId, reviews, isPastTrip, reviewsLoaded]);
+  }, [tripId, reviews, selectedIds, reviewsLoaded]);
 
   function onDragStart(e: React.DragEvent, dishId: string, day: string, slot: MealSlot) {
     e.dataTransfer.setData("text/plain", JSON.stringify({ dishId, fromDay: day, fromSlot: slot }));
