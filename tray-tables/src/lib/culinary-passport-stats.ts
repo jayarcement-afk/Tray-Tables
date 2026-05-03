@@ -273,7 +273,8 @@ export async function loadPassportStats(
     tag_vegetarian_options: boolean | null;
     tag_street_food: boolean | null;
     tag_local_favorite: boolean | null;
-    tag_michelin_guide: boolean | null;
+    /** Present after `add-tag-michelin-guide-trip-custom-dishes.sql` is applied. */
+    tag_michelin_guide?: boolean | null;
     created_at: string | null;
   };
   type ReviewRow = {
@@ -291,9 +292,8 @@ export async function loadPassportStats(
     const [customRes, reviewRes] = await Promise.all([
       supabase
         .from("trip_custom_dishes")
-        .select(
-          "id, trip_id, restaurant, link_url, drink_pairing, dish_name, meal_slots, tag_vegetarian_options, tag_street_food, tag_local_favorite, tag_michelin_guide, created_at"
-        )
+        // Use * so we do not fail when tag_michelin_guide is not migrated yet (explicit column list → PostgREST error → all stats zeroed).
+        .select("*")
         .in("trip_id", pastTripIds),
       supabase
         .from("trip_dish_reviews")

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-24T18:34:44.295Z",
+  "generated": "2026-05-03T03:29:56.726Z",
   "source": "Canonical Dishes Listed (xlsx); dishes keyed by city slug",
   "bySlug": {
     "abu-dhabi-united-arab-emirates": [
@@ -188,6 +188,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -285,6 +286,7 @@
         "trendy": "No",
         "streetFood": "No",
         "drinkPairing": "Limoncello Spritz",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -380,6 +382,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -572,6 +575,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Sauvignon Blanc",
+        "michelinGuide": true,
         "hours": "Lunch, Dinner",
         "tags": [
           "Lunch",
@@ -611,6 +615,7 @@
         "trendy": "No",
         "streetFood": "No",
         "drinkPairing": "Dutch brown beer",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -1033,6 +1038,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -1130,6 +1136,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Local Beer",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -1285,6 +1292,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -1304,6 +1312,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Dry Pinot Noir",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -1323,6 +1332,7 @@
         "trendy": "No",
         "streetFood": "No",
         "drinkPairing": "Chardonnay",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -1342,6 +1352,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Sake Junmai Daiginjo",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -1361,6 +1372,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Bourbon Old Fashioned",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -1380,6 +1392,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Pandan Gimlet",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -1420,6 +1433,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Sauvignon Blanc",
+        "michelinGuide": true,
         "hours": "Lunch",
         "tags": [
           "Lunch"
@@ -1439,6 +1453,7 @@
         "trendy": "No",
         "streetFood": "No",
         "drinkPairing": "Pinot Noir",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -1572,6 +1587,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Dessert Cocktail",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -1726,6 +1742,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Sake",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -1843,6 +1860,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Lager Beer",
+        "michelinGuide": true,
         "hours": "Lunch, Dinner",
         "tags": [
           "Lunch",
@@ -1863,6 +1881,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Dry Riesling",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -1939,6 +1958,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Champagne",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -1977,15 +1997,16 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Chicken Broth",
+        "michelinGuide": true,
         "hours": "Lunch",
         "tags": [
           "Lunch"
         ]
       }
     ],
-    "barcelona-spain": [
+    "barcelona": [
       {
-        "id": "barcelona-spain--96--paella-de-marisco-7-portes",
+        "id": "barcelona--96--paella-de-marisco-7-portes",
         "city": "Barcelona",
         "country": "Spain",
         "name": "Paella de Marisco",
@@ -2004,7 +2025,7 @@
         ]
       },
       {
-        "id": "barcelona-spain--97--patatas-bravas-bar-tom-s",
+        "id": "barcelona--97--patatas-bravas-bar-tom-s",
         "city": "Barcelona",
         "country": "Spain",
         "name": "Patatas Bravas",
@@ -2023,7 +2044,7 @@
         ]
       },
       {
-        "id": "barcelona-spain--98--iberian-ham-paco-meralgo",
+        "id": "barcelona--98--iberian-ham-paco-meralgo",
         "city": "Barcelona",
         "country": "Spain",
         "name": "Iberian Ham",
@@ -2042,7 +2063,7 @@
         ]
       },
       {
-        "id": "barcelona-spain--99--bombas-la-cova-fumada",
+        "id": "barcelona--99--bombas-la-cova-fumada",
         "city": "Barcelona",
         "country": "Spain",
         "name": "Bombas",
@@ -2061,7 +2082,7 @@
         ]
       },
       {
-        "id": "barcelona-spain--100--pan-con-tomate-can-culleretes",
+        "id": "barcelona--100--pan-con-tomate-can-culleretes",
         "city": "Barcelona",
         "country": "Spain",
         "name": "Pan con Tomate",
@@ -2074,13 +2095,14 @@
         "trendy": "No",
         "streetFood": "No",
         "drinkPairing": "Catalan Red Wine",
+        "michelinGuide": true,
         "hours": "Lunch",
         "tags": [
           "Lunch"
         ]
       },
       {
-        "id": "barcelona-spain--101--seafood-rice-arroz-negro-xiringuito-escrib",
+        "id": "barcelona--101--seafood-rice-arroz-negro-xiringuito-escrib",
         "city": "Barcelona",
         "country": "Spain",
         "name": "Seafood Rice (Arroz Negro)",
@@ -2099,7 +2121,7 @@
         ]
       },
       {
-        "id": "barcelona-spain--102--boquerones-en-vinagre-el-xampanyet",
+        "id": "barcelona--102--boquerones-en-vinagre-el-xampanyet",
         "city": "Barcelona",
         "country": "Spain",
         "name": "Boquerones en Vinagre",
@@ -2118,7 +2140,7 @@
         ]
       },
       {
-        "id": "barcelona-spain--103--fideu-can-maj",
+        "id": "barcelona--103--fideu-can-maj",
         "city": "Barcelona",
         "country": "Spain",
         "name": "Fideuà",
@@ -2137,7 +2159,7 @@
         ]
       },
       {
-        "id": "barcelona-spain--104--croquetas-sensi-tapas",
+        "id": "barcelona--104--croquetas-sensi-tapas",
         "city": "Barcelona",
         "country": "Spain",
         "name": "Croquetas",
@@ -2156,7 +2178,7 @@
         ]
       },
       {
-        "id": "barcelona-spain--105--crema-catalana-granja-dulcinea",
+        "id": "barcelona--105--crema-catalana-granja-dulcinea",
         "city": "Barcelona",
         "country": "Spain",
         "name": "Crema Catalana",
@@ -2175,7 +2197,7 @@
         ]
       },
       {
-        "id": "barcelona-spain--1226--tapas-quimet-y-quimet",
+        "id": "barcelona--1226--tapas-quimet-y-quimet",
         "city": "Barcelona",
         "country": "Spain",
         "name": "Tapas",
@@ -2194,7 +2216,7 @@
         ]
       },
       {
-        "id": "barcelona-spain--1227--pintxos-blai-tonight",
+        "id": "barcelona--1227--pintxos-blai-tonight",
         "city": "Barcelona",
         "country": "Spain",
         "name": "Pintxos",
@@ -2213,7 +2235,7 @@
         ]
       },
       {
-        "id": "barcelona-spain--1228--esqueixada-can-culleretes",
+        "id": "barcelona--1228--esqueixada-can-culleretes",
         "city": "Barcelona",
         "country": "Spain",
         "name": "Esqueixada",
@@ -2232,7 +2254,7 @@
         ]
       },
       {
-        "id": "barcelona-spain--1229--tortilla-de-patatas-la-pubilla",
+        "id": "barcelona--1229--tortilla-de-patatas-la-pubilla",
         "city": "Barcelona",
         "country": "Spain",
         "name": "Tortilla De Patatas",
@@ -2251,7 +2273,7 @@
         ]
       },
       {
-        "id": "barcelona-spain--1230--truita-de-patates-sagardi",
+        "id": "barcelona--1230--truita-de-patates-sagardi",
         "city": "Barcelona",
         "country": "Spain",
         "name": "Truita De Patates",
@@ -2270,7 +2292,7 @@
         ]
       },
       {
-        "id": "barcelona-spain--1231--bikini-cafe-zurich",
+        "id": "barcelona--1231--bikini-cafe-zurich",
         "city": "Barcelona",
         "country": "Spain",
         "name": "Bikini",
@@ -2323,6 +2345,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Red Wine",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -2475,6 +2498,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -2667,6 +2691,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -2765,6 +2790,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Grüner Veltliner",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -2917,6 +2943,7 @@
         "trendy": "No",
         "streetFood": "No",
         "drinkPairing": "Korn schnapps",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -3263,6 +3290,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Muscadet",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -3531,6 +3559,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Natural Wine",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -3742,6 +3771,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -3840,6 +3870,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Sweet Tokaji",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -4051,6 +4082,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Malbec",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -4222,6 +4254,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -4414,6 +4447,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -4590,6 +4624,25 @@
         "hours": "Breakfast",
         "tags": [
           "Breakfast"
+        ]
+      },
+      {
+        "id": "cebu-city-philippines--928--tasting-menu-n-a",
+        "city": "Cebu City",
+        "country": "Philippines",
+        "name": "Tasting Menu",
+        "restaurant": "N/A",
+        "why": "N/A",
+        "imageUrl": null,
+        "price": "N/A",
+        "vegetarianOptions": "N/A",
+        "localFavorite": "N/A",
+        "trendy": "N/A",
+        "streetFood": "N/A",
+        "drinkPairing": "N/A",
+        "hours": "N/A",
+        "tags": [
+          "N/a"
         ]
       }
     ],
@@ -5442,6 +5495,25 @@
         "tags": [
           "Dessert"
         ]
+      },
+      {
+        "id": "da-nang-vietnam--868--tasting-menu-n-a",
+        "city": "Da Nang",
+        "country": "Vietnam",
+        "name": "Tasting Menu",
+        "restaurant": "N/A",
+        "why": "N/A",
+        "imageUrl": null,
+        "price": "N/A",
+        "vegetarianOptions": "N/A",
+        "localFavorite": "N/A",
+        "trendy": "N/A",
+        "streetFood": "N/A",
+        "drinkPairing": "N/A",
+        "hours": "N/A",
+        "tags": [
+          "N/a"
+        ]
       }
     ],
     "delhi-india": [
@@ -5516,6 +5588,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Red Wine",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -5630,6 +5703,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -5822,6 +5896,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -6014,6 +6089,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -6206,6 +6282,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -6398,6 +6475,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -6495,6 +6573,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "White Wine",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -6533,6 +6612,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -6590,6 +6670,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -6687,6 +6768,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -6782,6 +6864,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -7204,6 +7287,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -7263,6 +7347,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Negroni",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -7723,6 +7808,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -7802,6 +7888,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Rice Wine",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -8475,6 +8562,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -8729,6 +8817,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Jasmine Tea",
+        "michelinGuide": true,
         "hours": "Lunch",
         "tags": [
           "Lunch"
@@ -8748,6 +8837,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Plum Wine",
+        "michelinGuide": true,
         "hours": "Lunch",
         "tags": [
           "Lunch"
@@ -8844,6 +8934,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Jasmine Tea",
+        "michelinGuide": true,
         "hours": "Lunch",
         "tags": [
           "Lunch"
@@ -9074,6 +9165,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -9152,6 +9244,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Red Wine",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -9266,6 +9359,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -9458,6 +9552,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -9650,6 +9745,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -10248,6 +10344,7 @@
         "trendy": "No",
         "streetFood": "No",
         "drinkPairing": "Premium Sake",
+        "michelinGuide": true,
         "hours": "Lunch, Dinner",
         "tags": [
           "Lunch",
@@ -10287,6 +10384,7 @@
         "trendy": "No",
         "streetFood": "No",
         "drinkPairing": "Cold Soba Tea",
+        "michelinGuide": true,
         "hours": "Lunch",
         "tags": [
           "Lunch"
@@ -10402,6 +10500,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Dry Sake",
+        "michelinGuide": true,
         "hours": "Lunch",
         "tags": [
           "Lunch"
@@ -10442,6 +10541,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Bordeaux",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -10480,6 +10580,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Sake",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -10556,6 +10657,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Sparkling Wine",
+        "michelinGuide": true,
         "hours": "All Day",
         "tags": [
           "All Day"
@@ -10575,6 +10677,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Sake",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -10634,6 +10737,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Pisco Sour",
+        "michelinGuide": true,
         "hours": "Lunch",
         "tags": [
           "Lunch"
@@ -10710,6 +10814,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Pisco Punch",
+        "michelinGuide": true,
         "hours": "Lunch",
         "tags": [
           "Lunch"
@@ -10767,6 +10872,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "White Wine",
+        "michelinGuide": true,
         "hours": "Lunch",
         "tags": [
           "Lunch"
@@ -11265,6 +11371,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -11501,6 +11608,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Red wine",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -11889,6 +11997,7 @@
         "trendy": "No",
         "streetFood": "No",
         "drinkPairing": "Tempranillo",
+        "michelinGuide": true,
         "hours": "Lunch",
         "tags": [
           "Lunch"
@@ -11965,6 +12074,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Rioja Crianza",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -12214,6 +12324,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -12292,6 +12403,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -12406,6 +12518,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -12733,6 +12846,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Pinot Noir",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -12771,6 +12885,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Sparkling Wine",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -12887,6 +13002,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Oaxaca Mezcal",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -12908,6 +13024,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Dirty Martini",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -12984,6 +13101,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Pisco Sour",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -13139,6 +13257,7 @@
         "trendy": "No",
         "streetFood": "No",
         "drinkPairing": "Barbera",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -13178,6 +13297,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Espresso",
+        "michelinGuide": true,
         "hours": "Morning",
         "tags": [
           "Morning"
@@ -13235,6 +13355,7 @@
         "trendy": "No",
         "streetFood": "No",
         "drinkPairing": "Soave",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -13446,6 +13567,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -13465,6 +13587,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -13522,6 +13645,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dessert",
         "tags": [
           "Dessert"
@@ -13560,6 +13684,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -13830,6 +13955,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Red Wine",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -13944,6 +14070,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -14136,6 +14263,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -14272,6 +14400,7 @@
         "trendy": "No",
         "streetFood": "No",
         "drinkPairing": "Dry Riesling",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -14540,6 +14669,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -14848,6 +14978,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Champagne",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -14924,6 +15055,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Brandy Milk Punch",
+        "michelinGuide": true,
         "hours": "Dessert",
         "tags": [
           "Dessert"
@@ -15241,6 +15373,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -15336,6 +15469,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -15474,6 +15608,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Junmai Sake",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -15916,6 +16051,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -16148,6 +16284,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Southwest French red wine",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -16302,6 +16439,7 @@
         "trendy": "Yes",
         "streetFood": "Yes",
         "drinkPairing": "Iced Tea",
+        "michelinGuide": true,
         "hours": "Lunch",
         "tags": [
           "Lunch"
@@ -16646,6 +16784,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -16840,6 +16979,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Natural Wine",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -16935,6 +17075,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Vodka",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -16992,6 +17133,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Pinot Noir",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -17224,6 +17366,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "White Wine",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -17300,6 +17443,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -17376,6 +17520,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -18299,6 +18444,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "White Wine",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -18549,6 +18695,7 @@
         "trendy": "Yes",
         "streetFood": "Yes",
         "drinkPairing": "Sparkling Wine",
+        "michelinGuide": true,
         "hours": "Lunch",
         "tags": [
           "Lunch"
@@ -18568,6 +18715,7 @@
         "trendy": "No",
         "streetFood": "No",
         "drinkPairing": "Dry Red Lazio Wine",
+        "michelinGuide": true,
         "hours": "Lunch",
         "tags": [
           "Lunch"
@@ -18587,6 +18735,7 @@
         "trendy": "No",
         "streetFood": "No",
         "drinkPairing": "Prosecco",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -18625,6 +18774,7 @@
         "trendy": "No",
         "streetFood": "No",
         "drinkPairing": "Chardonnay",
+        "michelinGuide": true,
         "hours": "Lunch",
         "tags": [
           "Lunch"
@@ -18855,6 +19005,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -19047,6 +19198,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -19163,6 +19315,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "White Wine",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -19393,6 +19546,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "White Wine",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -19509,6 +19663,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Red Wine",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -19623,6 +19778,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -19644,6 +19800,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Caipirinha",
+        "michelinGuide": true,
         "hours": "Lunch",
         "tags": [
           "Lunch"
@@ -19796,6 +19953,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Cachaca",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -19836,6 +19994,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Muscadet",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -19931,6 +20090,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Sake",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -20067,6 +20227,7 @@
         "trendy": "No",
         "streetFood": "No",
         "drinkPairing": "Soju",
+        "michelinGuide": true,
         "hours": "Lunch",
         "tags": [
           "Lunch"
@@ -20144,6 +20305,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Barley Tea",
+        "michelinGuide": true,
         "hours": "Lunch, Dinner",
         "tags": [
           "Lunch",
@@ -20451,6 +20613,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Full‑bodied Red",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -20719,6 +20882,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -20797,6 +20961,7 @@
         "trendy": "Yes",
         "streetFood": "Yes",
         "drinkPairing": "Chicken Broth",
+        "michelinGuide": true,
         "hours": "Lunch",
         "tags": [
           "Lunch"
@@ -20892,6 +21057,7 @@
         "trendy": "No",
         "streetFood": "Yes",
         "drinkPairing": "Chinese Tea",
+        "michelinGuide": true,
         "hours": "Lunch",
         "tags": [
           "Lunch"
@@ -20930,6 +21096,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Chinese Tea",
+        "michelinGuide": true,
         "hours": "Lunch",
         "tags": [
           "Lunch"
@@ -21101,6 +21268,7 @@
         "trendy": "No",
         "streetFood": "No",
         "drinkPairing": "Tea",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -21158,6 +21326,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -21255,6 +21424,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "White Wine",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -21350,6 +21520,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -21410,6 +21581,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Champagne",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -21621,6 +21793,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Chardonnay",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -21735,6 +21908,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Shiraz",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -21813,6 +21987,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Green Tea",
+        "michelinGuide": true,
         "hours": "Lunch",
         "tags": [
           "Lunch"
@@ -21965,6 +22140,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -22157,6 +22333,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -22349,6 +22526,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -22390,6 +22568,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Asahi Super Dry",
+        "michelinGuide": true,
         "hours": "Lunch, Dinner",
         "tags": [
           "Lunch",
@@ -22430,6 +22609,7 @@
         "trendy": "No",
         "streetFood": "No",
         "drinkPairing": "Dry Sake",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -22468,6 +22648,7 @@
         "trendy": "No",
         "streetFood": "No",
         "drinkPairing": "Cold Soba Tea",
+        "michelinGuide": true,
         "hours": "Lunch, Dinner",
         "tags": [
           "Lunch",
@@ -22777,6 +22958,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -22969,6 +23151,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -23239,6 +23422,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "White Wine",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -23431,6 +23615,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Sake",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -23526,6 +23711,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Natural Wine",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -23583,6 +23769,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -24238,6 +24425,7 @@
         "trendy": "Yes",
         "streetFood": "Yes",
         "drinkPairing": "DC Lager",
+        "michelinGuide": true,
         "hours": "Late Night",
         "tags": [
           "Late Night"
@@ -24352,6 +24540,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "N/A",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -24371,6 +24560,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Assyrtiko",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"
@@ -24582,6 +24772,7 @@
         "trendy": "Yes",
         "streetFood": "No",
         "drinkPairing": "Wine Pairing",
+        "michelinGuide": true,
         "hours": "Dinner",
         "tags": [
           "Dinner"

@@ -130,6 +130,11 @@ for (const r of rows) {
     streetFood: String(r["Street Food"] ?? "").trim(),
     drinkPairing: String(r["Drink Pairing"] ?? "").trim(),
   };
+  const sourceCell = String(
+    r.Source ?? r.source ?? r.Sources ?? r.sources ?? ""
+  ).trim();
+  if (/michelin/i.test(sourceCell)) rec.michelinGuide = true;
+
   if (!bySlug.has(slug)) bySlug.set(slug, []);
   bySlug.get(slug).push({ ...rec, hours: hoursRaw, tags });
 }

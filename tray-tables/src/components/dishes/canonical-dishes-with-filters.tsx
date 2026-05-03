@@ -110,10 +110,11 @@ export function CanonicalDishesWithFilters({
         const json = (await res.json()) as {
           reviews?: Record<string, { rating?: number; experienceReview?: string; tags?: string[]; photos?: string[] }>;
         };
-        if (cancelled || !res.ok || !json.reviews || typeof json.reviews !== "object") return;
+        const reviews = json.reviews;
+        if (cancelled || !res.ok || !reviews || typeof reviews !== "object") return;
         setSelectedDishIds((prev) => {
           const s = new Set(prev);
-          for (const id of Object.keys(json.reviews)) {
+          for (const id of Object.keys(reviews)) {
             if (id) s.add(id);
           }
           return [...s];
