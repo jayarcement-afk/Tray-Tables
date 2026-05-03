@@ -10963,6 +10963,7 @@
         "name": "Grilled Prawns",
         "restaurant": "Cervejaria Ramiro",
         "why": "Seafood temple loved by locals and chefs.",
+        "michelinGuide": true,
         "imageUrl": null,
         "price": "€€€",
         "vegetarianOptions": "Limited",

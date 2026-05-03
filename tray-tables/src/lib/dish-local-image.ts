@@ -277,6 +277,8 @@ const IMPORTED_DISH_IMAGES_BY_ID: Record<string, string> = {
     "/imported-dish-images/gold-coast-calamari-glenelg-public-house.jpg",
   "gold-coast-australia--1176--poke-bowl-blendlove":
     "/imported-dish-images/gold-coast-poke-bowl-blendlove.jpg",
+  "lisbon-portugal--138--grilled-prawns-cervejaria-ramiro":
+    "/imported-dish-images/lisbon-grilled-prawns-cervejaria-ramiro.png",
   "los-angeles-united-states--12--tacos-al-pastor-leo-s-taco-truck":
     "/imported-dish-images/los-angeles-tacos-al-pastor-leos-taco-truck.png",
   "san-francisco-united-states--533--sourdough-bread-boudin-bakery":

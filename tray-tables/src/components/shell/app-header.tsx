@@ -63,6 +63,12 @@ export async function AppHeader() {
               >
                 Passport
               </Link>
+              <Link
+                href="/games"
+                className="rounded-lg px-2 py-2 text-sm font-medium text-zinc-700 hover:bg-zinc-100 sm:px-3"
+              >
+                Games
+              </Link>
               <SignOutButton />
             </>
           ) : (
