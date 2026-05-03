@@ -10,6 +10,7 @@ import {
   TRIP_CUSTOM_DISH_IMAGE_BUCKET,
   TRIP_CUSTOM_DISH_IMAGE_SIGN_SECS,
 } from "@/lib/trip-custom-dish-constants";
+import { linkIsMichelinGuide } from "@/lib/michelin-source";
 
 type TripCustomDishRow = {
   id: string;
@@ -26,6 +27,7 @@ type TripCustomDishRow = {
   tag_trendy: boolean;
   tag_street_food: boolean;
   tag_vegetarian_options: boolean;
+  tag_michelin_guide?: boolean;
   image_storage_path: string | null;
 };
 
@@ -44,6 +46,8 @@ type CreatePayload = {
   trendy?: boolean;
   streetFood?: boolean;
   vegetarianOptions?: boolean;
+  /** User says the source is the Michelin Guide; also set automatically when linkUrl is guide.michelin.com. */
+  michelinGuide?: boolean;
 };
 
 const ALLOWED_SLOTS: MealSlotKey[] = ["breakfast", "lunch", "dinner", "late_night"];
@@ -101,6 +105,7 @@ function rowToApi(row: TripCustomDishRow, signedImageUrl: string | null): TripCu
     trendy: row.tag_trendy,
     streetFood: row.tag_street_food,
     vegetarianOptions: row.tag_vegetarian_options,
+    michelinGuide: Boolean(row.tag_michelin_guide),
     imageSignedUrl: signedImageUrl,
   };
 }
@@ -212,6 +217,8 @@ export async function POST(
     tag_trendy: Boolean(body.trendy),
     tag_street_food: Boolean(body.streetFood),
     tag_vegetarian_options: Boolean(body.vegetarianOptions),
+    tag_michelin_guide:
+      Boolean(body.michelinGuide) || linkIsMichelinGuide(linkUrlClean),
     image_storage_path: null as string | null,
   };
 

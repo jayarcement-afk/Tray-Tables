@@ -1,4 +1,5 @@
 import type { CsvDish } from "@/lib/canonical-dishes";
+import { linkIsMichelinGuide } from "@/lib/michelin-source";
 
 export const USER_DISH_ID_PREFIX = "user-dish-";
 
@@ -216,6 +217,8 @@ export type TripCustomDishApi = {
   trendy: boolean;
   streetFood: boolean;
   vegetarianOptions: boolean;
+  /** Michelin Guide listing (DB tag or inferred from guide.michelin.com link). */
+  michelinGuide: boolean;
   imageSignedUrl: string | null;
   /** Street address for map search (optional). */
   address: string | null;
@@ -248,6 +251,7 @@ export function tripCustomDishesApiToCsv(
       drinkPairing: d.drinkPairing,
       linkUrl: d.linkUrl,
       address: d.address?.trim() ? d.address.trim() : null,
+      michelinGuide: d.michelinGuide,
     };
   });
 }
@@ -366,6 +370,7 @@ export async function migrateLegacyTripCustomDishesOnce(
           trendy: dish.trendy.trim().toLowerCase() === "yes",
           streetFood: dish.streetFood.trim().toLowerCase() === "yes",
           vegetarianOptions: vegetarianTagFromCsvRaw(dish.vegetarianOptions),
+          michelinGuide: Boolean(dish.michelinGuide) || linkIsMichelinGuide(dish.linkUrl),
         })
       );
       if (dish.imageUrl?.trim().startsWith("data:image/")) {

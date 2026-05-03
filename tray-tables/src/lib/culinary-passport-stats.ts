@@ -1,9 +1,8 @@
 import type { CsvDish } from "@/lib/canonical-dishes";
 import { getCanonicalDishById, getCanonicalDishesForSlug } from "@/lib/canonical-dishes";
 import { continentForCountry } from "@/lib/culinary-passport-continents";
+import { linkIsMichelinGuide } from "@/lib/michelin-source";
 import type { SupabaseClient } from "@supabase/supabase-js";
-
-const MICHELIN_HOST = "guide.michelin.com";
 
 export type PassportStats = {
   pastTripCount: number;
@@ -17,7 +16,8 @@ export type PassportStats = {
   vegetarianTaggedRestaurantCount: number;
   michelinLinkedRestaurantCount: number;
   tastingMenuDishCount: number;
-  winePairedRestaurantCount: number;
+  /** Dish cards (logged on past trips) whose pairing/tags/title suggest wine; used for “Wine pairing pro”. */
+  winePairedDishCount: number;
   lateNightRestaurantCount: number;
   streetFoodRestaurantCount: number;
   localFavoriteRestaurantCount: number;
@@ -62,6 +62,21 @@ function restaurantKey(restaurant: string, country: string): string {
   return `${restaurant.trim().toLowerCase()}|${country.trim().toLowerCase()}`;
 }
 
+/** Canonical dish card: explicit seed flag or Michelin Guide listing URL. */
+function csvDishCountsForMichelin(d: CsvDish): boolean {
+  if (d.michelinGuide === true) return true;
+  return linkIsMichelinGuide(d.linkUrl);
+}
+
+/** Custom dish row: DB tag and/or guide URL. */
+function customRowCountsForMichelin(c: {
+  tag_michelin_guide?: boolean | null;
+  link_url: string | null;
+}): boolean {
+  if (c.tag_michelin_guide) return true;
+  return linkIsMichelinGuide(c.link_url);
+}
+
 function isVegetarianCsv(d: CsvDish): boolean {
   const t = d.vegetarianOptions.trim().toLowerCase();
   return t === "yes" || t === "limited";
@@ -71,8 +86,90 @@ function isCsvYes(v: string): boolean {
   return v.trim().toLowerCase() === "yes";
 }
 
-function dishHasWinePairing(d: CsvDish): boolean {
-  return d.drinkPairing.toLowerCase().includes("wine");
+/**
+ * True if free text looks like a wine pairing / wine type / sparkling note on a dish card.
+ * Matches “wine”, common grapes/styles, and Champagne-style words even when “wine” is omitted.
+ */
+function wineMentionedInText(raw: string): boolean {
+  const s = raw.trim().toLowerCase();
+  if (!s || s === "n/a") return false;
+  if (s.includes("wine")) return true;
+
+  const hints = [
+    "champagne",
+    "prosecco",
+    "cava",
+    "sparkling",
+    "crémant",
+    "cremant",
+    "lambrusco",
+    "riesling",
+    "chardonnay",
+    "cabernet",
+    "merlot",
+    "pinot noir",
+    "pinot grigio",
+    "pinot gris",
+    "sauvignon",
+    "syrah",
+    "shiraz",
+    "malbec",
+    "tempranillo",
+    "nebbiolo",
+    "sangiovese",
+    "gamay",
+    "zinfandel",
+    "viognier",
+    "gewürztraminer",
+    "gewurztraminer",
+    "moscato",
+    "albariño",
+    "albarino",
+    "chenin",
+    "bordeaux",
+    "burgundy",
+    "loire",
+    "rioja",
+    "chianti",
+    "barolo",
+    "barbaresco",
+    "chablis",
+    "sauternes",
+    "tokaji",
+    "rhône",
+    "rhone",
+    "douro",
+    "madeira",
+    "vermouth",
+    "marsala",
+  ];
+  for (const h of hints) {
+    const t = h.trim().toLowerCase();
+    if (t.length >= 4 && s.includes(t)) return true;
+  }
+
+  const wordBoundaryShort = ["port", "sherry"];
+  for (const w of wordBoundaryShort) {
+    if (new RegExp(`\\b${w}\\b`, "i").test(raw)) return true;
+  }
+  return false;
+}
+
+function csvDishSuggestsWine(d: CsvDish): boolean {
+  if (wineMentionedInText(d.drinkPairing)) return true;
+  if (d.tags.some((tag) => wineMentionedInText(tag))) return true;
+  if (wineMentionedInText(d.name)) return true;
+  return false;
+}
+
+function customRowSuggestsWine(c: {
+  drink_pairing: string | null;
+  dish_name: string | null;
+}): boolean {
+  return (
+    wineMentionedInText(String(c.drink_pairing ?? "")) ||
+    wineMentionedInText(String(c.dish_name ?? ""))
+  );
 }
 
 function dishLateNight(d: CsvDish): boolean {
@@ -83,11 +180,6 @@ function dishLateNight(d: CsvDish): boolean {
 
 function dishTastingMenu(d: CsvDish): boolean {
   return d.name.toLowerCase().includes("tasting menu");
-}
-
-function michelinLink(url: string | null | undefined): boolean {
-  if (!url) return false;
-  return url.toLowerCase().includes(MICHELIN_HOST);
 }
 
 function longestConsecutiveDayStreak(dates: Set<string>): number {
@@ -119,7 +211,7 @@ const emptyStats: PassportStats = {
   vegetarianTaggedRestaurantCount: 0,
   michelinLinkedRestaurantCount: 0,
   tastingMenuDishCount: 0,
-  winePairedRestaurantCount: 0,
+  winePairedDishCount: 0,
   lateNightRestaurantCount: 0,
   streetFoodRestaurantCount: 0,
   localFavoriteRestaurantCount: 0,
@@ -181,6 +273,7 @@ export async function loadPassportStats(
     tag_vegetarian_options: boolean | null;
     tag_street_food: boolean | null;
     tag_local_favorite: boolean | null;
+    tag_michelin_guide: boolean | null;
     created_at: string | null;
   };
   type ReviewRow = {
@@ -199,7 +292,7 @@ export async function loadPassportStats(
       supabase
         .from("trip_custom_dishes")
         .select(
-          "id, trip_id, restaurant, link_url, drink_pairing, dish_name, meal_slots, tag_vegetarian_options, tag_street_food, tag_local_favorite, created_at"
+          "id, trip_id, restaurant, link_url, drink_pairing, dish_name, meal_slots, tag_vegetarian_options, tag_street_food, tag_local_favorite, tag_michelin_guide, created_at"
         )
         .in("trip_id", pastTripIds),
       supabase
@@ -233,7 +326,7 @@ export async function loadPassportStats(
   const vegetarianKeys = new Set<string>();
   const michelinKeys = new Set<string>();
   const tastingMenuCount = { n: 0 };
-  const wineKeys = new Set<string>();
+  let winePairingDishCount = 0;
   const lateNightKeys = new Set<string>();
   const streetFoodKeys = new Set<string>();
   const localFavoriteKeys = new Set<string>();
@@ -253,8 +346,7 @@ export async function loadPassportStats(
     if (c.tag_vegetarian_options) addKey(vegetarianKeys, trip, r);
     if (c.tag_street_food) addKey(streetFoodKeys, trip, r);
     if (c.tag_local_favorite) addKey(localFavoriteKeys, trip, r);
-    const dp = String(c.drink_pairing ?? "").toLowerCase();
-    if (dp.includes("wine")) addKey(wineKeys, trip, r);
+    if (customRowSuggestsWine(c)) winePairingDishCount += 1;
     const slots = Array.isArray(c.meal_slots) ? c.meal_slots : [];
     if (slots.includes("late_night")) {
       addKey(lateNightKeys, trip, r);
@@ -264,7 +356,7 @@ export async function loadPassportStats(
         ? c.created_at.slice(0, 10)
         : null;
     if (cd) logDays.add(cd);
-    if (michelinLink(String(c.link_url ?? ""))) addKey(michelinKeys, trip, r);
+    if (customRowCountsForMichelin(c)) addKey(michelinKeys, trip, r);
     const dn = String(c.dish_name ?? "").toLowerCase();
     if (dn.includes("tasting menu")) tastingMenuCount.n += 1;
   }
@@ -300,9 +392,9 @@ export async function loadPassportStats(
         if (isVegetarianCsv(dish)) addKey(vegetarianKeys, trip, dish.restaurant);
         if (isCsvYes(dish.streetFood)) addKey(streetFoodKeys, trip, dish.restaurant);
         if (isCsvYes(dish.localFavorite)) addKey(localFavoriteKeys, trip, dish.restaurant);
-        if (dishHasWinePairing(dish)) addKey(wineKeys, trip, dish.restaurant);
+        if (csvDishSuggestsWine(dish)) winePairingDishCount += 1;
         if (dishLateNight(dish)) addKey(lateNightKeys, trip, dish.restaurant);
-        if (michelinLink(dish.linkUrl)) addKey(michelinKeys, trip, dish.restaurant);
+        if (csvDishCountsForMichelin(dish)) addKey(michelinKeys, trip, dish.restaurant);
         if (dishTastingMenu(dish)) tastingMenuCount.n += 1;
       }
     }
@@ -329,7 +421,7 @@ export async function loadPassportStats(
     vegetarianTaggedRestaurantCount: vegetarianKeys.size,
     michelinLinkedRestaurantCount: michelinKeys.size,
     tastingMenuDishCount: tastingMenuCount.n,
-    winePairedRestaurantCount: wineKeys.size,
+    winePairedDishCount: winePairingDishCount,
     lateNightRestaurantCount: lateNightKeys.size,
     streetFoodRestaurantCount: streetFoodKeys.size,
     localFavoriteRestaurantCount: localFavoriteKeys.size,

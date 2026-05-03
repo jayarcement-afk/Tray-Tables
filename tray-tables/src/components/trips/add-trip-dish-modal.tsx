@@ -49,6 +49,7 @@ export function AddTripDishModal({
   const [trendy, setTrendy] = useState(false);
   const [streetFood, setStreetFood] = useState(false);
   const [vegetarian, setVegetarian] = useState(false);
+  const [michelinGuide, setMichelinGuide] = useState(false);
   const [imageFile, setImageFile] = useState<File | null>(null);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -67,6 +68,7 @@ export function AddTripDishModal({
     setTrendy(false);
     setStreetFood(false);
     setVegetarian(false);
+    setMichelinGuide(false);
     setImageFile(null);
     setError(null);
     setBusy(false);
@@ -117,6 +119,7 @@ export function AddTripDishModal({
           trendy,
           streetFood,
           vegetarianOptions: vegetarian,
+          michelinGuide,
         })
       );
 
@@ -212,7 +215,10 @@ export function AddTripDishModal({
               placeholder="https://…"
               autoComplete="off"
             />
-            <span className="mt-1 block text-xs text-zinc-500">Optional map, menu, or website.</span>
+            <span className="mt-1 block text-xs text-zinc-500">
+              Optional map, menu, or website. Links to guide.michelin.com count toward Michelin achievements
+              automatically.
+            </span>
           </label>
 
           <label className="block">
@@ -266,6 +272,15 @@ export function AddTripDishModal({
                   onChange={(e) => setVegetarian(e.target.checked)}
                 />
                 Vegetarian options
+              </label>
+              <label className="flex cursor-pointer items-center gap-2">
+                <input
+                  type="checkbox"
+                  className="size-4 rounded border-zinc-300"
+                  checked={michelinGuide}
+                  onChange={(e) => setMichelinGuide(e.target.checked)}
+                />
+                Michelin Guide listing
               </label>
             </div>
           </fieldset>

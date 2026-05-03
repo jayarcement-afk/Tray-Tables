@@ -4,6 +4,7 @@ import { DishPhoto } from "@/components/dishes/dish-photo";
 import type { CsvDish } from "@/lib/canonical-dishes";
 import { resolveDishImageUrl } from "@/lib/dish-local-image";
 import { dishPrimaryExternalHref } from "@/lib/trip-custom-dishes";
+import { linkIsMichelinGuide } from "@/lib/michelin-source";
 
 function hasVegetarianOptionsList(v: string): boolean {
   const t = v.trim().toLowerCase();
@@ -27,8 +28,11 @@ export function CanonicalDishCard({
   const showLocalFavorite = isCsvYes(dish.localFavorite);
   const showTrendy = isCsvYes(dish.trendy);
   const showStreetFood = isCsvYes(dish.streetFood);
+  const showMichelinGuide =
+    dish.michelinGuide === true ||
+    (!!dish.linkUrl?.trim() && linkIsMichelinGuide(dish.linkUrl));
   const showAttributeRow =
-    showVegTag || showLocalFavorite || showTrendy || showStreetFood;
+    showVegTag || showLocalFavorite || showTrendy || showStreetFood || showMichelinGuide;
 
   const imageSrc = resolveDishImageUrl(dish);
 
@@ -105,6 +109,14 @@ export function CanonicalDishCard({
             {showStreetFood ? (
               <span className="rounded-full border border-zinc-200 bg-zinc-50 px-2.5 py-1 text-xs font-medium text-zinc-800">
                 Street food
+              </span>
+            ) : null}
+            {showMichelinGuide ? (
+              <span
+                className="rounded-full border border-red-200 bg-red-50 px-2.5 py-1 text-xs font-medium text-red-900"
+                title="Michelin Guide"
+              >
+                Michelin Guide
               </span>
             ) : null}
           </div>

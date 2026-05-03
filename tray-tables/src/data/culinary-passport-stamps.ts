@@ -66,7 +66,7 @@ function evalRule(rule: StampRule, s: PassportStats): boolean {
     case "tasting_menus":
       return s.tastingMenuDishCount >= rule.min;
     case "wine_restaurants":
-      return s.winePairedRestaurantCount >= rule.min;
+      return s.winePairedDishCount >= rule.min;
     case "late_night_restaurants":
       return s.lateNightRestaurantCount >= rule.min;
     case "street_food_restaurants":
@@ -152,7 +152,7 @@ const CULINARY_PASSPORT_STAMPS_RAW: PassportStampDef[] = [
   { number: 20, name: "3 continents explored", rule: { kind: "continents", min: 3 } },
   {
     number: 21,
-    name: "Wine pairing pro (5 wine-paired meals)",
+    name: "Wine pairing pro (5 dishes with wine pairing listed)",
     rule: { kind: "wine_restaurants", min: 5 },
   },
   {

@@ -27,6 +27,8 @@ export type CsvDish = {
   linkUrl?: string | null;
   /** User-entered street address (custom dishes); improves trip map geocoding. */
   address?: string | null;
+  /** When true (from DB tag or seed data), counts toward Michelin passport achievements even without a guide URL on the card. */
+  michelinGuide?: boolean | null;
 };
 
 export function getCanonicalDishesForSlug(
