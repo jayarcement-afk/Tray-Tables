@@ -9,7 +9,7 @@ export type PassportStats = {
   pastTripCount: number;
   uniqueCountries: number;
   uniqueContinents: number;
-  /** Distinct restaurant experiences (canonical + custom) across all trips (planner + past). */
+  /** Distinct restaurants from dishes logged on **completed** (past) trips, every city/trip combined. */
   restaurantsDinedCount: number;
   customDishPastCount: number;
   reviewRowPastCount: number;
@@ -128,8 +128,9 @@ const emptyStats: PassportStats = {
 };
 
 /**
- * Stats for the culinary passport. Trip counts / countries / city stamps use **past** trips only;
- * restaurant totals and dish-derived badges use **all** trips so saved planner dishes count before a trip ends.
+ * Stats for the culinary passport. Trip counts / countries / city stamps use **past** trips only.
+ * Restaurant totals and dish-derived badges use **past trips only** so the cover reflects completed travel
+ * across every finished trip and city (not upcoming itineraries).
  */
 export async function loadPassportStats(
   supabase: SupabaseClient,
@@ -155,8 +156,7 @@ export async function loadPassportStats(
 
   const allTrips = (tripsRaw ?? []) as TripRow[];
   const past = allTrips.filter((t) => t.end_date < today);
-  const pastIdsSet = new Set(past.map((t) => t.id));
-  const allTripIds = allTrips.map((t) => t.id);
+  const pastTripIds = past.map((t) => t.id);
   const tripById = new Map(allTrips.map((t) => [t.id, t]));
 
   const countries = new Set(
@@ -166,24 +166,55 @@ export async function loadPassportStats(
     [...countries].map((c) => continentForCountry(c)).filter((x) => x !== "Other")
   );
 
-  if (allTripIds.length === 0) {
+  if (allTrips.length === 0) {
     return { ...emptyStats };
   }
 
-  const { data: customs } = await supabase
-    .from("trip_custom_dishes")
-    .select(
-      "id, trip_id, restaurant, link_url, drink_pairing, dish_name, meal_slots, tag_vegetarian_options, tag_street_food, tag_local_favorite, created_at"
-    )
-    .in("trip_id", allTripIds);
+  type CustomDishRow = {
+    id: string;
+    trip_id: string;
+    restaurant: string | null;
+    link_url: string | null;
+    drink_pairing: string | null;
+    dish_name: string | null;
+    meal_slots: string[] | null;
+    tag_vegetarian_options: boolean | null;
+    tag_street_food: boolean | null;
+    tag_local_favorite: boolean | null;
+    created_at: string | null;
+  };
+  type ReviewRow = {
+    trip_id: string;
+    dish_id: string;
+    rating: number | null;
+    created_at: string | null;
+    updated_at: string | null;
+  };
 
-  const { data: reviews } = await supabase
-    .from("trip_dish_reviews")
-    .select("trip_id, dish_id, rating, created_at, updated_at")
-    .in("trip_id", allTripIds);
+  let customList: CustomDishRow[] = [];
+  let reviews: ReviewRow[] = [];
 
-  const customList = customs ?? [];
-  const customByTripUuid = new Map<string, (typeof customList)[0]>();
+  if (pastTripIds.length > 0) {
+    const [customRes, reviewRes] = await Promise.all([
+      supabase
+        .from("trip_custom_dishes")
+        .select(
+          "id, trip_id, restaurant, link_url, drink_pairing, dish_name, meal_slots, tag_vegetarian_options, tag_street_food, tag_local_favorite, created_at"
+        )
+        .in("trip_id", pastTripIds),
+      supabase
+        .from("trip_dish_reviews")
+        .select("trip_id, dish_id, rating, created_at, updated_at")
+        .in("trip_id", pastTripIds),
+    ]);
+    if (customRes.error || reviewRes.error) {
+      return { ...emptyStats };
+    }
+    customList = (customRes.data ?? []) as CustomDishRow[];
+    reviews = (reviewRes.data ?? []) as ReviewRow[];
+  }
+
+  const customByTripUuid = new Map<string, CustomDishRow>();
   for (const c of customList) {
     const idKey = String(c.id).trim().toLowerCase();
     customByTripUuid.set(`${c.trip_id}:${idKey}`, c);
@@ -191,7 +222,7 @@ export async function loadPassportStats(
 
   const slugDishMaps = new Map<string, Map<string, CsvDish>>();
   const slugs = new Set(
-    allTrips.map((t) => (tripCity(t)?.slug ?? "").trim()).filter(Boolean)
+    past.map((t) => (tripCity(t)?.slug ?? "").trim()).filter(Boolean)
   );
   for (const slug of slugs) {
     const dishes = getCanonicalDishesForSlug(slug);
@@ -241,7 +272,7 @@ export async function loadPassportStats(
   let reviewRowPastCount = 0;
   let reviewsRated4PlusPast = 0;
 
-  for (const rev of reviews ?? []) {
+  for (const rev of reviews) {
     const trip = tripById.get(rev.trip_id);
     if (!trip) continue;
     const rating = Number(rev.rating);
@@ -276,10 +307,8 @@ export async function loadPassportStats(
       }
     }
 
-    if (pastIdsSet.has(rev.trip_id)) {
-      if (Number.isFinite(rating) && rating >= 1) reviewRowPastCount += 1;
-      if (Number.isFinite(rating) && rating >= 4) reviewsRated4PlusPast += 1;
-    }
+    if (Number.isFinite(rating) && rating >= 1) reviewRowPastCount += 1;
+    if (Number.isFinite(rating) && rating >= 4) reviewsRated4PlusPast += 1;
   }
 
   const dinedCitySlugs = new Set<string>();
@@ -294,7 +323,7 @@ export async function loadPassportStats(
     uniqueCountries: countries.size,
     uniqueContinents: continents.size,
     restaurantsDinedCount: restaurantKeys.size,
-    customDishPastCount: customList.filter((c) => pastIdsSet.has(c.trip_id)).length,
+    customDishPastCount: customList.length,
     reviewRowPastCount,
     reviewsRated4PlusPast,
     vegetarianTaggedRestaurantCount: vegetarianKeys.size,
