@@ -110,8 +110,8 @@ export default async function TripsPage() {
   return (
     <div className="flex flex-1 flex-col bg-zinc-50">
       <div className="mx-auto w-full max-w-4xl px-6 py-10">
-        <div className="mb-6 flex items-center justify-between">
-          <div>
+        <div className="mb-6 flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between sm:gap-6">
+          <div className="min-w-0">
             <h1 className="text-2xl font-semibold tracking-tight">Active trips</h1>
             <p className="mt-1 text-sm text-zinc-600">
               Ongoing and upcoming food itineraries. Past trips are listed below.
@@ -119,7 +119,7 @@ export default async function TripsPage() {
           </div>
           <Link
             href="/trips/new"
-            className="inline-flex h-10 shrink-0 items-center whitespace-nowrap rounded-xl bg-zinc-900 px-3 text-sm font-medium text-white hover:bg-zinc-800"
+            className="inline-flex h-11 w-full shrink-0 items-center justify-center whitespace-nowrap rounded-xl bg-zinc-900 px-4 text-sm font-medium text-white hover:bg-zinc-800 sm:h-10 sm:w-auto sm:justify-center sm:self-start sm:px-3"
           >
             New trip
           </Link>

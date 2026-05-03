@@ -42,51 +42,56 @@ export async function AppHeader() {
             priority
           />
         </Link>
-        <nav className="flex min-w-0 flex-1 flex-wrap items-center justify-end gap-x-0.5 gap-y-1 sm:gap-x-1">
-          {user ? (
-            <>
-              <Link
-                href="/trips/new"
-                className="shrink-0 rounded-lg px-2 py-2 text-sm font-medium text-zinc-700 hover:bg-zinc-100 sm:px-3"
-              >
-                New Trip
-              </Link>
-              <Link
-                href="/trips"
-                className="shrink-0 rounded-lg px-2 py-2 text-sm font-medium text-zinc-700 hover:bg-zinc-100 sm:px-3"
-              >
-                My Trips
-              </Link>
-              <Link
-                href="/passport"
-                className="shrink-0 rounded-lg px-2 py-2 text-sm font-medium text-zinc-700 hover:bg-zinc-100 sm:px-3"
-              >
-                Passport
-              </Link>
-              <Link
-                href="/games"
-                className="shrink-0 rounded-lg px-2 py-2 text-sm font-medium text-zinc-700 hover:bg-zinc-100 sm:px-3"
-              >
-                Games
-              </Link>
-              <SignOutButton />
-            </>
-          ) : (
-            <>
-              <Link
-                href="/auth"
-                className="shrink-0 rounded-lg bg-zinc-900 px-3 py-2 text-sm font-medium text-white hover:bg-zinc-800"
-              >
-                Sign in
-              </Link>
-              <Link
-                href="/games"
-                className="shrink-0 rounded-lg px-2 py-2 text-sm font-medium text-zinc-700 hover:bg-zinc-100 sm:px-3"
-              >
-                Games
-              </Link>
-            </>
-          )}
+        <nav
+          className="min-h-0 min-w-0 flex-1 overflow-x-auto overscroll-x-contain py-0.5 [-ms-overflow-style:none] [scrollbar-width:none] [touch-action:pan-x] sm:overflow-x-visible [&::-webkit-scrollbar]:hidden"
+          aria-label="Main navigation"
+        >
+          <div className="flex w-max min-w-full flex-nowrap items-center justify-end gap-x-0.5 sm:gap-x-1">
+            {user ? (
+              <>
+                <Link
+                  href="/trips/new"
+                  className="shrink-0 rounded-lg px-2 py-2 text-sm font-medium text-zinc-700 hover:bg-zinc-100 sm:px-3"
+                >
+                  New Trip
+                </Link>
+                <Link
+                  href="/trips"
+                  className="shrink-0 rounded-lg px-2 py-2 text-sm font-medium text-zinc-700 hover:bg-zinc-100 sm:px-3"
+                >
+                  My Trips
+                </Link>
+                <Link
+                  href="/passport"
+                  className="shrink-0 rounded-lg px-2 py-2 text-sm font-medium text-zinc-700 hover:bg-zinc-100 sm:px-3"
+                >
+                  Passport
+                </Link>
+                <Link
+                  href="/games"
+                  className="shrink-0 rounded-lg px-2 py-2 text-sm font-medium text-zinc-700 hover:bg-zinc-100 sm:px-3"
+                >
+                  Games
+                </Link>
+                <SignOutButton />
+              </>
+            ) : (
+              <>
+                <Link
+                  href="/auth"
+                  className="shrink-0 rounded-lg bg-zinc-900 px-3 py-2 text-sm font-medium text-white hover:bg-zinc-800"
+                >
+                  Sign in
+                </Link>
+                <Link
+                  href="/games"
+                  className="shrink-0 rounded-lg px-2 py-2 text-sm font-medium text-zinc-700 hover:bg-zinc-100 sm:px-3"
+                >
+                  Games
+                </Link>
+              </>
+            )}
+          </div>
         </nav>
       </div>
     </header>
