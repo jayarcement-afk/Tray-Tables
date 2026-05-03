@@ -280,9 +280,6 @@ export function CulinaryPassportBook({ stats: statsFromServer }: { stats: Passpo
             >
               Visas
             </p>
-            <p className="mt-0.5 text-sm font-medium" style={{ color: PASSPORT_VISA_INK }}>
-              Page {visaPage} of {PASSPORT_VISA_PAGE_COUNT}
-            </p>
           </div>
           <button
             type="button"
@@ -309,35 +306,45 @@ export function CulinaryPassportBook({ stats: statsFromServer }: { stats: Passpo
         </div>
 
         <div
-          className="mt-6 flex items-center justify-between gap-2 border-t pt-4"
+          className="mt-6 flex items-center gap-2 border-t pt-4"
           style={{ borderColor: `${PASSPORT_VISA_RULE}cc` }}
         >
-          <button
-            type="button"
-            disabled={visaPage <= 1}
-            onClick={() => setVisaPage((p) => Math.max(1, p - 1))}
-            className="rounded-lg border px-3 py-2 text-sm font-medium transition disabled:cursor-not-allowed disabled:opacity-40 hover:brightness-[0.98]"
-            style={{
-              borderColor: PASSPORT_VISA_RULE,
-              backgroundColor: PASSPORT_VISA_PAPER_HIGHLIGHT,
-              color: PASSPORT_VISA_INK,
-            }}
+          <div className="flex min-w-0 flex-1 justify-start">
+            <button
+              type="button"
+              disabled={visaPage <= 1}
+              onClick={() => setVisaPage((p) => Math.max(1, p - 1))}
+              className="rounded-lg border px-3 py-2 text-sm font-medium transition disabled:cursor-not-allowed disabled:opacity-40 hover:brightness-[0.98]"
+              style={{
+                borderColor: PASSPORT_VISA_RULE,
+                backgroundColor: PASSPORT_VISA_PAPER_HIGHLIGHT,
+                color: PASSPORT_VISA_INK,
+              }}
+            >
+              Previous
+            </button>
+          </div>
+          <p
+            className="shrink-0 text-center text-sm font-medium tabular-nums"
+            style={{ color: PASSPORT_VISA_INK }}
           >
-            Previous
-          </button>
-          <button
-            type="button"
-            disabled={visaPage >= PASSPORT_VISA_PAGE_COUNT}
-            onClick={() => setVisaPage((p) => Math.min(PASSPORT_VISA_PAGE_COUNT, p + 1))}
-            className="rounded-lg border px-3 py-2 text-sm font-medium transition disabled:cursor-not-allowed disabled:opacity-40 hover:brightness-[0.98]"
-            style={{
-              borderColor: PASSPORT_VISA_RULE,
-              backgroundColor: PASSPORT_VISA_PAPER_HIGHLIGHT,
-              color: PASSPORT_VISA_INK,
-            }}
-          >
-            Next
-          </button>
+            Page {visaPage} of {PASSPORT_VISA_PAGE_COUNT}
+          </p>
+          <div className="flex min-w-0 flex-1 justify-end">
+            <button
+              type="button"
+              disabled={visaPage >= PASSPORT_VISA_PAGE_COUNT}
+              onClick={() => setVisaPage((p) => Math.min(PASSPORT_VISA_PAGE_COUNT, p + 1))}
+              className="rounded-lg border px-3 py-2 text-sm font-medium transition disabled:cursor-not-allowed disabled:opacity-40 hover:brightness-[0.98]"
+              style={{
+                borderColor: PASSPORT_VISA_RULE,
+                backgroundColor: PASSPORT_VISA_PAPER_HIGHLIGHT,
+                color: PASSPORT_VISA_INK,
+              }}
+            >
+              Next
+            </button>
+          </div>
         </div>
       </div>
     </div>
