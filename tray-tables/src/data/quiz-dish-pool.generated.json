@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-03T16:44:20.750Z",
+  "generated": "2026-05-03T21:55:00.015Z",
   "dishes": [
     {
       "id": "abu-dhabi-united-arab-emirates--987--harees-mezlai",
@@ -1865,10 +1865,52 @@
     },
     {
       "id": "hamburg-germany--612--fischbroetchen-bruecke-10",
-      "imageUrl": "/Images/Hamburg_Germany_Fischbroetchen_Bruecke%2010.jpg",
+      "imageUrl": "/imported-dish-images/hamburg-germany-fischbroetchen-bruecke-10.png",
       "city": "Hamburg",
       "country": "Germany",
       "name": "Fischbroetchen"
+    },
+    {
+      "id": "hamburg-germany--613--labskaus-old-commercial-room",
+      "imageUrl": "/imported-dish-images/hamburg-germany-labskaus-old-commercial-room.png",
+      "city": "Hamburg",
+      "country": "Germany",
+      "name": "Labskaus"
+    },
+    {
+      "id": "hamburg-germany--614--franzbroetchen-cafe-luise",
+      "imageUrl": "/imported-dish-images/hamburg-germany-franzbroetchen-cafe-luise.png",
+      "city": "Hamburg",
+      "country": "Germany",
+      "name": "Franzbroetchen"
+    },
+    {
+      "id": "hamburg-germany--615--currywurst-curry-pirate",
+      "imageUrl": "/imported-dish-images/hamburg-germany-currywurst-curry-pirate.png",
+      "city": "Hamburg",
+      "country": "Germany",
+      "name": "Currywurst"
+    },
+    {
+      "id": "hamburg-germany--616--seafood-platter-fischereihafen-restaurant",
+      "imageUrl": "/imported-dish-images/hamburg-germany-seafood-platter-fischereihafen-restaurant.png",
+      "city": "Hamburg",
+      "country": "Germany",
+      "name": "Seafood Platter"
+    },
+    {
+      "id": "hamburg-germany--617--schnitzel-restaurant-parlament",
+      "imageUrl": "/imported-dish-images/hamburg-germany-schnitzel-restaurant-parlament.png",
+      "city": "Hamburg",
+      "country": "Germany",
+      "name": "Schnitzel"
+    },
+    {
+      "id": "hamburg-germany--618--craft-beer-altes-maedchen",
+      "imageUrl": "/imported-dish-images/hamburg-germany-craft-beer-altes-maedchen.png",
+      "city": "Hamburg",
+      "country": "Germany",
+      "name": "Craft Beer"
     },
     {
       "id": "hangzhou-china--819--west-lake-fish-lou-wai-lou",
@@ -2012,31 +2054,276 @@
     },
     {
       "id": "havana-cuba--543--ropa-vieja-la-guarida",
-      "imageUrl": "/Images/Havana_Cuba_Ropa%20Vieja_La%20Guarida.jpg",
+      "imageUrl": "/imported-dish-images/havana-cuba-ropa-vieja-la-guarida.png",
       "city": "Havana",
       "country": "Cuba",
       "name": "Ropa Vieja"
     },
     {
+      "id": "havana-cuba--544--cuban-sandwich-el-floridita",
+      "imageUrl": "/imported-dish-images/havana-cuba-cuban-sandwich-el-floridita.png",
+      "city": "Havana",
+      "country": "Cuba",
+      "name": "Cuban Sandwich"
+    },
+    {
+      "id": "havana-cuba--545--moropo-pork-do-a-eutimia",
+      "imageUrl": "/imported-dish-images/havana-cuba-moropo-pork-do-a-eutimia.png",
+      "city": "Havana",
+      "country": "Cuba",
+      "name": "Moropo Pork"
+    },
+    {
+      "id": "havana-cuba--546--tostones-la-vitrola",
+      "imageUrl": "/imported-dish-images/havana-cuba-tostones-la-vitrola.png",
+      "city": "Havana",
+      "country": "Cuba",
+      "name": "Tostones"
+    },
+    {
+      "id": "havana-cuba--547--seafood-paella-paladar-los-mercaderes",
+      "imageUrl": "/imported-dish-images/havana-cuba-seafood-paella-paladar-los-mercaderes.png",
+      "city": "Havana",
+      "country": "Cuba",
+      "name": "Seafood Paella"
+    },
+    {
+      "id": "havana-cuba--548--lobster-el-cocinero",
+      "imageUrl": "/imported-dish-images/havana-cuba-lobster-el-cocinero.png",
+      "city": "Havana",
+      "country": "Cuba",
+      "name": "Lobster"
+    },
+    {
+      "id": "havana-cuba--549--black-beans-and-rice-n-a",
+      "imageUrl": "/imported-dish-images/havana-cuba-black-beans-and-rice-n-a.png",
+      "city": "Havana",
+      "country": "Cuba",
+      "name": "Black Beans and Rice"
+    },
+    {
+      "id": "havana-cuba--550--flan-la-fontana",
+      "imageUrl": "/imported-dish-images/havana-cuba-flan-la-fontana.png",
+      "city": "Havana",
+      "country": "Cuba",
+      "name": "Flan"
+    },
+    {
+      "id": "havana-cuba--551--fried-plantains-n-a",
+      "imageUrl": "/imported-dish-images/havana-cuba-fried-plantains-n-a.png",
+      "city": "Havana",
+      "country": "Cuba",
+      "name": "Fried Plantains"
+    },
+    {
       "id": "helsinki-finland--266--salmon-soup-lohikeitto-ravintola-savotta",
-      "imageUrl": "/Images/Helsinki_Finland_Salmon%20Soup%20(Lohikeitto)_Ravintola%20Savotta.jpg",
+      "imageUrl": "/imported-dish-images/helsinki-finland-salmon-soup-lohikeitto-ravintola-savotta.png",
       "city": "Helsinki",
       "country": "Finland",
       "name": "Salmon Soup (Lohikeitto)"
     },
     {
+      "id": "helsinki-finland--267--fried-baltic-herring-sea-horse",
+      "imageUrl": "/imported-dish-images/helsinki-finland-fried-baltic-herring-sea-horse.png",
+      "city": "Helsinki",
+      "country": "Finland",
+      "name": "Fried Baltic Herring"
+    },
+    {
+      "id": "helsinki-finland--268--vorschmack-savoy",
+      "imageUrl": "/imported-dish-images/helsinki-finland-vorschmack-savoy.png",
+      "city": "Helsinki",
+      "country": "Finland",
+      "name": "Vorschmack"
+    },
+    {
+      "id": "helsinki-finland--269--reindeer-fillet-kappeli",
+      "imageUrl": "/imported-dish-images/helsinki-finland-reindeer-fillet-kappeli.png",
+      "city": "Helsinki",
+      "country": "Finland",
+      "name": "Reindeer Fillet"
+    },
+    {
+      "id": "helsinki-finland--270--meatballs-kosmos",
+      "imageUrl": "/imported-dish-images/helsinki-finland-meatballs-kosmos.png",
+      "city": "Helsinki",
+      "country": "Finland",
+      "name": "Meatballs"
+    },
+    {
+      "id": "helsinki-finland--271--pea-soup-and-pancakes-ravintola-zetor",
+      "imageUrl": "/imported-dish-images/helsinki-finland-pea-soup-and-pancakes-ravintola-zetor.png",
+      "city": "Helsinki",
+      "country": "Finland",
+      "name": "Pea Soup & Pancakes"
+    },
+    {
+      "id": "helsinki-finland--272--pyttipannu-hash-house-savotta",
+      "imageUrl": "/imported-dish-images/helsinki-finland-pyttipannu-hash-house-savotta.png",
+      "city": "Helsinki",
+      "country": "Finland",
+      "name": "Pyttipannu"
+    },
+    {
+      "id": "helsinki-finland--273--karelian-pie-caf-fazer",
+      "imageUrl": "/imported-dish-images/helsinki-finland-karelian-pie-caf-fazer.png",
+      "city": "Helsinki",
+      "country": "Finland",
+      "name": "Karelian Pie"
+    },
+    {
+      "id": "helsinki-finland--274--squeaky-cheese-w-cloudberries-local-traditional-restaurants",
+      "imageUrl": "/imported-dish-images/helsinki-finland-squeaky-cheese-w-cloudberries-local-traditional-restaurants.png",
+      "city": "Helsinki",
+      "country": "Finland",
+      "name": "Squeaky Cheese w/ Cloudberries"
+    },
+    {
+      "id": "helsinki-finland--275--cinnamon-bun-ekberg-1852",
+      "imageUrl": "/imported-dish-images/helsinki-finland-cinnamon-bun-ekberg-1852.png",
+      "city": "Helsinki",
+      "country": "Finland",
+      "name": "Cinnamon Bun"
+    },
+    {
       "id": "hiroshima-japan--789--hiroshima-okonomiyaki-okonomimura",
-      "imageUrl": "/Images/Hiroshima_Japan_Hiroshima%20Okonomiyaki_Okonomimura.jpg",
+      "imageUrl": "/imported-dish-images/hiroshima-japan-hiroshima-okonomiyaki-okonomimura.png",
       "city": "Hiroshima",
       "country": "Japan",
       "name": "Hiroshima Okonomiyaki"
     },
     {
+      "id": "hiroshima-japan--790--oysters-kakiya",
+      "imageUrl": "/imported-dish-images/hiroshima-japan-oysters-kakiya.png",
+      "city": "Hiroshima",
+      "country": "Japan",
+      "name": "Oysters"
+    },
+    {
+      "id": "hiroshima-japan--791--eel-rice-ueno",
+      "imageUrl": "/imported-dish-images/hiroshima-japan-eel-rice-ueno.png",
+      "city": "Hiroshima",
+      "country": "Japan",
+      "name": "Eel Rice"
+    },
+    {
+      "id": "hiroshima-japan--792--ramen-ramen-yutaka",
+      "imageUrl": "/imported-dish-images/hiroshima-japan-ramen-ramen-yutaka.png",
+      "city": "Hiroshima",
+      "country": "Japan",
+      "name": "Ramen"
+    },
+    {
+      "id": "hiroshima-japan--793--tempura-tenmatsu",
+      "imageUrl": "/imported-dish-images/hiroshima-japan-tempura-tenmatsu.png",
+      "city": "Hiroshima",
+      "country": "Japan",
+      "name": "Tempura"
+    },
+    {
+      "id": "hiroshima-japan--794--soba-mitchan-sohonten",
+      "imageUrl": "/imported-dish-images/hiroshima-japan-soba-mitchan-sohonten.png",
+      "city": "Hiroshima",
+      "country": "Japan",
+      "name": "Soba"
+    },
+    {
+      "id": "hiroshima-japan--795--tonkatsu-nagataya",
+      "imageUrl": "/imported-dish-images/hiroshima-japan-tonkatsu-nagataya.png",
+      "city": "Hiroshima",
+      "country": "Japan",
+      "name": "Tonkatsu"
+    },
+    {
+      "id": "hiroshima-japan--796--fried-oysters-kaki-fukumaru",
+      "imageUrl": "/imported-dish-images/hiroshima-japan-fried-oysters-kaki-fukumaru.png",
+      "city": "Hiroshima",
+      "country": "Japan",
+      "name": "Fried Oysters"
+    },
+    {
+      "id": "hiroshima-japan--797--sweets-momiji-manju-fujiiya",
+      "imageUrl": "/imported-dish-images/hiroshima-japan-sweets-momiji-manju-fujiiya.png",
+      "city": "Hiroshima",
+      "country": "Japan",
+      "name": "Sweets"
+    },
+    {
+      "id": "hiroshima-japan--798--tasting-menu-ryokan-iwaso",
+      "imageUrl": "/imported-dish-images/hiroshima-japan-tasting-menu-ryokan-iwaso.png",
+      "city": "Hiroshima",
+      "country": "Japan",
+      "name": "Tasting Menu"
+    },
+    {
       "id": "ho-chi-minh-city-vietnam--366--pho-hoa-pasteur",
-      "imageUrl": "/Images/Ho%20Chi%20Minh%20City_Vietnam_Pho_Hoa%20Pasteur.jpg",
+      "imageUrl": "/imported-dish-images/ho-chi-minh-city-vietnam-pho-hoa-pasteur.png",
       "city": "Ho Chi Minh City",
       "country": "Vietnam",
       "name": "Pho"
+    },
+    {
+      "id": "ho-chi-minh-city-vietnam--367--banh-mi-banh-mi-huynh-hoa",
+      "imageUrl": "/imported-dish-images/ho-chi-minh-city-vietnam-banh-mi-banh-mi-huynh-hoa.png",
+      "city": "Ho Chi Minh City",
+      "country": "Vietnam",
+      "name": "Banh Mi"
+    },
+    {
+      "id": "ho-chi-minh-city-vietnam--368--com-tam-broken-rice-com-tam-ba-ghien",
+      "imageUrl": "/imported-dish-images/ho-chi-minh-city-vietnam-com-tam-broken-rice-com-tam-ba-ghien.png",
+      "city": "Ho Chi Minh City",
+      "country": "Vietnam",
+      "name": "Com Tam (Broken Rice)"
+    },
+    {
+      "id": "ho-chi-minh-city-vietnam--369--hu-tieu-hu-tieu-thanh-xuan",
+      "imageUrl": "/imported-dish-images/ho-chi-minh-city-vietnam-hu-tieu-hu-tieu-thanh-xuan.png",
+      "city": "Ho Chi Minh City",
+      "country": "Vietnam",
+      "name": "Hu Tieu"
+    },
+    {
+      "id": "ho-chi-minh-city-vietnam--370--banh-xeo-banh-xeo-46a",
+      "imageUrl": "/imported-dish-images/ho-chi-minh-city-vietnam-banh-xeo-banh-xeo-46a.png",
+      "city": "Ho Chi Minh City",
+      "country": "Vietnam",
+      "name": "Banh Xeo"
+    },
+    {
+      "id": "ho-chi-minh-city-vietnam--371--bo-kho-bun-bo-kho-ba-hai",
+      "imageUrl": "/imported-dish-images/ho-chi-minh-city-vietnam-bo-kho-bun-bo-kho-ba-hai.png",
+      "city": "Ho Chi Minh City",
+      "country": "Vietnam",
+      "name": "Bo Kho"
+    },
+    {
+      "id": "ho-chi-minh-city-vietnam--372--oc-snails-and-shellfish-oc-dao",
+      "imageUrl": "/imported-dish-images/ho-chi-minh-city-vietnam-oc-snails-and-shellfish-oc-dao.png",
+      "city": "Ho Chi Minh City",
+      "country": "Vietnam",
+      "name": "Oc (Snails & Shellfish)"
+    },
+    {
+      "id": "ho-chi-minh-city-vietnam--373--ca-kho-to-nha-hang-ngon",
+      "imageUrl": "/imported-dish-images/ho-chi-minh-city-vietnam-ca-kho-to-nha-hang-ngon.png",
+      "city": "Ho Chi Minh City",
+      "country": "Vietnam",
+      "name": "Ca Kho To"
+    },
+    {
+      "id": "ho-chi-minh-city-vietnam--374--goi-cuon-fresh-rolls-quan-an-ngon",
+      "imageUrl": "/imported-dish-images/ho-chi-minh-city-vietnam-goi-cuon-fresh-rolls-quan-an-ngon.png",
+      "city": "Ho Chi Minh City",
+      "country": "Vietnam",
+      "name": "Goi Cuon (Fresh Rolls)"
+    },
+    {
+      "id": "ho-chi-minh-city-vietnam--375--vietnamese-iced-coffee-cheese-coffee",
+      "imageUrl": "/imported-dish-images/ho-chi-minh-city-vietnam-vietnamese-iced-coffee-cheese-coffee.png",
+      "city": "Ho Chi Minh City",
+      "country": "Vietnam",
+      "name": "Vietnamese Iced Coffee"
     },
     {
       "id": "hong-kong-china--356--egg-tarts-tai-cheong-bakery",

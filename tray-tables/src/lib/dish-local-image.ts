@@ -317,6 +317,20 @@ const IMPORTED_DISH_IMAGES_BY_ID: Record<string, string> = {
     "/imported-dish-images/gold-coast-calamari-glenelg-public-house.jpg",
   "gold-coast-australia--1176--poke-bowl-blendlove":
     "/imported-dish-images/gold-coast-poke-bowl-blendlove.jpg",
+  "hamburg-germany--612--fischbroetchen-bruecke-10":
+    "/imported-dish-images/hamburg-germany-fischbroetchen-bruecke-10.png",
+  "hamburg-germany--613--labskaus-old-commercial-room":
+    "/imported-dish-images/hamburg-germany-labskaus-old-commercial-room.png",
+  "hamburg-germany--614--franzbroetchen-cafe-luise":
+    "/imported-dish-images/hamburg-germany-franzbroetchen-cafe-luise.png",
+  "hamburg-germany--615--currywurst-curry-pirate":
+    "/imported-dish-images/hamburg-germany-currywurst-curry-pirate.png",
+  "hamburg-germany--616--seafood-platter-fischereihafen-restaurant":
+    "/imported-dish-images/hamburg-germany-seafood-platter-fischereihafen-restaurant.png",
+  "hamburg-germany--617--schnitzel-restaurant-parlament":
+    "/imported-dish-images/hamburg-germany-schnitzel-restaurant-parlament.png",
+  "hamburg-germany--618--craft-beer-altes-maedchen":
+    "/imported-dish-images/hamburg-germany-craft-beer-altes-maedchen.png",
   "hangzhou-china--819--west-lake-fish-lou-wai-lou":
     "/imported-dish-images/hangzhou-china-west-lake-fish-lou-wai-lou.png",
   "hangzhou-china--820--longjing-shrimp-zhi-wei-guan":
@@ -357,6 +371,84 @@ const IMPORTED_DISH_IMAGES_BY_ID: Record<string, string> = {
     "/imported-dish-images/hanoi-vietnam-nem-ran-fried-rolls-quan-an-ngon.png",
   "hanoi-vietnam--385--che-sweet-soup-che-ba-thin":
     "/imported-dish-images/hanoi-vietnam-che-sweet-soup-che-ba-thin.png",
+  "havana-cuba--543--ropa-vieja-la-guarida":
+    "/imported-dish-images/havana-cuba-ropa-vieja-la-guarida.png",
+  "havana-cuba--544--cuban-sandwich-el-floridita":
+    "/imported-dish-images/havana-cuba-cuban-sandwich-el-floridita.png",
+  "havana-cuba--545--moropo-pork-do-a-eutimia":
+    "/imported-dish-images/havana-cuba-moropo-pork-do-a-eutimia.png",
+  "havana-cuba--546--tostones-la-vitrola":
+    "/imported-dish-images/havana-cuba-tostones-la-vitrola.png",
+  "havana-cuba--547--seafood-paella-paladar-los-mercaderes":
+    "/imported-dish-images/havana-cuba-seafood-paella-paladar-los-mercaderes.png",
+  "havana-cuba--548--lobster-el-cocinero":
+    "/imported-dish-images/havana-cuba-lobster-el-cocinero.png",
+  "havana-cuba--549--black-beans-and-rice-n-a":
+    "/imported-dish-images/havana-cuba-black-beans-and-rice-n-a.png",
+  "havana-cuba--550--flan-la-fontana":
+    "/imported-dish-images/havana-cuba-flan-la-fontana.png",
+  "havana-cuba--551--fried-plantains-n-a":
+    "/imported-dish-images/havana-cuba-fried-plantains-n-a.png",
+  "helsinki-finland--266--salmon-soup-lohikeitto-ravintola-savotta":
+    "/imported-dish-images/helsinki-finland-salmon-soup-lohikeitto-ravintola-savotta.png",
+  "helsinki-finland--267--fried-baltic-herring-sea-horse":
+    "/imported-dish-images/helsinki-finland-fried-baltic-herring-sea-horse.png",
+  "helsinki-finland--268--vorschmack-savoy":
+    "/imported-dish-images/helsinki-finland-vorschmack-savoy.png",
+  "helsinki-finland--269--reindeer-fillet-kappeli":
+    "/imported-dish-images/helsinki-finland-reindeer-fillet-kappeli.png",
+  "helsinki-finland--270--meatballs-kosmos":
+    "/imported-dish-images/helsinki-finland-meatballs-kosmos.png",
+  "helsinki-finland--271--pea-soup-and-pancakes-ravintola-zetor":
+    "/imported-dish-images/helsinki-finland-pea-soup-and-pancakes-ravintola-zetor.png",
+  "helsinki-finland--272--pyttipannu-hash-house-savotta":
+    "/imported-dish-images/helsinki-finland-pyttipannu-hash-house-savotta.png",
+  "helsinki-finland--273--karelian-pie-caf-fazer":
+    "/imported-dish-images/helsinki-finland-karelian-pie-caf-fazer.png",
+  "helsinki-finland--274--squeaky-cheese-w-cloudberries-local-traditional-restaurants":
+    "/imported-dish-images/helsinki-finland-squeaky-cheese-w-cloudberries-local-traditional-restaurants.png",
+  "helsinki-finland--275--cinnamon-bun-ekberg-1852":
+    "/imported-dish-images/helsinki-finland-cinnamon-bun-ekberg-1852.png",
+  "hiroshima-japan--789--hiroshima-okonomiyaki-okonomimura":
+    "/imported-dish-images/hiroshima-japan-hiroshima-okonomiyaki-okonomimura.png",
+  "hiroshima-japan--790--oysters-kakiya":
+    "/imported-dish-images/hiroshima-japan-oysters-kakiya.png",
+  "hiroshima-japan--791--eel-rice-ueno":
+    "/imported-dish-images/hiroshima-japan-eel-rice-ueno.png",
+  "hiroshima-japan--792--ramen-ramen-yutaka":
+    "/imported-dish-images/hiroshima-japan-ramen-ramen-yutaka.png",
+  "hiroshima-japan--793--tempura-tenmatsu":
+    "/imported-dish-images/hiroshima-japan-tempura-tenmatsu.png",
+  "hiroshima-japan--794--soba-mitchan-sohonten":
+    "/imported-dish-images/hiroshima-japan-soba-mitchan-sohonten.png",
+  "hiroshima-japan--795--tonkatsu-nagataya":
+    "/imported-dish-images/hiroshima-japan-tonkatsu-nagataya.png",
+  "hiroshima-japan--796--fried-oysters-kaki-fukumaru":
+    "/imported-dish-images/hiroshima-japan-fried-oysters-kaki-fukumaru.png",
+  "hiroshima-japan--797--sweets-momiji-manju-fujiiya":
+    "/imported-dish-images/hiroshima-japan-sweets-momiji-manju-fujiiya.png",
+  "hiroshima-japan--798--tasting-menu-ryokan-iwaso":
+    "/imported-dish-images/hiroshima-japan-tasting-menu-ryokan-iwaso.png",
+  "ho-chi-minh-city-vietnam--366--pho-hoa-pasteur":
+    "/imported-dish-images/ho-chi-minh-city-vietnam-pho-hoa-pasteur.png",
+  "ho-chi-minh-city-vietnam--367--banh-mi-banh-mi-huynh-hoa":
+    "/imported-dish-images/ho-chi-minh-city-vietnam-banh-mi-banh-mi-huynh-hoa.png",
+  "ho-chi-minh-city-vietnam--368--com-tam-broken-rice-com-tam-ba-ghien":
+    "/imported-dish-images/ho-chi-minh-city-vietnam-com-tam-broken-rice-com-tam-ba-ghien.png",
+  "ho-chi-minh-city-vietnam--369--hu-tieu-hu-tieu-thanh-xuan":
+    "/imported-dish-images/ho-chi-minh-city-vietnam-hu-tieu-hu-tieu-thanh-xuan.png",
+  "ho-chi-minh-city-vietnam--370--banh-xeo-banh-xeo-46a":
+    "/imported-dish-images/ho-chi-minh-city-vietnam-banh-xeo-banh-xeo-46a.png",
+  "ho-chi-minh-city-vietnam--371--bo-kho-bun-bo-kho-ba-hai":
+    "/imported-dish-images/ho-chi-minh-city-vietnam-bo-kho-bun-bo-kho-ba-hai.png",
+  "ho-chi-minh-city-vietnam--372--oc-snails-and-shellfish-oc-dao":
+    "/imported-dish-images/ho-chi-minh-city-vietnam-oc-snails-and-shellfish-oc-dao.png",
+  "ho-chi-minh-city-vietnam--373--ca-kho-to-nha-hang-ngon":
+    "/imported-dish-images/ho-chi-minh-city-vietnam-ca-kho-to-nha-hang-ngon.png",
+  "ho-chi-minh-city-vietnam--374--goi-cuon-fresh-rolls-quan-an-ngon":
+    "/imported-dish-images/ho-chi-minh-city-vietnam-goi-cuon-fresh-rolls-quan-an-ngon.png",
+  "ho-chi-minh-city-vietnam--375--vietnamese-iced-coffee-cheese-coffee":
+    "/imported-dish-images/ho-chi-minh-city-vietnam-vietnamese-iced-coffee-cheese-coffee.png",
   "lisbon-portugal--138--grilled-prawns-cervejaria-ramiro":
     "/imported-dish-images/lisbon-grilled-prawns-cervejaria-ramiro.png",
   "los-angeles-united-states--12--tacos-al-pastor-leo-s-taco-truck":
