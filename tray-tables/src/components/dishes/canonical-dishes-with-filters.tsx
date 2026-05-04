@@ -296,7 +296,8 @@ export function CanonicalDishesWithFilters({
         <div className="mb-8">
           <h3 className="text-sm font-semibold text-zinc-900">Your additions</h3>
           <p className="mt-1 text-xs text-zinc-500">
-            Dishes you added manually for this trip (not from the spreadsheet list).
+            Dishes you added manually for this trip (not from the canonical
+            must-try list for this city).
           </p>
           <div className="mt-4 grid gap-4 sm:grid-cols-2">
             {customDishes.map((d) => (

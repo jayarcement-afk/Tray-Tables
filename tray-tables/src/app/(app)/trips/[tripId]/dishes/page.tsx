@@ -37,7 +37,7 @@ export default async function TripDishesPage({
 
   const emptyMessage =
     dishes.length === 0
-      ? `No rows in the Canonical Dishes list for this city’s slug (“${slug ?? "unknown"}”). Regenerate with npm run data:canonical-dishes or add rows in the spreadsheet.`
+      ? `No canonical must-try dishes are loaded for this city yet (slug: “${slug ?? "unknown"}”). If you develop the app, run npm run data:canonical-dishes after updating canonical dish data.`
       : "";
 
   return (
@@ -88,8 +88,7 @@ export default async function TripDishesPage({
               Iconic dishes
             </h1>
             <p className="mt-1 max-w-2xl text-sm text-zinc-600">
-              Pulled from the Canonical Dishes spreadsheet: must-try dishes and
-              where to have them, for {cityName}.
+              Canonical must-try dishes and where to have them, for {cityName}.
             </p>
             {dishes.length > 0 ? (
               <p className="mt-2 text-xs text-zinc-500">{dishes.length} in list</p>

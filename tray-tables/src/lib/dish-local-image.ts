@@ -471,6 +471,26 @@ const IMPORTED_DISH_IMAGES_BY_ID: Record<string, string> = {
     "/imported-dish-images/hong-kong-china-milk-tea-lan-fong-yuen.png",
   "hong-kong-china--1263--fish-congee-luk-yu-tea-house":
     "/imported-dish-images/hong-kong-china-fish-congee-luk-yu-tea-house.png",
+  "istanbul-turkey--1027--kebab-zubeyir-ocakbasi":
+    "/imported-dish-images/istanbul-turkey-kebab-zubeyir-ocakbasi.png",
+  "istanbul-turkey--1028--doner-kasap-doner":
+    "/imported-dish-images/istanbul-turkey-doner-kasap-doner.png",
+  "istanbul-turkey--1029--balik-ekmek-galata-bridge":
+    "/imported-dish-images/istanbul-turkey-balik-ekmek-galata-bridge.png",
+  "istanbul-turkey--1030--meze-ciya-sofrasi":
+    "/imported-dish-images/istanbul-turkey-meze-ciya-sofrasi.png",
+  "istanbul-turkey--1031--lahmacun-borsam-tasfirin":
+    "/imported-dish-images/istanbul-turkey-lahmacun-borsam-tasfirin.png",
+  "istanbul-turkey--1032--pide-karakoy-lokantasi":
+    "/imported-dish-images/istanbul-turkey-pide-karakoy-lokantasi.png",
+  "istanbul-turkey--1033--kofte-sultanahmet-koftecisi":
+    "/imported-dish-images/istanbul-turkey-kofte-sultanahmet-koftecisi.png",
+  "istanbul-turkey--1034--dessert-baklava-karakoy-gulluoglu":
+    "/imported-dish-images/istanbul-turkey-dessert-baklava-karakoy-gulluoglu.png",
+  "istanbul-turkey--1035--seafood-balikci-sabahattin":
+    "/imported-dish-images/istanbul-turkey-seafood-balikci-sabahattin.png",
+  "istanbul-turkey--1036--tasting-menu-neolokal":
+    "/imported-dish-images/istanbul-turkey-tasting-menu-neolokal.png",
   "jaipur-india--949--dal-baati-churma-laxmi-misthan-bhandar":
     "/imported-dish-images/jaipur-india-dal-baati-churma-laxmi-misthan-bhandar.png",
   "jaipur-india--950--gatte-ki-sabzi-handi-restaurant":
@@ -491,6 +511,26 @@ const IMPORTED_DISH_IMAGES_BY_ID: Record<string, string> = {
     "/imported-dish-images/jaipur-india-kulfi-pandit-kulfi.png",
   "jaipur-india--958--tasting-menu-1135-ad":
     "/imported-dish-images/jaipur-india-tasting-menu-1135-ad.jpg",
+  "jakarta-indonesia--869--nasi-goreng-cafe-batavia":
+    "/imported-dish-images/jakarta-indonesia-nasi-goreng-cafe-batavia.png",
+  "jakarta-indonesia--870--sate-sate-khas-senayan":
+    "/imported-dish-images/jakarta-indonesia-sate-sate-khas-senayan.png",
+  "jakarta-indonesia--871--rendang-padang-merdeka":
+    "/imported-dish-images/jakarta-indonesia-rendang-padang-merdeka.png",
+  "jakarta-indonesia--872--gado-gado-boplo":
+    "/imported-dish-images/jakarta-indonesia-gado-gado-boplo.png",
+  "jakarta-indonesia--873--soto-betawi-soto-betawi-haji-husein":
+    "/imported-dish-images/jakarta-indonesia-soto-betawi-soto-betawi-haji-husein.png",
+  "jakarta-indonesia--874--fried-duck-bebek-tepi-sawah":
+    "/imported-dish-images/jakarta-indonesia-fried-duck-bebek-tepi-sawah.png",
+  "jakarta-indonesia--875--noodles-bakmi-gm":
+    "/imported-dish-images/jakarta-indonesia-noodles-bakmi-gm.png",
+  "jakarta-indonesia--876--seafood-bandar-djakarta":
+    "/imported-dish-images/jakarta-indonesia-seafood-bandar-djakarta.png",
+  "jakarta-indonesia--877--dessert-ice-ragusa-ice-cream":
+    "/imported-dish-images/jakarta-indonesia-dessert-ice-ragusa-ice-cream.png",
+  "jakarta-indonesia--878--tasting-menu-kaum":
+    "/imported-dish-images/jakarta-indonesia-tasting-menu-kaum.png",
   "lisbon-portugal--138--grilled-prawns-cervejaria-ramiro":
     "/imported-dish-images/lisbon-grilled-prawns-cervejaria-ramiro.png",
   "los-angeles-united-states--12--tacos-al-pastor-leo-s-taco-truck":
