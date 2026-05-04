@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-04T01:15:23.225Z",
+  "generated": "2026-05-04T20:10:23.733Z",
   "dishes": [
     {
       "id": "abu-dhabi-united-arab-emirates--987--harees-mezlai",
@@ -2614,10 +2614,73 @@
     },
     {
       "id": "jerusalem-israel--1007--hummus-abu-shukri",
-      "imageUrl": "/Images/Jerusalem_Israel_Hummus_Abu%20Shukri.jpg",
+      "imageUrl": "/imported-dish-images/jerusalem-israel-hummus-abu-shukri.png",
       "city": "Jerusalem",
       "country": "Israel",
       "name": "Hummus"
+    },
+    {
+      "id": "jerusalem-israel--1008--falafel-lina",
+      "imageUrl": "/imported-dish-images/jerusalem-israel-falafel-lina.png",
+      "city": "Jerusalem",
+      "country": "Israel",
+      "name": "Falafel"
+    },
+    {
+      "id": "jerusalem-israel--1009--shakshuka-azura",
+      "imageUrl": "/imported-dish-images/jerusalem-israel-shakshuka-azura.png",
+      "city": "Jerusalem",
+      "country": "Israel",
+      "name": "Shakshuka"
+    },
+    {
+      "id": "jerusalem-israel--1010--grilled-meats-machneyuda",
+      "imageUrl": "/imported-dish-images/jerusalem-israel-grilled-meats-machneyuda.png",
+      "city": "Jerusalem",
+      "country": "Israel",
+      "name": "Grilled Meats"
+    },
+    {
+      "id": "jerusalem-israel--1011--sabich-mr-sabich",
+      "imageUrl": "/imported-dish-images/jerusalem-israel-sabich-mr-sabich.png",
+      "city": "Jerusalem",
+      "country": "Israel",
+      "name": "Sabich"
+    },
+    {
+      "id": "jerusalem-israel--1012--kubbeh-azura",
+      "imageUrl": "/imported-dish-images/jerusalem-israel-kubbeh-azura.png",
+      "city": "Jerusalem",
+      "country": "Israel",
+      "name": "Kubbeh"
+    },
+    {
+      "id": "jerusalem-israel--1013--bourekas-marzipan",
+      "imageUrl": "/imported-dish-images/jerusalem-israel-bourekas-marzipan.png",
+      "city": "Jerusalem",
+      "country": "Israel",
+      "name": "Bourekas"
+    },
+    {
+      "id": "jerusalem-israel--1014--stuffed-vegetables-ima",
+      "imageUrl": "/imported-dish-images/jerusalem-israel-stuffed-vegetables-ima.png",
+      "city": "Jerusalem",
+      "country": "Israel",
+      "name": "Stuffed Vegetables"
+    },
+    {
+      "id": "jerusalem-israel--1015--dessert-knafeh-jaafar-sweets",
+      "imageUrl": "/imported-dish-images/jerusalem-israel-dessert-knafeh-jaafar-sweets.png",
+      "city": "Jerusalem",
+      "country": "Israel",
+      "name": "Dessert Knafeh"
+    },
+    {
+      "id": "jerusalem-israel--1016--tasting-menu-machneyuda",
+      "imageUrl": "/imported-dish-images/jerusalem-israel-tasting-menu-machneyuda.png",
+      "city": "Jerusalem",
+      "country": "Israel",
+      "name": "Tasting Menu"
     },
     {
       "id": "kathmandu-nepal--959--momo-buddha-park-momo",
@@ -2635,31 +2698,276 @@
     },
     {
       "id": "kuala-lumpur-malaysia--386--nasi-lemak-village-park-restaurant",
-      "imageUrl": "/Images/Kuala%20Lumpur_Malaysia_Nasi%20Lemak_Village%20Park%20Restaurant.jpg",
+      "imageUrl": "/imported-dish-images/kuala-lumpur-malaysia-nasi-lemak-village-park-restaurant.png",
       "city": "Kuala Lumpur",
       "country": "Malaysia",
       "name": "Nasi Lemak"
     },
     {
+      "id": "kuala-lumpur-malaysia--387--char-kway-teow-kim-lian-kee",
+      "imageUrl": "/imported-dish-images/kuala-lumpur-malaysia-char-kway-teow-kim-lian-kee.png",
+      "city": "Kuala Lumpur",
+      "country": "Malaysia",
+      "name": "Char Kway Teow"
+    },
+    {
+      "id": "kuala-lumpur-malaysia--388--roti-canai-valentine-roti",
+      "imageUrl": "/imported-dish-images/kuala-lumpur-malaysia-roti-canai-valentine-roti.png",
+      "city": "Kuala Lumpur",
+      "country": "Malaysia",
+      "name": "Roti Canai"
+    },
+    {
+      "id": "kuala-lumpur-malaysia--389--satay-kajang-satay",
+      "imageUrl": "/imported-dish-images/kuala-lumpur-malaysia-satay-kajang-satay.png",
+      "city": "Kuala Lumpur",
+      "country": "Malaysia",
+      "name": "Satay"
+    },
+    {
+      "id": "kuala-lumpur-malaysia--390--hokkien-mee-restoran-kim-lian-kee",
+      "imageUrl": "/imported-dish-images/kuala-lumpur-malaysia-hokkien-mee-restoran-kim-lian-kee.png",
+      "city": "Kuala Lumpur",
+      "country": "Malaysia",
+      "name": "Hokkien Mee"
+    },
+    {
+      "id": "kuala-lumpur-malaysia--391--bak-kut-teh-hing-kee-bak-kut-teh",
+      "imageUrl": "/imported-dish-images/kuala-lumpur-malaysia-bak-kut-teh-hing-kee-bak-kut-teh.png",
+      "city": "Kuala Lumpur",
+      "country": "Malaysia",
+      "name": "Bak Kut Teh"
+    },
+    {
+      "id": "kuala-lumpur-malaysia--392--nasi-kandar-pelita-nasi-kandar",
+      "imageUrl": "/imported-dish-images/kuala-lumpur-malaysia-nasi-kandar-pelita-nasi-kandar.jpg",
+      "city": "Kuala Lumpur",
+      "country": "Malaysia",
+      "name": "Nasi Kandar"
+    },
+    {
+      "id": "kuala-lumpur-malaysia--393--laksa-limapulo-baba-can-cook",
+      "imageUrl": "/imported-dish-images/kuala-lumpur-malaysia-laksa-limapulo-baba-can-cook.jpg",
+      "city": "Kuala Lumpur",
+      "country": "Malaysia",
+      "name": "Laksa"
+    },
+    {
+      "id": "kuala-lumpur-malaysia--394--chicken-rice-nam-heong-chicken-rice",
+      "imageUrl": "/imported-dish-images/kuala-lumpur-malaysia-chicken-rice-nam-heong-chicken-rice.png",
+      "city": "Kuala Lumpur",
+      "country": "Malaysia",
+      "name": "Chicken Rice"
+    },
+    {
+      "id": "kuala-lumpur-malaysia--395--cendol-durian-runtuh",
+      "imageUrl": "/imported-dish-images/kuala-lumpur-malaysia-cendol-durian-runtuh.png",
+      "city": "Kuala Lumpur",
+      "country": "Malaysia",
+      "name": "Cendol"
+    },
+    {
       "id": "kyoto-japan--296--kaiseki-hyotei",
-      "imageUrl": "/Images/Kyoto_Japan_Kaiseki_Hyotei.jpg",
+      "imageUrl": "/imported-dish-images/kyoto-japan-kaiseki-hyotei.png",
       "city": "Kyoto",
       "country": "Japan",
       "name": "Kaiseki"
     },
     {
+      "id": "kyoto-japan--297--yudofu-tofu-hot-pot-okutan-nanzenji",
+      "imageUrl": "/imported-dish-images/kyoto-japan-yudofu-tofu-hot-pot-okutan-nanzenji.png",
+      "city": "Kyoto",
+      "country": "Japan",
+      "name": "Yudofu (Tofu Hot Pot)"
+    },
+    {
+      "id": "kyoto-japan--298--soba-teuchi-soba-kanei",
+      "imageUrl": "/imported-dish-images/kyoto-japan-soba-teuchi-soba-kanei.png",
+      "city": "Kyoto",
+      "country": "Japan",
+      "name": "Soba"
+    },
+    {
+      "id": "kyoto-japan--299--tempura-tempura-mizuki",
+      "imageUrl": "/imported-dish-images/kyoto-japan-tempura-tempura-mizuki.png",
+      "city": "Kyoto",
+      "country": "Japan",
+      "name": "Tempura"
+    },
+    {
+      "id": "kyoto-japan--300--kyoto-ramen-honke-daiichi-asahi",
+      "imageUrl": "/imported-dish-images/kyoto-japan-kyoto-ramen-honke-daiichi-asahi.png",
+      "city": "Kyoto",
+      "country": "Japan",
+      "name": "Kyoto Ramen"
+    },
+    {
+      "id": "kyoto-japan--301--saba-sushi-izushikyo-yasaka",
+      "imageUrl": "/imported-dish-images/kyoto-japan-saba-sushi-izushikyo-yasaka.png",
+      "city": "Kyoto",
+      "country": "Japan",
+      "name": "Saba Sushi"
+    },
+    {
+      "id": "kyoto-japan--302--kyoto-vegetables-omen",
+      "imageUrl": "/imported-dish-images/kyoto-japan-kyoto-vegetables-omen.png",
+      "city": "Kyoto",
+      "country": "Japan",
+      "name": "Kyoto Vegetables"
+    },
+    {
+      "id": "kyoto-japan--303--wagashi-toraya-kyoto",
+      "imageUrl": "/imported-dish-images/kyoto-japan-wagashi-toraya-kyoto.png",
+      "city": "Kyoto",
+      "country": "Japan",
+      "name": "Wagashi"
+    },
+    {
+      "id": "kyoto-japan--304--unagi-hirokawa",
+      "imageUrl": "/imported-dish-images/kyoto-japan-unagi-hirokawa.png",
+      "city": "Kyoto",
+      "country": "Japan",
+      "name": "Unagi"
+    },
+    {
+      "id": "kyoto-japan--305--matcha-maccha-house",
+      "imageUrl": "/imported-dish-images/kyoto-japan-matcha-maccha-house.png",
+      "city": "Kyoto",
+      "country": "Japan",
+      "name": "Matcha"
+    },
+    {
       "id": "las-vegas-united-states--436--beef-wellington-hells-kitchen",
-      "imageUrl": "/Images/Las%20Vegas_United%20States_Beef%20Wellington_Hells%20Kitchen.jpg",
+      "imageUrl": "/imported-dish-images/las-vegas-united-states-beef-wellington-hells-kitchen.png",
       "city": "Las Vegas",
       "country": "United States",
       "name": "Beef Wellington"
     },
     {
+      "id": "las-vegas-united-states--437--tomahawk-steak-smith-and-wollensky",
+      "imageUrl": "/imported-dish-images/las-vegas-united-states-tomahawk-steak-smith-and-wollensky.png",
+      "city": "Las Vegas",
+      "country": "United States",
+      "name": "Tomahawk Steak"
+    },
+    {
+      "id": "las-vegas-united-states--438--black-cod-nobu-caesars-palace",
+      "imageUrl": "/imported-dish-images/las-vegas-united-states-black-cod-nobu-caesars-palace.png",
+      "city": "Las Vegas",
+      "country": "United States",
+      "name": "Black Cod"
+    },
+    {
+      "id": "las-vegas-united-states--439--chocolate-layer-cake-strip-house",
+      "imageUrl": "/imported-dish-images/las-vegas-united-states-chocolate-layer-cake-strip-house.png",
+      "city": "Las Vegas",
+      "country": "United States",
+      "name": "Chocolate Layer Cake"
+    },
+    {
+      "id": "las-vegas-united-states--440--pizza-secret-pizza",
+      "imageUrl": "/imported-dish-images/las-vegas-united-states-pizza-secret-pizza.png",
+      "city": "Las Vegas",
+      "country": "United States",
+      "name": "Pizza"
+    },
+    {
+      "id": "las-vegas-united-states--441--shrimp-cocktail-golden-steer-steakhouse",
+      "imageUrl": "/imported-dish-images/las-vegas-united-states-shrimp-cocktail-golden-steer-steakhouse.png",
+      "city": "Las Vegas",
+      "country": "United States",
+      "name": "Shrimp Cocktail"
+    },
+    {
+      "id": "las-vegas-united-states--442--buffet-experience-wynn-buffet",
+      "imageUrl": "/imported-dish-images/las-vegas-united-states-buffet-experience-wynn-buffet.png",
+      "city": "Las Vegas",
+      "country": "United States",
+      "name": "Buffet Experience"
+    },
+    {
+      "id": "las-vegas-united-states--443--sushi-omakase-sushi-kame",
+      "imageUrl": "/imported-dish-images/las-vegas-united-states-sushi-omakase-sushi-kame.png",
+      "city": "Las Vegas",
+      "country": "United States",
+      "name": "Sushi"
+    },
+    {
+      "id": "las-vegas-united-states--444--pho-pho-kim-long",
+      "imageUrl": "/imported-dish-images/las-vegas-united-states-pho-pho-kim-long.png",
+      "city": "Las Vegas",
+      "country": "United States",
+      "name": "Pho"
+    },
+    {
       "id": "lima-peru--1077--ceviche-la-mar",
-      "imageUrl": "/Images/Lima_Peru_Ceviche_La%20Mar.jpg",
+      "imageUrl": "/imported-dish-images/lima-peru-ceviche-la-mar.png",
       "city": "Lima",
       "country": "Peru",
       "name": "Ceviche"
+    },
+    {
+      "id": "lima-peru--1078--lomo-saltado-isolina",
+      "imageUrl": "/imported-dish-images/lima-peru-lomo-saltado-isolina.png",
+      "city": "Lima",
+      "country": "Peru",
+      "name": "Lomo Saltado"
+    },
+    {
+      "id": "lima-peru--1079--aji-de-gallina-el-bodegon",
+      "imageUrl": "/imported-dish-images/lima-peru-aji-de-gallina-el-bodegon.png",
+      "city": "Lima",
+      "country": "Peru",
+      "name": "Aji De Gallina"
+    },
+    {
+      "id": "lima-peru--1080--anticuchos-grimanesa",
+      "imageUrl": "/imported-dish-images/lima-peru-anticuchos-grimanesa.png",
+      "city": "Lima",
+      "country": "Peru",
+      "name": "Anticuchos"
+    },
+    {
+      "id": "lima-peru--1081--causa-rellena-panchita",
+      "imageUrl": "/imported-dish-images/lima-peru-causa-rellena-panchita.png",
+      "city": "Lima",
+      "country": "Peru",
+      "name": "Causa Rellena"
+    },
+    {
+      "id": "lima-peru--1082--tacu-tacu-huetos",
+      "imageUrl": "/imported-dish-images/lima-peru-tacu-tacu-huetos.png",
+      "city": "Lima",
+      "country": "Peru",
+      "name": "Tacu Tacu"
+    },
+    {
+      "id": "lima-peru--1083--rocoto-relleno-la-nueva-palomino",
+      "imageUrl": "/imported-dish-images/lima-peru-rocoto-relleno-la-nueva-palomino.png",
+      "city": "Lima",
+      "country": "Peru",
+      "name": "Rocoto Relleno"
+    },
+    {
+      "id": "lima-peru--1084--chupe-de-camarones-el-mercado",
+      "imageUrl": "/imported-dish-images/lima-peru-chupe-de-camarones-el-mercado.png",
+      "city": "Lima",
+      "country": "Peru",
+      "name": "Chupe De Camarones"
+    },
+    {
+      "id": "lima-peru--1085--pollo-a-la-brasa-don-tito",
+      "imageUrl": "/imported-dish-images/lima-peru-pollo-a-la-brasa-don-tito.png",
+      "city": "Lima",
+      "country": "Peru",
+      "name": "Pollo A La Brasa"
+    },
+    {
+      "id": "lima-peru--1086--picarones-picarones-mary",
+      "imageUrl": "/imported-dish-images/lima-peru-picarones-picarones-mary.png",
+      "city": "Lima",
+      "country": "Peru",
+      "name": "Picarones"
     },
     {
       "id": "lisbon-portugal--136--pastel-de-nata-past-is-de-bel-m",
@@ -2761,10 +3069,129 @@
     },
     {
       "id": "london-united-kingdom--36--ginger-and-spring-onion-lobster-noodles-mandarin-kitchen",
-      "imageUrl": "/Images/London_United%20Kingdom_Ginger%20%26%20Spring%20Onion%20Lobster%20Noodles_Mandarin%20Kitchen.jpg",
+      "imageUrl": "/imported-dish-images/london-united-kingdom-ginger-and-spring-onion-lobster-noodles-mandarin-kitchen.png",
       "city": "London",
       "country": "United Kingdom",
       "name": "Ginger & Spring Onion Lobster Noodles"
+    },
+    {
+      "id": "london-united-kingdom--37--chocolate-nemesis-the-river-caf",
+      "imageUrl": "/imported-dish-images/london-united-kingdom-chocolate-nemesis-the-river-caf.png",
+      "city": "London",
+      "country": "United Kingdom",
+      "name": "Chocolate Nemesis"
+    },
+    {
+      "id": "london-united-kingdom--38--cr-pe-suzette-the-ritz-restaurant",
+      "imageUrl": "/imported-dish-images/london-united-kingdom-cr-pe-suzette-the-ritz-restaurant.png",
+      "city": "London",
+      "country": "United Kingdom",
+      "name": "Crêpe Suzette"
+    },
+    {
+      "id": "london-united-kingdom--39--smoked-eel-sandwich-quo-vadis",
+      "imageUrl": "/imported-dish-images/london-united-kingdom-smoked-eel-sandwich-quo-vadis.png",
+      "city": "London",
+      "country": "United Kingdom",
+      "name": "Smoked Eel Sandwich"
+    },
+    {
+      "id": "london-united-kingdom--40--tandoori-masala-lamb-chops-gymkhana",
+      "imageUrl": "/imported-dish-images/london-united-kingdom-tandoori-masala-lamb-chops-gymkhana.png",
+      "city": "London",
+      "country": "United Kingdom",
+      "name": "Tandoori Masala Lamb Chops"
+    },
+    {
+      "id": "london-united-kingdom--41--bread-and-butter-bread-basket-noble-rot",
+      "imageUrl": "/imported-dish-images/london-united-kingdom-bread-and-butter-bread-basket-noble-rot.png",
+      "city": "London",
+      "country": "United Kingdom",
+      "name": "Bread & Butter (Bread Basket)"
+    },
+    {
+      "id": "london-united-kingdom--42--spicy-wings-and-chips-morley-s",
+      "imageUrl": "/imported-dish-images/london-united-kingdom-spicy-wings-and-chips-morley-s.png",
+      "city": "London",
+      "country": "United Kingdom",
+      "name": "Spicy Wings & Chips"
+    },
+    {
+      "id": "london-united-kingdom--43--pici-cacio-e-pepe-padella",
+      "imageUrl": "/imported-dish-images/london-united-kingdom-pici-cacio-e-pepe-padella.png",
+      "city": "London",
+      "country": "United Kingdom",
+      "name": "Pici Cacio e Pepe"
+    },
+    {
+      "id": "london-united-kingdom--44--chicken-ruby-dishoom-shoreditch",
+      "imageUrl": "/imported-dish-images/london-united-kingdom-chicken-ruby-dishoom-shoreditch.png",
+      "city": "London",
+      "country": "United Kingdom",
+      "name": "Chicken Ruby"
+    },
+    {
+      "id": "london-united-kingdom--45--salt-beef-beigel-beigel-bake",
+      "imageUrl": "/imported-dish-images/london-united-kingdom-salt-beef-beigel-beigel-bake.png",
+      "city": "London",
+      "country": "United Kingdom",
+      "name": "Salt Beef Beigel"
+    },
+    {
+      "id": "london-united-kingdom--1201--fish-and-chips-poppies-fish-and-chips",
+      "imageUrl": "/imported-dish-images/london-united-kingdom-fish-and-chips-poppies-fish-and-chips.png",
+      "city": "London",
+      "country": "United Kingdom",
+      "name": "Fish and Chips"
+    },
+    {
+      "id": "london-united-kingdom--1202--sunday-roast-hawksmoor-seven-dials",
+      "imageUrl": "/imported-dish-images/london-united-kingdom-sunday-roast-hawksmoor-seven-dials.png",
+      "city": "London",
+      "country": "United Kingdom",
+      "name": "Sunday Roast"
+    },
+    {
+      "id": "london-united-kingdom--1203--pie-and-mash-goddards-at-greenwich",
+      "imageUrl": "/imported-dish-images/london-united-kingdom-pie-and-mash-goddards-at-greenwich.png",
+      "city": "London",
+      "country": "United Kingdom",
+      "name": "Pie and Mash"
+    },
+    {
+      "id": "london-united-kingdom--1204--full-english-breakfast-regency-cafe",
+      "imageUrl": "/imported-dish-images/london-united-kingdom-full-english-breakfast-regency-cafe.png",
+      "city": "London",
+      "country": "United Kingdom",
+      "name": "Full English Breakfast"
+    },
+    {
+      "id": "london-united-kingdom--1205--beef-wellington-holborn-dining-room",
+      "imageUrl": "/imported-dish-images/london-united-kingdom-beef-wellington-holborn-dining-room.png",
+      "city": "London",
+      "country": "United Kingdom",
+      "name": "Beef Wellington"
+    },
+    {
+      "id": "london-united-kingdom--1206--bangers-and-mash-mother-mash",
+      "imageUrl": "/imported-dish-images/london-united-kingdom-bangers-and-mash-mother-mash.png",
+      "city": "London",
+      "country": "United Kingdom",
+      "name": "Bangers and Mash"
+    },
+    {
+      "id": "london-united-kingdom--1207--scotch-eggs-the-guinea-grill",
+      "imageUrl": "/imported-dish-images/london-united-kingdom-scotch-eggs-the-guinea-grill.png",
+      "city": "London",
+      "country": "United Kingdom",
+      "name": "Scotch Eggs"
+    },
+    {
+      "id": "london-united-kingdom--1208--sticky-toffee-pudding-hawksmoor-seven-dials",
+      "imageUrl": "/imported-dish-images/london-united-kingdom-sticky-toffee-pudding-hawksmoor-seven-dials.png",
+      "city": "London",
+      "country": "United Kingdom",
+      "name": "Sticky Toffee Pudding"
     },
     {
       "id": "los-angeles-united-states--11--beef-french-dip-philippe-the-original",
@@ -2838,17 +3265,94 @@
     },
     {
       "id": "madrid-spain--106--cocido-madrile-o-la-bola",
-      "imageUrl": "/Images/Madrid_Spain_Cocido%20Madrile%C3%B1o_La%20Bola.jpg",
+      "imageUrl": "/imported-dish-images/madrid-spain-cocido-madrile-o-la-bola.png",
       "city": "Madrid",
       "country": "Spain",
       "name": "Cocido Madrileño"
     },
     {
+      "id": "madrid-spain--107--bocadillo-de-calamares-el-brillante",
+      "imageUrl": "/imported-dish-images/madrid-spain-bocadillo-de-calamares-el-brillante.png",
+      "city": "Madrid",
+      "country": "Spain",
+      "name": "Bocadillo de Calamares"
+    },
+    {
+      "id": "madrid-spain--108--tortilla-espa-ola-juana-la-loca",
+      "imageUrl": "/imported-dish-images/madrid-spain-tortilla-espa-ola-juana-la-loca.png",
+      "city": "Madrid",
+      "country": "Spain",
+      "name": "Tortilla Española"
+    },
+    {
+      "id": "madrid-spain--109--callos-a-la-madrile-a-malacat-n",
+      "imageUrl": "/imported-dish-images/madrid-spain-callos-a-la-madrile-a-malacat-n.png",
+      "city": "Madrid",
+      "country": "Spain",
+      "name": "Callos a la Madrileña"
+    },
+    {
+      "id": "madrid-spain--110--churros-con-chocolate-chocolater-a-san-gin-s",
+      "imageUrl": "/imported-dish-images/madrid-spain-churros-con-chocolate-chocolater-a-san-gin-s.png",
+      "city": "Madrid",
+      "country": "Spain",
+      "name": "Churros con Chocolate"
+    },
+    {
+      "id": "madrid-spain--111--gambas-al-ajillo-casa-del-abuelo",
+      "imageUrl": "/imported-dish-images/madrid-spain-gambas-al-ajillo-casa-del-abuelo.png",
+      "city": "Madrid",
+      "country": "Spain",
+      "name": "Gambas al Ajillo"
+    },
+    {
+      "id": "madrid-spain--112--patatas-bravas-docamar",
+      "imageUrl": "/imported-dish-images/madrid-spain-patatas-bravas-docamar.png",
+      "city": "Madrid",
+      "country": "Spain",
+      "name": "Patatas Bravas"
+    },
+    {
+      "id": "madrid-spain--113--huevos-rotos-casa-lucio",
+      "imageUrl": "/imported-dish-images/madrid-spain-huevos-rotos-casa-lucio.png",
+      "city": "Madrid",
+      "country": "Spain",
+      "name": "Huevos Rotos"
+    },
+    {
+      "id": "madrid-spain--114--iberian-pork-secreto-taberna-el-sur",
+      "imageUrl": "/imported-dish-images/madrid-spain-iberian-pork-secreto-taberna-el-sur.png",
+      "city": "Madrid",
+      "country": "Spain",
+      "name": "Iberian Pork Secreto"
+    },
+    {
+      "id": "madrid-spain--115--tarta-de-queso-la-vi-a-madrid-pop-ups-style",
+      "imageUrl": "/imported-dish-images/madrid-spain-tarta-de-queso-la-vi-a-madrid-pop-ups-style.png",
+      "city": "Madrid",
+      "country": "Spain",
+      "name": "Tarta de Queso"
+    },
+    {
+      "id": "madrid-spain--1232--tortilla-de-patatas-casa-dani",
+      "imageUrl": "/imported-dish-images/madrid-spain-tortilla-de-patatas-casa-dani.png",
+      "city": "Madrid",
+      "country": "Spain",
+      "name": "Tortilla de Patatas"
+    },
+    {
       "id": "manila-philippines--899--adobo-cafe-adriatico",
-      "imageUrl": "/Images/Manila_Philippines_Adobo_Cafe%20Adriatico.jpg",
+      "imageUrl": "/imported-dish-images/manila-philippines-adobo-cafe-adriatico.png",
       "city": "Manila",
       "country": "Philippines",
       "name": "Adobo"
+    },
+    {
+      "id": "manila-philippines--900--sinigang-sentros-1771",
+      "imageUrl": "/imported-dish-images/manila-philippines-sinigang-sentros-1771.png",
+      "city": "Manila",
+      "country": "Philippines",
+      "name": "Sinigang"
     },
     {
       "id": "marseille-france--779--bouillabaisse-chez-fonfon",
