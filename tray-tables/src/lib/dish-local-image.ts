@@ -791,6 +791,8 @@ const IMPORTED_DISH_IMAGES_BY_ID: Record<string, string> = {
     "/imported-dish-images/mexico-city-chiles-en-nogada-nicos.png",
   "mexico-city--538--chicharrones-de-harina-la-merced-market":
     "/imported-dish-images/mexico-city-chicharrones-de-harina-la-merced-market.png",
+  "mexico-city--539--chapulines-chapulin":
+    "/imported-dish-images/mexico-city-chapulines-chapulin.png",
   "mexico-city--540--gaonera-taco-taqueria-el-califa-de-leon":
     "/imported-dish-images/mexico-city-gaonera-taco-taqueria-el-califa-de-leon.png",
   "mexico-city--541--craft-cocktails-handshake-speakeasy":

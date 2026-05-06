@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-06T03:40:09.720Z",
+  "generated": "2026-05-06T03:48:40.307Z",
   "dishes": [
     {
       "id": "abu-dhabi-united-arab-emirates--987--harees-mezlai",
@@ -3696,6 +3696,13 @@
       "city": "Mexico City",
       "country": "Mexico",
       "name": "Chicharrones de Harina"
+    },
+    {
+      "id": "mexico-city--539--chapulines-chapulin",
+      "imageUrl": "/imported-dish-images/mexico-city-chapulines-chapulin.png",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "name": "Chapulines"
     },
     {
       "id": "mexico-city--540--gaonera-taco-taqueria-el-califa-de-leon",
