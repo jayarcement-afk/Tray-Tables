@@ -207,7 +207,7 @@ export function TripRestaurantsMap({ cityName, cityCountry, points }: Props) {
       const byKey = new Map<string, Geocoded>();
       const needNetwork: MapPoint[] = [];
 
-      for (const p of uniquePoints) {
+        for (const p of uniquePoints) {
         if (signal.aborted) return;
 
         const presetLat = p.lat;
@@ -222,11 +222,11 @@ export function TripRestaurantsMap({ cityName, cityCountry, points }: Props) {
           continue;
         }
 
-        const hit = cache[p.query];
-        if (hit) {
+          const hit = cache[p.query];
+          if (hit) {
           byKey.set(p.key, { ...p, lat: hit.lat, lon: hit.lon });
-          continue;
-        }
+            continue;
+          }
 
         needNetwork.push(p);
       }

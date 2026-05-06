@@ -12989,6 +12989,206 @@
         "tags": [
           "Dinner"
         ]
+      },
+      {
+        "id": "mexico-city--533--escamoles-limosneros",
+        "city": "Mexico City",
+        "country": "Mexico",
+        "name": "Escamoles",
+        "restaurant": "Limosneros",
+        "why": "Seasonal “Mexican caviar” prepared traditionally and with modern finesse",
+        "imageUrl": null,
+        "price": "$$",
+        "vegetarianOptions": "Limited",
+        "localFavorite": "Yes",
+        "trendy": "Yes",
+        "streetFood": "No",
+        "drinkPairing": "Mezcal joven (agave-forward, not smoky)",
+        "hours": "Lunch, Dinner",
+        "tags": [
+          "Lunch",
+          "Dinner"
+        ]
+      },
+      {
+        "id": "mexico-city--534--conchas-panaderia-rosetta",
+        "city": "Mexico City",
+        "country": "Mexico",
+        "name": "Conchas",
+        "restaurant": "Panadería Rosetta",
+        "why": "Benchmark modern concha, widely referenced by locals & critics",
+        "imageUrl": null,
+        "price": "$",
+        "vegetarianOptions": "Yes",
+        "localFavorite": "Yes",
+        "trendy": "Yes",
+        "streetFood": "No",
+        "drinkPairing": "Café de olla",
+        "hours": "Breakfast",
+        "tags": [
+          "Breakfast"
+        ]
+      },
+      {
+        "id": "mexico-city--535--torta-tortas-la-texcocana",
+        "city": "Mexico City",
+        "country": "Mexico",
+        "name": "Torta",
+        "restaurant": "Tortas La Texcocana",
+        "why": "One of the oldest torterías in CDMX (since 1930s)",
+        "imageUrl": null,
+        "price": "$",
+        "vegetarianOptions": "No",
+        "localFavorite": "Yes",
+        "trendy": "No",
+        "streetFood": "Yes",
+        "drinkPairing": "Agua de jamaica",
+        "hours": "Lunch",
+        "tags": [
+          "Lunch"
+        ]
+      },
+      {
+        "id": "mexico-city--536--tamales-oaxaquenos-tamales-madre",
+        "city": "Mexico City",
+        "country": "Mexico",
+        "name": "Tamales Oaxaqueños",
+        "restaurant": "Tamales Madre",
+        "why": "Artisanal corn varieties, banana-leaf wrapped",
+        "imageUrl": null,
+        "price": "$",
+        "vegetarianOptions": "Yes",
+        "localFavorite": "Yes",
+        "trendy": "Yes",
+        "streetFood": "No",
+        "drinkPairing": "Champurrado",
+        "hours": "Breakfast",
+        "tags": [
+          "Breakfast"
+        ]
+      },
+      {
+        "id": "mexico-city--537--chiles-en-nogada-nicos",
+        "city": "Mexico City",
+        "country": "Mexico",
+        "name": "Chiles en Nogada",
+        "restaurant": "Nicos",
+        "why": "Gold standard for traditional, seasonal preparation",
+        "imageUrl": null,
+        "price": "$$",
+        "vegetarianOptions": "Yes",
+        "localFavorite": "Yes",
+        "trendy": "No",
+        "streetFood": "No",
+        "drinkPairing": "Mexican white wine (Chardonnay blend)",
+        "hours": "Lunch, Dinner",
+        "tags": [
+          "Lunch",
+          "Dinner"
+        ]
+      },
+      {
+        "id": "mexico-city--538--chicharrones-de-harina-la-merced-market",
+        "city": "Mexico City",
+        "country": "Mexico",
+        "name": "Chicharrones de Harina",
+        "restaurant": "Street vendors (La Merced Market)",
+        "why": "Quintessential Mexican wheat-based street snack",
+        "imageUrl": null,
+        "price": "$",
+        "vegetarianOptions": "Yes",
+        "localFavorite": "Yes",
+        "trendy": "No",
+        "streetFood": "Yes",
+        "drinkPairing": "Cold cerveza clara",
+        "hours": "Snack, Late",
+        "tags": [
+          "Snack",
+          "Late Night"
+        ]
+      },
+      {
+        "id": "mexico-city--539--chapulines-chapulin",
+        "city": "Mexico City",
+        "country": "Mexico",
+        "name": "Chapulines",
+        "restaurant": "Chapulín",
+        "why": "Upscale introduction to edible insects",
+        "imageUrl": null,
+        "price": "$$",
+        "vegetarianOptions": "No",
+        "localFavorite": "Yes",
+        "trendy": "Yes",
+        "streetFood": "No",
+        "drinkPairing": "Mezcal espadín",
+        "hours": "Lunch, Dinner",
+        "tags": [
+          "Lunch",
+          "Dinner"
+        ]
+      },
+      {
+        "id": "mexico-city--540--gaonera-taco-taqueria-el-califa-de-leon",
+        "city": "Mexico City",
+        "country": "Mexico",
+        "name": "Gaonera Taco (Filet Mignon Taco)",
+        "restaurant": "Taquería El Califa de León",
+        "why": "First taco stand in Mexico to receive a Michelin Star (2024). Ultra-minimalist menu, standing-only, legendary among locals and chefs.",
+        "imageUrl": null,
+        "price": null,
+        "vegetarianOptions": null,
+        "localFavorite": null,
+        "trendy": null,
+        "streetFood": null,
+        "drinkPairing": "Classic Coca-Cola (glass bottle) or agua fresca",
+        "michelinGuide": true,
+        "hours": "Lunch, Dinner, Late Night",
+        "tags": [
+          "Lunch",
+          "Dinner",
+          "Late Night"
+        ]
+      },
+      {
+        "id": "mexico-city--541--craft-cocktails-handshake-speakeasy",
+        "city": "Mexico City",
+        "country": "Mexico",
+        "name": "World-Class Craft Cocktails (Speakeasy Experience)",
+        "restaurant": "Handshake Speakeasy",
+        "why": "Ranked World’s Best Bar 2024 and #1 in North America by World’s 50 Best Bars. Reservation-only, high-end mixology with culinary techniques.",
+        "imageUrl": null,
+        "price": null,
+        "vegetarianOptions": "Yes",
+        "localFavorite": null,
+        "trendy": null,
+        "streetFood": "No",
+        "drinkPairing": "Fig Martini (gin, fig leaf, vermouth)",
+        "hours": "Dinner, Late Night",
+        "tags": [
+          "Dinner",
+          "Late Night"
+        ]
+      },
+      {
+        "id": "mexico-city--542--tlacoyos-street-food",
+        "city": "Mexico City",
+        "country": "Mexico",
+        "name": "Tlacoyos",
+        "restaurant": "Street Food",
+        "why": "Tlacoyos are the most famous Mexican street food featuring blue corn, particularly in Mexico City, featuring handmade blue masa filled with beans, requesón, or chicharrón and topped with nopales (cactus), salsa, and cheese.",
+        "imageUrl": null,
+        "price": "$",
+        "vegetarianOptions": "No",
+        "localFavorite": "Yes",
+        "trendy": "No",
+        "streetFood": "Yes",
+        "drinkPairing": "Agua fresca",
+        "hours": "Lunch, Dinner, Late Night",
+        "tags": [
+          "Lunch",
+          "Dinner",
+          "Late Night"
+        ]
       }
     ],
     "miami-united-states": [

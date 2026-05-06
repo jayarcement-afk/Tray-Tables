@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-04T20:10:23.733Z",
+  "generated": "2026-05-06T03:40:09.720Z",
   "dishes": [
     {
       "id": "abu-dhabi-united-arab-emirates--987--harees-mezlai",
@@ -3355,32 +3355,368 @@
       "name": "Sinigang"
     },
     {
+      "id": "manila-philippines--901--lechon-spiral-buffet",
+      "imageUrl": "/imported-dish-images/manila-philippines-lechon-spiral-buffet.png",
+      "city": "Manila",
+      "country": "Philippines",
+      "name": "Lechon"
+    },
+    {
+      "id": "manila-philippines--902--kare-kare-manam",
+      "imageUrl": "/imported-dish-images/manila-philippines-kare-kare-manam.png",
+      "city": "Manila",
+      "country": "Philippines",
+      "name": "Kare Kare"
+    },
+    {
+      "id": "manila-philippines--903--pancit-lido-cocina-tsina",
+      "imageUrl": "/imported-dish-images/manila-philippines-pancit-lido-cocina-tsina.png",
+      "city": "Manila",
+      "country": "Philippines",
+      "name": "Pancit"
+    },
+    {
+      "id": "manila-philippines--904--chicken-inasal-manam",
+      "imageUrl": "/imported-dish-images/manila-philippines-chicken-inasal-manam.png",
+      "city": "Manila",
+      "country": "Philippines",
+      "name": "Chicken Inasal"
+    },
+    {
+      "id": "manila-philippines--905--bulalo-bulalo-point",
+      "imageUrl": "/imported-dish-images/manila-philippines-bulalo-bulalo-point.png",
+      "city": "Manila",
+      "country": "Philippines",
+      "name": "Bulalo"
+    },
+    {
+      "id": "manila-philippines--906--dessert-halo-halo-razon-pampanga",
+      "imageUrl": "/imported-dish-images/manila-philippines-dessert-halo-halo-razon-pampanga.png",
+      "city": "Manila",
+      "country": "Philippines",
+      "name": "Dessert Halo Halo"
+    },
+    {
+      "id": "manila-philippines--907--seafood-dampa-seaside",
+      "imageUrl": "/imported-dish-images/manila-philippines-seafood-dampa-seaside.png",
+      "city": "Manila",
+      "country": "Philippines",
+      "name": "Seafood"
+    },
+    {
+      "id": "manila-philippines--908--tasting-menu-toyo-eatery",
+      "imageUrl": "/imported-dish-images/manila-philippines-tasting-menu-toyo-eatery.png",
+      "city": "Manila",
+      "country": "Philippines",
+      "name": "Tasting Menu"
+    },
+    {
       "id": "marseille-france--779--bouillabaisse-chez-fonfon",
-      "imageUrl": "/Images/Marseille_France_Bouillabaisse_Chez%20Fonfon.jpg",
+      "imageUrl": "/imported-dish-images/marseille-france-bouillabaisse-chez-fonfon.png",
       "city": "Marseille",
       "country": "France",
       "name": "Bouillabaisse"
     },
     {
+      "id": "marseille-france--780--panisse-chez-etienne",
+      "imageUrl": "/imported-dish-images/marseille-france-panisse-chez-etienne.png",
+      "city": "Marseille",
+      "country": "France",
+      "name": "Panisse"
+    },
+    {
+      "id": "marseille-france--781--aioli-le-miramar",
+      "imageUrl": "/imported-dish-images/marseille-france-aioli-le-miramar.png",
+      "city": "Marseille",
+      "country": "France",
+      "name": "Aioli"
+    },
+    {
+      "id": "marseille-france--782--grilled-fish-l-epuisette",
+      "imageUrl": "/imported-dish-images/marseille-france-grilled-fish-l-epuisette.png",
+      "city": "Marseille",
+      "country": "France",
+      "name": "Grilled Fish"
+    },
+    {
+      "id": "marseille-france--783--pizza-chez-etienne",
+      "imageUrl": "/imported-dish-images/marseille-france-pizza-chez-etienne.png",
+      "city": "Marseille",
+      "country": "France",
+      "name": "Pizza"
+    },
+    {
+      "id": "marseille-france--784--seafood-platter-tursan",
+      "imageUrl": "/imported-dish-images/marseille-france-seafood-platter-tursan.png",
+      "city": "Marseille",
+      "country": "France",
+      "name": "Seafood Platter"
+    },
+    {
+      "id": "marseille-france--785--lamb-daube-la-boite-a-sardine",
+      "imageUrl": "/imported-dish-images/marseille-france-lamb-daube-la-boite-a-sardine.png",
+      "city": "Marseille",
+      "country": "France",
+      "name": "Lamb Daube"
+    },
+    {
+      "id": "marseille-france--786--pasta-pistou-restaurant-le-grain-de-sel",
+      "imageUrl": "/imported-dish-images/marseille-france-pasta-pistou-restaurant-le-grain-de-sel.png",
+      "city": "Marseille",
+      "country": "France",
+      "name": "Pasta Pistou"
+    },
+    {
+      "id": "marseille-france--787--dessert-navette-four-des-navettes",
+      "imageUrl": "/imported-dish-images/marseille-france-dessert-navette-four-des-navettes.png",
+      "city": "Marseille",
+      "country": "France",
+      "name": "Dessert Navette"
+    },
+    {
+      "id": "marseille-france--788--tasting-menu-l-epuisette",
+      "imageUrl": "/imported-dish-images/marseille-france-tasting-menu-l-epuisette.png",
+      "city": "Marseille",
+      "country": "France",
+      "name": "Tasting Menu"
+    },
+    {
       "id": "medellin-colombia--1067--bandeja-paisa-hatoviejo",
-      "imageUrl": "/Images/Medellin_Colombia_Bandeja%20Paisa_Hatoviejo.jpg",
+      "imageUrl": "/imported-dish-images/medellin-colombia-bandeja-paisa-hatoviejo.png",
       "city": "Medellin",
       "country": "Colombia",
       "name": "Bandeja Paisa"
     },
     {
+      "id": "medellin-colombia--1068--arepa-de-choclo-santa-elena",
+      "imageUrl": "/imported-dish-images/medellin-colombia-arepa-de-choclo-santa-elena.png",
+      "city": "Medellin",
+      "country": "Colombia",
+      "name": "Arepa De Choclo"
+    },
+    {
+      "id": "medellin-colombia--1069--empanada-antioquena-empanadas-el-machetico",
+      "imageUrl": "/imported-dish-images/medellin-colombia-empanada-antioquena-empanadas-el-machetico.png",
+      "city": "Medellin",
+      "country": "Colombia",
+      "name": "Empanada Antioquena"
+    },
+    {
+      "id": "medellin-colombia--1070--sancocho-la-fonda-de-los-arrieros",
+      "imageUrl": "/imported-dish-images/medellin-colombia-sancocho-la-fonda-de-los-arrieros.png",
+      "city": "Medellin",
+      "country": "Colombia",
+      "name": "Sancocho"
+    },
+    {
+      "id": "medellin-colombia--1071--chicharron-el-rancherito",
+      "imageUrl": "/imported-dish-images/medellin-colombia-chicharron-el-rancherito.png",
+      "city": "Medellin",
+      "country": "Colombia",
+      "name": "Chicharron"
+    },
+    {
+      "id": "medellin-colombia--1072--arepa-blanca-mondongos",
+      "imageUrl": "/imported-dish-images/medellin-colombia-arepa-blanca-mondongos.png",
+      "city": "Medellin",
+      "country": "Colombia",
+      "name": "Arepa Blanca"
+    },
+    {
+      "id": "medellin-colombia--1073--mondongo-mondongos",
+      "imageUrl": "/imported-dish-images/medellin-colombia-mondongo-mondongos.png",
+      "city": "Medellin",
+      "country": "Colombia",
+      "name": "Mondongo"
+    },
+    {
+      "id": "medellin-colombia--1074--tamal-antioqueno-la-abuela",
+      "imageUrl": "/imported-dish-images/medellin-colombia-tamal-antioqueno-la-abuela.png",
+      "city": "Medellin",
+      "country": "Colombia",
+      "name": "Tamal Antioqueno"
+    },
+    {
+      "id": "medellin-colombia--1075--bunuelo-panaderia-la-muna",
+      "imageUrl": "/imported-dish-images/medellin-colombia-bunuelo-panaderia-la-muna.png",
+      "city": "Medellin",
+      "country": "Colombia",
+      "name": "Bunuelo"
+    },
+    {
+      "id": "medellin-colombia--1076--cazuela-de-frijoles-el-arenal",
+      "imageUrl": "/imported-dish-images/medellin-colombia-cazuela-de-frijoles-el-arenal.png",
+      "city": "Medellin",
+      "country": "Colombia",
+      "name": "Cazuela De Frijoles"
+    },
+    {
       "id": "melbourne-australia--1147--flat-white-proud-mary-coffee",
-      "imageUrl": "/Images/Melbourne_Australia_Flat%20White_Proud%20Mary%20Coffee.jpg",
+      "imageUrl": "/imported-dish-images/melbourne-australia-flat-white-proud-mary-coffee.png",
       "city": "Melbourne",
       "country": "Australia",
       "name": "Flat White"
     },
     {
+      "id": "melbourne-australia--1148--parma-hotel-the-napier",
+      "imageUrl": "/imported-dish-images/melbourne-australia-parma-hotel-the-napier.png",
+      "city": "Melbourne",
+      "country": "Australia",
+      "name": "Parma Hotel"
+    },
+    {
+      "id": "melbourne-australia--1149--meat-pie-lune-croissanterie",
+      "imageUrl": "/imported-dish-images/melbourne-australia-meat-pie-lune-croissanterie.png",
+      "city": "Melbourne",
+      "country": "Australia",
+      "name": "Meat Pie"
+    },
+    {
+      "id": "melbourne-australia--1150--dim-sim-south-melbourne-market",
+      "imageUrl": "/imported-dish-images/melbourne-australia-dim-sim-south-melbourne-market.png",
+      "city": "Melbourne",
+      "country": "Australia",
+      "name": "Dim Sim"
+    },
+    {
+      "id": "melbourne-australia--1151--lamb-souvlaki-stalactites",
+      "imageUrl": "/imported-dish-images/melbourne-australia-lamb-souvlaki-stalactites.png",
+      "city": "Melbourne",
+      "country": "Australia",
+      "name": "Lamb Souvlaki"
+    },
+    {
+      "id": "melbourne-australia--1152--avocado-toast-higher-ground",
+      "imageUrl": "/imported-dish-images/melbourne-australia-avocado-toast-higher-ground.png",
+      "city": "Melbourne",
+      "country": "Australia",
+      "name": "Avocado Toast"
+    },
+    {
+      "id": "melbourne-australia--1153--kangaroo-fillet-charcoal-lane",
+      "imageUrl": "/imported-dish-images/melbourne-australia-kangaroo-fillet-charcoal-lane.png",
+      "city": "Melbourne",
+      "country": "Australia",
+      "name": "Kangaroo Fillet"
+    },
+    {
+      "id": "melbourne-australia--1154--fish-and-chips-claypots-evening-star",
+      "imageUrl": "/imported-dish-images/melbourne-australia-fish-and-chips-claypots-evening-star.png",
+      "city": "Melbourne",
+      "country": "Australia",
+      "name": "Fish And Chips"
+    },
+    {
+      "id": "melbourne-australia--1155--pavlova-attica",
+      "imageUrl": "/imported-dish-images/melbourne-australia-pavlova-attica.png",
+      "city": "Melbourne",
+      "country": "Australia",
+      "name": "Pavlova"
+    },
+    {
+      "id": "melbourne-australia--1156--banh-mi-nhu-lan",
+      "imageUrl": "/imported-dish-images/melbourne-australia-banh-mi-nhu-lan.png",
+      "city": "Melbourne",
+      "country": "Australia",
+      "name": "Banh Mi"
+    },
+    {
       "id": "mexico-city--528--tacos-al-pastor-el-huequito",
-      "imageUrl": "/Images/Mexico%20City_Mexico_Tacos%20al%20Pastor_El%20Huequito.jpg",
+      "imageUrl": "/imported-dish-images/mexico-city-tacos-al-pastor-el-huequito.png",
       "city": "Mexico City",
       "country": "Mexico",
       "name": "Tacos al Pastor"
+    },
+    {
+      "id": "mexico-city--529--tacos-al-pastor-el-vilsito",
+      "imageUrl": "/imported-dish-images/mexico-city-tacos-al-pastor-el-vilsito.png",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "name": "Tacos al Pastor"
+    },
+    {
+      "id": "mexico-city--530--tamales-tamales-dona-emi",
+      "imageUrl": "/imported-dish-images/mexico-city-tamales-tamales-dona-emi.png",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "name": "Tamales"
+    },
+    {
+      "id": "mexico-city--531--chilaquiles-lalo",
+      "imageUrl": "/imported-dish-images/mexico-city-chilaquiles-lalo.png",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "name": "Chilaquiles"
+    },
+    {
+      "id": "mexico-city--532--mole-pujol",
+      "imageUrl": "/imported-dish-images/mexico-city-mole-pujol.png",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "name": "Mole"
+    },
+    {
+      "id": "mexico-city--533--escamoles-limosneros",
+      "imageUrl": "/imported-dish-images/mexico-city-escamoles-limosneros.png",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "name": "Escamoles"
+    },
+    {
+      "id": "mexico-city--534--conchas-panaderia-rosetta",
+      "imageUrl": "/imported-dish-images/mexico-city-conchas-panaderia-rosetta.png",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "name": "Conchas"
+    },
+    {
+      "id": "mexico-city--535--torta-tortas-la-texcocana",
+      "imageUrl": "/imported-dish-images/mexico-city-torta-tortas-la-texcocana.png",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "name": "Torta"
+    },
+    {
+      "id": "mexico-city--536--tamales-oaxaquenos-tamales-madre",
+      "imageUrl": "/imported-dish-images/mexico-city-tamales-oaxaquenos-tamales-madre.png",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "name": "Tamales Oaxaqueños"
+    },
+    {
+      "id": "mexico-city--537--chiles-en-nogada-nicos",
+      "imageUrl": "/imported-dish-images/mexico-city-chiles-en-nogada-nicos.png",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "name": "Chiles en Nogada"
+    },
+    {
+      "id": "mexico-city--538--chicharrones-de-harina-la-merced-market",
+      "imageUrl": "/imported-dish-images/mexico-city-chicharrones-de-harina-la-merced-market.png",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "name": "Chicharrones de Harina"
+    },
+    {
+      "id": "mexico-city--540--gaonera-taco-taqueria-el-califa-de-leon",
+      "imageUrl": "/imported-dish-images/mexico-city-gaonera-taco-taqueria-el-califa-de-leon.png",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "name": "Gaonera Taco (Filet Mignon Taco)"
+    },
+    {
+      "id": "mexico-city--541--craft-cocktails-handshake-speakeasy",
+      "imageUrl": "/imported-dish-images/mexico-city-handshake-speakeasy-cocktail.png",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "name": "World-Class Craft Cocktails (Speakeasy Experience)"
+    },
+    {
+      "id": "mexico-city--542--tlacoyos-street-food",
+      "imageUrl": "/imported-dish-images/mexico-city-tlacoyos-street-food.png",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "name": "Tlacoyos"
     },
     {
       "id": "miami-united-states--426--stone-crab-claws-joes-stone-crab",

@@ -9,7 +9,7 @@ export function isVegetarianFilterPass(
   vegetarianOnly: boolean
 ): boolean {
   if (!vegetarianOnly) return true;
-  const v = dish.vegetarianOptions.trim().toLowerCase();
+  const v = (dish.vegetarianOptions ?? "").trim().toLowerCase();
   if (v === "limited" || v === "no") return false;
   return true;
 }

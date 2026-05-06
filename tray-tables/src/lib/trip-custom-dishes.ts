@@ -366,9 +366,9 @@ export async function migrateLegacyTripCustomDishesOnce(
           why: dish.why,
           drinkPairing: dish.drinkPairing,
           mealSlots,
-          localFavorite: dish.localFavorite.trim().toLowerCase() === "yes",
-          trendy: dish.trendy.trim().toLowerCase() === "yes",
-          streetFood: dish.streetFood.trim().toLowerCase() === "yes",
+          localFavorite: (dish.localFavorite ?? "").trim().toLowerCase() === "yes",
+          trendy: (dish.trendy ?? "").trim().toLowerCase() === "yes",
+          streetFood: (dish.streetFood ?? "").trim().toLowerCase() === "yes",
           vegetarianOptions: vegetarianTagFromCsvRaw(dish.vegetarianOptions),
           michelinGuide: Boolean(dish.michelinGuide) || linkIsMichelinGuide(dish.linkUrl),
         })

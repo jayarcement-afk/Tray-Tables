@@ -78,12 +78,12 @@ function customRowCountsForMichelin(c: {
 }
 
 function isVegetarianCsv(d: CsvDish): boolean {
-  const t = d.vegetarianOptions.trim().toLowerCase();
+  const t = (d.vegetarianOptions ?? "").trim().toLowerCase();
   return t === "yes" || t === "limited";
 }
 
-function isCsvYes(v: string): boolean {
-  return v.trim().toLowerCase() === "yes";
+function isCsvYes(v: string | null | undefined): boolean {
+  return (v ?? "").trim().toLowerCase() === "yes";
 }
 
 /**

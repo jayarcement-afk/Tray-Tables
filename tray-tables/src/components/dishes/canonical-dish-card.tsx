@@ -6,13 +6,13 @@ import { resolveDishImageUrl } from "@/lib/dish-local-image";
 import { dishPrimaryExternalHref } from "@/lib/trip-custom-dishes";
 import { linkIsMichelinGuide } from "@/lib/michelin-source";
 
-function hasVegetarianOptionsList(v: string): boolean {
-  const t = v.trim().toLowerCase();
+function hasVegetarianOptionsList(v: string | null | undefined): boolean {
+  const t = (v ?? "").trim().toLowerCase();
   return t === "yes" || t === "limited";
 }
 
-function isCsvYes(v: string): boolean {
-  return v.trim().toLowerCase() === "yes";
+function isCsvYes(v: string | null | undefined): boolean {
+  return (v ?? "").trim().toLowerCase() === "yes";
 }
 
 export function CanonicalDishCard({
