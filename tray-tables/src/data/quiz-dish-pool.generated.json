@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-06T03:48:40.307Z",
+  "generated": "2026-05-07T00:01:41.749Z",
   "dishes": [
     {
       "id": "abu-dhabi-united-arab-emirates--987--harees-mezlai",
@@ -3727,17 +3727,164 @@
     },
     {
       "id": "miami-united-states--426--stone-crab-claws-joes-stone-crab",
-      "imageUrl": "/Images/Miami_United%20States_Stone%20Crab%20Claws_Joes%20Stone%20Crab.jpg",
+      "imageUrl": "/imported-dish-images/miami-stone-crab-claws-joes-stone-crab.png",
       "city": "Miami",
       "country": "United States",
       "name": "Stone Crab Claws"
     },
     {
+      "id": "miami-united-states--427--cubano-sandwich-versailles",
+      "imageUrl": "/imported-dish-images/miami-cubano-sandwich-versailles.png",
+      "city": "Miami",
+      "country": "United States",
+      "name": "Cubano Sandwich"
+    },
+    {
+      "id": "miami-united-states--428--key-lime-pie-joes-stone-crab",
+      "imageUrl": "/imported-dish-images/miami-key-lime-pie-joes-stone-crab.png",
+      "city": "Miami",
+      "country": "United States",
+      "name": "Key Lime Pie"
+    },
+    {
+      "id": "miami-united-states--429--croquetas-tinta-y-cafe",
+      "imageUrl": "/imported-dish-images/miami-croquetas-tinta-y-cafe.png",
+      "city": "Miami",
+      "country": "United States",
+      "name": "Croquetas"
+    },
+    {
+      "id": "miami-united-states--432--juice-smoothies-el-palacio-de-los-jugos",
+      "imageUrl": "/imported-dish-images/miami-juice-smoothies-el-palacio-de-los-jugos.png",
+      "city": "Miami",
+      "country": "United States",
+      "name": "Juice Smoothies"
+    },
+    {
+      "id": "miami-united-states--433--empanadas-n-a",
+      "imageUrl": "/imported-dish-images/miami-empanadas-n-a.png",
+      "city": "Miami",
+      "country": "United States",
+      "name": "Empanadas"
+    },
+    {
+      "id": "miami-united-states--434--pastelitos-islas-canarias",
+      "imageUrl": "/imported-dish-images/miami-pastelitos-islas-canarias.png",
+      "city": "Miami",
+      "country": "United States",
+      "name": "Pastelitos"
+    },
+    {
+      "id": "miami-united-states--435--grilled-cheese-ms-cheezious",
+      "imageUrl": "/imported-dish-images/miami-grilled-cheese-ms-cheezious.png",
+      "city": "Miami",
+      "country": "United States",
+      "name": "Grilled Cheese"
+    },
+    {
       "id": "milan-italy--86--risotto-alla-milanese-ratan",
-      "imageUrl": "/Images/Milan_Italy_Risotto%20alla%20Milanese_Ratan%C3%A0.jpg",
+      "imageUrl": "/imported-dish-images/milan-risotto-alla-milanese-ratan.png",
       "city": "Milan",
       "country": "Italy",
       "name": "Risotto alla Milanese"
+    },
+    {
+      "id": "milan-italy--87--cotoletta-alla-milanese-trattoria-milanese",
+      "imageUrl": "/imported-dish-images/milan-cotoletta-alla-milanese-trattoria-milanese.png",
+      "city": "Milan",
+      "country": "Italy",
+      "name": "Cotoletta alla Milanese"
+    },
+    {
+      "id": "milan-italy--88--ossobuco-cassoeula",
+      "imageUrl": "/imported-dish-images/milan-ossobuco-cassoeula.png",
+      "city": "Milan",
+      "country": "Italy",
+      "name": "Ossobuco"
+    },
+    {
+      "id": "milan-italy--89--pizza-margherita-pizzeria-spontini",
+      "imageUrl": "/imported-dish-images/milan-pizza-margherita-pizzeria-spontini.png",
+      "city": "Milan",
+      "country": "Italy",
+      "name": "Pizza Margherita"
+    },
+    {
+      "id": "milan-italy--90--panettone-pasticceria-marchesi",
+      "imageUrl": "/imported-dish-images/milan-panettone-pasticceria-marchesi.png",
+      "city": "Milan",
+      "country": "Italy",
+      "name": "Panettone"
+    },
+    {
+      "id": "milan-italy--91--mondeghili-meatballs-trattoria-del-nuovo-macello",
+      "imageUrl": "/imported-dish-images/milan-mondeghili-meatballs-trattoria-del-nuovo-macello.png",
+      "city": "Milan",
+      "country": "Italy",
+      "name": "Mondeghili (Meatballs)"
+    },
+    {
+      "id": "milan-italy--92--pasta-al-pesto-genovese-il-solferino",
+      "imageUrl": "/imported-dish-images/milan-pasta-al-pesto-genovese-il-solferino.png",
+      "city": "Milan",
+      "country": "Italy",
+      "name": "Pasta al Pesto Genovese"
+    },
+    {
+      "id": "milan-italy--93--vitello-tonnato-antica-trattoria-della-pesa",
+      "imageUrl": "/imported-dish-images/milan-vitello-tonnato-antica-trattoria-della-pesa.png",
+      "city": "Milan",
+      "country": "Italy",
+      "name": "Vitello Tonnato"
+    },
+    {
+      "id": "milan-italy--94--tagliere-lombardo-cheese-board-n-ombra-de-vin",
+      "imageUrl": "/imported-dish-images/milan-tagliere-lombardo-cheese-board-n-ombra-de-vin.png",
+      "city": "Milan",
+      "country": "Italy",
+      "name": "Tagliere Lombardo (Cheese Board)"
+    },
+    {
+      "id": "milan-italy--95--gelato-pistachio-gelateria-della-musica",
+      "imageUrl": "/imported-dish-images/milan-gelato-pistachio-gelateria-della-musica.png",
+      "city": "Milan",
+      "country": "Italy",
+      "name": "Gelato (Pistachio)"
+    },
+    {
+      "id": "milan-italy--1221--cassoeula-trattoria-milanese",
+      "imageUrl": "/imported-dish-images/milan-cassoeula-trattoria-milanese.png",
+      "city": "Milan",
+      "country": "Italy",
+      "name": "Cassoeula"
+    },
+    {
+      "id": "milan-italy--1222--minestrone-milanese-ratan",
+      "imageUrl": "/imported-dish-images/milan-minestrone-milanese-ratan.png",
+      "city": "Milan",
+      "country": "Italy",
+      "name": "Minestrone Milanese"
+    },
+    {
+      "id": "milan-italy--1223--gorgonzola-cheese-la-latteria",
+      "imageUrl": "/imported-dish-images/milan-gorgonzola-cheese-la-latteria.png",
+      "city": "Milan",
+      "country": "Italy",
+      "name": "Gorgonzola Cheese"
+    },
+    {
+      "id": "milan-italy--1224--panzerotti-luini",
+      "imageUrl": "/imported-dish-images/milan-panzerotti-luini.png",
+      "city": "Milan",
+      "country": "Italy",
+      "name": "Panzerotti"
+    },
+    {
+      "id": "milan-italy--1225--piadina-spontini",
+      "imageUrl": "/imported-dish-images/milan-piadina-spontini.png",
+      "city": "Milan",
+      "country": "Italy",
+      "name": "Piadina"
     },
     {
       "id": "monaco-monaco--769--barbajuan-le-cafe-de-paris",

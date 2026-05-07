@@ -799,6 +799,51 @@ const IMPORTED_DISH_IMAGES_BY_ID: Record<string, string> = {
     "/imported-dish-images/mexico-city-handshake-speakeasy-cocktail.png",
   "mexico-city--542--tlacoyos-street-food":
     "/imported-dish-images/mexico-city-tlacoyos-street-food.png",
+  "miami-united-states--426--stone-crab-claws-joes-stone-crab":
+    "/imported-dish-images/miami-stone-crab-claws-joes-stone-crab.png",
+  "miami-united-states--427--cubano-sandwich-versailles":
+    "/imported-dish-images/miami-cubano-sandwich-versailles.png",
+  "miami-united-states--428--key-lime-pie-joes-stone-crab":
+    "/imported-dish-images/miami-key-lime-pie-joes-stone-crab.png",
+  "miami-united-states--429--croquetas-tinta-y-cafe":
+    "/imported-dish-images/miami-croquetas-tinta-y-cafe.png",
+  "miami-united-states--432--juice-smoothies-el-palacio-de-los-jugos":
+    "/imported-dish-images/miami-juice-smoothies-el-palacio-de-los-jugos.png",
+  "miami-united-states--433--empanadas-n-a": "/imported-dish-images/miami-empanadas-n-a.png",
+  "miami-united-states--434--pastelitos-islas-canarias":
+    "/imported-dish-images/miami-pastelitos-islas-canarias.png",
+  "miami-united-states--435--grilled-cheese-ms-cheezious":
+    "/imported-dish-images/miami-grilled-cheese-ms-cheezious.png",
+  "milan-italy--86--risotto-alla-milanese-ratan":
+    "/imported-dish-images/milan-risotto-alla-milanese-ratan.png",
+  "milan-italy--87--cotoletta-alla-milanese-trattoria-milanese":
+    "/imported-dish-images/milan-cotoletta-alla-milanese-trattoria-milanese.png",
+  "milan-italy--88--ossobuco-cassoeula":
+    "/imported-dish-images/milan-ossobuco-cassoeula.png",
+  "milan-italy--89--pizza-margherita-pizzeria-spontini":
+    "/imported-dish-images/milan-pizza-margherita-pizzeria-spontini.png",
+  "milan-italy--90--panettone-pasticceria-marchesi":
+    "/imported-dish-images/milan-panettone-pasticceria-marchesi.png",
+  "milan-italy--91--mondeghili-meatballs-trattoria-del-nuovo-macello":
+    "/imported-dish-images/milan-mondeghili-meatballs-trattoria-del-nuovo-macello.png",
+  "milan-italy--92--pasta-al-pesto-genovese-il-solferino":
+    "/imported-dish-images/milan-pasta-al-pesto-genovese-il-solferino.png",
+  "milan-italy--93--vitello-tonnato-antica-trattoria-della-pesa":
+    "/imported-dish-images/milan-vitello-tonnato-antica-trattoria-della-pesa.png",
+  "milan-italy--94--tagliere-lombardo-cheese-board-n-ombra-de-vin":
+    "/imported-dish-images/milan-tagliere-lombardo-cheese-board-n-ombra-de-vin.png",
+  "milan-italy--95--gelato-pistachio-gelateria-della-musica":
+    "/imported-dish-images/milan-gelato-pistachio-gelateria-della-musica.png",
+  "milan-italy--1221--cassoeula-trattoria-milanese":
+    "/imported-dish-images/milan-cassoeula-trattoria-milanese.png",
+  "milan-italy--1222--minestrone-milanese-ratan":
+    "/imported-dish-images/milan-minestrone-milanese-ratan.png",
+  "milan-italy--1223--gorgonzola-cheese-la-latteria":
+    "/imported-dish-images/milan-gorgonzola-cheese-la-latteria.png",
+  "milan-italy--1224--panzerotti-luini":
+    "/imported-dish-images/milan-panzerotti-luini.png",
+  "milan-italy--1225--piadina-spontini":
+    "/imported-dish-images/milan-piadina-spontini.png",
   "los-angeles-united-states--12--tacos-al-pastor-leo-s-taco-truck":
     "/imported-dish-images/los-angeles-tacos-al-pastor-leos-taco-truck.png",
   "new-orleans-united-states--475--beignets-cafe-beignet":
