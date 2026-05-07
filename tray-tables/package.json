@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "generate-quiz-pool": "tsx scripts/generate-quiz-dish-pool.ts",
+    "generate-reused-images": "tsx scripts/generate-reused-dish-images-by-name.ts",
     "prebuild": "npm run generate-quiz-pool",
     "build": "next build",
     "start": "next start",

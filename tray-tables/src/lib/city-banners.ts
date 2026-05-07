@@ -324,8 +324,8 @@ export const CITY_BANNERS: Record<
     attribution: "Wikipedia — Milan",
   },
   "monaco-monaco": {
-    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Flag_of_Monaco.svg/1920px-Flag_of_Monaco.svg.png",
-    attribution: "Wikipedia — Monaco",
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Monaco-Port-de-Fontvieille.jpg/1920px-Monaco-Port-de-Fontvieille.jpg",
+    attribution: "Wikimedia Commons — Monaco, Port de Fontvieille (Rundvald)",
   },
   "montevideo-uruguay": {
     url: "https://upload.wikimedia.org/wikipedia/commons/5/59/PALACIO_LEGISLATIVO_01.JPG",

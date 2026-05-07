@@ -1,13 +1,22 @@
 import paths from "@/data/dish-image-paths.json";
+import reusedByNameIndex from "@/data/reused-dish-images-by-name.generated.json";
 import type { CsvDish } from "@/lib/canonical-dishes";
 
 type Index = {
   byDishId: Record<string, string>;
 };
 
+type ReusedByNameIndex = {
+  byName?: Record<string, string>;
+  byNameCountry?: Record<string, string>;
+};
+
 const index = paths as Index;
 const byId = index.byDishId ?? {};
 const bySuffix = new Map<string, string[]>();
+const reused = reusedByNameIndex as ReusedByNameIndex;
+const reusedByName = reused.byName ?? {};
+const reusedByNameCountry = reused.byNameCountry ?? {};
 
 for (const id of Object.keys(byId)) {
   const suffix = id.match(/(--\d+--.+)$/)?.[1];
@@ -15,6 +24,17 @@ for (const id of Object.keys(byId)) {
   const list = bySuffix.get(suffix) ?? [];
   list.push(id);
   bySuffix.set(suffix, list);
+}
+
+function isPlaceholderOrFallbackImageUrl(url: string): boolean {
+  const u = url.trim().toLowerCase();
+  if (!u) return true;
+  if (u.includes("dish-fallback")) return true;
+  if (u.includes("placehold.co")) return true;
+  if (u.includes("via.placeholder")) return true;
+  if (u.includes("dummyimage")) return true;
+  if (u.includes("picsum.photos")) return true;
+  return false;
 }
 
 /** Static assets in /public/imported-dish-images (not scanned by dish-image-paths). */
@@ -89,6 +109,29 @@ const IMPORTED_DISH_IMAGES_BY_ID: Record<string, string> = {
     "/imported-dish-images/berlin-roast-duck-grill-royal.png",
   "berlin-germany--175--pretzel-b-ckerei-siebert":
     "/imported-dish-images/berlin-pretzel-baeckerei-siebert.png",
+  // Munich: direct imports and same-name reuse from other cities.
+  "munich-germany--176--wei-wurst-wei-es-br-uhaus-im-tal":
+    "/imported-dish-images/munich-weisswurst-weisses-brauhaus-im-tal.png",
+  "munich-germany--177--schweinshaxe-hofbr-uhaus":
+    "/imported-dish-images/munich-schweinshaxe-hofbraeuhaus.png",
+  "munich-germany--178--wiener-schnitzel-g-rreshof":
+    "/imported-dish-images/munich-wiener-schnitzel-goerreshof.png",
+  "munich-germany--179--leberkn-delsuppe-augustiner-br-ustuben":
+    "/imported-dish-images/munich-leberknoedelsuppe-augustiner-braeustuben.png",
+  "munich-germany--180--obatzda-andechser-am-dom":
+    "/imported-dish-images/munich-obatzda-andechser-am-dom.png",
+  "munich-germany--181--bratwurst-viktualienmarkt-stalls":
+    "/imported-dish-images/munich-bratwurst-viktualienmarkt-stalls.png",
+  "munich-germany--182--k-sesp-tzle-gasthaus-waltz":
+    "/imported-dish-images/berlin-kaesepatzle-suppenkuche.png",
+  "munich-germany--183--backhendl-fried-chicken-g-rreshof":
+    "/imported-dish-images/munich-backhendl-goerreshof.png",
+  "munich-germany--184--pretzel-dallmayr-delicatessen":
+    "/imported-dish-images/berlin-pretzel-baeckerei-siebert.png",
+  "munich-germany--185--apple-strudel-caf-frischhut":
+    "/imported-dish-images/munich-apple-strudel-cafe-frischhut.png",
+  "munich-germany--1241--schweinshaxe-augustiner-klosterwirt":
+    "/imported-dish-images/munich-schweinshaxe-augustiner-klosterwirt.png",
   "berlin-germany--1237--ketwurst-konnopkes-imbiss":
     "/imported-dish-images/berlin-ketwurst-konnopkes-imbiss.png",
   "berlin-germany--1238--bouletten-gaststatte-w-prassnik":
@@ -844,6 +887,86 @@ const IMPORTED_DISH_IMAGES_BY_ID: Record<string, string> = {
     "/imported-dish-images/milan-panzerotti-luini.png",
   "milan-italy--1225--piadina-spontini":
     "/imported-dish-images/milan-piadina-spontini.png",
+  "monaco-monaco--769--barbajuan-le-cafe-de-paris":
+    "/imported-dish-images/monaco-barbajuan-le-cafe-de-paris.png",
+  "monaco-monaco--770--socca-march-de-la-condamine":
+    "/imported-dish-images/monaco-socca-marche-de-la-condamine.png",
+  "monaco-monaco--771--sea-bass-avenue-31":
+    "/imported-dish-images/monaco-sea-bass-avenue-31.png",
+  "monaco-monaco--772--pasta-al-tartufo-la-montgolfiere":
+    "/imported-dish-images/monaco-pasta-al-tartufo-la-montgolfiere.png",
+  "monaco-monaco--773--lobster-salad-blue-bay":
+    "/imported-dish-images/monaco-lobster-salad-blue-bay.png",
+  "monaco-monaco--774--beef-fillet-beefbar":
+    "/imported-dish-images/monaco-beef-fillet-beefbar.png",
+  "monaco-monaco--775--seafood-pasta-la-note-bleue":
+    "/imported-dish-images/monaco-seafood-pasta-la-note-bleue.png",
+  "monaco-monaco--776--dessert-chocolate-louis-xv-alain-ducasse":
+    "/imported-dish-images/monaco-dessert-chocolate-louis-xv-alain-ducasse.png",
+  "monaco-monaco--777--salmon-tartare-stars-n-bars":
+    "/imported-dish-images/monaco-salmon-tartare-stars-n-bars.png",
+  "monaco-monaco--778--tasting-menu-louis-xv-alain-ducasse":
+    "/imported-dish-images/monaco-tasting-menu-louis-xv-alain-ducasse.png",
+  "mumbai-india--939--vada-pav-ashok-vada-pav":
+    "/imported-dish-images/mumbai-vada-pav-ashok-vada-pav.png",
+  "mumbai-india--940--pav-bhaji-sardar-pav-bhaji":
+    "/imported-dish-images/mumbai-pav-bhaji-sardar-pav-bhaji.png",
+  "mumbai-india--941--bombay-sandwich-aram-vada-pav":
+    "/imported-dish-images/mumbai-bombay-sandwich-aram-vada-pav.png",
+  "mumbai-india--942--biryani-jaffer-bhai":
+    "/imported-dish-images/mumbai-biryani-jaffer-bhai.png",
+  "mumbai-india--943--seafood-ferry-wharf-cafe":
+    "/imported-dish-images/mumbai-seafood-ferry-wharf-cafe.png",
+  "mumbai-india--944--kebabs-bade-miyan":
+    "/imported-dish-images/mumbai-kebabs-bade-miyan.png",
+  "mumbai-india--945--dal-fry-trishna":
+    "/imported-dish-images/mumbai-dal-fry-trishna.png",
+  "mumbai-india--946--dessert-kulfi-k-rustom":
+    "/imported-dish-images/mumbai-dessert-kulfi-k-rustom.png",
+  "mumbai-india--947--breakfast-thali-su-casa":
+    "/imported-dish-images/mumbai-breakfast-thali-su-casa.png",
+  "mumbai-india--948--tasting-menu-masque":
+    "/imported-dish-images/mumbai-tasting-menu-masque.png",
+  "naples-italy--729--pizza-margherita-da-michele":
+    "/imported-dish-images/naples-pizza-margherita-da-michele.png",
+  "naples-italy--730--pizza-marinara-sorbillo":
+    "/imported-dish-images/naples-pizza-marinara-sorbillo.png",
+  "naples-italy--731--ragu-napoletano-tandem":
+    "/imported-dish-images/naples-ragu-napoletano-tandem.png",
+  "naples-italy--732--spaghetti-alle-vongole-la-cantina-dei-mille":
+    "/imported-dish-images/naples-spaghetti-alle-vongole-la-cantina-dei-mille.png",
+  "naples-italy--733--fried-pizza-la-masardona":
+    "/imported-dish-images/naples-fried-pizza-la-masardona.png",
+  "naples-italy--734--seafood-soup-a-figlia-do-marenaro":
+    "/imported-dish-images/naples-seafood-soup-a-figlia-do-marenaro.png",
+  "naples-italy--735--bab-pasticceria-scaturchio":
+    "/imported-dish-images/naples-baba-pasticceria-scaturchio.png",
+  "naples-italy--736--mozzarella-di-bufala-salumeria-upnea":
+    "/imported-dish-images/naples-mozzarella-di-bufala-salumeria-upnea.png",
+  "naples-italy--737--gnocchi-alla-sorrentina-trattoria-da-nennella":
+    "/imported-dish-images/naples-gnocchi-alla-sorrentina-trattoria-da-nennella.png",
+  "naples-italy--738--tasting-menu-il-comandante":
+    "/imported-dish-images/naples-tasting-menu-il-comandante.png",
+  "montreal-canada--518--smoked-meat-sandwich-schwartz-mile-end":
+    "/imported-dish-images/montreal-smoked-meat-sandwich-schwartz-mile-end.png",
+  "montreal-canada--519--bagels-st-viateur-bagel":
+    "/imported-dish-images/montreal-bagels-st-viateur-bagel.png",
+  "montreal-canada--520--poutine-la-banquise":
+    "/imported-dish-images/montreal-poutine-la-banquise.png",
+  "montreal-canada--521--french-bistro-fare-joe-beef":
+    "/imported-dish-images/montreal-french-bistro-fare-joe-beef.png",
+  "montreal-canada--522--foie-gras-au-pied-de-cochon":
+    "/imported-dish-images/montreal-foie-gras-au-pied-de-cochon.png",
+  "montreal-canada--523--portuguese-chicken-ma-poule-mouillee":
+    "/imported-dish-images/montreal-portuguese-chicken-ma-poule-mouillee.png",
+  "montreal-canada--524--tartare-lexpress":
+    "/imported-dish-images/montreal-tartare-lexpress.png",
+  "montreal-canada--525--ramen-itoya":
+    "/imported-dish-images/montreal-ramen-itoya.png",
+  "montreal-canada--526--pastries-patisserie-rhubarbe":
+    "/imported-dish-images/montreal-pastries-patisserie-rhubarbe.png",
+  "montreal-canada--527--tasting-menu-toque":
+    "/imported-dish-images/montreal-tasting-menu-toque.png",
   "los-angeles-united-states--12--tacos-al-pastor-leo-s-taco-truck":
     "/imported-dish-images/los-angeles-tacos-al-pastor-leos-taco-truck.png",
   "new-orleans-united-states--475--beignets-cafe-beignet":
@@ -903,6 +1026,27 @@ function toSlug(value: string): string {
     .replace(/^-+|-+$/g, "");
 }
 
+function normalizeNameKey(value: string): string {
+  return String(value ?? "")
+    .normalize("NFKC")
+    .trim()
+    .toLowerCase()
+    .replace(/[''ʼ]/g, "")
+    .replace(/\s+/g, " ");
+}
+
+function reuseImageUrlByName(dish: CsvDish): string | null {
+  const nameKey = normalizeNameKey(dish.name);
+  if (!nameKey) return null;
+
+  const countryKey = normalizeNameKey(dish.country);
+  const byCountry = reusedByNameCountry[`${nameKey}|||${countryKey}`];
+  if (byCountry?.trim()) return byCountry.trim();
+
+  const byOnlyName = reusedByName[nameKey];
+  return byOnlyName?.trim() ? byOnlyName.trim() : null;
+}
+
 /** City segment in canonical dish ids (e.g. `barcelona-spain`); not always `kebab(city)`. */
 function citySlugPrefixFromDishId(dish: CsvDish): string {
   const m = dish.id.match(/^(.+?)--\d+--/);
@@ -953,9 +1097,14 @@ export function getLocalDishImageUrl(dish: CsvDish): string | null {
 export function resolveDishImageUrl(dish: CsvDish): string | null {
   const direct = dish.imageUrl?.trim() ?? "";
   if (direct.startsWith("data:image/")) return direct;
-  return (
+  const resolved =
     IMPORTED_DISH_IMAGES_BY_ID[dish.id] ??
     getLocalDishImageUrl(dish) ??
-    (direct || null)
-  );
+    (direct || null);
+
+  if (!resolved || isPlaceholderOrFallbackImageUrl(resolved)) {
+    return reuseImageUrlByName(dish) ?? resolved ?? null;
+  }
+
+  return resolved;
 }
