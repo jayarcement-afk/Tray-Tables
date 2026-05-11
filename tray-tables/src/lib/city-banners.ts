@@ -372,8 +372,9 @@ export const CITY_BANNERS: Record<
     attribution: "Wikipedia — Panama City",
   },
   "penang-malaysia": {
-    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Penang_%28Malaysia%29.svg/1280px-Flag_of_Penang_%28Malaysia%29.svg.png",
-    attribution: "Wikipedia — Penang",
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Skyline_of_George_Town%2C_Penang_at_dusk_May_2025.jpg/1920px-Skyline_of_George_Town%2C_Penang_at_dusk_May_2025.jpg",
+    attribution:
+      "Wikimedia Commons — Skyline of George Town, Penang at dusk May 2025 (HundenvonPenang)",
   },
   "phuket-thailand": {
     url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Phuket_Aerial.jpg/3840px-Phuket_Aerial.jpg",
@@ -432,8 +433,8 @@ export const CITY_BANNERS: Record<
     attribution: "Wikipedia — Santiago",
   },
   "santorini-greece": {
-    url: "https://upload.wikimedia.org/wikipedia/commons/b/bf/2011_Dimos_Thiras.png",
-    attribution: "Wikipedia — Santorini",
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Panoramic_view_of_Oia%2C_Santorini_island_%28Thira%29%2C_Greece.jpg/1920px-Panoramic_view_of_Oia%2C_Santorini_island_%28Thira%29%2C_Greece.jpg",
+    attribution: "Wikimedia Commons — Panoramic view of Oia, Santorini (Mstyslav Chernov)",
   },
   "sao-paulo-brazil": {
     url: "https://upload.wikimedia.org/wikipedia/commons/7/73/Marginal_Pinheiros_e_Jockey_Club.jpg",
@@ -448,8 +449,8 @@ export const CITY_BANNERS: Record<
     attribution: "Wikipedia — Shanghai",
   },
   "singapore-singapore": {
-    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Singapore.svg/960px-Flag_of_Singapore.svg.png",
-    attribution: "Wikipedia — Singapore",
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Singapore_skyline_at_sunset_viewed_from_Gardens_by_the_Bay_East_-_20120426.jpg/1920px-Singapore_skyline_at_sunset_viewed_from_Gardens_by_the_Bay_East_-_20120426.jpg",
+    attribution: "Wikimedia Commons — Singapore skyline at sunset (from Gardens by the Bay East)",
   },
   "split-croatia": {
     url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Split_080620-133710-IMG_0968x.jpg/1920px-Split_080620-133710-IMG_0968x.jpg",

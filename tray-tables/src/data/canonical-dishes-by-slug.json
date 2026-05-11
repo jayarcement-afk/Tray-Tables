@@ -19559,25 +19559,6 @@
         "tags": [
           "N/a"
         ]
-      },
-      {
-        "id": "san-juan-puerto-rico--561--tasting-menu-n-a",
-        "city": "San Juan",
-        "country": "Puerto Rico",
-        "name": "Tasting Menu",
-        "restaurant": "N/A",
-        "why": "N/A",
-        "imageUrl": null,
-        "price": "N/A",
-        "vegetarianOptions": "N/A",
-        "localFavorite": "N/A",
-        "trendy": "N/A",
-        "streetFood": "N/A",
-        "drinkPairing": "N/A",
-        "hours": "N/A",
-        "tags": [
-          "N/a"
-        ]
       }
     ],
     "santiago-chile": [
@@ -21323,101 +21304,6 @@
         ]
       },
       {
-        "id": "singapore-singapore--839--hainanese-chicken-rice-tian-tian",
-        "city": "Singapore",
-        "country": "Singapore",
-        "name": "Hainanese Chicken Rice",
-        "restaurant": "Tian Tian",
-        "why": "National dish benchmark",
-        "imageUrl": null,
-        "price": "$",
-        "vegetarianOptions": "No",
-        "localFavorite": "Yes",
-        "trendy": "No",
-        "streetFood": "Yes",
-        "drinkPairing": "Local Beer",
-        "hours": "Lunch",
-        "tags": [
-          "Lunch"
-        ]
-      },
-      {
-        "id": "singapore-singapore--840--chili-crab-jumbo-seafood",
-        "city": "Singapore",
-        "country": "Singapore",
-        "name": "Chili Crab",
-        "restaurant": "Jumbo Seafood",
-        "why": "Most famous crab dish",
-        "imageUrl": null,
-        "price": "$$$$",
-        "vegetarianOptions": "No",
-        "localFavorite": "Yes",
-        "trendy": "Yes",
-        "streetFood": "No",
-        "drinkPairing": "Beer",
-        "hours": "Dinner",
-        "tags": [
-          "Dinner"
-        ]
-      },
-      {
-        "id": "singapore-singapore--841--laksa-328-katong-laksa",
-        "city": "Singapore",
-        "country": "Singapore",
-        "name": "Laksa",
-        "restaurant": "328 Katong Laksa",
-        "why": "Spicy coconut noodle soup",
-        "imageUrl": null,
-        "price": "$",
-        "vegetarianOptions": "No",
-        "localFavorite": "Yes",
-        "trendy": "No",
-        "streetFood": "Yes",
-        "drinkPairing": "Beer",
-        "hours": "Lunch",
-        "tags": [
-          "Lunch"
-        ]
-      },
-      {
-        "id": "singapore-singapore--842--char-kway-teow-hill-street-hawker",
-        "city": "Singapore",
-        "country": "Singapore",
-        "name": "Char Kway Teow",
-        "restaurant": "Hill Street Hawker",
-        "why": "Wok hei noodle dish",
-        "imageUrl": null,
-        "price": "$",
-        "vegetarianOptions": "No",
-        "localFavorite": "Yes",
-        "trendy": "No",
-        "streetFood": "Yes",
-        "drinkPairing": "Sugarcane Juice",
-        "hours": "Lunch",
-        "tags": [
-          "Lunch"
-        ]
-      },
-      {
-        "id": "singapore-singapore--843--satay-lau-pa-sat",
-        "city": "Singapore",
-        "country": "Singapore",
-        "name": "Satay",
-        "restaurant": "Lau Pa Sat",
-        "why": "Street satay classic",
-        "imageUrl": null,
-        "price": "$",
-        "vegetarianOptions": "No",
-        "localFavorite": "Yes",
-        "trendy": "No",
-        "streetFood": "Yes",
-        "drinkPairing": "Beer",
-        "hours": "Late Night",
-        "tags": [
-          "Late Night"
-        ]
-      },
-      {
         "id": "singapore-singapore--844--roti-prata-springleaf-prata",
         "city": "Singapore",
         "country": "Singapore",
@@ -21434,26 +21320,6 @@
         "hours": "Breakfast",
         "tags": [
           "Breakfast"
-        ]
-      },
-      {
-        "id": "singapore-singapore--845--bak-kut-teh-song-fa",
-        "city": "Singapore",
-        "country": "Singapore",
-        "name": "Bak Kut Teh",
-        "restaurant": "Song Fa",
-        "why": "Peppery pork rib soup",
-        "imageUrl": null,
-        "price": "$$",
-        "vegetarianOptions": "No",
-        "localFavorite": "Yes",
-        "trendy": "No",
-        "streetFood": "No",
-        "drinkPairing": "Tea",
-        "michelinGuide": true,
-        "hours": "Dinner",
-        "tags": [
-          "Dinner"
         ]
       },
       {
@@ -24746,6 +24612,25 @@
         "hours": "Dinner",
         "tags": [
           "Dinner"
+        ]
+      },
+      {
+        "id": "washington-dc-united-states--425--chili-n-a",
+        "city": "Washington DC",
+        "country": "United States",
+        "name": "Chili",
+        "restaurant": "N/A",
+        "why": "N/A",
+        "imageUrl": null,
+        "price": "N/A",
+        "vegetarianOptions": "N/A",
+        "localFavorite": "N/A",
+        "trendy": "N/A",
+        "streetFood": "N/A",
+        "drinkPairing": "N/A",
+        "hours": "N/A",
+        "tags": [
+          "N/a"
         ]
       }
     ],
