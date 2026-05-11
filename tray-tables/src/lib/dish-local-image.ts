@@ -1235,6 +1235,40 @@ const IMPORTED_DISH_IMAGES_BY_ID: Record<string, string> = {
     "/imported-dish-images/new-orleans-united-states-po-boy-parkway-bakery.png",
   "new-orleans-united-states--484--bananas-foster-brennans":
     "/imported-dish-images/new-orleans-united-states-bananas-foster-brennans.png",
+  "san-jose-costa-rica--572--gallo-pinto-cafe-rojo":
+    "/imported-dish-images/san-jose-gallo-pinto-cafe-rojo.png",
+  "san-jose-costa-rica--573--casado-soda-tapia":
+    "/imported-dish-images/san-jose-casado-soda-tapia.png",
+  "san-jose-costa-rica--574--chifrijo-soda-viquez":
+    "/imported-dish-images/san-jose-chifrijo-soda-viquez.png",
+  "san-jose-costa-rica--575--tamales-tamal-factory":
+    "/imported-dish-images/san-jose-tamales-tamal-factory.png",
+  "san-jose-costa-rica--576--arroz-con-pollo-soda-yoguis":
+    "/imported-dish-images/san-jose-arroz-con-pollo-soda-yoguis.png",
+  "san-jose-costa-rica--577--ceviche-la-criollita":
+    "/imported-dish-images/san-jose-ceviche-la-criollita.png",
+  "san-jose-costa-rica--578--olla-de-carne-soda-tapia":
+    "/imported-dish-images/san-jose-olla-de-carne-soda-tapia.png",
+  "san-jose-costa-rica--579--empanadas-soda-tala":
+    "/imported-dish-images/san-jose-empanadas-soda-tala.png",
+  "san-jose-costa-rica--580--craft-coffee-cafeoteca":
+    "/imported-dish-images/san-jose-craft-coffee-cafeoteca.png",
+  "san-jose-costa-rica--581--tasting-menu-sikwa":
+    "/imported-dish-images/san-jose-tasting-menu-sikwa.png",
+  "san-juan-puerto-rico--552--mofongo-raices":
+    "/imported-dish-images/san-juan-mofongo-raices.png",
+  "san-juan-puerto-rico--553--pernil-cafe-manolin":
+    "/imported-dish-images/san-juan-pernil-cafe-manolin.png",
+  "san-juan-puerto-rico--554--pastelillos-n-a":
+    "/imported-dish-images/san-juan-pastelillos-na.png",
+  "san-juan-puerto-rico--555--arroz-con-gandules-n-a":
+    "/imported-dish-images/san-juan-arroz-con-gandules-na.png",
+  "san-juan-puerto-rico--556--empanadillas-el-jibarito":
+    "/imported-dish-images/san-juan-empanadillas-el-jibarito.png",
+  "san-juan-puerto-rico--558--fried-snapper-oceano":
+    "/imported-dish-images/san-juan-fried-snapper-oceano.png",
+  "san-juan-puerto-rico--560--dessert-flan-n-a":
+    "/imported-dish-images/san-juan-dessert-flan-na.png",
   "san-francisco-united-states--533--sourdough-bread-boudin-bakery":
     "/imported-dish-images/san-francisco-sourdough-boudin-bakery.png",
   "san-francisco-united-states--534--mission-burrito-la-taqueria":
@@ -1255,6 +1289,26 @@ const IMPORTED_DISH_IMAGES_BY_ID: Record<string, string> = {
     "/imported-dish-images/san-francisco-pizza-tony-pizza-napoletana.png",
   "san-francisco-united-states--542--tasting-menu-quince":
     "/imported-dish-images/san-francisco-tasting-menu-quince.png",
+  "santiago-chile--1087--pastel-de-choclo-galindo":
+    "/imported-dish-images/santiago-pastel-de-choclo-galindo.png",
+  "santiago-chile--1088--empanada-de-pino-la-casa-de-las-empanadas":
+    "/imported-dish-images/santiago-empanada-de-pino-la-casa-de-las-empanadas.png",
+  "santiago-chile--1089--cazuela-cafe-torino":
+    "/imported-dish-images/santiago-cazuela-cafe-torino.png",
+  "santiago-chile--1090--completo-dominosa":
+    "/imported-dish-images/santiago-completo-dominosa.png",
+  "santiago-chile--1091--humitas-el-hoyo":
+    "/imported-dish-images/santiago-humitas-el-hoyo.png",
+  "santiago-chile--1092--chorrillana-la-piojera":
+    "/imported-dish-images/santiago-chorrillana-la-piojera.png",
+  "santiago-chile--1093--charquican-la-fuente-alemana":
+    "/imported-dish-images/santiago-charquican-la-fuente-alemana.png",
+  "santiago-chile--1094--machas-a-la-parmesana-ocean-pacific":
+    "/imported-dish-images/santiago-machas-a-la-parmesana-ocean-pacific.png",
+  "santiago-chile--1095--sopaipillas-dona-tita":
+    "/imported-dish-images/santiago-sopaipillas-dona-tita.png",
+  "santiago-chile--1096--arrollado-huaso-los-buenos-muchachos":
+    "/imported-dish-images/santiago-arrollado-huaso-los-buenos-muchachos.png",
   "tokyo--1278--toro-sushi-tsukiji-fish-market":
     "/imported-dish-images/tokyo-toro-sushi-tsukiji-fish-market.png",
   "ubud-indonesia--893--noodles-yellow-flower-cafe":

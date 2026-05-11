@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-11T01:32:25.039Z",
+  "generated": "2026-05-11T21:32:56.837Z",
   "dishes": [
     {
       "id": "abu-dhabi-united-arab-emirates--987--harees-mezlai",
@@ -5820,17 +5820,108 @@
     },
     {
       "id": "san-jose-costa-rica--572--gallo-pinto-cafe-rojo",
-      "imageUrl": "/Images/San%20Jose_Costa%20Rica_Gallo%20Pinto_Cafe%20Rojo.jpg",
+      "imageUrl": "/imported-dish-images/san-jose-gallo-pinto-cafe-rojo.png",
       "city": "San Jose",
       "country": "Costa Rica",
       "name": "Gallo Pinto"
     },
     {
+      "id": "san-jose-costa-rica--573--casado-soda-tapia",
+      "imageUrl": "/imported-dish-images/san-jose-casado-soda-tapia.png",
+      "city": "San Jose",
+      "country": "Costa Rica",
+      "name": "Casado"
+    },
+    {
+      "id": "san-jose-costa-rica--574--chifrijo-soda-viquez",
+      "imageUrl": "/imported-dish-images/san-jose-chifrijo-soda-viquez.png",
+      "city": "San Jose",
+      "country": "Costa Rica",
+      "name": "Chifrijo"
+    },
+    {
+      "id": "san-jose-costa-rica--575--tamales-tamal-factory",
+      "imageUrl": "/imported-dish-images/san-jose-tamales-tamal-factory.png",
+      "city": "San Jose",
+      "country": "Costa Rica",
+      "name": "Tamales"
+    },
+    {
+      "id": "san-jose-costa-rica--576--arroz-con-pollo-soda-yoguis",
+      "imageUrl": "/imported-dish-images/san-jose-arroz-con-pollo-soda-yoguis.png",
+      "city": "San Jose",
+      "country": "Costa Rica",
+      "name": "Arroz con Pollo"
+    },
+    {
+      "id": "san-jose-costa-rica--577--ceviche-la-criollita",
+      "imageUrl": "/imported-dish-images/san-jose-ceviche-la-criollita.png",
+      "city": "San Jose",
+      "country": "Costa Rica",
+      "name": "Ceviche"
+    },
+    {
+      "id": "san-jose-costa-rica--578--olla-de-carne-soda-tapia",
+      "imageUrl": "/imported-dish-images/san-jose-olla-de-carne-soda-tapia.png",
+      "city": "San Jose",
+      "country": "Costa Rica",
+      "name": "Olla de Carne"
+    },
+    {
+      "id": "san-jose-costa-rica--579--empanadas-soda-tala",
+      "imageUrl": "/imported-dish-images/san-jose-empanadas-soda-tala.png",
+      "city": "San Jose",
+      "country": "Costa Rica",
+      "name": "Empanadas"
+    },
+    {
+      "id": "san-jose-costa-rica--580--craft-coffee-cafeoteca",
+      "imageUrl": "/imported-dish-images/san-jose-craft-coffee-cafeoteca.png",
+      "city": "San Jose",
+      "country": "Costa Rica",
+      "name": "Craft Coffee"
+    },
+    {
+      "id": "san-jose-costa-rica--581--tasting-menu-sikwa",
+      "imageUrl": "/imported-dish-images/san-jose-tasting-menu-sikwa.png",
+      "city": "San Jose",
+      "country": "Costa Rica",
+      "name": "Tasting Menu"
+    },
+    {
       "id": "san-juan-puerto-rico--552--mofongo-raices",
-      "imageUrl": "/Images/San%20Juan_Puerto%20Rico_Mofongo_Raices.jpg",
+      "imageUrl": "/imported-dish-images/san-juan-mofongo-raices.png",
       "city": "San Juan",
       "country": "Puerto Rico",
       "name": "Mofongo"
+    },
+    {
+      "id": "san-juan-puerto-rico--553--pernil-cafe-manolin",
+      "imageUrl": "/imported-dish-images/san-juan-pernil-cafe-manolin.png",
+      "city": "San Juan",
+      "country": "Puerto Rico",
+      "name": "Pernil"
+    },
+    {
+      "id": "san-juan-puerto-rico--554--pastelillos-n-a",
+      "imageUrl": "/imported-dish-images/san-juan-pastelillos-na.png",
+      "city": "San Juan",
+      "country": "Puerto Rico",
+      "name": "Pastelillos"
+    },
+    {
+      "id": "san-juan-puerto-rico--555--arroz-con-gandules-n-a",
+      "imageUrl": "/imported-dish-images/san-juan-arroz-con-gandules-na.png",
+      "city": "San Juan",
+      "country": "Puerto Rico",
+      "name": "Arroz con Gandules"
+    },
+    {
+      "id": "san-juan-puerto-rico--556--empanadillas-el-jibarito",
+      "imageUrl": "/imported-dish-images/san-juan-empanadillas-el-jibarito.png",
+      "city": "San Juan",
+      "country": "Puerto Rico",
+      "name": "Empanadillas"
     },
     {
       "id": "san-juan-puerto-rico--557--seafood-stew-marmalade",
@@ -5840,6 +5931,13 @@
       "name": "Seafood Stew"
     },
     {
+      "id": "san-juan-puerto-rico--558--fried-snapper-oceano",
+      "imageUrl": "/imported-dish-images/san-juan-fried-snapper-oceano.png",
+      "city": "San Juan",
+      "country": "Puerto Rico",
+      "name": "Fried Snapper"
+    },
+    {
       "id": "san-juan-puerto-rico--559--tostones-n-a",
       "imageUrl": "/imported-dish-images/havana-cuba-tostones-la-vitrola.png",
       "city": "San Juan",
@@ -5847,18 +5945,81 @@
       "name": "Tostones"
     },
     {
+      "id": "san-juan-puerto-rico--560--dessert-flan-n-a",
+      "imageUrl": "/imported-dish-images/san-juan-dessert-flan-na.png",
+      "city": "San Juan",
+      "country": "Puerto Rico",
+      "name": "Dessert Flan"
+    },
+    {
       "id": "santiago-chile--1087--pastel-de-choclo-galindo",
-      "imageUrl": "/Images/Santiago_Chile_Pastel%20De%20Choclo_Galindo.jpg",
+      "imageUrl": "/imported-dish-images/santiago-pastel-de-choclo-galindo.png",
       "city": "Santiago",
       "country": "Chile",
       "name": "Pastel De Choclo"
     },
     {
+      "id": "santiago-chile--1088--empanada-de-pino-la-casa-de-las-empanadas",
+      "imageUrl": "/imported-dish-images/santiago-empanada-de-pino-la-casa-de-las-empanadas.png",
+      "city": "Santiago",
+      "country": "Chile",
+      "name": "Empanada De Pino"
+    },
+    {
+      "id": "santiago-chile--1089--cazuela-cafe-torino",
+      "imageUrl": "/imported-dish-images/santiago-cazuela-cafe-torino.png",
+      "city": "Santiago",
+      "country": "Chile",
+      "name": "Cazuela"
+    },
+    {
+      "id": "santiago-chile--1090--completo-dominosa",
+      "imageUrl": "/imported-dish-images/santiago-completo-dominosa.png",
+      "city": "Santiago",
+      "country": "Chile",
+      "name": "Completo"
+    },
+    {
+      "id": "santiago-chile--1091--humitas-el-hoyo",
+      "imageUrl": "/imported-dish-images/santiago-humitas-el-hoyo.png",
+      "city": "Santiago",
+      "country": "Chile",
+      "name": "Humitas"
+    },
+    {
       "id": "santiago-chile--1092--chorrillana-la-piojera",
-      "imageUrl": "/Images/Valparaiso_Chile_Chorrillana_J%20Cruz.jpg",
+      "imageUrl": "/imported-dish-images/santiago-chorrillana-la-piojera.png",
       "city": "Santiago",
       "country": "Chile",
       "name": "Chorrillana"
+    },
+    {
+      "id": "santiago-chile--1093--charquican-la-fuente-alemana",
+      "imageUrl": "/imported-dish-images/santiago-charquican-la-fuente-alemana.png",
+      "city": "Santiago",
+      "country": "Chile",
+      "name": "Charquican"
+    },
+    {
+      "id": "santiago-chile--1094--machas-a-la-parmesana-ocean-pacific",
+      "imageUrl": "/imported-dish-images/santiago-machas-a-la-parmesana-ocean-pacific.png",
+      "city": "Santiago",
+      "country": "Chile",
+      "name": "Machas A La Parmesana"
+    },
+    {
+      "id": "santiago-chile--1095--sopaipillas-dona-tita",
+      "imageUrl": "/imported-dish-images/santiago-sopaipillas-dona-tita.png",
+      "city": "Santiago",
+      "country": "Chile",
+      "name": "Sopaipillas"
+    },
+    {
+      "id": "santiago-chile--1096--arrollado-huaso-los-buenos-muchachos",
+      "imageUrl": "/imported-dish-images/santiago-arrollado-huaso-los-buenos-muchachos.png",
+      "city": "Santiago",
+      "country": "Chile",
+      "name": "Arrollado Huaso"
     },
     {
       "id": "santorini-greece--689--tomato-fritters-metaxi-mas",
@@ -6492,7 +6653,7 @@
     },
     {
       "id": "valparaiso-chile--1270--pastel-de-choclo-cafe-turri",
-      "imageUrl": "/Images/Santiago_Chile_Pastel%20De%20Choclo_Galindo.jpg",
+      "imageUrl": "/imported-dish-images/santiago-pastel-de-choclo-galindo.png",
       "city": "Valparaiso",
       "country": "Chile",
       "name": "Pastel de Choclo"
