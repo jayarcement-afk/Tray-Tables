@@ -433,8 +433,8 @@ export const CITY_BANNERS: Record<
     attribution: "Wikipedia — Santiago",
   },
   "santorini-greece": {
-    url: "https://upload.wikimedia.org/wikipedia/commons/b/bf/2011_Dimos_Thiras.png",
-    attribution: "Wikipedia — Santorini",
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Panoramic_view_of_Oia%2C_Santorini_island_%28Thira%29%2C_Greece.jpg/1920px-Panoramic_view_of_Oia%2C_Santorini_island_%28Thira%29%2C_Greece.jpg",
+    attribution: "Wikimedia Commons — Panoramic view of Oia, Santorini (Mstyslav Chernov)",
   },
   "sao-paulo-brazil": {
     url: "https://upload.wikimedia.org/wikipedia/commons/7/73/Marginal_Pinheiros_e_Jockey_Club.jpg",

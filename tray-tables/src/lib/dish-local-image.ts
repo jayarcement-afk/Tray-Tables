@@ -1309,6 +1309,38 @@ const IMPORTED_DISH_IMAGES_BY_ID: Record<string, string> = {
     "/imported-dish-images/santiago-sopaipillas-dona-tita.png",
   "santiago-chile--1096--arrollado-huaso-los-buenos-muchachos":
     "/imported-dish-images/santiago-arrollado-huaso-los-buenos-muchachos.png",
+  "santorini-greece--689--tomato-fritters-metaxi-mas":
+    "/imported-dish-images/santorini-tomato-fritters-metaxi-mas.png",
+  "santorini-greece--690--fava-puree-naoussa":
+    "/imported-dish-images/santorini-fava-puree-naoussa.png",
+  "santorini-greece--692--lamb-chops-selene":
+    "/imported-dish-images/santorini-lamb-chops-selene.png",
+  "santorini-greece--694--seafood-pasta-marios":
+    "/imported-dish-images/santorini-seafood-pasta-marios.png",
+  "santorini-greece--696--cheese-plate-kastro-oia":
+    "/imported-dish-images/santorini-cheese-plate-kastro-oia.png",
+  "santorini-greece--697--dessert-yogurt-floga":
+    "/imported-dish-images/santorini-dessert-yogurt-floga.png",
+  "sao-paulo-brazil--1057--virado-a-paulista-dona-onca":
+    "/imported-dish-images/sao-paulo-virado-a-paulista-dona-onca.png",
+  "sao-paulo-brazil--1058--pizza-paulista-braz-pinheiros":
+    "/imported-dish-images/sao-paulo-pizza-paulista-braz-pinheiros.png",
+  "sao-paulo-brazil--1059--mortadella-sandwich-bar-do-manoel":
+    "/imported-dish-images/sao-paulo-mortadella-sandwich-bar-do-manoel.png",
+  "sao-paulo-brazil--1060--coxinha-frang-o":
+    "/imported-dish-images/sao-paulo-coxinha-frang-o.png",
+  "sao-paulo-brazil--1061--feijoada-bolinha":
+    "/imported-dish-images/sao-paulo-feijoada-bolinha.png",
+  "sao-paulo-brazil--1062--pastel-feira-da-liberdade":
+    "/imported-dish-images/sao-paulo-pastel-feira-da-liberdade.png",
+  "sao-paulo-brazil--1063--bauru-sandwich-ponto-chic":
+    "/imported-dish-images/sao-paulo-bauru-sandwich-ponto-chic.png",
+  "sao-paulo-brazil--1064--moqueca-capixaba-capixaba-pinheiros":
+    "/imported-dish-images/sao-paulo-moqueca-capixaba-capixaba-pinheiros.png",
+  "sao-paulo-brazil--1065--escondidinho-tordesilhas":
+    "/imported-dish-images/sao-paulo-escondidinho-tordesilhas.png",
+  "sao-paulo-brazil--1066--brigadeiro-ofner":
+    "/imported-dish-images/sao-paulo-brigadeiro-ofner.png",
   "tokyo--1278--toro-sushi-tsukiji-fish-market":
     "/imported-dish-images/tokyo-toro-sushi-tsukiji-fish-market.png",
   "ubud-indonesia--893--noodles-yellow-flower-cafe":

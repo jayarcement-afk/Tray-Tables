@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-11T21:32:56.837Z",
+  "generated": "2026-05-11T22:10:20.651Z",
   "dishes": [
     {
       "id": "abu-dhabi-united-arab-emirates--987--harees-mezlai",
@@ -6023,10 +6023,17 @@
     },
     {
       "id": "santorini-greece--689--tomato-fritters-metaxi-mas",
-      "imageUrl": "/Images/Santorini_Greece_Tomato%20Fritters_Metaxi%20Mas.jpg",
+      "imageUrl": "/imported-dish-images/santorini-tomato-fritters-metaxi-mas.png",
       "city": "Santorini",
       "country": "Greece",
       "name": "Tomato Fritters"
+    },
+    {
+      "id": "santorini-greece--690--fava-puree-naoussa",
+      "imageUrl": "/imported-dish-images/santorini-fava-puree-naoussa.png",
+      "city": "Santorini",
+      "country": "Greece",
+      "name": "Fava Puree"
     },
     {
       "id": "santorini-greece--691--grilled-octopus-ammoudi-fish-tavern",
@@ -6036,6 +6043,13 @@
       "name": "Grilled Octopus"
     },
     {
+      "id": "santorini-greece--692--lamb-chops-selene",
+      "imageUrl": "/imported-dish-images/santorini-lamb-chops-selene.png",
+      "city": "Santorini",
+      "country": "Greece",
+      "name": "Lamb Chops"
+    },
+    {
       "id": "santorini-greece--693--greek-salad-kapari-wine-restaurant",
       "imageUrl": "/Images/Athens_Greece_Greek%20Salad_Klimataria.jpg",
       "city": "Santorini",
@@ -6043,11 +6057,32 @@
       "name": "Greek Salad"
     },
     {
+      "id": "santorini-greece--694--seafood-pasta-marios",
+      "imageUrl": "/imported-dish-images/santorini-seafood-pasta-marios.png",
+      "city": "Santorini",
+      "country": "Greece",
+      "name": "Seafood Pasta"
+    },
+    {
       "id": "santorini-greece--695--calamari-taverna-katina",
       "imageUrl": "/imported-dish-images/gold-coast-calamari-glenelg-public-house.jpg",
       "city": "Santorini",
       "country": "Greece",
       "name": "Calamari"
+    },
+    {
+      "id": "santorini-greece--696--cheese-plate-kastro-oia",
+      "imageUrl": "/imported-dish-images/santorini-cheese-plate-kastro-oia.png",
+      "city": "Santorini",
+      "country": "Greece",
+      "name": "Cheese Plate"
+    },
+    {
+      "id": "santorini-greece--697--dessert-yogurt-floga",
+      "imageUrl": "/imported-dish-images/santorini-dessert-yogurt-floga.png",
+      "city": "Santorini",
+      "country": "Greece",
+      "name": "Dessert Yogurt"
     },
     {
       "id": "santorini-greece--698--tasting-menu-lycabettus-restaurant",
@@ -6058,17 +6093,73 @@
     },
     {
       "id": "sao-paulo-brazil--1057--virado-a-paulista-dona-onca",
-      "imageUrl": "/Images/Sao%20Paulo_Brazil_Virado%20A%20Paulista_Dona%20Onca.jpg",
+      "imageUrl": "/imported-dish-images/sao-paulo-virado-a-paulista-dona-onca.png",
       "city": "Sao Paulo",
       "country": "Brazil",
       "name": "Virado A Paulista"
     },
     {
+      "id": "sao-paulo-brazil--1058--pizza-paulista-braz-pinheiros",
+      "imageUrl": "/imported-dish-images/sao-paulo-pizza-paulista-braz-pinheiros.png",
+      "city": "Sao Paulo",
+      "country": "Brazil",
+      "name": "Pizza Paulista"
+    },
+    {
+      "id": "sao-paulo-brazil--1059--mortadella-sandwich-bar-do-manoel",
+      "imageUrl": "/imported-dish-images/sao-paulo-mortadella-sandwich-bar-do-manoel.png",
+      "city": "Sao Paulo",
+      "country": "Brazil",
+      "name": "Mortadella Sandwich"
+    },
+    {
+      "id": "sao-paulo-brazil--1060--coxinha-frang-o",
+      "imageUrl": "/imported-dish-images/sao-paulo-coxinha-frang-o.png",
+      "city": "Sao Paulo",
+      "country": "Brazil",
+      "name": "Coxinha"
+    },
+    {
       "id": "sao-paulo-brazil--1061--feijoada-bolinha",
-      "imageUrl": "/Images/Rio%20De%20Janeiro_Brazil_Feijoada_Aconchego%20Carioca.jpg",
+      "imageUrl": "/imported-dish-images/sao-paulo-feijoada-bolinha.png",
       "city": "Sao Paulo",
       "country": "Brazil",
       "name": "Feijoada"
+    },
+    {
+      "id": "sao-paulo-brazil--1062--pastel-feira-da-liberdade",
+      "imageUrl": "/imported-dish-images/sao-paulo-pastel-feira-da-liberdade.png",
+      "city": "Sao Paulo",
+      "country": "Brazil",
+      "name": "Pastel"
+    },
+    {
+      "id": "sao-paulo-brazil--1063--bauru-sandwich-ponto-chic",
+      "imageUrl": "/imported-dish-images/sao-paulo-bauru-sandwich-ponto-chic.png",
+      "city": "Sao Paulo",
+      "country": "Brazil",
+      "name": "Bauru Sandwich"
+    },
+    {
+      "id": "sao-paulo-brazil--1064--moqueca-capixaba-capixaba-pinheiros",
+      "imageUrl": "/imported-dish-images/sao-paulo-moqueca-capixaba-capixaba-pinheiros.png",
+      "city": "Sao Paulo",
+      "country": "Brazil",
+      "name": "Moqueca Capixaba"
+    },
+    {
+      "id": "sao-paulo-brazil--1065--escondidinho-tordesilhas",
+      "imageUrl": "/imported-dish-images/sao-paulo-escondidinho-tordesilhas.png",
+      "city": "Sao Paulo",
+      "country": "Brazil",
+      "name": "Escondidinho"
+    },
+    {
+      "id": "sao-paulo-brazil--1066--brigadeiro-ofner",
+      "imageUrl": "/imported-dish-images/sao-paulo-brigadeiro-ofner.png",
+      "city": "Sao Paulo",
+      "country": "Brazil",
+      "name": "Brigadeiro"
     },
     {
       "id": "seattle-united-states--446--oysters-the-walrus-and-the-carpenter",
