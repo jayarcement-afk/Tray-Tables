@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-07T22:40:09.170Z",
+  "generated": "2026-05-11T01:32:25.039Z",
   "dishes": [
     {
       "id": "abu-dhabi-united-arab-emirates--987--harees-mezlai",
@@ -4532,10 +4532,17 @@
     },
     {
       "id": "nara-japan--1187--kakinoha-sushi-hiraso",
-      "imageUrl": "/Images/Nara_Japan_Kakinoha%20Sushi_Hiraso.jpg",
+      "imageUrl": "/imported-dish-images/nara-kakinoha-sushi-hiraso.png",
       "city": "Nara",
       "country": "Japan",
       "name": "Kakinoha Sushi"
+    },
+    {
+      "id": "nara-japan--1188--mochi-nakatanidou",
+      "imageUrl": "/imported-dish-images/nara-mochi-nakatanidou.png",
+      "city": "Nara",
+      "country": "Japan",
+      "name": "Mochi"
     },
     {
       "id": "nara-japan--1189--soba-taishoken",
@@ -4543,6 +4550,55 @@
       "city": "Nara",
       "country": "Japan",
       "name": "Soba"
+    },
+    {
+      "id": "nara-japan--1190--cha-gohan-kasuga-chaya",
+      "imageUrl": "/imported-dish-images/nara-cha-gohan-kasuga-chaya.png",
+      "city": "Nara",
+      "country": "Japan",
+      "name": "Cha Gohan"
+    },
+    {
+      "id": "nara-japan--1191--yamato-beef-steak-wakakusa-curry",
+      "imageUrl": "/imported-dish-images/nara-yamato-beef-steak-wakakusa-curry.png",
+      "city": "Nara",
+      "country": "Japan",
+      "name": "Yamato Beef Steak"
+    },
+    {
+      "id": "nara-japan--1192--tenkaippin-ramen-tenkaippin-nara",
+      "imageUrl": "/imported-dish-images/nara-tenkaippin-ramen-tenkaippin-nara.png",
+      "city": "Nara",
+      "country": "Japan",
+      "name": "Tenkaippin Ramen"
+    },
+    {
+      "id": "nara-japan--1193--tamagoyaki-edogawa",
+      "imageUrl": "/imported-dish-images/nara-tamagoyaki-edogawa.png",
+      "city": "Nara",
+      "country": "Japan",
+      "name": "Tamagoyaki"
+    },
+    {
+      "id": "nara-japan--1194--miso-soup-kasuga-ninai-jaya",
+      "imageUrl": "/imported-dish-images/nara-miso-soup-kasuga-ninai-jaya.png",
+      "city": "Nara",
+      "country": "Japan",
+      "name": "Miso Soup"
+    },
+    {
+      "id": "nara-japan--1195--sake-yamato-brewery",
+      "imageUrl": "/imported-dish-images/nara-sake-yamato-brewery.png",
+      "city": "Nara",
+      "country": "Japan",
+      "name": "Sake"
+    },
+    {
+      "id": "nara-japan--1196--udon-udontei",
+      "imageUrl": "/imported-dish-images/nara-udon-udontei.png",
+      "city": "Nara",
+      "country": "Japan",
+      "name": "Udon"
     },
     {
       "id": "new-orleans-united-states--475--beignets-cafe-beignet",
@@ -4665,7 +4721,7 @@
     },
     {
       "id": "new-york-city--7--chocolate-egg-cream-lexington-candy-shop",
-      "imageUrl": "/Images/New%20York%20City_United%20States_Chocolate%20Egg%20Cream_Lexington%20Candy%20Shop.jpg",
+      "imageUrl": "/imported-dish-images/new-york-city-chocolate-egg-cream-lexington-candy-shop.png",
       "city": "New York City",
       "country": "United States",
       "name": "Chocolate Egg Cream"
@@ -4693,7 +4749,7 @@
     },
     {
       "id": "nice-france--759--salade-nicoise-chez-acchiardo",
-      "imageUrl": "/Images/Nice_France_Salade%20Nicoise_Chez%20Acchiardo.jpg",
+      "imageUrl": "/imported-dish-images/nice-salade-nicoise-chez-acchiardo.png",
       "city": "Nice",
       "country": "France",
       "name": "Salade Nicoise"
@@ -4706,11 +4762,32 @@
       "name": "Socca"
     },
     {
+      "id": "nice-france--761--ratatouille-la-merenda",
+      "imageUrl": "/imported-dish-images/nice-ratatouille-la-merenda.png",
+      "city": "Nice",
+      "country": "France",
+      "name": "Ratatouille"
+    },
+    {
+      "id": "nice-france--762--pissaladiere-cafe-de-turin",
+      "imageUrl": "/imported-dish-images/nice-pissaladiere-cafe-de-turin.png",
+      "city": "Nice",
+      "country": "France",
+      "name": "Pissaladiere"
+    },
+    {
       "id": "nice-france--763--bouillabaisse-le-chantecler",
       "imageUrl": "/imported-dish-images/marseille-france-bouillabaisse-chez-fonfon.png",
       "city": "Nice",
       "country": "France",
       "name": "Bouillabaisse"
+    },
+    {
+      "id": "nice-france--764--gnocchi-da-tina",
+      "imageUrl": "/imported-dish-images/nice-gnocchi-da-tina.png",
+      "city": "Nice",
+      "country": "France",
+      "name": "Gnocchi"
     },
     {
       "id": "nice-france--765--seafood-platter-cafe-de-turin",
@@ -4727,6 +4804,13 @@
       "name": "Lamb Daube"
     },
     {
+      "id": "nice-france--767--dessert-tarte-citron-confiserie-florian",
+      "imageUrl": "/imported-dish-images/nice-dessert-tarte-citron-confiserie-florian.png",
+      "city": "Nice",
+      "country": "France",
+      "name": "Dessert Tarte Citron"
+    },
+    {
       "id": "nice-france--768--tasting-menu-le-chantecler",
       "imageUrl": "/imported-dish-images/marseille-france-tasting-menu-l-epuisette.png",
       "city": "Nice",
@@ -4735,10 +4819,31 @@
     },
     {
       "id": "osaka-japan--306--okonomiyaki-chibo",
-      "imageUrl": "/Images/Osaka_Japan_Okonomiyaki_Chibo.jpg",
+      "imageUrl": "/imported-dish-images/osaka-okonomiyaki-chibo.png",
       "city": "Osaka",
       "country": "Japan",
       "name": "Okonomiyaki"
+    },
+    {
+      "id": "osaka-japan--307--takoyaki-aizuya",
+      "imageUrl": "/imported-dish-images/osaka-takoyaki-aizuya.png",
+      "city": "Osaka",
+      "country": "Japan",
+      "name": "Takoyaki"
+    },
+    {
+      "id": "osaka-japan--308--kushikatsu-daruma",
+      "imageUrl": "/imported-dish-images/osaka-kushikatsu-daruma.png",
+      "city": "Osaka",
+      "country": "Japan",
+      "name": "Kushikatsu"
+    },
+    {
+      "id": "osaka-japan--309--yakiniku-matsusaka-yakiniku-m",
+      "imageUrl": "/imported-dish-images/osaka-yakiniku-matsusaka-yakiniku-m.png",
+      "city": "Osaka",
+      "country": "Japan",
+      "name": "Yakiniku"
     },
     {
       "id": "osaka-japan--310--ramen-torisoba-zagin-niboshi",
@@ -4748,11 +4853,60 @@
       "name": "Ramen"
     },
     {
+      "id": "osaka-japan--311--udon-imanoya-udon",
+      "imageUrl": "/imported-dish-images/osaka-udon-imanoya-udon.png",
+      "city": "Osaka",
+      "country": "Japan",
+      "name": "Udon"
+    },
+    {
+      "id": "osaka-japan--312--sushi-sushi-ohata",
+      "imageUrl": "/imported-dish-images/osaka-sushi-sushi-ohata.png",
+      "city": "Osaka",
+      "country": "Japan",
+      "name": "Sushi"
+    },
+    {
+      "id": "osaka-japan--313--teppanyaki-kobe-beef-steak-ishida",
+      "imageUrl": "/imported-dish-images/osaka-teppanyaki-kobe-beef-steak-ishida.png",
+      "city": "Osaka",
+      "country": "Japan",
+      "name": "Teppanyaki"
+    },
+    {
+      "id": "osaka-japan--314--gyoza-gyozaoh",
+      "imageUrl": "/imported-dish-images/osaka-gyoza-gyozaoh.png",
+      "city": "Osaka",
+      "country": "Japan",
+      "name": "Gyoza"
+    },
+    {
+      "id": "osaka-japan--315--mitarashi-dango-ikoma-seika",
+      "imageUrl": "/imported-dish-images/osaka-mitarashi-dango-ikoma-seika.png",
+      "city": "Osaka",
+      "country": "Japan",
+      "name": "Mitarashi Dango"
+    },
+    {
       "id": "oslo-norway--256--f-rik-l-kaffistova",
-      "imageUrl": "/Images/Oslo_Norway_F%C3%A5rik%C3%A5l_Kaffistova.jpg",
+      "imageUrl": "/imported-dish-images/oslo-farikal-kaffistova.png",
       "city": "Oslo",
       "country": "Norway",
       "name": "Fårikål"
+    },
+    {
+      "id": "oslo-norway--257--meatballs-in-brown-sauce-kaffistova",
+      "imageUrl": "/imported-dish-images/oslo-meatballs-in-brown-sauce-kaffistova.png",
+      "city": "Oslo",
+      "country": "Norway",
+      "name": "Meatballs in Brown Sauce"
+    },
+    {
+      "id": "oslo-norway--258--p-lse-i-lompe-syverkiosken",
+      "imageUrl": "/imported-dish-images/oslo-polse-i-lompe-syverkiosken.png",
+      "city": "Oslo",
+      "country": "Norway",
+      "name": "Pølse i Lompe"
     },
     {
       "id": "oslo-norway--259--seafood-chowder-fiskeriet-youngstorget",
@@ -4760,6 +4914,48 @@
       "city": "Oslo",
       "country": "Norway",
       "name": "Seafood Chowder"
+    },
+    {
+      "id": "oslo-norway--260--ribbe-pork-belly-den-glade-gris",
+      "imageUrl": "/imported-dish-images/oslo-ribbe-pork-belly-den-glade-gris.png",
+      "city": "Oslo",
+      "country": "Norway",
+      "name": "Ribbe (Pork Belly)"
+    },
+    {
+      "id": "oslo-norway--261--lapskaus-stew-restaurant-schr-der",
+      "imageUrl": "/imported-dish-images/oslo-lapskaus-stew-restaurant-schroder.png",
+      "city": "Oslo",
+      "country": "Norway",
+      "name": "Lapskaus (Stew)"
+    },
+    {
+      "id": "oslo-norway--262--waffles-with-brown-cheese-haralds-vaffel",
+      "imageUrl": "/imported-dish-images/oslo-waffles-with-brown-cheese-haralds-vaffel.png",
+      "city": "Oslo",
+      "country": "Norway",
+      "name": "Waffles with Brown Cheese"
+    },
+    {
+      "id": "oslo-norway--263--reindeer-statholdergaarden",
+      "imageUrl": "/imported-dish-images/oslo-reindeer-statholdergaarden.png",
+      "city": "Oslo",
+      "country": "Norway",
+      "name": "Reindeer"
+    },
+    {
+      "id": "oslo-norway--264--fish-and-chips-fiskeriet-youngstorget",
+      "imageUrl": "/imported-dish-images/oslo-fish-and-chips-fiskeriet-youngstorget.png",
+      "city": "Oslo",
+      "country": "Norway",
+      "name": "Fish & Chips"
+    },
+    {
+      "id": "oslo-norway--265--skyr-dessert-local-caf-s",
+      "imageUrl": "/imported-dish-images/oslo-skyr-dessert-local-cafes.png",
+      "city": "Oslo",
+      "country": "Norway",
+      "name": "Skyr Dessert"
     },
     {
       "id": "panama-city-panama--562--ceviche-mercado-de-mariscos",
@@ -4798,10 +4994,17 @@
     },
     {
       "id": "penang-malaysia--396--char-kway-teow-siam-road-charcoal-char-kway-teow",
-      "imageUrl": "/Images/Penang_Malaysia_Char%20Kway%20Teow_Siam%20Road%20Charcoal%20Char%20Kway%20Teow.jpg",
+      "imageUrl": "/imported-dish-images/penang-char-kway-teow-siam-road-charcoal-char-kway-teow.png",
       "city": "Penang",
       "country": "Malaysia",
       "name": "Char Kway Teow"
+    },
+    {
+      "id": "penang-malaysia--397--asam-laksa-pasar-air-itam",
+      "imageUrl": "/imported-dish-images/penang-asam-laksa-pasar-air-itam.png",
+      "city": "Penang",
+      "country": "Malaysia",
+      "name": "Asam Laksa"
     },
     {
       "id": "penang-malaysia--398--nasi-kandar-line-clear-nasi-kandar",
@@ -4825,11 +5028,32 @@
       "name": "Roti Canai"
     },
     {
+      "id": "penang-malaysia--401--oh-chien-oyster-omelette-sin-guat-keong",
+      "imageUrl": "/imported-dish-images/penang-oh-chien-oyster-omelette-sin-guat-keong.png",
+      "city": "Penang",
+      "country": "Malaysia",
+      "name": "Oh Chien (Oyster Omelette)"
+    },
+    {
+      "id": "penang-malaysia--402--lor-bak-kheng-pin-cafe",
+      "imageUrl": "/imported-dish-images/penang-lor-bak-kheng-pin-cafe.png",
+      "city": "Penang",
+      "country": "Malaysia",
+      "name": "Lor Bak"
+    },
+    {
       "id": "penang-malaysia--403--char-siu-restorant-hong-kei",
       "imageUrl": "/imported-dish-images/hong-kong-china-char-siu-sun-hing-restaurant.png",
       "city": "Penang",
       "country": "Malaysia",
       "name": "Char Siu"
+    },
+    {
+      "id": "penang-malaysia--404--curry-mee-sister-curry-mee",
+      "imageUrl": "/imported-dish-images/penang-curry-mee-sister-curry-mee.png",
+      "city": "Penang",
+      "country": "Malaysia",
+      "name": "Curry Mee"
     },
     {
       "id": "penang-malaysia--405--cendol-penang-road-famous-teochew-cendol",
@@ -4840,59 +5064,108 @@
     },
     {
       "id": "phuket-thailand--849--pad-thai-pad-thai-shop",
-      "imageUrl": "/Images/Phuket_Thailand_Pad%20Thai_Pad%20Thai%20Shop.jpg",
+      "imageUrl": "/imported-dish-images/phuket-pad-thai-pad-thai-shop.png",
       "city": "Phuket",
       "country": "Thailand",
       "name": "Pad Thai"
     },
     {
       "id": "phuket-thailand--850--tom-yum-goong-raya-restaurant",
-      "imageUrl": "/Images/Phuket_Thailand_Tom%20Yum%20Goong_Raya%20Restaurant.jpg",
+      "imageUrl": "/imported-dish-images/phuket-tom-yum-goong-raya-restaurant.png",
       "city": "Phuket",
       "country": "Thailand",
       "name": "Tom Yum Goong"
     },
     {
       "id": "phuket-thailand--851--massaman-curry-blue-elephant",
-      "imageUrl": "/Images/Phuket_Thailand_Massaman%20Curry_Blue%20Elephant.jpg",
+      "imageUrl": "/imported-dish-images/phuket-massaman-curry-blue-elephant.png",
       "city": "Phuket",
       "country": "Thailand",
       "name": "Massaman Curry"
     },
     {
       "id": "phuket-thailand--852--grilled-seafood-kan-eang-pier",
-      "imageUrl": "/Images/Phuket_Thailand_Grilled%20Seafood_Kan%20Eang%20Pier.jpg",
+      "imageUrl": "/imported-dish-images/phuket-grilled-seafood-kan-eang-pier.png",
       "city": "Phuket",
       "country": "Thailand",
       "name": "Grilled Seafood"
     },
     {
+      "id": "phuket-thailand--853--moo-hong-raya-restaurant",
+      "imageUrl": "/imported-dish-images/phuket-moo-hong-raya-restaurant.png",
+      "city": "Phuket",
+      "country": "Thailand",
+      "name": "Moo Hong"
+    },
+    {
       "id": "phuket-thailand--854--green-curry-one-chun-cafe",
-      "imageUrl": "/Images/Bangkok_Thailand_Green%20Curry_Raan%20Jay%20Fai.jpg",
+      "imageUrl": "/imported-dish-images/phuket-green-curry-one-chun-cafe.png",
       "city": "Phuket",
       "country": "Thailand",
       "name": "Green Curry"
     },
     {
+      "id": "phuket-thailand--855--fried-chicken-lock-tien-food-court",
+      "imageUrl": "/imported-dish-images/phuket-fried-chicken-lock-tien-food-court.png",
+      "city": "Phuket",
+      "country": "Thailand",
+      "name": "Fried Chicken"
+    },
+    {
       "id": "phuket-thailand--856--mango-sticky-rice-khun-jeed",
-      "imageUrl": "/Images/Phuket_Thailand_Mango%20Sticky%20Rice_Khun%20Jeed.jpg",
+      "imageUrl": "/imported-dish-images/phuket-mango-sticky-rice-khun-jeed.png",
       "city": "Phuket",
       "country": "Thailand",
       "name": "Mango Sticky Rice"
     },
     {
+      "id": "phuket-thailand--857--noodles-go-benz",
+      "imageUrl": "/imported-dish-images/phuket-noodles-go-benz.png",
+      "city": "Phuket",
+      "country": "Thailand",
+      "name": "Noodles"
+    },
+    {
       "id": "phuket-thailand--858--tasting-menu-pru",
-      "imageUrl": "/Images/Phuket_Thailand_Tasting%20Menu_PRU.jpg",
+      "imageUrl": "/imported-dish-images/phuket-tasting-menu-pru.png",
       "city": "Phuket",
       "country": "Thailand",
       "name": "Tasting Menu"
     },
     {
       "id": "pokhara-nepal--969--momo-momo-king",
-      "imageUrl": "/Images/Pokhara_Nepal_Momo_Momo%20King.jpg",
+      "imageUrl": "/imported-dish-images/pokhara-momo-momo-king.png",
       "city": "Pokhara",
       "country": "Nepal",
       "name": "Momo"
+    },
+    {
+      "id": "pokhara-nepal--970--dal-bhat-or2k",
+      "imageUrl": "/imported-dish-images/pokhara-dal-bhat-or2k.png",
+      "city": "Pokhara",
+      "country": "Nepal",
+      "name": "Dal Bhat"
+    },
+    {
+      "id": "pokhara-nepal--971--thukpa-caffe-concerto",
+      "imageUrl": "/imported-dish-images/pokhara-thukpa-caffe-concerto.png",
+      "city": "Pokhara",
+      "country": "Nepal",
+      "name": "Thukpa"
+    },
+    {
+      "id": "pokhara-nepal--972--fried-fish-lake-view-restaurant",
+      "imageUrl": "/imported-dish-images/pokhara-fried-fish-lake-view-restaurant.png",
+      "city": "Pokhara",
+      "country": "Nepal",
+      "name": "Fried Fish"
+    },
+    {
+      "id": "pokhara-nepal--973--vegetarian-curry-fresh-elements",
+      "imageUrl": "/imported-dish-images/pokhara-vegetarian-curry-fresh-elements.png",
+      "city": "Pokhara",
+      "country": "Nepal",
+      "name": "Vegetarian Curry"
     },
     {
       "id": "pokhara-nepal--974--breakfast-plates-caffe-concerto",
@@ -4902,8 +5175,22 @@
       "name": "Breakfast Plates"
     },
     {
+      "id": "pokhara-nepal--975--pizza-mojos",
+      "imageUrl": "/imported-dish-images/pokhara-pizza-mojos.png",
+      "city": "Pokhara",
+      "country": "Nepal",
+      "name": "Pizza"
+    },
+    {
+      "id": "pokhara-nepal--976--dessert-cakes-french-bakery",
+      "imageUrl": "/imported-dish-images/pokhara-dessert-cakes-french-bakery.png",
+      "city": "Pokhara",
+      "country": "Nepal",
+      "name": "Dessert Cakes"
+    },
+    {
       "id": "portland-united-states--456--khao-man-gai-nongs-khao-man-gai",
-      "imageUrl": "/Images/Portland_United%20States_Khao%20Man%20Gai_Nongs%20Khao%20Man%20Gai.jpg",
+      "imageUrl": "/imported-dish-images/portland-khao-man-gai-nongs-khao-man-gai.png",
       "city": "Portland",
       "country": "United States",
       "name": "Khao Man Gai"
@@ -4914,6 +5201,13 @@
       "city": "Portland",
       "country": "United States",
       "name": "Pizza"
+    },
+    {
+      "id": "portland-united-states--458--ice-cream-salt-and-straw",
+      "imageUrl": "/imported-dish-images/portland-ice-cream-salt-and-straw.png",
+      "city": "Portland",
+      "country": "United States",
+      "name": "Ice Cream"
     },
     {
       "id": "portland-united-states--459--donuts-voodoo-doughnut",
@@ -4928,6 +5222,20 @@
       "city": "Portland",
       "country": "United States",
       "name": "Fried Chicken"
+    },
+    {
+      "id": "portland-united-states--461--biscuits-and-gravy-pine-state-biscuits",
+      "imageUrl": "/imported-dish-images/portland-biscuits-and-gravy-pine-state-biscuits.png",
+      "city": "Portland",
+      "country": "United States",
+      "name": "Biscuits and Gravy"
+    },
+    {
+      "id": "portland-united-states--462--russian-dumplings-kachka",
+      "imageUrl": "/imported-dish-images/portland-russian-dumplings-kachka.png",
+      "city": "Portland",
+      "country": "United States",
+      "name": "Russian Dumplings"
     },
     {
       "id": "portland-united-states--463--bbq-brisket-matts-bbq",
@@ -4952,10 +5260,24 @@
     },
     {
       "id": "porto-portugal--146--francesinha-caf-santiago",
-      "imageUrl": "/Images/Porto_Portugal_Francesinha_Caf%C3%A9%20Santiago.jpg",
+      "imageUrl": "/imported-dish-images/porto-francesinha-cafe-santiago.png",
       "city": "Porto",
       "country": "Portugal",
       "name": "Francesinha"
+    },
+    {
+      "id": "porto-portugal--147--tripas-moda-do-porto-a-cozinha-do-manel",
+      "imageUrl": "/imported-dish-images/porto-tripas-moda-do-porto-a-cozinha-do-manel.png",
+      "city": "Porto",
+      "country": "Portugal",
+      "name": "Tripas à Moda do Porto"
+    },
+    {
+      "id": "porto-portugal--148--bacalhau-gomes-de-s-o-buraco",
+      "imageUrl": "/imported-dish-images/porto-bacalhau-gomes-de-sa-o-buraco.png",
+      "city": "Porto",
+      "country": "Portugal",
+      "name": "Bacalhau à Gomes de Sá"
     },
     {
       "id": "porto-portugal--149--grilled-octopus-o-paparico",
@@ -4965,11 +5287,109 @@
       "name": "Grilled Octopus"
     },
     {
+      "id": "porto-portugal--150--caldeirada-taberna-dos-mercadores",
+      "imageUrl": "/imported-dish-images/porto-caldeirada-taberna-dos-mercadores.png",
+      "city": "Porto",
+      "country": "Portugal",
+      "name": "Caldeirada"
+    },
+    {
+      "id": "porto-portugal--151--cachorrinho-gazela",
+      "imageUrl": "/imported-dish-images/porto-cachorrinho-gazela.png",
+      "city": "Porto",
+      "country": "Portugal",
+      "name": "Cachorrinho"
+    },
+    {
+      "id": "porto-portugal--152--rice-with-seafood-gruta",
+      "imageUrl": "/imported-dish-images/porto-rice-with-seafood-gruta.png",
+      "city": "Porto",
+      "country": "Portugal",
+      "name": "Rice with Seafood"
+    },
+    {
+      "id": "porto-portugal--153--prego-steak-sandwich-conga",
+      "imageUrl": "/imported-dish-images/porto-prego-steak-sandwich-conga.png",
+      "city": "Porto",
+      "country": "Portugal",
+      "name": "Prego Steak Sandwich"
+    },
+    {
+      "id": "porto-portugal--154--queijo-da-serra-cervejaria-bras-o",
+      "imageUrl": "/imported-dish-images/porto-queijo-da-serra-cervejaria-brasao.png",
+      "city": "Porto",
+      "country": "Portugal",
+      "name": "Queijo da Serra"
+    },
+    {
+      "id": "porto-portugal--155--toucinho-do-c-u-confeitaria-do-bolh-o",
+      "imageUrl": "/imported-dish-images/porto-toucinho-do-ceu-confeitaria-do-bolhao.png",
+      "city": "Porto",
+      "country": "Portugal",
+      "name": "Toucinho do Céu"
+    },
+    {
       "id": "positano-italy--749--seafood-pasta-da-adolfo",
-      "imageUrl": "/Images/Positano_Italy_Seafood%20Pasta_Da%20Adolfo.jpg",
+      "imageUrl": "/imported-dish-images/positano-seafood-pasta-da-adolfo.png",
       "city": "Positano",
       "country": "Italy",
       "name": "Seafood Pasta"
+    },
+    {
+      "id": "positano-italy--750--grilled-fish-ristorante-max",
+      "imageUrl": "/imported-dish-images/positano-grilled-fish-ristorante-max.png",
+      "city": "Positano",
+      "country": "Italy",
+      "name": "Grilled Fish"
+    },
+    {
+      "id": "positano-italy--751--lemon-spaghetti-chez-black",
+      "imageUrl": "/imported-dish-images/positano-lemon-spaghetti-chez-black.png",
+      "city": "Positano",
+      "country": "Italy",
+      "name": "Lemon Spaghetti"
+    },
+    {
+      "id": "positano-italy--752--caprese-salad-la-tagliata",
+      "imageUrl": "/imported-dish-images/positano-caprese-salad-la-tagliata.png",
+      "city": "Positano",
+      "country": "Italy",
+      "name": "Caprese Salad"
+    },
+    {
+      "id": "positano-italy--753--octopus-salad-il-tridente",
+      "imageUrl": "/imported-dish-images/positano-octopus-salad-il-tridente.png",
+      "city": "Positano",
+      "country": "Italy",
+      "name": "Octopus Salad"
+    },
+    {
+      "id": "positano-italy--754--seafood-risotto-la-sponda",
+      "imageUrl": "/imported-dish-images/positano-seafood-risotto-la-sponda.png",
+      "city": "Positano",
+      "country": "Italy",
+      "name": "Seafood Risotto"
+    },
+    {
+      "id": "positano-italy--755--fried-zucchini-flowers-da-costantino",
+      "imageUrl": "/imported-dish-images/positano-fried-zucchini-flowers-da-costantino.png",
+      "city": "Positano",
+      "country": "Italy",
+      "name": "Fried Zucchini Flowers"
+    },
+    {
+      "id": "positano-italy--756--gnocchi-saraceno-d-oro",
+      "imageUrl": "/imported-dish-images/positano-gnocchi-saraceno-d-oro.png",
+      "city": "Positano",
+      "country": "Italy",
+      "name": "Gnocchi"
+    },
+    {
+      "id": "positano-italy--757--dessert-delizia-al-limone-collina-bakery",
+      "imageUrl": "/imported-dish-images/positano-dessert-delizia-al-limone-collina-bakery.png",
+      "city": "Positano",
+      "country": "Italy",
+      "name": "Dessert Delizia al Limone"
     },
     {
       "id": "positano-italy--758--tasting-menu-la-sponda",
@@ -4980,10 +5400,17 @@
     },
     {
       "id": "prague-czech-republic--196--sv-kov-u-erven-ho-p-va",
-      "imageUrl": "/Images/Prague_Czech%20Republic_Sv%C3%AD%C4%8Dkov%C3%A1_U%20%C4%8Cerven%C3%A9ho%20P%C3%A1va.jpg",
+      "imageUrl": "/imported-dish-images/prague-svikova-u-cerveneho-pava.png",
       "city": "Prague",
       "country": "Czech Republic",
       "name": "Svíčková"
+    },
+    {
+      "id": "prague-czech-republic--197--beef-goulash-lok-l-dlouh",
+      "imageUrl": "/imported-dish-images/prague-beef-goulash-lokal-dlouha.png",
+      "city": "Prague",
+      "country": "Czech Republic",
+      "name": "Beef Goulash"
     },
     {
       "id": "prague-czech-republic--198--roast-duck-u-modr-kachni-ky",
@@ -4991,6 +5418,90 @@
       "city": "Prague",
       "country": "Czech Republic",
       "name": "Roast Duck"
+    },
+    {
+      "id": "prague-czech-republic--199--fried-cheese-sma-en-s-r-lok-l-u-b-l-ku-elky",
+      "imageUrl": "/imported-dish-images/prague-fried-cheese-lokal-u-bile-kuzelky.png",
+      "city": "Prague",
+      "country": "Czech Republic",
+      "name": "Fried Cheese (Smažený Sýr)"
+    },
+    {
+      "id": "prague-czech-republic--200--pork-knuckle-u-flek",
+      "imageUrl": "/imported-dish-images/prague-pork-knuckle-u-fleku.png",
+      "city": "Prague",
+      "country": "Czech Republic",
+      "name": "Pork Knuckle"
+    },
+    {
+      "id": "prague-czech-republic--201--czech-sausage-nase-maso",
+      "imageUrl": "/imported-dish-images/prague-czech-sausage-nase-maso.png",
+      "city": "Prague",
+      "country": "Czech Republic",
+      "name": "Czech Sausage"
+    },
+    {
+      "id": "prague-czech-republic--202--bread-dumplings-kuchy",
+      "imageUrl": "/imported-dish-images/prague-bread-dumplings-kuchy.png",
+      "city": "Prague",
+      "country": "Czech Republic",
+      "name": "Bread Dumplings"
+    },
+    {
+      "id": "prague-czech-republic--203--kol-e-pek-rna-praktika",
+      "imageUrl": "/imported-dish-images/prague-kolace-pekarna-praktika.png",
+      "city": "Prague",
+      "country": "Czech Republic",
+      "name": "Koláče"
+    },
+    {
+      "id": "prague-czech-republic--204--trdeln-k-good-food-coffee-and-bakery",
+      "imageUrl": "/imported-dish-images/prague-trdelnik-good-food-coffee-and-bakery.png",
+      "city": "Prague",
+      "country": "Czech Republic",
+      "name": "Trdelník"
+    },
+    {
+      "id": "prague-czech-republic--205--poppy-seed-cake-caf-savoy",
+      "imageUrl": "/imported-dish-images/prague-poppy-seed-cake-cafe-savoy.png",
+      "city": "Prague",
+      "country": "Czech Republic",
+      "name": "Poppy Seed Cake"
+    },
+    {
+      "id": "prague-czech-republic--1244--vep-o-knedlo-zelo-u-fleku",
+      "imageUrl": "/imported-dish-images/prague-vepro-knedlo-zelo-u-fleku.png",
+      "city": "Prague",
+      "country": "Czech Republic",
+      "name": "Vepřo knedlo zelo"
+    },
+    {
+      "id": "prague-czech-republic--1245--smazeny-syr-lokal-dlouhaaa",
+      "imageUrl": "/imported-dish-images/prague-smazeny-syr-lokal-dlouhaaa.png",
+      "city": "Prague",
+      "country": "Czech Republic",
+      "name": "Smazeny syr"
+    },
+    {
+      "id": "prague-czech-republic--1246--tatarak-u-kroka",
+      "imageUrl": "/imported-dish-images/prague-tatarak-u-kroka.png",
+      "city": "Prague",
+      "country": "Czech Republic",
+      "name": "Tatarak"
+    },
+    {
+      "id": "prague-czech-republic--1247--kulajda-cafe-savoy",
+      "imageUrl": "/imported-dish-images/prague-kulajda-cafe-savoy.png",
+      "city": "Prague",
+      "country": "Czech Republic",
+      "name": "Kulajda"
+    },
+    {
+      "id": "prague-czech-republic--1248--nakladany-hermelin-hemingway-bar",
+      "imageUrl": "/imported-dish-images/prague-nakladany-hermelin-hemingway-bar.png",
+      "city": "Prague",
+      "country": "Czech Republic",
+      "name": "Nakladany Hermelin"
     },
     {
       "id": "puerto-ayora-ecuador--1117--ceviche-de-camaron-el-muelle",
@@ -5015,24 +5526,227 @@
     },
     {
       "id": "reykjav-k-iceland--276--icelandic-lamb-soup-kj-ts-pa-slenski-barinn",
-      "imageUrl": "/Images/Reykjav%C3%ADk_Iceland_Icelandic%20Lamb%20Soup%20(Kj%C3%B6ts%C3%BApa)_%C3%8Dslenski%20Barinn.jpg",
+      "imageUrl": "/imported-dish-images/reykjavik-lamb-soup-kjotsupa-islenski-barinn.png",
       "city": "Reykjavík",
       "country": "Iceland",
       "name": "Icelandic Lamb Soup (Kjötsúpa)"
     },
     {
+      "id": "reykjav-k-iceland--277--plokkfiskur-messinn",
+      "imageUrl": "/imported-dish-images/reykjavik-plokkfiskur-messinn.png",
+      "city": "Reykjavík",
+      "country": "Iceland",
+      "name": "Plokkfiskur"
+    },
+    {
+      "id": "reykjav-k-iceland--278--hot-dog-b-jarins-beztu-pylsur",
+      "imageUrl": "/imported-dish-images/reykjavik-hot-dog-bajarins-beztu-pylsur.png",
+      "city": "Reykjavík",
+      "country": "Iceland",
+      "name": "Hot Dog"
+    },
+    {
+      "id": "reykjav-k-iceland--279--arctic-char-dill",
+      "imageUrl": "/imported-dish-images/reykjavik-arctic-char-dill.png",
+      "city": "Reykjavík",
+      "country": "Iceland",
+      "name": "Arctic Char"
+    },
+    {
+      "id": "reykjav-k-iceland--280--fermented-shark-h-karl-tasting",
+      "imageUrl": "/imported-dish-images/reykjavik-fermented-shark-hakarl-tasting.png",
+      "city": "Reykjavík",
+      "country": "Iceland",
+      "name": "Fermented Shark"
+    },
+    {
+      "id": "reykjav-k-iceland--281--lamb-fillet-old-iceland-restaurant",
+      "imageUrl": "/imported-dish-images/reykjavik-lamb-fillet-old-iceland-restaurant.png",
+      "city": "Reykjavík",
+      "country": "Iceland",
+      "name": "Lamb Fillet"
+    },
+    {
+      "id": "reykjav-k-iceland--282--fish-and-chips-reykjav-k-fish-restaurant",
+      "imageUrl": "/imported-dish-images/reykjavik-fish-and-chips-reykjavik-fish-restaurant.png",
+      "city": "Reykjavík",
+      "country": "Iceland",
+      "name": "Fish & Chips"
+    },
+    {
+      "id": "reykjav-k-iceland--283--skyr-dessert-caf-loki",
+      "imageUrl": "/imported-dish-images/reykjavik-skyr-dessert-cafe-loki.png",
+      "city": "Reykjavík",
+      "country": "Iceland",
+      "name": "Skyr Dessert"
+    },
+    {
+      "id": "reykjav-k-iceland--284--lobster-soup-s-greifinn",
+      "imageUrl": "/imported-dish-images/reykjavik-lobster-soup-saegreifinn.png",
+      "city": "Reykjavík",
+      "country": "Iceland",
+      "name": "Lobster Soup"
+    },
+    {
+      "id": "reykjav-k-iceland--285--rye-bread-ice-cream-matur-og-drykkur",
+      "imageUrl": "/imported-dish-images/reykjavik-rye-bread-ice-cream-matur-og-drykkur.png",
+      "city": "Reykjavík",
+      "country": "Iceland",
+      "name": "Rye Bread Ice Cream"
+    },
+    {
       "id": "rio-de-janeiro-brazil--1047--feijoada-aconchego-carioca",
-      "imageUrl": "/Images/Rio%20De%20Janeiro_Brazil_Feijoada_Aconchego%20Carioca.jpg",
+      "imageUrl": "/imported-dish-images/rio-de-janeiro-feijoada-aconchego-carioca.png",
       "city": "Rio De Janeiro",
       "country": "Brazil",
       "name": "Feijoada"
     },
     {
+      "id": "rio-de-janeiro-brazil--1048--pao-de-queijo-casa-do-pao-de-queijo",
+      "imageUrl": "/imported-dish-images/rio-de-janeiro-pao-de-queijo-casa-do-pao-de-queijo.png",
+      "city": "Rio De Janeiro",
+      "country": "Brazil",
+      "name": "Pao De Queijo"
+    },
+    {
+      "id": "rio-de-janeiro-brazil--1049--moqueca-boto",
+      "imageUrl": "/imported-dish-images/rio-de-janeiro-moqueca-boto.png",
+      "city": "Rio De Janeiro",
+      "country": "Brazil",
+      "name": "Moqueca"
+    },
+    {
+      "id": "rio-de-janeiro-brazil--1050--coxinha-veloso",
+      "imageUrl": "/imported-dish-images/rio-de-janeiro-coxinha-veloso.png",
+      "city": "Rio De Janeiro",
+      "country": "Brazil",
+      "name": "Coxinha"
+    },
+    {
+      "id": "rio-de-janeiro-brazil--1051--acaraje-cira",
+      "imageUrl": "/imported-dish-images/rio-de-janeiro-acaraje-cira.png",
+      "city": "Rio De Janeiro",
+      "country": "Brazil",
+      "name": "Acaraje"
+    },
+    {
+      "id": "rio-de-janeiro-brazil--1052--churrasco-assador-rio",
+      "imageUrl": "/imported-dish-images/rio-de-janeiro-churrasco-assador-rio.png",
+      "city": "Rio De Janeiro",
+      "country": "Brazil",
+      "name": "Churrasco"
+    },
+    {
+      "id": "rio-de-janeiro-brazil--1053--empadinha-colombo",
+      "imageUrl": "/imported-dish-images/rio-de-janeiro-empadinha-colombo.png",
+      "city": "Rio De Janeiro",
+      "country": "Brazil",
+      "name": "Empadinha"
+    },
+    {
+      "id": "rio-de-janeiro-brazil--1054--tapioca-da-braga",
+      "imageUrl": "/imported-dish-images/rio-de-janeiro-tapioca-da-braga.png",
+      "city": "Rio De Janeiro",
+      "country": "Brazil",
+      "name": "Tapioca"
+    },
+    {
+      "id": "rio-de-janeiro-brazil--1055--caldo-de-feijao-braseiro-da-gavea",
+      "imageUrl": "/imported-dish-images/rio-de-janeiro-caldo-de-feijao-braseiro-da-gavea.png",
+      "city": "Rio De Janeiro",
+      "country": "Brazil",
+      "name": "Caldo De Feijao"
+    },
+    {
+      "id": "rio-de-janeiro-brazil--1056--pastel-pastel-do-barata",
+      "imageUrl": "/imported-dish-images/rio-de-janeiro-pastel-pastel-do-barata.png",
+      "city": "Rio De Janeiro",
+      "country": "Brazil",
+      "name": "Pastel"
+    },
+    {
+      "id": "rio-de-janeiro-brazil--1267--escondidinho-adega-perola",
+      "imageUrl": "/imported-dish-images/rio-de-janeiro-escondidinho-adega-perola.png",
+      "city": "Rio De Janeiro",
+      "country": "Brazil",
+      "name": "Escondidinho"
+    },
+    {
+      "id": "rio-de-janeiro-brazil--1268--bolinho-de-bacalhau-casa-cav",
+      "imageUrl": "/imported-dish-images/rio-de-janeiro-bolinho-de-bacalhau-casa-cave.png",
+      "city": "Rio De Janeiro",
+      "country": "Brazil",
+      "name": "Bolinho de Bacalhau"
+    },
+    {
       "id": "rome-italy--56--cacio-e-pepe-osteria-la-quercia",
-      "imageUrl": "/Images/Rome_Italy_Cacio%20e%20Pepe_Osteria%20La%20Quercia.jpg",
+      "imageUrl": "/imported-dish-images/rome-cacio-e-pepe-osteria-la-quercia.png",
       "city": "Rome",
       "country": "Italy",
       "name": "Cacio e Pepe"
+    },
+    {
+      "id": "rome-italy--57--amatriciana-armando-al-pantheon",
+      "imageUrl": "/imported-dish-images/rome-amatriciana-armando-al-pantheon.png",
+      "city": "Rome",
+      "country": "Italy",
+      "name": "Amatriciana"
+    },
+    {
+      "id": "rome-italy--58--carbonara-da-enzo-al-29",
+      "imageUrl": "/imported-dish-images/rome-carbonara-da-enzo-al-29.png",
+      "city": "Rome",
+      "country": "Italy",
+      "name": "Carbonara"
+    },
+    {
+      "id": "rome-italy--59--suppl-al-telefono-supplizio",
+      "imageUrl": "/imported-dish-images/rome-suppli-al-telefono-supplizio.png",
+      "city": "Rome",
+      "country": "Italy",
+      "name": "Supplì al Telefono"
+    },
+    {
+      "id": "rome-italy--60--gricia-trattoria-da-cesare-al-casaletto",
+      "imageUrl": "/imported-dish-images/rome-gricia-trattoria-da-cesare-al-casaletto.png",
+      "city": "Rome",
+      "country": "Italy",
+      "name": "Gricia"
+    },
+    {
+      "id": "rome-italy--61--carciofi-alla-giudia-nonna-betta",
+      "imageUrl": "/imported-dish-images/rome-carciofi-alla-giudia-nonna-betta.png",
+      "city": "Rome",
+      "country": "Italy",
+      "name": "Carciofi alla Giudia"
+    },
+    {
+      "id": "rome-italy--62--porchetta-sandwich-er-buchetto",
+      "imageUrl": "/imported-dish-images/rome-porchetta-sandwich-er-buchetto.png",
+      "city": "Rome",
+      "country": "Italy",
+      "name": "Porchetta Sandwich"
+    },
+    {
+      "id": "rome-italy--63--gnocchi-alla-romana-trattoria-da-danilo",
+      "imageUrl": "/imported-dish-images/rome-gnocchi-alla-romana-trattoria-da-danilo.png",
+      "city": "Rome",
+      "country": "Italy",
+      "name": "Gnocchi alla Romana"
+    },
+    {
+      "id": "rome-italy--64--pizza-al-taglio-pizzarium",
+      "imageUrl": "/imported-dish-images/rome-pizza-al-taglio-pizzarium.png",
+      "city": "Rome",
+      "country": "Italy",
+      "name": "Pizza al Taglio"
+    },
+    {
+      "id": "rome-italy--65--maritozzo-con-panna-regoli-bakery",
+      "imageUrl": "/imported-dish-images/rome-maritozzo-con-panna-regoli-bakery.png",
+      "city": "Rome",
+      "country": "Italy",
+      "name": "Maritozzo con Panna"
     },
     {
       "id": "san-francisco-united-states--533--sourdough-bread-boudin-bakery",

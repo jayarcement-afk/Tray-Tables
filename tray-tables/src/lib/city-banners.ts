@@ -372,8 +372,9 @@ export const CITY_BANNERS: Record<
     attribution: "Wikipedia — Panama City",
   },
   "penang-malaysia": {
-    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Penang_%28Malaysia%29.svg/1280px-Flag_of_Penang_%28Malaysia%29.svg.png",
-    attribution: "Wikipedia — Penang",
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Skyline_of_George_Town%2C_Penang_at_dusk_May_2025.jpg/1920px-Skyline_of_George_Town%2C_Penang_at_dusk_May_2025.jpg",
+    attribution:
+      "Wikimedia Commons — Skyline of George Town, Penang at dusk May 2025 (HundenvonPenang)",
   },
   "phuket-thailand": {
     url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Phuket_Aerial.jpg/3840px-Phuket_Aerial.jpg",
