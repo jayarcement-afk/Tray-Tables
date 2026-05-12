@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-11T22:10:20.651Z",
+  "generated": "2026-05-12T03:32:25.892Z",
   "dishes": [
     {
       "id": "abu-dhabi-united-arab-emirates--987--harees-mezlai",
@@ -6352,10 +6352,59 @@
     },
     {
       "id": "seville-spain--116--jam-n-ib-rico-el-rinconcillo",
-      "imageUrl": "/Images/Seville_Spain_Jam%C3%B3n%20Ib%C3%A9rico_El%20Rinconcillo.jpg",
+      "imageUrl": "/imported-dish-images/seville-jamon-iberico-el-rinconcillo.png",
       "city": "Seville",
       "country": "Spain",
       "name": "Jamón Ibérico"
+    },
+    {
+      "id": "seville-spain--117--espinacas-con-garbanzos-las-golondrinas",
+      "imageUrl": "/imported-dish-images/seville-espinacas-con-garbanzos-las-golondrinas.png",
+      "city": "Seville",
+      "country": "Spain",
+      "name": "Espinacas con Garbanzos"
+    },
+    {
+      "id": "seville-spain--118--solomillo-al-whisky-ochoa",
+      "imageUrl": "/imported-dish-images/seville-solomillo-al-whisky-ochoa.png",
+      "city": "Seville",
+      "country": "Spain",
+      "name": "Solomillo al Whisky"
+    },
+    {
+      "id": "seville-spain--119--pesca-to-frito-freidur-a-la-isla",
+      "imageUrl": "/imported-dish-images/seville-pescaito-frito-freiduria-la-isla.png",
+      "city": "Seville",
+      "country": "Spain",
+      "name": "Pescaíto Frito"
+    },
+    {
+      "id": "seville-spain--120--tortilla-de-camarones-bar-casa-morales",
+      "imageUrl": "/imported-dish-images/seville-tortilla-de-camarones-bar-casa-morales.png",
+      "city": "Seville",
+      "country": "Spain",
+      "name": "Tortilla de Camarones"
+    },
+    {
+      "id": "seville-spain--121--rabo-de-toro-restaurante-eslava",
+      "imageUrl": "/imported-dish-images/seville-rabo-de-toro-restaurante-eslava.png",
+      "city": "Seville",
+      "country": "Spain",
+      "name": "Rabo de Toro"
+    },
+    {
+      "id": "seville-spain--122--montadito-de-pring-bodega-dos-de-mayo",
+      "imageUrl": "/imported-dish-images/seville-montadito-de-pring-bodega-dos-de-mayo.png",
+      "city": "Seville",
+      "country": "Spain",
+      "name": "Montadito de Pringá"
+    },
+    {
+      "id": "seville-spain--123--gazpacho-casa-robles",
+      "imageUrl": "/imported-dish-images/seville-gazpacho-casa-robles.png",
+      "city": "Seville",
+      "country": "Spain",
+      "name": "Gazpacho"
     },
     {
       "id": "seville-spain--124--croquetas-la-azotea",
@@ -6365,11 +6414,74 @@
       "name": "Croquetas"
     },
     {
+      "id": "seville-spain--125--torrijas-dulcer-a-manu-jara",
+      "imageUrl": "/imported-dish-images/seville-torrijas-dulceria-manu-jara.png",
+      "city": "Seville",
+      "country": "Spain",
+      "name": "Torrijas"
+    },
+    {
       "id": "shanghai-china--799--xiaolongbao-din-tai-fung",
-      "imageUrl": "/Images/Shanghai_China_Xiaolongbao_Din%20Tai%20Fung.jpg",
+      "imageUrl": "/imported-dish-images/shanghai-xiaolongbao-din-tai-fung.png",
       "city": "Shanghai",
       "country": "China",
       "name": "Xiaolongbao"
+    },
+    {
+      "id": "shanghai-china--800--shengjian-mantou-yang-fried-dumplings",
+      "imageUrl": "/imported-dish-images/shanghai-shengjian-mantou-yang-fried-dumplings.png",
+      "city": "Shanghai",
+      "country": "China",
+      "name": "Shengjian Mantou"
+    },
+    {
+      "id": "shanghai-china--801--hong-shao-rou-jesse-restaurant",
+      "imageUrl": "/imported-dish-images/shanghai-hong-shao-rou-jesse-restaurant.png",
+      "city": "Shanghai",
+      "country": "China",
+      "name": "Hong Shao Rou"
+    },
+    {
+      "id": "shanghai-china--802--scallion-oil-noodles-old-jesse",
+      "imageUrl": "/imported-dish-images/shanghai-scallion-oil-noodles-old-jesse.png",
+      "city": "Shanghai",
+      "country": "China",
+      "name": "Scallion Oil Noodles"
+    },
+    {
+      "id": "shanghai-china--803--hairy-crab-cheng-long-hang",
+      "imageUrl": "/imported-dish-images/shanghai-hairy-crab-cheng-long-hang.png",
+      "city": "Shanghai",
+      "country": "China",
+      "name": "Hairy Crab"
+    },
+    {
+      "id": "shanghai-china--804--steamed-fish-lao-zheng-xing",
+      "imageUrl": "/imported-dish-images/shanghai-steamed-fish-lao-zheng-xing.png",
+      "city": "Shanghai",
+      "country": "China",
+      "name": "Steamed Fish"
+    },
+    {
+      "id": "shanghai-china--805--dumpling-soup-fu-chun",
+      "imageUrl": "/imported-dish-images/shanghai-dumpling-soup-fu-chun.png",
+      "city": "Shanghai",
+      "country": "China",
+      "name": "Dumpling Soup"
+    },
+    {
+      "id": "shanghai-china--806--street-nock-pancake-a-da-cong-you-bing",
+      "imageUrl": "/imported-dish-images/shanghai-street-nock-pancake-a-da-cong-you-bing.png",
+      "city": "Shanghai",
+      "country": "China",
+      "name": "Street Nock Pancake"
+    },
+    {
+      "id": "shanghai-china--807--braised-pork-rice-wang-bao-he",
+      "imageUrl": "/imported-dish-images/shanghai-braised-pork-rice-wang-bao-he.png",
+      "city": "Shanghai",
+      "country": "China",
+      "name": "Braised Pork Rice"
     },
     {
       "id": "shanghai-china--808--tasting-menu-ultraviolet",

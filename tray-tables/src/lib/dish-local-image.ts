@@ -1341,6 +1341,42 @@ const IMPORTED_DISH_IMAGES_BY_ID: Record<string, string> = {
     "/imported-dish-images/sao-paulo-escondidinho-tordesilhas.png",
   "sao-paulo-brazil--1066--brigadeiro-ofner":
     "/imported-dish-images/sao-paulo-brigadeiro-ofner.png",
+  "seville-spain--116--jam-n-ib-rico-el-rinconcillo":
+    "/imported-dish-images/seville-jamon-iberico-el-rinconcillo.png",
+  "seville-spain--117--espinacas-con-garbanzos-las-golondrinas":
+    "/imported-dish-images/seville-espinacas-con-garbanzos-las-golondrinas.png",
+  "seville-spain--118--solomillo-al-whisky-ochoa":
+    "/imported-dish-images/seville-solomillo-al-whisky-ochoa.png",
+  "seville-spain--119--pesca-to-frito-freidur-a-la-isla":
+    "/imported-dish-images/seville-pescaito-frito-freiduria-la-isla.png",
+  "seville-spain--120--tortilla-de-camarones-bar-casa-morales":
+    "/imported-dish-images/seville-tortilla-de-camarones-bar-casa-morales.png",
+  "seville-spain--121--rabo-de-toro-restaurante-eslava":
+    "/imported-dish-images/seville-rabo-de-toro-restaurante-eslava.png",
+  "seville-spain--122--montadito-de-pring-bodega-dos-de-mayo":
+    "/imported-dish-images/seville-montadito-de-pring-bodega-dos-de-mayo.png",
+  "seville-spain--123--gazpacho-casa-robles":
+    "/imported-dish-images/seville-gazpacho-casa-robles.png",
+  "seville-spain--125--torrijas-dulcer-a-manu-jara":
+    "/imported-dish-images/seville-torrijas-dulceria-manu-jara.png",
+  "shanghai-china--799--xiaolongbao-din-tai-fung":
+    "/imported-dish-images/shanghai-xiaolongbao-din-tai-fung.png",
+  "shanghai-china--800--shengjian-mantou-yang-fried-dumplings":
+    "/imported-dish-images/shanghai-shengjian-mantou-yang-fried-dumplings.png",
+  "shanghai-china--801--hong-shao-rou-jesse-restaurant":
+    "/imported-dish-images/shanghai-hong-shao-rou-jesse-restaurant.png",
+  "shanghai-china--802--scallion-oil-noodles-old-jesse":
+    "/imported-dish-images/shanghai-scallion-oil-noodles-old-jesse.png",
+  "shanghai-china--803--hairy-crab-cheng-long-hang":
+    "/imported-dish-images/shanghai-hairy-crab-cheng-long-hang.png",
+  "shanghai-china--804--steamed-fish-lao-zheng-xing":
+    "/imported-dish-images/shanghai-steamed-fish-lao-zheng-xing.png",
+  "shanghai-china--805--dumpling-soup-fu-chun":
+    "/imported-dish-images/shanghai-dumpling-soup-fu-chun.png",
+  "shanghai-china--806--street-nock-pancake-a-da-cong-you-bing":
+    "/imported-dish-images/shanghai-street-nock-pancake-a-da-cong-you-bing.png",
+  "shanghai-china--807--braised-pork-rice-wang-bao-he":
+    "/imported-dish-images/shanghai-braised-pork-rice-wang-bao-he.png",
   "tokyo--1278--toro-sushi-tsukiji-fish-market":
     "/imported-dish-images/tokyo-toro-sushi-tsukiji-fish-market.png",
   "ubud-indonesia--893--noodles-yellow-flower-cafe":
