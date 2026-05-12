@@ -449,8 +449,8 @@ export const CITY_BANNERS: Record<
     attribution: "Wikipedia — Shanghai",
   },
   "singapore-singapore": {
-    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Singapore.svg/960px-Flag_of_Singapore.svg.png",
-    attribution: "Wikipedia — Singapore",
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Singapore_skyline_at_sunset_viewed_from_Gardens_by_the_Bay_East_-_20120426.jpg/1920px-Singapore_skyline_at_sunset_viewed_from_Gardens_by_the_Bay_East_-_20120426.jpg",
+    attribution: "Wikimedia Commons — Singapore skyline at sunset (from Gardens by the Bay East)",
   },
   "split-croatia": {
     url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Split_080620-133710-IMG_0968x.jpg/1920px-Split_080620-133710-IMG_0968x.jpg",

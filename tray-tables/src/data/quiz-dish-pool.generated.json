@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-12T03:32:25.892Z",
+  "generated": "2026-05-12T21:26:57.558Z",
   "dishes": [
     {
       "id": "abu-dhabi-united-arab-emirates--987--harees-mezlai",
@@ -6491,6 +6491,13 @@
       "name": "Tasting Menu"
     },
     {
+      "id": "shanghai-china--1264--shansi-leng-mian-xiao-shaoxing-huangjiu",
+      "imageUrl": "/imported-dish-images/shanghai-shansi-leng-mian-xiao-shaoxing-huangjiu.png",
+      "city": "Shanghai",
+      "country": "China",
+      "name": "Shansi Leng Mian"
+    },
+    {
       "id": "shanghai-china--1265--jianbing-lao-zhengxing",
       "imageUrl": "/imported-dish-images/beijing-jianbing-guozi-stand.png",
       "city": "Shanghai",
@@ -6498,11 +6505,25 @@
       "name": "Jianbing"
     },
     {
+      "id": "shanghai-china--1266--cong-you-bing-yang-s-fry-dumpling",
+      "imageUrl": "/imported-dish-images/shanghai-cong-you-bing-yang-s-fry-dumpling.png",
+      "city": "Shanghai",
+      "country": "China",
+      "name": "Cong You Bing"
+    },
+    {
       "id": "singapore-singapore--346--hainanese-chicken-rice-tian-tian-hainanese-chicken-rice",
-      "imageUrl": "/Images/Singapore_Singapore_Hainanese%20Chicken%20Rice_Tian%20Tian%20Hainanese%20Chicken%20Rice.jpg",
+      "imageUrl": "/imported-dish-images/singapore-hainanese-chicken-rice-tian-tian-hainanese-chicken-rice.png",
       "city": "Singapore",
       "country": "Singapore",
       "name": "Hainanese Chicken Rice"
+    },
+    {
+      "id": "singapore-singapore--347--chili-crab-jumbo-seafood",
+      "imageUrl": "/imported-dish-images/singapore-chili-crab-jumbo-seafood.png",
+      "city": "Singapore",
+      "country": "Singapore",
+      "name": "Chili Crab"
     },
     {
       "id": "singapore-singapore--348--laksa-328-katong-laksa",
@@ -6510,6 +6531,20 @@
       "city": "Singapore",
       "country": "Singapore",
       "name": "Laksa"
+    },
+    {
+      "id": "singapore-singapore--349--char-kway-teow-hill-street-char-kway-teow",
+      "imageUrl": "/imported-dish-images/singapore-char-kway-teow-hill-street-char-kway-teow.png",
+      "city": "Singapore",
+      "country": "Singapore",
+      "name": "Char Kway Teow"
+    },
+    {
+      "id": "singapore-singapore--350--roti-prata-ahmed-tea-house",
+      "imageUrl": "/imported-dish-images/singapore-roti-prata-ahmed-tea-house.png",
+      "city": "Singapore",
+      "country": "Singapore",
+      "name": "Roti Prata"
     },
     {
       "id": "singapore-singapore--351--hokkien-mee-nam-sing-hokkien-fried-mee",
@@ -6533,32 +6568,18 @@
       "name": "Bak Kut Teh"
     },
     {
-      "id": "singapore-singapore--839--hainanese-chicken-rice-tian-tian",
-      "imageUrl": "/Images/Singapore_Singapore_Hainanese%20Chicken%20Rice_Tian%20Tian%20Hainanese%20Chicken%20Rice.jpg",
+      "id": "singapore-singapore--354--kaya-toast-ya-kun-kaya-toast",
+      "imageUrl": "/imported-dish-images/singapore-kaya-toast-ya-kun-kaya-toast.png",
       "city": "Singapore",
       "country": "Singapore",
-      "name": "Hainanese Chicken Rice"
+      "name": "Kaya Toast"
     },
     {
-      "id": "singapore-singapore--841--laksa-328-katong-laksa",
-      "imageUrl": "/imported-dish-images/kuala-lumpur-malaysia-laksa-limapulo-baba-can-cook.jpg",
+      "id": "singapore-singapore--355--ice-kachang-hawker-centres",
+      "imageUrl": "/imported-dish-images/singapore-ice-kachang-hawker-centres.png",
       "city": "Singapore",
       "country": "Singapore",
-      "name": "Laksa"
-    },
-    {
-      "id": "singapore-singapore--843--satay-lau-pa-sat",
-      "imageUrl": "/imported-dish-images/kuala-lumpur-malaysia-satay-kajang-satay.png",
-      "city": "Singapore",
-      "country": "Singapore",
-      "name": "Satay"
-    },
-    {
-      "id": "singapore-singapore--845--bak-kut-teh-song-fa",
-      "imageUrl": "/imported-dish-images/kuala-lumpur-malaysia-bak-kut-teh-hing-kee-bak-kut-teh.png",
-      "city": "Singapore",
-      "country": "Singapore",
-      "name": "Bak Kut Teh"
+      "name": "Ice Kachang"
     },
     {
       "id": "singapore-singapore--846--nasi-lemak-selera-rasa",
@@ -6573,6 +6594,13 @@
       "city": "Singapore",
       "country": "Singapore",
       "name": "Dessert Ice"
+    },
+    {
+      "id": "singapore-singapore--848--tasting-menu-odette",
+      "imageUrl": "/imported-dish-images/singapore-tasting-menu-odette.png",
+      "city": "Singapore",
+      "country": "Singapore",
+      "name": "Tasting Menu"
     },
     {
       "id": "split-croatia--709--pasticada-bokeria",

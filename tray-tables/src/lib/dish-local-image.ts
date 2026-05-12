@@ -1377,6 +1377,24 @@ const IMPORTED_DISH_IMAGES_BY_ID: Record<string, string> = {
     "/imported-dish-images/shanghai-street-nock-pancake-a-da-cong-you-bing.png",
   "shanghai-china--807--braised-pork-rice-wang-bao-he":
     "/imported-dish-images/shanghai-braised-pork-rice-wang-bao-he.png",
+  "shanghai-china--1264--shansi-leng-mian-xiao-shaoxing-huangjiu":
+    "/imported-dish-images/shanghai-shansi-leng-mian-xiao-shaoxing-huangjiu.png",
+  "shanghai-china--1266--cong-you-bing-yang-s-fry-dumpling":
+    "/imported-dish-images/shanghai-cong-you-bing-yang-s-fry-dumpling.png",
+  "singapore-singapore--346--hainanese-chicken-rice-tian-tian-hainanese-chicken-rice":
+    "/imported-dish-images/singapore-hainanese-chicken-rice-tian-tian-hainanese-chicken-rice.png",
+  "singapore-singapore--347--chili-crab-jumbo-seafood":
+    "/imported-dish-images/singapore-chili-crab-jumbo-seafood.png",
+  "singapore-singapore--349--char-kway-teow-hill-street-char-kway-teow":
+    "/imported-dish-images/singapore-char-kway-teow-hill-street-char-kway-teow.png",
+  "singapore-singapore--350--roti-prata-ahmed-tea-house":
+    "/imported-dish-images/singapore-roti-prata-ahmed-tea-house.png",
+  "singapore-singapore--354--kaya-toast-ya-kun-kaya-toast":
+    "/imported-dish-images/singapore-kaya-toast-ya-kun-kaya-toast.png",
+  "singapore-singapore--355--ice-kachang-hawker-centres":
+    "/imported-dish-images/singapore-ice-kachang-hawker-centres.png",
+  "singapore-singapore--848--tasting-menu-odette":
+    "/imported-dish-images/singapore-tasting-menu-odette.png",
   "tokyo--1278--toro-sushi-tsukiji-fish-market":
     "/imported-dish-images/tokyo-toro-sushi-tsukiji-fish-market.png",
   "ubud-indonesia--893--noodles-yellow-flower-cafe":
