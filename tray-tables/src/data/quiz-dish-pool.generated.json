@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-14T16:30:34.531Z",
+  "generated": "2026-05-14T16:43:03.326Z",
   "dishes": [
     {
       "id": "abu-dhabi-united-arab-emirates--987--harees-mezlai",
@@ -5917,11 +5917,53 @@
       "name": "Half Smoke"
     },
     {
+      "id": "washington-dc-united-states--418--ethiopian-platter-dukem-ethiopian-restaurant",
+      "imageUrl": "/Images/Washington%20DC_United%20States_Ethiopian%20Platter_Dukem%20Ethiopian%20Restaurant.jpg",
+      "city": "Washington DC",
+      "country": "United States",
+      "name": "Ethiopian Platter"
+    },
+    {
+      "id": "washington-dc-united-states--419--jumbo-slice-pizza-pizza-mart",
+      "imageUrl": "/Images/Washington%20DC_United%20States_Jumbo%20Slice%20Pizza_Pizza%20Mart.jpg",
+      "city": "Washington DC",
+      "country": "United States",
+      "name": "Jumbo Slice Pizza"
+    },
+    {
+      "id": "washington-dc-united-states--420--pupusas-el-tamarindo",
+      "imageUrl": "/Images/Washington%20DC_United%20States_Pupusas_El%20Tamarindo.jpg",
+      "city": "Washington DC",
+      "country": "United States",
+      "name": "Pupusas"
+    },
+    {
+      "id": "washington-dc-united-states--421--cupcakes-georgetown-cupcake",
+      "imageUrl": "/Images/Washington%20DC_United%20States_Cupcakes_Georgetown%20Cupcake.jpg",
+      "city": "Washington DC",
+      "country": "United States",
+      "name": "Cupcakes"
+    },
+    {
+      "id": "washington-dc-united-states--422--peruvian-chicken-chicken-and-whiskey",
+      "imageUrl": "/Images/Washington%20DC_United%20States_Peruvian%20Chicken_Chicken%20and%20Whiskey.jpg",
+      "city": "Washington DC",
+      "country": "United States",
+      "name": "Peruvian Chicken"
+    },
+    {
       "id": "washington-dc-united-states--423--oysters-rpm-seafood",
-      "imageUrl": "/Images/Seattle_United%20States_Oysters_The%20Walrus%20and%20the%20Carpenter.jpg",
+      "imageUrl": "/Images/Washington%20DC_United%20States_Oysters_RPM%20Seafood.jpg",
       "city": "Washington DC",
       "country": "United States",
       "name": "Oysters"
+    },
+    {
+      "id": "washington-dc-united-states--424--mezze-zaytinya",
+      "imageUrl": "/Images/Washington%20DC_United%20States_Mezze_Zaytinya.jpg",
+      "city": "Washington DC",
+      "country": "United States",
+      "name": "Mezze"
     },
     {
       "id": "zurich-switzerland--619--zurich-geschnetzeltes-kronenhalle-bar",

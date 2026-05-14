@@ -1,7 +1,7 @@
 {
   "generated": "2026-04-27T18:21:02.498Z",
   "imageDir": "/Users/jayarcement/Desktop/Tray Tables/tray-tables/public/Images",
-  "matchCount": 312,
+  "matchCount": 319,
   "byDishId": {
     "abu-dhabi-united-arab-emirates--987--harees-mezlai": "Abu Dhabi_United Arab Emirates_Harees_Mezlai.jpg",
     "abu-dhabi-united-arab-emirates--988--machboos-al-fanar": "Abu Dhabi_United Arab Emirates_Machboos_Al Fanar.jpg",
@@ -308,6 +308,13 @@
     "warsaw-poland--226--pierogi-pierogi-and-more": "Warsaw_Poland_Pierogi_Pierogi & More.jpg",
     "washington-dc-united-states--416--mumbo-sauce-wings-yums-ii-carryout": "Washington DC_United States_Mumbo Sauce Wings_Yums II Carryout.jpg",
     "washington-dc-united-states--417--half-smoke-bens-chili-bowl": "Washington DC_United States_Half Smoke_Bens Chili Bowl.jpg",
+    "washington-dc-united-states--418--ethiopian-platter-dukem-ethiopian-restaurant": "Washington DC_United States_Ethiopian Platter_Dukem Ethiopian Restaurant.jpg",
+    "washington-dc-united-states--419--jumbo-slice-pizza-pizza-mart": "Washington DC_United States_Jumbo Slice Pizza_Pizza Mart.jpg",
+    "washington-dc-united-states--420--pupusas-el-tamarindo": "Washington DC_United States_Pupusas_El Tamarindo.jpg",
+    "washington-dc-united-states--421--cupcakes-georgetown-cupcake": "Washington DC_United States_Cupcakes_Georgetown Cupcake.jpg",
+    "washington-dc-united-states--422--peruvian-chicken-chicken-and-whiskey": "Washington DC_United States_Peruvian Chicken_Chicken and Whiskey.jpg",
+    "washington-dc-united-states--423--oysters-rpm-seafood": "Washington DC_United States_Oysters_RPM Seafood.jpg",
+    "washington-dc-united-states--424--mezze-zaytinya": "Washington DC_United States_Mezze_Zaytinya.jpg",
     "zurich-switzerland--619--zurich-geschnetzeltes-kronenhalle-bar": "Zurich_Switzerland_Zurich Geschnetzeltes_Kronenhalle Bar.jpg"
   }
 }
