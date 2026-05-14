@@ -989,24 +989,6 @@ const IMPORTED_DISH_IMAGES_BY_ID: Record<string, string> = {
     "/imported-dish-images/new-orleans-united-states-po-boy-parkway-bakery.png",
   "new-orleans-united-states--484--bananas-foster-brennans":
     "/imported-dish-images/new-orleans-united-states-bananas-foster-brennans.png",
-  "washington-dc-united-states--416--mumbo-sauce-wings-yums-ii-carryout":
-    "/imported-dish-images/washington-dc-mumbo-sauce-wings-yums-ii-carryout.svg",
-  "washington-dc-united-states--417--half-smoke-bens-chili-bowl":
-    "/imported-dish-images/washington-dc-half-smoke-bens-chili-bowl.svg",
-  "washington-dc-united-states--418--ethiopian-platter-dukem-ethiopian-restaurant":
-    "/imported-dish-images/washington-dc-ethiopian-platter-dukem.svg",
-  "washington-dc-united-states--419--jumbo-slice-pizza-pizza-mart":
-    "/imported-dish-images/washington-dc-jumbo-slice-pizza-pizza-mart.svg",
-  "washington-dc-united-states--420--pupusas-el-tamarindo":
-    "/imported-dish-images/washington-dc-pupusas-el-tamarindo.svg",
-  "washington-dc-united-states--421--cupcakes-georgetown-cupcake":
-    "/imported-dish-images/washington-dc-cupcakes-georgetown-cupcake.svg",
-  "washington-dc-united-states--422--peruvian-chicken-chicken-and-whiskey":
-    "/imported-dish-images/washington-dc-peruvian-chicken-chicken-and-whiskey.svg",
-  "washington-dc-united-states--423--oysters-rpm-seafood":
-    "/imported-dish-images/washington-dc-oysters-rpm-seafood.svg",
-  "washington-dc-united-states--424--mezze-zaytinya":
-    "/imported-dish-images/washington-dc-mezze-zaytinya.svg",
   "san-francisco-united-states--533--sourdough-bread-boudin-bakery":
     "/imported-dish-images/san-francisco-sourdough-boudin-bakery.png",
   "san-francisco-united-states--534--mission-burrito-la-taqueria":
