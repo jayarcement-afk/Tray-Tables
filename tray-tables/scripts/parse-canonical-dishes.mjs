@@ -32,6 +32,12 @@ const SEED_SLUG_ALIASES = {
   "barcelona|spain": "barcelona",
 };
 
+// Retired rows still consume their original sequential index so later dish IDs
+// remain stable when this generated data is refreshed from the spreadsheet.
+const EXCLUDED_CANONICAL_DISH_IDS = new Set([
+  "washington-dc-united-states--425--chili-n-a",
+]);
+
 function keyOf(name, country) {
   return `${String(name).trim().toLowerCase()}|${String(country)
     .trim()
@@ -113,6 +119,7 @@ for (const r of rows) {
   const hoursRaw = String(r.Hours ?? "").trim();
   const tags = hoursToTags(hoursRaw);
   const id = `${slug}--${idx++}--${idSafe(name + "-" + restaurant)}`.slice(0, 200);
+  if (EXCLUDED_CANONICAL_DISH_IDS.has(id)) continue;
 
   const rec = {
     id,

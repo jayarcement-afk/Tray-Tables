@@ -1007,8 +1007,6 @@ const IMPORTED_DISH_IMAGES_BY_ID: Record<string, string> = {
     "/imported-dish-images/washington-dc-oysters-rpm-seafood.svg",
   "washington-dc-united-states--424--mezze-zaytinya":
     "/imported-dish-images/washington-dc-mezze-zaytinya.svg",
-  "washington-dc-united-states--425--chili-n-a":
-    "/imported-dish-images/washington-dc-chili.svg",
   "san-francisco-united-states--533--sourdough-bread-boudin-bakery":
     "/imported-dish-images/san-francisco-sourdough-boudin-bakery.png",
   "san-francisco-united-states--534--mission-burrito-la-taqueria":

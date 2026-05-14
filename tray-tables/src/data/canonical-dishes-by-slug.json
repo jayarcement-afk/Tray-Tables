@@ -24747,25 +24747,6 @@
         "tags": [
           "Dinner"
         ]
-      },
-      {
-        "id": "washington-dc-united-states--425--chili-n-a",
-        "city": "Washington DC",
-        "country": "United States",
-        "name": "Chili",
-        "restaurant": "N/A",
-        "why": "N/A",
-        "imageUrl": null,
-        "price": "N/A",
-        "vegetarianOptions": "N/A",
-        "localFavorite": "N/A",
-        "trendy": "N/A",
-        "streetFood": "N/A",
-        "drinkPairing": "N/A",
-        "hours": "N/A",
-        "tags": [
-          "N/a"
-        ]
       }
     ],
     "zurich-switzerland": [

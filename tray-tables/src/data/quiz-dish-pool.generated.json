@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-14T15:59:21.164Z",
+  "generated": "2026-05-14T16:03:05.092Z",
   "dishes": [
     {
       "id": "abu-dhabi-united-arab-emirates--987--harees-mezlai",
@@ -5964,13 +5964,6 @@
       "city": "Washington DC",
       "country": "United States",
       "name": "Mezze"
-    },
-    {
-      "id": "washington-dc-united-states--425--chili-n-a",
-      "imageUrl": "/imported-dish-images/washington-dc-chili.svg",
-      "city": "Washington DC",
-      "country": "United States",
-      "name": "Chili"
     },
     {
       "id": "zurich-switzerland--619--zurich-geschnetzeltes-kronenhalle-bar",
