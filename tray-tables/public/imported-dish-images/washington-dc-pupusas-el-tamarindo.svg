@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Pupusas</title>
+  <desc id="desc">Illustrated pupusas with curtido and salsa for Washington DC.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#065f46"/>
+      <stop offset="1" stop-color="#ea580c"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <ellipse cx="400" cy="340" rx="265" ry="145" fill="#fff7ed"/>
+  <circle cx="330" cy="320" r="92" fill="#fde68a"/>
+  <circle cx="470" cy="325" r="96" fill="#fcd34d"/>
+  <path d="M270 282c40-18 85-14 120 6M420 282c45-20 92-10 125 12" fill="none" stroke="#d97706" stroke-width="11" stroke-linecap="round" opacity=".62"/>
+  <path d="M520 205c45 18 70 46 75 86-46 10-90-2-127-31 10-27 27-46 52-55z" fill="#86efac"/>
+  <path d="M530 210c0 45-8 78-34 108" fill="none" stroke="#15803d" stroke-width="10" stroke-linecap="round"/>
+  <ellipse cx="300" cy="415" rx="70" ry="26" fill="#dc2626"/>
+  <text x="400" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="50" font-weight="700" fill="#fff7ed">Pupusas</text>
+</svg>

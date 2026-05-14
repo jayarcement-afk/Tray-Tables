@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Half Smoke</title>
+  <desc id="desc">Illustrated chili-topped half smoke for Washington DC.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="1" stop-color="#dc2626"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <ellipse cx="400" cy="345" rx="285" ry="125" fill="#fff7ed"/>
+  <path d="M165 330c95-120 365-120 470 0-85 75-385 82-470 0z" fill="#facc15"/>
+  <path d="M205 320c95-80 300-82 390 0-65 55-320 62-390 0z" fill="#7c2d12"/>
+  <path d="M230 288c100 35 245 35 340 0" fill="none" stroke="#b91c1c" stroke-width="44" stroke-linecap="round"/>
+  <circle cx="285" cy="284" r="13" fill="#fef3c7"/>
+  <circle cx="380" cy="304" r="12" fill="#fef3c7"/>
+  <circle cx="495" cy="286" r="13" fill="#fef3c7"/>
+  <path d="M255 245l28 22M360 240l25 22M500 244l-28 24" stroke="#fde68a" stroke-width="12" stroke-linecap="round"/>
+  <text x="400" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="700" fill="#fff7ed">Half Smoke</text>
+</svg>

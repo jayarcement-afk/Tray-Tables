@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Chili</title>
+  <desc id="desc">Illustrated bowl of chili for Washington DC.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#7f1d1d"/>
+      <stop offset="1" stop-color="#fbbf24"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <ellipse cx="400" cy="335" rx="245" ry="112" fill="#fee2e2"/>
+  <path d="M185 330c35 110 105 165 215 165s180-55 215-165z" fill="#f8fafc"/>
+  <ellipse cx="400" cy="325" rx="210" ry="88" fill="#7c2d12"/>
+  <circle cx="315" cy="315" r="18" fill="#fbbf24"/>
+  <circle cx="398" cy="350" r="17" fill="#fef3c7"/>
+  <circle cx="485" cy="305" r="18" fill="#fbbf24"/>
+  <path d="M270 278c100-38 195-38 260 10" fill="none" stroke="#b91c1c" stroke-width="34" stroke-linecap="round" opacity=".82"/>
+  <path d="M280 238c-22-42 28-50 0-88M390 230c-18-38 25-48 2-78M505 242c-20-42 30-52 3-88" fill="none" stroke="#fff7ed" stroke-width="14" stroke-linecap="round" opacity=".8"/>
+  <text x="400" y="545" text-anchor="middle" font-family="Arial, sans-serif" font-size="52" font-weight="700" fill="#fff7ed">Chili</text>
+</svg>

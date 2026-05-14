@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Mezze</title>
+  <desc id="desc">Illustrated mezze spread for Washington DC.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#312e81"/>
+      <stop offset="1" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <ellipse cx="400" cy="345" rx="275" ry="135" fill="#fff7ed"/>
+  <circle cx="315" cy="305" r="70" fill="#fde68a"/>
+  <circle cx="315" cy="305" r="35" fill="#f59e0b"/>
+  <circle cx="475" cy="295" r="68" fill="#dcfce7"/>
+  <circle cx="475" cy="295" r="33" fill="#16a34a"/>
+  <ellipse cx="370" cy="400" rx="92" ry="42" fill="#7c2d12"/>
+  <ellipse cx="535" cy="395" rx="70" ry="34" fill="#7f1d1d"/>
+  <path d="M225 260c42-60 114-70 172-28-70 12-125 38-172 28z" fill="#fef3c7"/>
+  <path d="M560 245c38-35 90-35 120 2-40 22-84 20-120-2z" fill="#fef3c7"/>
+  <circle cx="500" cy="270" r="7" fill="#166534"/>
+  <circle cx="455" cy="325" r="7" fill="#166534"/>
+  <text x="400" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="52" font-weight="700" fill="#fff7ed">Mezze</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Ethiopian Platter</title>
+  <desc id="desc">Illustrated injera platter with colorful stews for Washington DC.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#064e3b"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="400" cy="320" r="235" fill="#fde68a"/>
+  <circle cx="400" cy="320" r="205" fill="#fef3c7"/>
+  <g opacity=".35" stroke="#a16207" stroke-width="4">
+    <path d="M230 235c115 45 225 45 340 0"/>
+    <path d="M215 310c125 45 250 45 370 0"/>
+    <path d="M250 395c100 35 205 38 305 0"/>
+  </g>
+  <circle cx="315" cy="275" r="52" fill="#b91c1c"/>
+  <circle cx="465" cy="265" r="48" fill="#15803d"/>
+  <circle cx="510" cy="385" r="55" fill="#92400e"/>
+  <circle cx="335" cy="400" r="50" fill="#eab308"/>
+  <circle cx="400" cy="335" r="46" fill="#f97316"/>
+  <text x="400" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="43" font-weight="700" fill="#fff7ed">Ethiopian Platter</text>
+</svg>

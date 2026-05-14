@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Mumbo Sauce Wings</title>
+  <desc id="desc">Illustrated saucy chicken wings for Washington DC.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#7f1d1d"/>
+      <stop offset="1" stop-color="#f97316"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="400" cy="325" r="230" fill="#fff7ed" opacity=".95"/>
+  <ellipse cx="320" cy="300" rx="105" ry="58" fill="#92400e" transform="rotate(-18 320 300)"/>
+  <ellipse cx="440" cy="270" rx="110" ry="60" fill="#b45309" transform="rotate(16 440 270)"/>
+  <ellipse cx="505" cy="380" rx="105" ry="58" fill="#78350f" transform="rotate(-22 505 380)"/>
+  <path d="M240 270c140 80 290 65 380-10" fill="none" stroke="#dc2626" stroke-width="32" stroke-linecap="round" opacity=".82"/>
+  <path d="M270 360c120 70 250 68 350 20" fill="none" stroke="#fb923c" stroke-width="22" stroke-linecap="round" opacity=".9"/>
+  <circle cx="285" cy="245" r="12" fill="#fee2e2"/>
+  <circle cx="560" cy="330" r="10" fill="#fee2e2"/>
+  <text x="400" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#fff7ed">Mumbo Sauce Wings</text>
+</svg>
