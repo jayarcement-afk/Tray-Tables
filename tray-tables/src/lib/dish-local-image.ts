@@ -1309,6 +1309,28 @@ const IMPORTED_DISH_IMAGES_BY_ID: Record<string, string> = {
     "/imported-dish-images/santiago-sopaipillas-dona-tita.png",
   "santiago-chile--1096--arrollado-huaso-los-buenos-muchachos":
     "/imported-dish-images/santiago-arrollado-huaso-los-buenos-muchachos.png",
+  "valparaiso-chile--1097--chorrillana-j-cruz":
+    "/imported-dish-images/valparaiso-chile-chorrillana-j-cruz.png",
+  "valparaiso-chile--1098--caldillo-de-congrio-resto-cruz-del-sur":
+    "/imported-dish-images/valparaiso-chile-caldillo-de-congrio-resto-cruz-del-sur.png",
+  "valparaiso-chile--1099--empanada-de-mariscos-san-pedro":
+    "/imported-dish-images/valparaiso-chile-empanada-de-mariscos-san-pedro.png",
+  "valparaiso-chile--1100--paila-marina-ocean-cafe":
+    "/imported-dish-images/valparaiso-chile-paila-marina-ocean-cafe.png",
+  "valparaiso-chile--1101--reineta-frita-el-membrillo":
+    "/imported-dish-images/valparaiso-chile-reineta-frita-el-membrillo.png",
+  "valparaiso-chile--1102--sopaipillas-la-isla-de-la-fantasia":
+    "/imported-dish-images/valparaiso-chile-sopaipillas-la-isla-de-la-fantasia.png",
+  "valparaiso-chile--1103--charquican-portofino":
+    "/imported-dish-images/valparaiso-chile-charquican-portofino.png",
+  "valparaiso-chile--1104--pebre-restaurant-fauna":
+    "/imported-dish-images/valparaiso-chile-pebre-restaurant-fauna.png",
+  "valparaiso-chile--1105--machas-a-la-parmesana-somos-parrilla":
+    "/imported-dish-images/valparaiso-chile-machas-a-la-parmesana-somos-parrilla.png",
+  "valparaiso-chile--1106--pastel-de-jaiba-el-ajicito":
+    "/imported-dish-images/valparaiso-chile-pastel-de-jaiba-el-ajicito.png",
+  "valparaiso-chile--1269--completos-j-cruz":
+    "/imported-dish-images/valparaiso-chile-completos-j-cruz.png",
   "santorini-greece--689--tomato-fritters-metaxi-mas":
     "/imported-dish-images/santorini-tomato-fritters-metaxi-mas.png",
   "santorini-greece--690--fava-puree-naoussa":
@@ -1397,6 +1419,24 @@ const IMPORTED_DISH_IMAGES_BY_ID: Record<string, string> = {
     "/imported-dish-images/singapore-ice-kachang-hawker-centres.png",
   "singapore-singapore--848--tasting-menu-odette":
     "/imported-dish-images/singapore-tasting-menu-odette.png",
+  "split-croatia--709--pasticada-bokeria":
+    "/imported-dish-images/split-croatia-pasticada-bokeria.png",
+  "split-croatia--710--cevapi-villa-spiza":
+    "/imported-dish-images/split-croatia-cevapi-villa-spiza.png",
+  "split-croatia--711--grilled-fish-bepa":
+    "/imported-dish-images/split-croatia-grilled-fish-bepa.png",
+  "split-croatia--712--octopus-salad-konoba-fetivi":
+    "/imported-dish-images/split-croatia-octopus-salad-konoba-fetivi.png",
+  "split-croatia--713--seafood-risotto-zrno-soli":
+    "/imported-dish-images/split-croatia-seafood-risotto-zrno-soli.png",
+  "split-croatia--714--lamb-under-bell-konoba-matejuska":
+    "/imported-dish-images/split-croatia-lamb-under-bell-konoba-matejuska.png",
+  "split-croatia--715--cheese-plate-paradox-wine-and-cheese":
+    "/imported-dish-images/split-croatia-cheese-plate-paradox-wine-and-cheese.png",
+  "split-croatia--717--dessert-cake-luka-ice-cream":
+    "/imported-dish-images/split-croatia-dessert-cake-luka-ice-cream.png",
+  "split-croatia--718--tasting-menu-villa-spiza":
+    "/imported-dish-images/split-croatia-tasting-menu-villa-spiza.png",
   "tokyo--1278--toro-sushi-tsukiji-fish-market":
     "/imported-dish-images/tokyo-toro-sushi-tsukiji-fish-market.png",
   "ubud-indonesia--893--noodles-yellow-flower-cafe":
@@ -1479,10 +1519,9 @@ export function getLocalDishImageUrl(dish: CsvDish): string | null {
 }
 
 /**
- * Prefer explicit /public/imported-dish-images overrides, then /public/Images (indexed),
- * then spreadsheet URL.
+ * Imported overrides, /public/Images index, or spreadsheet URL — no same-name reuse.
  */
-export function resolveDishImageUrl(dish: CsvDish): string | null {
+export function resolveDishImageUrlFromSourcesOnly(dish: CsvDish): string | null {
   const direct = dish.imageUrl?.trim() ?? "";
   if (direct.startsWith("data:image/")) return direct;
   const resolved =
@@ -1490,9 +1529,14 @@ export function resolveDishImageUrl(dish: CsvDish): string | null {
     getLocalDishImageUrl(dish) ??
     (direct || null);
 
-  if (!resolved || isPlaceholderOrFallbackImageUrl(resolved)) {
-    return reuseImageUrlByName(dish) ?? resolved ?? null;
-  }
-
+  if (!resolved || isPlaceholderOrFallbackImageUrl(resolved)) return null;
   return resolved;
+}
+
+/**
+ * Prefer explicit /public/imported-dish-images overrides, then /public/Images (indexed),
+ * then spreadsheet URL, then same-name reuse from another city.
+ */
+export function resolveDishImageUrl(dish: CsvDish): string | null {
+  return resolveDishImageUrlFromSourcesOnly(dish) ?? reuseImageUrlByName(dish) ?? null;
 }
