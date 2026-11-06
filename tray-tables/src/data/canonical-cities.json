@@ -1,0 +1,601 @@
+{
+  "generated": "2026-04-24T18:34:42.850Z",
+  "count": 119,
+  "cities": [
+    {
+      "name": "Abu Dhabi",
+      "country": "United Arab Emirates",
+      "slug": "abu-dhabi-united-arab-emirates"
+    },
+    {
+      "name": "Amalfi",
+      "country": "Italy",
+      "slug": "amalfi-italy"
+    },
+    {
+      "name": "Amsterdam",
+      "country": "Netherlands",
+      "slug": "amsterdam-netherlands"
+    },
+    {
+      "name": "Antigua",
+      "country": "Guatemala",
+      "slug": "antigua-guatemala"
+    },
+    {
+      "name": "Athens",
+      "country": "Greece",
+      "slug": "athens-greece"
+    },
+    {
+      "name": "Atlanta",
+      "country": "United States",
+      "slug": "atlanta"
+    },
+    {
+      "name": "Auckland",
+      "country": "New Zealand",
+      "slug": "auckland-new-zealand"
+    },
+    {
+      "name": "Austin",
+      "country": "United States",
+      "slug": "austin"
+    },
+    {
+      "name": "Bangkok",
+      "country": "Thailand",
+      "slug": "bangkok"
+    },
+    {
+      "name": "Barcelona",
+      "country": "Spain",
+      "slug": "barcelona"
+    },
+    {
+      "name": "Beijing",
+      "country": "China",
+      "slug": "beijing-china"
+    },
+    {
+      "name": "Belfast",
+      "country": "United Kingdom",
+      "slug": "belfast-united-kingdom"
+    },
+    {
+      "name": "Berlin",
+      "country": "Germany",
+      "slug": "berlin-germany"
+    },
+    {
+      "name": "Boracay",
+      "country": "Philippines",
+      "slug": "boracay-philippines"
+    },
+    {
+      "name": "Boston",
+      "country": "United States",
+      "slug": "boston-united-states"
+    },
+    {
+      "name": "Brisbane",
+      "country": "Australia",
+      "slug": "brisbane-australia"
+    },
+    {
+      "name": "Brussels",
+      "country": "Belgium",
+      "slug": "brussels-belgium"
+    },
+    {
+      "name": "Budapest",
+      "country": "Hungary",
+      "slug": "budapest-hungary"
+    },
+    {
+      "name": "Buenos Aires",
+      "country": "Argentina",
+      "slug": "buenos-aires-argentina"
+    },
+    {
+      "name": "Cartagena",
+      "country": "Colombia",
+      "slug": "cartagena-colombia"
+    },
+    {
+      "name": "Cebu City",
+      "country": "Philippines",
+      "slug": "cebu-city-philippines"
+    },
+    {
+      "name": "Chiang Mai",
+      "country": "Thailand",
+      "slug": "chiang-mai-thailand"
+    },
+    {
+      "name": "Chicago",
+      "country": "United States",
+      "slug": "chicago"
+    },
+    {
+      "name": "Copenhagen",
+      "country": "Denmark",
+      "slug": "copenhagen-denmark"
+    },
+    {
+      "name": "Da Nang",
+      "country": "Vietnam",
+      "slug": "da-nang-vietnam"
+    },
+    {
+      "name": "Delhi",
+      "country": "India",
+      "slug": "delhi-india"
+    },
+    {
+      "name": "Denpasar Bali",
+      "country": "Indonesia",
+      "slug": "denpasar-bali-indonesia"
+    },
+    {
+      "name": "Doha",
+      "country": "Qatar",
+      "slug": "doha-qatar"
+    },
+    {
+      "name": "Dubai",
+      "country": "United Arab Emirates",
+      "slug": "dubai-united-arab-emirates"
+    },
+    {
+      "name": "Dublin",
+      "country": "Ireland",
+      "slug": "dublin-ireland"
+    },
+    {
+      "name": "Dubrovnik",
+      "country": "Croatia",
+      "slug": "dubrovnik-croatia"
+    },
+    {
+      "name": "Edinburgh",
+      "country": "United Kingdom",
+      "slug": "edinburgh-united-kingdom"
+    },
+    {
+      "name": "Florence",
+      "country": "Italy",
+      "slug": "florence-italy"
+    },
+    {
+      "name": "Geneva",
+      "country": "Switzerland",
+      "slug": "geneva-switzerland"
+    },
+    {
+      "name": "Gold Coast",
+      "country": "Australia",
+      "slug": "gold-coast-australia"
+    },
+    {
+      "name": "Hamburg",
+      "country": "Germany",
+      "slug": "hamburg-germany"
+    },
+    {
+      "name": "Hangzhou",
+      "country": "China",
+      "slug": "hangzhou-china"
+    },
+    {
+      "name": "Hanoi",
+      "country": "Vietnam",
+      "slug": "hanoi-vietnam"
+    },
+    {
+      "name": "Havana",
+      "country": "Cuba",
+      "slug": "havana-cuba"
+    },
+    {
+      "name": "Helsinki",
+      "country": "Finland",
+      "slug": "helsinki-finland"
+    },
+    {
+      "name": "Hiroshima",
+      "country": "Japan",
+      "slug": "hiroshima-japan"
+    },
+    {
+      "name": "Ho Chi Minh City",
+      "country": "Vietnam",
+      "slug": "ho-chi-minh-city-vietnam"
+    },
+    {
+      "name": "Hong Kong",
+      "country": "China",
+      "slug": "hong-kong-china"
+    },
+    {
+      "name": "Istanbul",
+      "country": "Turkey",
+      "slug": "istanbul-turkey"
+    },
+    {
+      "name": "Jaipur",
+      "country": "India",
+      "slug": "jaipur-india"
+    },
+    {
+      "name": "Jakarta",
+      "country": "Indonesia",
+      "slug": "jakarta-indonesia"
+    },
+    {
+      "name": "Jerusalem",
+      "country": "Israel",
+      "slug": "jerusalem-israel"
+    },
+    {
+      "name": "Kathmandu",
+      "country": "Nepal",
+      "slug": "kathmandu-nepal"
+    },
+    {
+      "name": "Kraków",
+      "country": "Poland",
+      "slug": "krak-w-poland"
+    },
+    {
+      "name": "Kuala Lumpur",
+      "country": "Malaysia",
+      "slug": "kuala-lumpur-malaysia"
+    },
+    {
+      "name": "Kyoto",
+      "country": "Japan",
+      "slug": "kyoto-japan"
+    },
+    {
+      "name": "Las Vegas",
+      "country": "United States",
+      "slug": "las-vegas-united-states"
+    },
+    {
+      "name": "Lima",
+      "country": "Peru",
+      "slug": "lima-peru"
+    },
+    {
+      "name": "Lisbon",
+      "country": "Portugal",
+      "slug": "lisbon-portugal"
+    },
+    {
+      "name": "Ljubljana",
+      "country": "Slovenia",
+      "slug": "ljubljana-slovenia"
+    },
+    {
+      "name": "London",
+      "country": "United Kingdom",
+      "slug": "london-united-kingdom"
+    },
+    {
+      "name": "Los Angeles",
+      "country": "United States",
+      "slug": "los-angeles-united-states"
+    },
+    {
+      "name": "Madrid",
+      "country": "Spain",
+      "slug": "madrid-spain"
+    },
+    {
+      "name": "Manila",
+      "country": "Philippines",
+      "slug": "manila-philippines"
+    },
+    {
+      "name": "Marseille",
+      "country": "France",
+      "slug": "marseille-france"
+    },
+    {
+      "name": "Medellin",
+      "country": "Colombia",
+      "slug": "medellin-colombia"
+    },
+    {
+      "name": "Melbourne",
+      "country": "Australia",
+      "slug": "melbourne-australia"
+    },
+    {
+      "name": "Mexico City",
+      "country": "Mexico",
+      "slug": "mexico-city"
+    },
+    {
+      "name": "Miami",
+      "country": "United States",
+      "slug": "miami-united-states"
+    },
+    {
+      "name": "Milan",
+      "country": "Italy",
+      "slug": "milan-italy"
+    },
+    {
+      "name": "Monaco",
+      "country": "Monaco",
+      "slug": "monaco-monaco"
+    },
+    {
+      "name": "Montevideo",
+      "country": "Uruguay",
+      "slug": "montevideo-uruguay"
+    },
+    {
+      "name": "Montreal",
+      "country": "Canada",
+      "slug": "montreal-canada"
+    },
+    {
+      "name": "Mumbai",
+      "country": "India",
+      "slug": "mumbai-india"
+    },
+    {
+      "name": "Munich",
+      "country": "Germany",
+      "slug": "munich-germany"
+    },
+    {
+      "name": "Naples",
+      "country": "Italy",
+      "slug": "naples-italy"
+    },
+    {
+      "name": "Nara",
+      "country": "Japan",
+      "slug": "nara-japan"
+    },
+    {
+      "name": "New Orleans",
+      "country": "United States",
+      "slug": "new-orleans-united-states"
+    },
+    {
+      "name": "New York City",
+      "country": "United States",
+      "slug": "new-york-city"
+    },
+    {
+      "name": "Nice",
+      "country": "France",
+      "slug": "nice-france"
+    },
+    {
+      "name": "Osaka",
+      "country": "Japan",
+      "slug": "osaka-japan"
+    },
+    {
+      "name": "Oslo",
+      "country": "Norway",
+      "slug": "oslo-norway"
+    },
+    {
+      "name": "Panama City",
+      "country": "Panama",
+      "slug": "panama-city-panama"
+    },
+    {
+      "name": "Paris",
+      "country": "France",
+      "slug": "paris"
+    },
+    {
+      "name": "Penang",
+      "country": "Malaysia",
+      "slug": "penang-malaysia"
+    },
+    {
+      "name": "Phuket",
+      "country": "Thailand",
+      "slug": "phuket-thailand"
+    },
+    {
+      "name": "Pokhara",
+      "country": "Nepal",
+      "slug": "pokhara-nepal"
+    },
+    {
+      "name": "Portland",
+      "country": "United States",
+      "slug": "portland-united-states"
+    },
+    {
+      "name": "Porto",
+      "country": "Portugal",
+      "slug": "porto-portugal"
+    },
+    {
+      "name": "Positano",
+      "country": "Italy",
+      "slug": "positano-italy"
+    },
+    {
+      "name": "Prague",
+      "country": "Czech Republic",
+      "slug": "prague-czech-republic"
+    },
+    {
+      "name": "Puerto Ayora",
+      "country": "Ecuador",
+      "slug": "puerto-ayora-ecuador"
+    },
+    {
+      "name": "Quito",
+      "country": "Ecuador",
+      "slug": "quito-ecuador"
+    },
+    {
+      "name": "Reykjavík",
+      "country": "Iceland",
+      "slug": "reykjav-k-iceland"
+    },
+    {
+      "name": "Rio De Janeiro",
+      "country": "Brazil",
+      "slug": "rio-de-janeiro-brazil"
+    },
+    {
+      "name": "Rome",
+      "country": "Italy",
+      "slug": "rome-italy"
+    },
+    {
+      "name": "San Francisco",
+      "country": "United States",
+      "slug": "san-francisco-united-states"
+    },
+    {
+      "name": "San Jose",
+      "country": "Costa Rica",
+      "slug": "san-jose-costa-rica"
+    },
+    {
+      "name": "San Juan",
+      "country": "Puerto Rico",
+      "slug": "san-juan-puerto-rico"
+    },
+    {
+      "name": "Santiago",
+      "country": "Chile",
+      "slug": "santiago-chile"
+    },
+    {
+      "name": "Santorini",
+      "country": "Greece",
+      "slug": "santorini-greece"
+    },
+    {
+      "name": "Sao Paulo",
+      "country": "Brazil",
+      "slug": "sao-paulo-brazil"
+    },
+    {
+      "name": "Seattle",
+      "country": "United States",
+      "slug": "seattle-united-states"
+    },
+    {
+      "name": "Seoul",
+      "country": "South Korea",
+      "slug": "seoul"
+    },
+    {
+      "name": "Seville",
+      "country": "Spain",
+      "slug": "seville-spain"
+    },
+    {
+      "name": "Shanghai",
+      "country": "China",
+      "slug": "shanghai-china"
+    },
+    {
+      "name": "Singapore",
+      "country": "Singapore",
+      "slug": "singapore-singapore"
+    },
+    {
+      "name": "Split",
+      "country": "Croatia",
+      "slug": "split-croatia"
+    },
+    {
+      "name": "Stockholm",
+      "country": "Sweden",
+      "slug": "stockholm-sweden"
+    },
+    {
+      "name": "Sydney",
+      "country": "Australia",
+      "slug": "sydney-australia"
+    },
+    {
+      "name": "Taipei",
+      "country": "Taiwan",
+      "slug": "taipei-taiwan"
+    },
+    {
+      "name": "Tallinn",
+      "country": "Estonia",
+      "slug": "tallinn-estonia"
+    },
+    {
+      "name": "Tel Aviv",
+      "country": "Israel",
+      "slug": "tel-aviv-israel"
+    },
+    {
+      "name": "Tokyo",
+      "country": "Japan",
+      "slug": "tokyo"
+    },
+    {
+      "name": "Toronto",
+      "country": "Canada",
+      "slug": "toronto-canada"
+    },
+    {
+      "name": "Ubud",
+      "country": "Indonesia",
+      "slug": "ubud-indonesia"
+    },
+    {
+      "name": "Valencia",
+      "country": "Spain",
+      "slug": "valencia-spain"
+    },
+    {
+      "name": "Valparaiso",
+      "country": "Chile",
+      "slug": "valparaiso-chile"
+    },
+    {
+      "name": "Vancouver",
+      "country": "Canada",
+      "slug": "vancouver-canada"
+    },
+    {
+      "name": "Venice",
+      "country": "Italy",
+      "slug": "venice-italy"
+    },
+    {
+      "name": "Vienna",
+      "country": "Austria",
+      "slug": "vienna-austria"
+    },
+    {
+      "name": "Warsaw",
+      "country": "Poland",
+      "slug": "warsaw-poland"
+    },
+    {
+      "name": "Washington DC",
+      "country": "United States",
+      "slug": "washington-dc-united-states"
+    },
+    {
+      "name": "Zurich",
+      "country": "Switzerland",
+      "slug": "zurich-switzerland"
+    }
+  ]
+}

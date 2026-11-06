@@ -1,0 +1,1610 @@
+[
+  {
+    "city": "seattle",
+    "dish": "Seattle hot dog",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Seattle_Dog.png/1280px-Seattle_Dog.png",
+    "status": "dead_url"
+  },
+  {
+    "city": "new-york-city",
+    "dish": "Mutton Chop",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Lamb_meat_%281%29.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "los-angeles",
+    "dish": "Beef French Dip",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Cheeseburger_%281%29.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "los-angeles",
+    "dish": "Short Rib Taco",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Production_of_homemade_chips_%284%29.JPG",
+    "status": "dead_url"
+  },
+  {
+    "city": "los-angeles",
+    "dish": "Breakfast Pizza",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/New_Mexican_breakfast_burrito.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "los-angeles",
+    "dish": "Burnt Everything Bagel",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Azerbaijan_Light_snack.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "los-angeles",
+    "dish": "Crispy Rice Salad (Nam Khao Tod)",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Chapssal_%28glutinous_rice%29.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "chicago",
+    "dish": "Pizza Pot Pie",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Top_down_view_of_peach_pie_%28722379748%29.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "chicago",
+    "dish": "Breaded Steak Sandwich",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Chicken_Fried_Steak.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "chicago",
+    "dish": "Lollipop Chicken Wings",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Chicken_tikka_masala_%28cropped%29.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "chicago",
+    "dish": "Garrett Mix Popcorn",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Food_at_WIkimanian_2017_02.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "london",
+    "dish": "Chocolate Nemesis",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Chopsueywithrice.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "london",
+    "dish": "Crêpe Suzette",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Cr%C3%A9pe_Suzette_001.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "london",
+    "dish": "Smoked Eel Sandwich",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Norwegian.open.sandwich-01.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "london",
+    "dish": "Bread & Butter (Bread Basket)",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Koukouvagia.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "london",
+    "dish": "Spicy Wings & Chips",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Spice_Bag_%28cropped%29.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "london",
+    "dish": "Chicken Ruby",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Aspic-with-eggs.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "paris",
+    "dish": "Jambon-Beurre Sandwich",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Ham_sandwich1.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "paris",
+    "dish": "Croissant",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Traditional_pizza_from_Napoli.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "paris",
+    "dish": "Escargots",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Caracoles-del-restaurante-granero.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "paris",
+    "dish": "Charcuterie Plate",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/-365photo_2017_edition_Food_%2832033206853%29.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "paris",
+    "dish": "Baguette Tradition",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Traditional_pizza_from_Napoli.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "florence",
+    "dish": "Panino Toscano",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Spaghetti_vongole_2.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "venice",
+    "dish": "Fried Meatballs",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Soup_with_meatballs-01.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "madrid",
+    "dish": "Callos a la Madrileña",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Callos_a_la_Madrile%C3%B1a_spanish.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "madrid",
+    "dish": "Patatas Bravas",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Patatas_bravas_madrid.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "valencia",
+    "dish": "Esgarraet",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Esgrarrat_%28Meliana%29.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "porto",
+    "dish": "Cachorrinho",
+    "url": "https://upload.wikimedia.org/wikipedia/en/3/3b/Kelly-key-album.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "seattle",
+    "dish": "Third-wave espresso",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Mango_Sticky_Rice_and_Thai_Milk_tea.jpg/960px-Mango_Sticky_Rice_and_Thai_Milk_tea.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "atlanta",
+    "dish": "Neapolitan Pizza",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Pizza-3007395.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "prague",
+    "dish": "Svíčková",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Traditional_pizza_from_Napoli.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "prague",
+    "dish": "Beef Goulash",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Gulyas080.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "krak-w",
+    "dish": "Pierogi Ruskie",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Pierogi_z_mas%C5%82em_-_2023.03.31.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "krak-w",
+    "dish": "Cream Cake (Kremówka)",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Mille-feuille_fran%C3%A7ais_1.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "stockholm",
+    "dish": "Smörgåstårta",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Traditional_pizza_from_Napoli.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "oslo",
+    "dish": "Pølse i Lompe",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Lefse_on_a_griddle.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "oslo",
+    "dish": "Lapskaus (Stew)",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Lobscouse%2C_Lobby%2C_Scouse.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "tokyo",
+    "dish": "Tendon (Tempura Rice Bowl)",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Tempura_01.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "kyoto",
+    "dish": "Tempura",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Tempura_01.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "kyoto",
+    "dish": "Wagashi",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Traditional_pizza_from_Napoli.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "osaka",
+    "dish": "Udon",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Kakeudon.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "seoul",
+    "dish": "Mandu",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/%EB%A7%8C%EB%91%90.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "seoul",
+    "dish": "Samgyetang",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Han-jeongsik.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "bangkok",
+    "dish": "Green Curry",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Thai_green_chicken_curry_and_roti.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "bangkok",
+    "dish": "Khao Moo Daeng",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Khao_mu_krop_mu_daeng.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "bangkok",
+    "dish": "Pork Skewers (Moo Ping)",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Mu_ping.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "chiang-mai",
+    "dish": "Khao Soi",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Khao_Soi_Northern_Thai_food_%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B8%8B%E0%B8%AD%E0%B8%A2_%E0%B8%9C%E0%B8%B1%E0%B8%81%E0%B8%94%E0%B8%AD%E0%B8%87.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "chiang-mai",
+    "dish": "Nam Prik Ong",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Nam_phrik_kapi_%28cropped%29.JPG",
+    "status": "dead_url"
+  },
+  {
+    "city": "chiang-mai",
+    "dish": "Khanom Jeen",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Khanom_Chin_-_Thai_rice_noodles.JPG",
+    "status": "dead_url"
+  },
+  {
+    "city": "chiang-mai",
+    "dish": "Fried Banana",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Mega_racimos_de_guineos.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "singapore",
+    "dish": "Hainanese Chicken Rice",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Hainanese_Chicken_Rice.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "singapore",
+    "dish": "Chili Crab",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Cancer_pagurus.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "singapore",
+    "dish": "Char Kway Teow",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Char_kway_teow.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "singapore",
+    "dish": "Hokkien Mee",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Newton_HokkienMee.JPG",
+    "status": "dead_url"
+  },
+  {
+    "city": "singapore",
+    "dish": "Satay",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Sate_Udang.JPG",
+    "status": "dead_url"
+  },
+  {
+    "city": "singapore",
+    "dish": "Kaya Toast",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Kaya_toast_on_a_plate.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "hong-kong",
+    "dish": "Char Siu",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/HK_SYP_Ming_Sing_60402_16.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "hong-kong",
+    "dish": "Roast Goose",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/1507-A_banquet_including_roast_goose_given_for_Babur_by_the_Mirzas.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "hong-kong",
+    "dish": "Dim Sum",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Chinese_DimSum_%289023590541%29.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "hong-kong",
+    "dish": "Claypot Rice",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Claypot_Chicken_Rice%2C_Singapore.JPG",
+    "status": "dead_url"
+  },
+  {
+    "city": "hong-kong",
+    "dish": "Milk Tea",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Milktoast.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "ho-chi-minh-city",
+    "dish": "Pho",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Bowl_of_Meatball_pho.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "ho-chi-minh-city",
+    "dish": "Hu Tieu",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Hu_Tieu_Nam_Vang.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "ho-chi-minh-city",
+    "dish": "Banh Xeo",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Banh_Xeo_with_fish_sauce_and_vegetables.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "ho-chi-minh-city",
+    "dish": "Ca Kho To",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Thit-kho-tieu-1.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "ho-chi-minh-city",
+    "dish": "Vietnamese Iced Coffee",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Tu_binh.JPG",
+    "status": "dead_url"
+  },
+  {
+    "city": "hanoi",
+    "dish": "Bun Cha",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/B%C3%BAn_ch%E1%BA%A3_Vietnamese_food.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "hanoi",
+    "dish": "Bun Thang",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Street_food_in_Hanoi.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "hanoi",
+    "dish": "Egg Coffee",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/C%C3%A0_ph%C3%AA_tr%E1%BB%A9ng.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "hanoi",
+    "dish": "Nem Ran (Fried Rolls)",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Cha_gio.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "hanoi",
+    "dish": "Che (Sweet Soup)",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Jamaican_Pepperpot.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "kuala-lumpur",
+    "dish": "Char Kway Teow",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Char_kway_teow.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "kuala-lumpur",
+    "dish": "Satay",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Sate_Udang.JPG",
+    "status": "dead_url"
+  },
+  {
+    "city": "kuala-lumpur",
+    "dish": "Nasi Kandar",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/A_plate_of_Nasi_Kandar.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "kuala-lumpur",
+    "dish": "Laksa",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Nyonya_Laksa.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "kuala-lumpur",
+    "dish": "Chicken Rice",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Hainanese_Chicken_Rice.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "penang",
+    "dish": "Char Kway Teow",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Char_kway_teow.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "penang",
+    "dish": "Hokkien Mee",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/FishBallMeePok.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "penang",
+    "dish": "Roti Canai",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Canai.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "penang",
+    "dish": "Lor Bak",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Wuxiang_zz.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "penang",
+    "dish": "Curry Mee",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Malaysian_noodles-Curry_Mee-01.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "boston",
+    "dish": "Lobster Roll",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Lobster_Roll.png",
+    "status": "dead_url"
+  },
+  {
+    "city": "atlanta",
+    "dish": "Pulled pork sandwich",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Pulled_pork_sandwich_-_%22Naked%22.jpg/960px-Pulled_pork_sandwich_-_%22Naked%22.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "atlanta",
+    "dish": "Sweet tea",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/AtlantaMaryMacsPlate.jpg/1280px-AtlantaMaryMacsPlate.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "boston",
+    "dish": "Boston Cream Pie",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Top_down_view_of_peach_pie_%28722379748%29.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "boston",
+    "dish": "Baked Beans",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Baked_beans_in_tomato_sauce.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "washington-dc",
+    "dish": "Mumbo Sauce Wings",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Buffalo_wings-01.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "washington-dc",
+    "dish": "Ethiopian Platter",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "washington-dc",
+    "dish": "Pupusas",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Pupusas_El_Salvador_Centro_America.JPG",
+    "status": "dead_url"
+  },
+  {
+    "city": "washington-dc",
+    "dish": "Peruvian Chicken",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Spatchcocking.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "atlanta",
+    "dish": "Burger",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/RedDot_Burger.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "atlanta",
+    "dish": "The Coronary Bypass Burger",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cheeseburger.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "new-york-city",
+    "dish": "Pastrami Sandwich",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/2015_0629_Sailor_at_NYD.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "new-york-city",
+    "dish": "Chicken & Lamb Over Rice (Halal Cart Style)",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/%22Hyderabadi_Dum_Biryani%22.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "new-york-city",
+    "dish": "Chopped Cheese",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Shake_shack_cheese_fries.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "new-york-city",
+    "dish": "Potato Pierogi",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Pierogi_z_mas%C5%82em_-_2023.03.31.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "new-york-city",
+    "dish": "Chocolate Egg Cream",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Stracciatella_in_Firenze.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "new-york-city",
+    "dish": "Everything Bagel + Scallion Cream Cheese & Lox",
+    "url": "https://upload.wikimedia.org/wikipedia/en/b/b6/Westman%27s_Bagel_and_Coffee_logo.png",
+    "status": "dead_url"
+  },
+  {
+    "city": "los-angeles",
+    "dish": "Tacos Al Pastor",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Tacos-al-Pastor.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "los-angeles",
+    "dish": "Shrimp Taco (Tacos de Camaron)",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/001_Tacos_de_carnitas%2C_carne_asada_y_al_pastor.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "los-angeles",
+    "dish": "Rotisserie Chicken + Garlic Sauce",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Kung-pao-shanghai.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "chicago",
+    "dish": "Burger",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/RedDot_Burger.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "chicago",
+    "dish": "Stuffed Deep Dish",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Chicago-Style_Stuffed_Pizza.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "chicago",
+    "dish": "Portillo's Beef Hot Dog (Chicago Dog)",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Portillos.png",
+    "status": "dead_url"
+  },
+  {
+    "city": "london",
+    "dish": "Pici Cacio e Pepe",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Spaghetti_vongole_2.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "london",
+    "dish": "Salt Beef Beigel",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Beigel_Bake_front.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "rome",
+    "dish": "Supplì al Telefono",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Spaghetti_vongole_2.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "venice",
+    "dish": "Scampi alla Veneziana",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Spaghetti_vongole_2.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "madrid",
+    "dish": "Churros con Chocolate",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/After_The_St._Patrick%27s_Parade_Late_Lunch_%40_Lemon%2C_Dawson_Street%2C_Dublin%2C_Rep._Of_Ireland_A_Fine_Tradition%21_%286992614913%29.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "porto",
+    "dish": "Rice with Seafood",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Mariscada.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "austin",
+    "dish": "Tex Mex",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Motherhood_and_apple_pie.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "berlin",
+    "dish": "Gulasch",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Gulyas080.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "budapest",
+    "dish": "Goulash Soup",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Gulyas080.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "krak-w",
+    "dish": "Obwarzanek Krakowski",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/HomemadeStromboliAug05.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "krak-w",
+    "dish": "Apple Pie",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Top_down_view_of_peach_pie_%28722379748%29.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "warsaw",
+    "dish": "Kotlet Schabowy",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Traditional_pizza_from_Napoli.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "oslo",
+    "dish": "Meatballs in Brown Sauce",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Soup_with_meatballs-01.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "tokyo",
+    "dish": "Tempura",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Tempura_01.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "tokyo",
+    "dish": "Onigiri",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/%E5%B0%8F%E6%96%99%E7%90%86%E3%83%90%E3%83%AB%E3%81%95%E3%81%8F%E3%82%89_%E7%89%B9%E8%A3%BD%E3%81%8A%E3%81%AB%E3%81%8E%E3%82%8A.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "chicago",
+    "dish": "Pepperoni Deep Dish",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/HomemadeStromboliAug05.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "chicago",
+    "dish": "Jibarito (Plantain “Bread” Sandwich)",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Jibarito.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "london",
+    "dish": "Ginger & Spring Onion Lobster Noodles",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/HK_SW_%E4%B8%8A%E7%92%B0_Sheung_Wan_%E7%9A%87%E5%90%8E%E5%A4%A7%E9%81%93%E4%B8%AD_303_Queen%27s_Road_Central_%E6%AC%8A%E8%A8%98%E9%9B%B2%E5%90%9E%E9%BA%B5_Wonton_noodle_soup_shop_June_2020_SS2_10.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "london",
+    "dish": "Tandoori Masala Lamb Chops",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Dosa_at_Sri_Ganesha_Restauran%2C_Bangkok_%2844570742744%29.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "paris",
+    "dish": "Onion Soup Gratinée",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Soupe_%C3%A0_l%27oignon.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "paris",
+    "dish": "Chocolate Nemesis",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Chopsueywithrice.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "paris",
+    "dish": "Crêpe (Sweet or Savory)",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Crepes_dsc07085.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "paris",
+    "dish": "Crème Brûlée",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/2014_0531_Cr%C3%A8me_br%C3%BBl%C3%A9e_Doi_Mae_Salong_%28cropped%29.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "rome",
+    "dish": "Maritozzo con Panna",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Spaghetti_vongole_2.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "madrid",
+    "dish": "Gambas al Ajillo",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Pollo_al_ajillo_%284508578477%29.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "madrid",
+    "dish": "Iberian Pork Secreto",
+    "url": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/1280px-Flag_of_Brazil.svg.png",
+    "status": "dead_url"
+  },
+  {
+    "city": "berlin",
+    "dish": "Schnitzel",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Breitenlesau_Krug_Br%C3%A4u_Schnitzel.JPG",
+    "status": "dead_url"
+  },
+  {
+    "city": "vienna",
+    "dish": "Wiener Schnitzel",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Breitenlesau_Krug_Br%C3%A4u_Schnitzel.JPG",
+    "status": "dead_url"
+  },
+  {
+    "city": "warsaw",
+    "dish": "Pork Schnitzel",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Breitenlesau_Krug_Br%C3%A4u_Schnitzel.JPG",
+    "status": "dead_url"
+  },
+  {
+    "city": "oslo",
+    "dish": "Waffles with Brown Cheese",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Waffles_with_Strawberries.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "tokyo",
+    "dish": "Soba",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Dried_soba_noodles_by_FotoosVanRobin.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "kyoto",
+    "dish": "Kyoto Ramen",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Shoyu_ramen%2C_at_Kasukabe_Station_%282014.05.05%29_1.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "osaka",
+    "dish": "Takoyaki",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Takoyaki.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "seoul",
+    "dish": "Korean BBQ (Hanwoo)",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Standing-rib-roast.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "seoul",
+    "dish": "Bingsu",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Patbingsu.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "bangkok",
+    "dish": "Som Tum (Papaya Salad)",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/2013_Tam_Lao.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "bangkok",
+    "dish": "Crab Omelette",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Gorgonzola_%2B_Bacon_Omelette_%40_Omelegg_%40_Amsterdam_%2816600947041%29.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "bangkok",
+    "dish": "Khao Man Gai",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Portland%2C_Oregon%2C_March_24%2C_2025_-_74.jpg/1920px-Portland%2C_Oregon%2C_March_24%2C_2025_-_74.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "chiang-mai",
+    "dish": "Sai Oua (Northern Sausage)",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Wurstplatte.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "chiang-mai",
+    "dish": "Larb",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/LaoFood_LarbNeua.JPG",
+    "status": "dead_url"
+  },
+  {
+    "city": "chiang-mai",
+    "dish": "Moo Ping",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Mu_ping.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "chiang-mai",
+    "dish": "Khao Niew (Sticky Rice)",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Chapssal_%28glutinous_rice%29.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "chiang-mai",
+    "dish": "Coconut Ice Cream",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Ice_cream_with_whipped_cream%2C_chocolate_syrup%2C_and_a_wafer_%28cropped%29.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "singapore",
+    "dish": "Laksa",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Nyonya_Laksa.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "singapore",
+    "dish": "Roti Prata",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Canai.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "singapore",
+    "dish": "Bak Kut Teh",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Song_Fa_Bak_Kut_Teh%2C_New_Bridge_Rd%2C_Singapore_%282023%29_06.jpg/3840px-Song_Fa_Bak_Kut_Teh%2C_New_Bridge_Rd%2C_Singapore_%282023%29_06.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "singapore",
+    "dish": "Ice Kachang",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Ais_kacang.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "hong-kong",
+    "dish": "Egg Tarts",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/HK_SSP_%E9%95%B7%E6%B2%99%E7%81%A3_Cheung_Sha_Wan_%E6%B7%B1%E7%9B%9B%E8%B7%AF_Sham_Shing_Road_%E6%B3%93%E6%99%AF%E6%BB%99%E5%95%86%E5%A0%B4_Banyan_Mall_shop_%E8%9B%8B%E6%92%BB%E7%8E%8B_King_Bakery_Studio_December_2019_SS2_egg_tarts.jpg/3840px-HK_SSP_%E9%95%B7%E6%B2%99%E7%81%A3_Cheung_Sha_Wan_%E6%B7%B1%E7%9B%9B%E8%B7%AF_Sham_Shing_Road_%E6%B3%93%E6%99%AF%E6%BB%99%E5%95%86%E5%A0%B4_Banyan_Mall_shop_%E8%9B%8B%E6%92%BB%E7%8E%8B_King_Bakery_Studio_December_2019_SS2_egg_tarts.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "hong-kong",
+    "dish": "Wonton Noodles",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/HK_SW_%E4%B8%8A%E7%92%B0_Sheung_Wan_%E7%9A%87%E5%90%8E%E5%A4%A7%E9%81%93%E4%B8%AD_303_Queen%27s_Road_Central_%E6%AC%8A%E8%A8%98%E9%9B%B2%E5%90%9E%E9%BA%B5_Wonton_noodle_soup_shop_June_2020_SS2_10.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "hong-kong",
+    "dish": "Pineapple Bun",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Pineapple_buns.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "hong-kong",
+    "dish": "Beef Brisket",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Brisketphoto.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "ho-chi-minh-city",
+    "dish": "Banh Mi",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/B%C3%A1nh_m%C3%AC_th%E1%BB%8Bt_n%C6%B0%E1%BB%9Bng.png",
+    "status": "dead_url"
+  },
+  {
+    "city": "ho-chi-minh-city",
+    "dish": "Com Tam (Broken Rice)",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/C%C6%A1m_T%E1%BA%A5m%2C_Da_Nang%2C_Vietnam.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "ho-chi-minh-city",
+    "dish": "Bo Kho",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Thit-kho-tieu-1.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "ho-chi-minh-city",
+    "dish": "Goi Cuon (Fresh Rolls)",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Homemade_spring_rolls_%287010969349%29.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "hanoi",
+    "dish": "Pho Bo",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Bowl_of_Meatball_pho.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "hanoi",
+    "dish": "Cha Ca",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/B%C3%BAn_ch%E1%BA%A3_Vietnamese_food.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "hanoi",
+    "dish": "Xoi (Sticky Rice)",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/X%C3%B4i_s%E1%BA%AFn.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "hanoi",
+    "dish": "Bun Bo Nam Bo",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/B%C3%BAn_b%C3%B2_Hu%E1%BA%BF_-_Ch%E1%BB%A3_%C4%90%C3%B4ng_Ba_%282024%29_-_img_02.jpg/1920px-B%C3%BAn_b%C3%B2_Hu%E1%BA%BF_-_Ch%E1%BB%A3_%C4%90%C3%B4ng_Ba_%282024%29_-_img_02.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "kuala-lumpur",
+    "dish": "Nasi Lemak",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Nasi_Lemak_dengan_Chili_Nasi_Lemak_dan_Sotong_Pedas%2C_di_Penang_Summer_Restaurant.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "kuala-lumpur",
+    "dish": "Roti Canai",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Canai.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "kuala-lumpur",
+    "dish": "Hokkien Mee",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Newton_HokkienMee.JPG",
+    "status": "dead_url"
+  },
+  {
+    "city": "kuala-lumpur",
+    "dish": "Bak Kut Teh",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Song_Fa_Bak_Kut_Teh%2C_New_Bridge_Rd%2C_Singapore_%282023%29_06.jpg/3840px-Song_Fa_Bak_Kut_Teh%2C_New_Bridge_Rd%2C_Singapore_%282023%29_06.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "kuala-lumpur",
+    "dish": "Cendol",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Kampung_Paya_Jaras_Tengah%2C_Selangor_20250112_111330.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "atlanta",
+    "dish": "Southern Breakfast",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Biscuits_and_sausage_gravy_%288006401964%29.jpg/3840px-Biscuits_and_sausage_gravy_%288006401964%29.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "penang",
+    "dish": "Asam Laksa",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Nyonya_Laksa.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "penang",
+    "dish": "Nasi Kandar",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/A_plate_of_Nasi_Kandar.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "penang",
+    "dish": "Oh Chien (Oyster Omelette)",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Rojakstall.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "penang",
+    "dish": "Char Siu",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/HK_SYP_Ming_Sing_60402_16.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "penang",
+    "dish": "Cendol",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Kampung_Paya_Jaras_Tengah%2C_Selangor_20250112_111330.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "boston",
+    "dish": "New England Clam Chowder",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Quail_07_bg_041506.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "boston",
+    "dish": "Cannoli",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/28_oz_cans_of_San_Marzano_tomatoes%2C_three_ways.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "boston",
+    "dish": "Roast Beef Sandwich",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Arbysbeefandfries.JPG",
+    "status": "dead_url"
+  },
+  {
+    "city": "boston",
+    "dish": "Oysters",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Oysters_Rockefeller_at_Galatoires.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "boston",
+    "dish": "Fried Clams",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Fried_clams_Woodman%27s_of_Essex%2C_Massachusetts.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "boston",
+    "dish": "Lobster Mac and Cheese",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Food_at_WIkimanian_2017_02.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "boston",
+    "dish": "Scrod Baked Cod",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Preserved_Codfish_Bodara.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "washington-dc",
+    "dish": "Half Smoke",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/O_Piornedo%2C_Don%C3%ADs%2C_Cervantes_10.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "washington-dc",
+    "dish": "Jumbo Slice Pizza",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/NYPizzaPie.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "washington-dc",
+    "dish": "Cupcakes",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Food_Network_logo.svg/330px-Food_Network_logo.svg.png",
+    "status": "dead_url"
+  },
+  {
+    "city": "tokyo",
+    "dish": "Shoyu ramen",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Shoyu_Ramen_with_Sushi_and_Tempura.jpg/960px-Shoyu_Ramen_with_Sushi_and_Tempura.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "tokyo",
+    "dish": "Tsukemen",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Tsukemen_%28Dipping_Ramen%29_-_Goemon_Ramen_Bar_2023-06-06.jpg/960px-Tsukemen_%28Dipping_Ramen%29_-_Goemon_Ramen_Bar_2023-06-06.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "tokyo",
+    "dish": "Tonkatsu",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Tonkatsu_by_ayustety_in_Tokyo.jpg/1280px-Tonkatsu_by_ayustety_in_Tokyo.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "tokyo",
+    "dish": "Tempura teishoku",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Tempura.jpg/1280px-Tempura.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "tokyo",
+    "dish": "Gyudon",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Matsusaka_beef_gyudon_1_by_nmy_in_Tokyo.jpg/1280px-Matsusaka_beef_gyudon_1_by_nmy_in_Tokyo.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "tokyo",
+    "dish": "Tamagoyaki",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/%E9%B3%A5%E7%84%BC%E3%81%8D%E5%B1%85%E9%85%92%E5%B1%8B_%2839394233682%29.jpg/960px-%E9%B3%A5%E7%84%BC%E3%81%8D%E5%B1%85%E9%85%92%E5%B1%8B_%2839394233682%29.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "tokyo",
+    "dish": "Monjayaki",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Monjayaki_dish_from_Tsukishima%2C_Tokyo%2C_Japan%3B_January_2013.jpg/1280px-Monjayaki_dish_from_Tsukishima%2C_Tokyo%2C_Japan%3B_January_2013.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "paris",
+    "dish": "Steak frites",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Steak_frites_-paris_%2815126302149%29.jpg/1280px-Steak_frites_-paris_%2815126302149%29.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "paris",
+    "dish": "Croque-monsieur",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Croque_Monsieur_and_salad_at_Paris_Bakery.jpg/1280px-Croque_Monsieur_and_salad_at_Paris_Bakery.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "paris",
+    "dish": "French onion soup",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Plate_french_onion_soup.jpg/1280px-Plate_french_onion_soup.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "paris",
+    "dish": "Steak tartare",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Steak_Tartare_in_Dresden.jpg/1280px-Steak_Tartare_in_Dresden.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "paris",
+    "dish": "Escargots de Bourgogne",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Coquille_d%27escargot_de_Bourgogne_tres_grosses_de_La_Bovida.jpg/1280px-Coquille_d%27escargot_de_Bourgogne_tres_grosses_de_La_Bovida.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "paris",
+    "dish": "Crêpes & galettes",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Les_cr%C3%AApes.jpg/1280px-Les_cr%C3%AApes.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "mexico-city",
+    "dish": "Tacos al pastor",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/%28El_Flaco%29_Al_Pastor_Tacos.jpg/960px-%28El_Flaco%29_Al_Pastor_Tacos.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "mexico-city",
+    "dish": "Carnitas tacos",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/04_Veal_Brain_Taco_and_Roast_Pork_Taco_-_Tacos_Nuevo_Mexico.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "mexico-city",
+    "dish": "Pozole",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Pozole_en_un_restaurante_de_Coyoac%C3%A1n%2C_2024.jpg/1280px-Pozole_en_un_restaurante_de_Coyoac%C3%A1n%2C_2024.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "mexico-city",
+    "dish": "Chiles en nogada",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Chile_en_nogada_%E2%80%94_The_Pride_of_a_Nation.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "mexico-city",
+    "dish": "Quesadillas de huitlacoche",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Typical_Mexican_dish.jpg/1280px-Typical_Mexican_dish.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "mexico-city",
+    "dish": "Tamales",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/TamalesObreraDF.JPG/1280px-TamalesObreraDF.JPG",
+    "status": "dead_url"
+  },
+  {
+    "city": "mexico-city",
+    "dish": "Elote",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Chicharrones%2C_raspados%2C_elotes_%284712857289%29.jpg/1280px-Chicharrones%2C_raspados%2C_elotes_%284712857289%29.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "mexico-city",
+    "dish": "Mole poblano",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Mole_Poblano_i.e_the_city_of_Puebla%27s_mole.jpg/1280px-Mole_Poblano_i.e_the_city_of_Puebla%27s_mole.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "mexico-city",
+    "dish": "Tlacoyos",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Tlacoyo.png",
+    "status": "dead_url"
+  },
+  {
+    "city": "bangkok",
+    "dish": "Tom yum goong",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Tom_yum_goong-01.jpg/1280px-Tom_yum_goong-01.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "bangkok",
+    "dish": "Pad Thai",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Phat_Thai_kung_Chang_Khien_street_stall.jpg/960px-Phat_Thai_kung_Chang_Khien_street_stall.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "bangkok",
+    "dish": "Som tam",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Bang_Khae_som_tam_shop.jpg/1280px-Bang_Khae_som_tam_shop.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "bangkok",
+    "dish": "Boat noodles",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Boat_noodles.jpg/1280px-Boat_noodles.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "bangkok",
+    "dish": "Mango sticky rice",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Cuisine_of_Thailand_P1120983.JPG/1280px-Cuisine_of_Thailand_P1120983.JPG",
+    "status": "dead_url"
+  },
+  {
+    "city": "bangkok",
+    "dish": "Satay with peanut sauce",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Bangkok_9_Thai_Tapas.jpg/1280px-Bangkok_9_Thai_Tapas.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "bangkok",
+    "dish": "Khanom buang",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Khanom_bueang.jpg/1280px-Khanom_bueang.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "new-york-city",
+    "dish": "New York-style pizza slice",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/New_York_Style_Pizza_New_Park.jpg/1280px-New_York_Style_Pizza_New_Park.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "new-york-city",
+    "dish": "Bagel with lox",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Lox-and-bagel-02.jpg/1280px-Lox-and-bagel-02.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "new-york-city",
+    "dish": "Dirty water dog",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/NYC_Hotdog_cart_-_hot_dogs_closeup.jpg/1280px-NYC_Hotdog_cart_-_hot_dogs_closeup.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "new-york-city",
+    "dish": "Soup dumplings (xiao long bao)",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Xiao_Long_Bao_at_Joe%27s_Shanghai_Restaurant_in_NYC.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "new-york-city",
+    "dish": "Chicken over rice",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/BBQ_Chicken_Rice_%28Old_Town%29.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "new-york-city",
+    "dish": "Bacon-egg-and-cheese",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Egg_and_cheese_breakfast_sandwich.jpg/960px-Egg_and_cheese_breakfast_sandwich.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "new-york-city",
+    "dish": "Bialy",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Egyptian_food_Koshary.jpg/1280px-Egyptian_food_Koshary.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "seoul",
+    "dish": "Bibimbap",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Dolsot_Bibimbap_%286352434359%29.jpg/1280px-Dolsot_Bibimbap_%286352434359%29.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "seoul",
+    "dish": "Korean BBQ (galbi)",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Korean.cuisine-Galbi-01.jpg/1280px-Korean.cuisine-Galbi-01.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "seoul",
+    "dish": "Kimchi jjigae",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Kimchi_jjigae_-_San_Francisco%2C_CA.jpg/1280px-Kimchi_jjigae_-_San_Francisco%2C_CA.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "seoul",
+    "dish": "Japchae",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Korean_cuisine-Japchae-02.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "seoul",
+    "dish": "Tteokbokki",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Korean_snack-Tteokbokki-02.jpg/1280px-Korean_snack-Tteokbokki-02.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "seoul",
+    "dish": "Samgyeopsal",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Korean_food_8.jpg/1280px-Korean_food_8.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "seoul",
+    "dish": "Korean fried chicken",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Dakgaejang%28Spicy_Chicken_Soup%29_and_Fried_Chicken%2C_Korean_Food.jpg/1280px-Dakgaejang%28Spicy_Chicken_Soup%29_and_Fried_Chicken%2C_Korean_Food.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "seoul",
+    "dish": "Bossam",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Korean.food-Bossam-02.jpg/1280px-Korean.food-Bossam-02.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "atlanta",
+    "dish": "Lemon pepper wet wings",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Chicken_wings_at_home.jpg/960px-Chicken_wings_at_home.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "atlanta",
+    "dish": "Southern fried chicken",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Fried-Chicken-Set.jpg/960px-Fried-Chicken-Set.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "atlanta",
+    "dish": "Pimento cheese",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Crackers_and_pimento_cheese.jpg/1280px-Crackers_and_pimento_cheese.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "atlanta",
+    "dish": "Biscuits and gravy",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Whole_Foods_Biscuits_and_Gravy_%2824548241224%29.jpg/1280px-Whole_Foods_Biscuits_and_Gravy_%2824548241224%29.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "atlanta",
+    "dish": "Shrimp and grits",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Shrimp_and_grits_at_the_Green_Goddess.jpg/1280px-Shrimp_and_grits_at_the_Green_Goddess.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "atlanta",
+    "dish": "Brunswick stew",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Brunswick_stew.jpg/960px-Brunswick_stew.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "austin",
+    "dish": "Texas brisket",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/2010-12-30_11.51.29%2C_Armadillo_Willys_BBQ%2C_Cupertino%2C_CA_%285336003219%29.jpg/1280px-2010-12-30_11.51.29%2C_Armadillo_Willys_BBQ%2C_Cupertino%2C_CA_%285336003219%29.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "austin",
+    "dish": "Beef ribs",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Dadao_beef_ribs_%2820150809165722%29.JPG/1280px-Dadao_beef_ribs_%2820150809165722%29.JPG",
+    "status": "dead_url"
+  },
+  {
+    "city": "austin",
+    "dish": "Pulled pork",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Austin_Blues_Hardwood_Smoked_Pulled_Pork_frozen.JPG/1280px-Austin_Blues_Hardwood_Smoked_Pulled_Pork_frozen.JPG",
+    "status": "dead_url"
+  },
+  {
+    "city": "austin",
+    "dish": "Queso fundido",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Queso_fundido_%2838571605521%29.jpg/1280px-Queso_fundido_%2838571605521%29.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "austin",
+    "dish": "Kolaches",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Texas_kolache_sausage_cheese_jalapeno.jpg/1280px-Texas_kolache_sausage_cheese_jalapeno.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "austin",
+    "dish": "Banana pudding",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Banana_pudding_-_Tony%27s_Seafood%2C_Baton_Rouge.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "austin",
+    "dish": "Frito pie",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Frito_Pie_as_Seen_Today.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "chicago",
+    "dish": "Chicago deep-dish pizza",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Pizzeria_Uno_Chicago-style_deep-dish_pizza.jpg/1280px-Pizzeria_Uno_Chicago-style_deep-dish_pizza.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "chicago",
+    "dish": "Italian beef",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Buona_Chicago%27s_Original_Italian_Beef.jpg/960px-Buona_Chicago%27s_Original_Italian_Beef.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "seattle",
+    "dish": "Dungeness crab",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/PikePlaceMarket2006.jpg/1280px-PikePlaceMarket2006.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "seattle",
+    "dish": "Seattle-style teriyaki",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Chicken_teriyaki.jpg/1280px-Chicken_teriyaki.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "seattle",
+    "dish": "Pho (International District)",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Pho_at_green_leaf_in_Seattle.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "chicago",
+    "dish": "Chicago hot dog",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Chicago-style_hot_dog_meal%2C_Bunny_Hutch%2C_Lincolnwood%2C_Illinois_-_20020615.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "chicago",
+    "dish": "Jibarito",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Jibarito.jpg/1280px-Jibarito.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "chicago",
+    "dish": "Maxwell Street Polish",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Maxwell_street_polish_prices_2010.JPG/1280px-Maxwell_street_polish_prices_2010.JPG",
+    "status": "dead_url"
+  },
+  {
+    "city": "chicago",
+    "dish": "Tavern-style thin crust",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Croccante_Pizza_-_November_2023_-_Sarah_Stierch_02.jpg/1280px-Croccante_Pizza_-_November_2023_-_Sarah_Stierch_02.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "chicago",
+    "dish": "Garrett-style popcorn mix",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/HK_%E5%85%83%E6%9C%97_Yuen_Long_%E5%BD%A2%E9%BB%9E_Yoho_Mall_shop_Garrett_Popcorn_snack_Nov_2018_IX2.jpg/1280px-HK_%E5%85%83%E6%9C%97_Yuen_Long_%E5%BD%A2%E9%BB%9E_Yoho_Mall_shop_Garrett_Popcorn_snack_Nov_2018_IX2.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "chicago",
+    "dish": "Italian lemon ice",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Glass_cola.jpg/1280px-Glass_cola.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "chicago",
+    "dish": "Malört shot",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Poorly_shot_food_photo.jpg/1280px-Poorly_shot_food_photo.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "seattle",
+    "dish": "Pacific oysters",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/FMIB_44442_J_J_Brenner_Oyster_Co%2C_Olympia%2C_Wash_-_Showing_partial_daily_shipment.jpeg",
+    "status": "dead_url"
+  },
+  {
+    "city": "seattle",
+    "dish": "Clam chowder in a bread bowl",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Clamchowder.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "seattle",
+    "dish": "Fish and chips",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Seattle_-_Zip%27s_Hamburgers%2C_1961_%2853270464755%29.jpg/1280px-Seattle_-_Zip%27s_Hamburgers%2C_1961_%2853270464755%29.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "tokyo",
+    "dish": "Yakitori",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Cooking_yakitori.jpg/960px-Cooking_yakitori.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "tokyo",
+    "dish": "Unagi kabayaki",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Unagi_kabayaki_by_Kossy%40FINEDAYS_in_Akabane.jpg/1280px-Unagi_kabayaki_by_Kossy%40FINEDAYS_in_Akabane.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "paris",
+    "dish": "Coq au vin",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Cardiologist%27s_Food%2C_Rouleau_au_Coq_au_Vin_%281701914121%29.jpg/1280px-Cardiologist%27s_Food%2C_Rouleau_au_Coq_au_Vin_%281701914121%29.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "paris",
+    "dish": "Duck confit",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Duck_confit_crepes_with_Cumberland_sauce.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "bangkok",
+    "dish": "Pad krapow",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Pad_Krapow_Moo_-_Mint_Tai_AUD10.90_%284871152155%29.jpg/1280px-Pad_Krapow_Moo_-_Mint_Tai_AUD10.90_%284871152155%29.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "bangkok",
+    "dish": "Khao soi",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Khao_Soi_Northern_Thai_food_%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B8%8B%E0%B8%AD%E0%B8%A2_%E0%B8%9C%E0%B8%B1%E0%B8%81%E0%B8%94%E0%B8%AD%E0%B8%87.jpg/1280px-Khao_Soi_Northern_Thai_food_%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B8%8B%E0%B8%AD%E0%B8%A2_%E0%B8%9C%E0%B8%B1%E0%B8%81%E0%B8%94%E0%B8%AD%E0%B8%87.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "new-york-city",
+    "dish": "Pastrami on rye",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Pastrami_sandwich.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "new-york-city",
+    "dish": "New York cheesecake",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/New_York_City_day_trip%2C_Dec_6%2C_2008_%283089399591%29.jpg/1280px-New_York_City_day_trip%2C_Dec_6%2C_2008_%283089399591%29.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "seoul",
+    "dish": "Sundubu jjigae",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Soondooboo_bento_%284069565487%29.jpg/1280px-Soondooboo_bento_%284069565487%29.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "atlanta",
+    "dish": "Peach cobbler",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/US_Navy_041206-N-5837R-029_Culinary_Specialist_3rd_Class_Joshua_Savoy_spreads_flour_on_his_food_preparation_table_before_making_peach_cobbler_dough_for_the_crew_of_the_Nimitz-class_aircraft_carrier_USS_Abraham_Lincoln_%28CVN_72%29.jpg/1280px-thumbnail.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "austin",
+    "dish": "Breakfast tacos",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Tofu_Mushroom_Breakfast_Tacos_%282870900933%29.jpg/1280px-Tofu_Mushroom_Breakfast_Tacos_%282870900933%29.jpg",
+    "status": "dead_url"
+  },
+  {
+    "city": "austin",
+    "dish": "Sausage links",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Making_sausage_links_at_home_for_cooking_with_a_grill_and_preparing_lunch.jpg/1280px-Making_sausage_links_at_home_for_cooking_with_a_grill_and_preparing_lunch.jpg",
+    "status": "dead_url"
+  }
+]
