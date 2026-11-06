@@ -27,7 +27,7 @@ export function AuthView() {
   const [error, setError] = useState<string | null>(null);
   const [sentReset, setSentReset] = useState(false);
   const [rateLimitedUntil, setRateLimitedUntil] = useState<number | null>(null);
-  const [useEmailForm, setUseEmailForm] = useState(false);
+  const [useEmailForm, setUseEmailForm] = useState(emailModeRequested);
 
   const isRateLimited = rateLimitedUntil !== null && Date.now() < rateLimitedUntil;
 
